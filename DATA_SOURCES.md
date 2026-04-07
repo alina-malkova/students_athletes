@@ -103,16 +103,20 @@ Davies, Shawn; Therese Pettersson & Magnus Oberg (2024). Organized violence 1989
 | `country` | Country name |
 | `iso_code` | ISO 3166-1 alpha-3 country code |
 | `year` | Year of observation |
-| `death_rate_per_100k` | Deaths from natural disasters per 100,000 population |
+| `n_events` | Number of disaster events in that year |
 | `deaths` | Total deaths from natural disasters |
+| `total_affected` | Total people affected (injured, homeless, requiring assistance) |
+| `economic_damage` | Economic damage in current US dollars |
 
 ### Disaster Types Included
 Geophysical (earthquakes, volcanic activity), meteorological (storms, extreme temperature), hydrological (floods, landslides), climatological (droughts, wildfires), biological (epidemics).
 
 ### Notes
 - Death counts include both direct and indirect deaths.
-- Economic damage data is available from the full EM-DAT database (requires registration at emdat.be) but is not included in this extract.
-- To construct a disaster shock variable, consider: `disaster_shock = 1 if deaths > country_median * 5` or use the death_rate_per_100k with a threshold.
+- Economic damage is in current US dollars (not inflation-adjusted). Coverage is ~43% of country-years.
+- `total_affected` has ~89% coverage; `deaths` has ~77% coverage; `n_events` has ~98% coverage.
+- Empty cells = no data reported; 0 = explicit zero.
+- To construct a disaster shock variable, consider: `disaster_shock = 1 if deaths > country_median * 5` or threshold on `total_affected`.
 
 ### Citation
 EM-DAT, CRED / UCLouvain, Brussels, Belgium. www.emdat.be.
