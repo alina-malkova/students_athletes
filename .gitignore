@@ -1,5 +1,15 @@
-# Large data files — stored in Drive / zip archive instead
-raw_data/
+# Large data files — ignore contents, but track specific files
+raw_data/*
+
+# Track shock datasets and analysis outputs
+!raw_data/macro_shocks.csv
+!raw_data/macro_combined.csv
+!raw_data/ucdp_conflict.csv
+!raw_data/natural_disasters.csv
+!raw_data/covid_by_country_year.csv
+!raw_data/political_stability.csv
+!raw_data/soccer_analysis_dataset.csv
+!raw_data/soccer_rosters_mapped.csv
 
 # Zip archives
 *.zip

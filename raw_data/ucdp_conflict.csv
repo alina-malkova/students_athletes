@@ -1,0 +1,2015 @@
+country_name,iso3,year,any_conflict,n_conflicts,max_intensity_level,max_intensity_label,conflict_types,any_onset,incompatibilities,conflict_ids
+Afghanistan,AFG,1978,1,1,2,war,intrastate,1,government,333
+Afghanistan,AFG,1979,1,2,2,war,interstate; intrastate,1,government,333; 431
+Afghanistan,AFG,1980,1,1,2,war,internationalized intrastate,0,government,333
+Afghanistan,AFG,1981,1,1,2,war,internationalized intrastate,0,government,333
+Afghanistan,AFG,1982,1,1,2,war,internationalized intrastate,0,government,333
+Afghanistan,AFG,1983,1,1,2,war,internationalized intrastate,0,government,333
+Afghanistan,AFG,1984,1,1,2,war,internationalized intrastate,0,government,333
+Afghanistan,AFG,1985,1,1,2,war,internationalized intrastate,0,government,333
+Afghanistan,AFG,1986,1,1,2,war,internationalized intrastate,0,government,333
+Afghanistan,AFG,1987,1,1,2,war,internationalized intrastate,0,government,333
+Afghanistan,AFG,1988,1,1,2,war,internationalized intrastate,0,government,333
+Afghanistan,AFG,1989,1,1,2,war,internationalized intrastate,0,government,333
+Afghanistan,AFG,1990,1,1,2,war,intrastate,0,government,333
+Afghanistan,AFG,1991,1,1,2,war,intrastate,0,government,333
+Afghanistan,AFG,1992,1,1,2,war,intrastate,0,government,333
+Afghanistan,AFG,1993,1,1,2,war,intrastate,0,government,333
+Afghanistan,AFG,1994,1,1,2,war,intrastate,0,government,333
+Afghanistan,AFG,1995,1,1,2,war,intrastate,0,government,333
+Afghanistan,AFG,1996,1,1,2,war,intrastate,0,government,333
+Afghanistan,AFG,1997,1,1,2,war,intrastate,0,government,333
+Afghanistan,AFG,1998,1,1,2,war,intrastate,0,government,333
+Afghanistan,AFG,1999,1,1,2,war,intrastate,0,government,333
+Afghanistan,AFG,2000,1,1,2,war,intrastate,0,government,333
+Afghanistan,AFG,2001,1,2,2,war,internationalized intrastate; interstate,1,government,13692; 333
+Afghanistan,AFG,2002,1,1,1,minor,intrastate,0,government,333
+Afghanistan,AFG,2003,1,1,1,minor,internationalized intrastate,0,government,333
+Afghanistan,AFG,2004,1,1,1,minor,internationalized intrastate,0,government,333
+Afghanistan,AFG,2005,1,1,2,war,internationalized intrastate,0,government,333
+Afghanistan,AFG,2006,1,1,2,war,internationalized intrastate,0,government,333
+Afghanistan,AFG,2007,1,1,2,war,internationalized intrastate,0,government,333
+Afghanistan,AFG,2008,1,1,2,war,internationalized intrastate,0,government,333
+Afghanistan,AFG,2009,1,1,2,war,internationalized intrastate,0,government,333
+Afghanistan,AFG,2010,1,1,2,war,internationalized intrastate,0,government,333
+Afghanistan,AFG,2011,1,1,2,war,internationalized intrastate,0,government,333
+Afghanistan,AFG,2012,1,1,2,war,internationalized intrastate,0,government,333
+Afghanistan,AFG,2013,1,1,2,war,internationalized intrastate,0,government,333
+Afghanistan,AFG,2014,1,1,2,war,internationalized intrastate,0,government,333
+Afghanistan,AFG,2015,1,2,2,war,internationalized intrastate,1,government; territory,13637; 333
+Afghanistan,AFG,2016,1,2,2,war,internationalized intrastate,0,government; territory,13637; 333
+Afghanistan,AFG,2017,1,2,2,war,internationalized intrastate,0,government; territory,13637; 333
+Afghanistan,AFG,2018,1,2,2,war,internationalized intrastate,0,government; territory,13637; 333
+Afghanistan,AFG,2019,1,2,2,war,internationalized intrastate,0,government; territory,13637; 333
+Afghanistan,AFG,2020,1,2,2,war,internationalized intrastate,0,government; territory,13637; 333
+Afghanistan,AFG,2021,1,2,2,war,internationalized intrastate,0,government; territory,13637; 333
+Afghanistan,AFG,2022,1,2,1,minor,intrastate,0,government; territory,13637; 333
+Afghanistan,AFG,2023,1,2,1,minor,intrastate,0,government; territory,13637; 333
+Angola,AGO,1961,1,1,2,war,extrasystemic,1,territory,263
+Angola,AGO,1962,1,1,2,war,extrasystemic,0,territory,263
+Angola,AGO,1963,1,1,1,minor,extrasystemic,0,territory,263
+Angola,AGO,1964,1,1,1,minor,extrasystemic,0,territory,263
+Angola,AGO,1965,1,1,1,minor,extrasystemic,0,territory,263
+Angola,AGO,1966,1,1,1,minor,extrasystemic,0,territory,263
+Angola,AGO,1967,1,1,1,minor,extrasystemic,0,territory,263
+Angola,AGO,1968,1,1,1,minor,extrasystemic,0,territory,263
+Angola,AGO,1969,1,1,1,minor,extrasystemic,0,territory,263
+Angola,AGO,1970,1,1,1,minor,extrasystemic,0,territory,263
+Angola,AGO,1971,1,1,1,minor,extrasystemic,0,territory,263
+Angola,AGO,1972,1,1,1,minor,extrasystemic,0,territory,263
+Angola,AGO,1973,1,1,1,minor,extrasystemic,0,territory,263
+Angola,AGO,1974,1,1,1,minor,extrasystemic,0,territory,263
+Angola,AGO,1975,1,1,2,war,internationalized intrastate,1,government,327
+Angola,AGO,1976,1,1,2,war,internationalized intrastate,0,government,327
+Angola,AGO,1977,1,1,2,war,internationalized intrastate,0,government,327
+Angola,AGO,1978,1,1,2,war,internationalized intrastate,0,government,327
+Angola,AGO,1979,1,1,2,war,internationalized intrastate,0,government,327
+Angola,AGO,1980,1,1,2,war,internationalized intrastate,0,government,327
+Angola,AGO,1981,1,1,2,war,internationalized intrastate,0,government,327
+Angola,AGO,1982,1,1,2,war,internationalized intrastate,0,government,327
+Angola,AGO,1983,1,1,2,war,internationalized intrastate,0,government,327
+Angola,AGO,1984,1,1,2,war,internationalized intrastate,0,government,327
+Angola,AGO,1985,1,1,2,war,internationalized intrastate,0,government,327
+Angola,AGO,1986,1,1,2,war,internationalized intrastate,0,government,327
+Angola,AGO,1987,1,1,2,war,internationalized intrastate,0,government,327
+Angola,AGO,1988,1,1,2,war,internationalized intrastate,0,government,327
+Angola,AGO,1989,1,1,2,war,internationalized intrastate,0,government,327
+Angola,AGO,1990,1,1,2,war,intrastate,0,government,327
+Angola,AGO,1991,1,2,1,minor,intrastate,1,government; territory,327; 387
+Angola,AGO,1992,1,2,2,war,intrastate,0,government; territory,327; 387
+Angola,AGO,1993,1,1,2,war,intrastate,0,government,327
+Angola,AGO,1994,1,2,2,war,intrastate,1,government; territory,327; 387
+Angola,AGO,1995,1,2,1,minor,intrastate,0,government; territory,327; 387
+Angola,AGO,1996,1,1,1,minor,intrastate,0,territory,387
+Angola,AGO,1997,1,1,1,minor,intrastate,0,territory,387
+Angola,AGO,1998,1,2,2,war,intrastate,1,government; territory,327; 387
+Angola,AGO,1999,1,1,2,war,internationalized intrastate,0,government,327
+Angola,AGO,2000,1,1,2,war,internationalized intrastate,0,government,327
+Angola,AGO,2001,1,1,2,war,internationalized intrastate,0,government,327
+Angola,AGO,2002,1,2,1,minor,internationalized intrastate; intrastate,1,government; territory,327; 387
+Angola,AGO,2003,1,1,1,minor,intrastate,0,territory,387
+Angola,AGO,2004,1,1,1,minor,intrastate,0,territory,387
+Angola,AGO,2007,1,1,1,minor,intrastate,1,territory,387
+Angola,AGO,2009,1,1,1,minor,intrastate,1,territory,387
+Angola,AGO,2016,1,1,1,minor,intrastate,1,territory,387
+Angola,AGO,2017,1,1,1,minor,intrastate,0,territory,387
+Angola,AGO,2019,1,1,1,minor,intrastate,1,territory,387
+Angola,AGO,2020,1,1,1,minor,intrastate,0,territory,387
+Angola,AGO,2022,1,1,1,minor,intrastate,1,territory,387
+Albania,ALB,1946,1,1,1,minor,interstate,1,territory,215
+Argentina,ARG,1955,1,1,1,minor,intrastate,1,government,247
+Argentina,ARG,1963,1,1,1,minor,intrastate,1,government,247
+Argentina,ARG,1974,1,1,1,minor,intrastate,1,government,247
+Argentina,ARG,1975,1,1,1,minor,intrastate,0,government,247
+Argentina,ARG,1976,1,1,1,minor,intrastate,0,government,247
+Argentina,ARG,1977,1,1,1,minor,intrastate,0,government,247
+Argentina,ARG,1982,1,1,1,minor,interstate,1,territory,346
+Australia,AUS,2003,1,1,2,war,interstate,1,government,420
+Azerbaijan,AZE,1991,1,1,1,minor,internationalized intrastate,1,territory,388
+Azerbaijan,AZE,1992,1,1,2,war,internationalized intrastate,0,territory,388
+Azerbaijan,AZE,1993,1,2,2,war,internationalized intrastate; intrastate,1,government; territory,388; 396
+Azerbaijan,AZE,1994,1,1,2,war,intrastate,0,territory,388
+Azerbaijan,AZE,1995,1,1,1,minor,intrastate,1,government,396
+Azerbaijan,AZE,1997,1,1,1,minor,internationalized intrastate,1,territory,388
+Azerbaijan,AZE,1998,1,1,1,minor,internationalized intrastate,0,territory,388
+Azerbaijan,AZE,2005,1,1,1,minor,internationalized intrastate,1,territory,388
+Azerbaijan,AZE,2008,1,1,1,minor,internationalized intrastate,1,territory,388
+Azerbaijan,AZE,2012,1,1,1,minor,internationalized intrastate,1,territory,388
+Azerbaijan,AZE,2014,1,1,1,minor,internationalized intrastate,1,territory,388
+Azerbaijan,AZE,2015,1,1,1,minor,internationalized intrastate,0,territory,388
+Azerbaijan,AZE,2016,1,1,1,minor,internationalized intrastate,0,territory,388
+Azerbaijan,AZE,2017,1,1,1,minor,internationalized intrastate,0,territory,388
+Azerbaijan,AZE,2020,1,1,2,war,internationalized intrastate,1,territory,388
+Azerbaijan,AZE,2021,1,1,1,minor,internationalized intrastate,0,territory,388
+Azerbaijan,AZE,2022,1,1,1,minor,internationalized intrastate,0,territory,388
+Azerbaijan,AZE,2023,1,1,1,minor,internationalized intrastate,0,territory,388
+Burundi,BDI,1965,1,1,1,minor,intrastate,1,government,287
+Burundi,BDI,1991,1,1,1,minor,intrastate,1,government,287
+Burundi,BDI,1992,1,1,1,minor,intrastate,0,government,287
+Burundi,BDI,1994,1,1,1,minor,intrastate,1,government,287
+Burundi,BDI,1995,1,1,1,minor,intrastate,0,government,287
+Burundi,BDI,1996,1,1,1,minor,intrastate,0,government,287
+Burundi,BDI,1997,1,1,2,war,intrastate,0,government,287
+Burundi,BDI,1998,1,1,1,minor,intrastate,0,government,287
+Burundi,BDI,1999,1,1,1,minor,intrastate,0,government,287
+Burundi,BDI,2000,1,1,2,war,intrastate,0,government,287
+Burundi,BDI,2001,1,1,2,war,intrastate,0,government,287
+Burundi,BDI,2002,1,1,2,war,intrastate,0,government,287
+Burundi,BDI,2003,1,1,1,minor,intrastate,0,government,287
+Burundi,BDI,2004,1,1,1,minor,intrastate,0,government,287
+Burundi,BDI,2005,1,1,1,minor,intrastate,0,government,287
+Burundi,BDI,2006,1,1,1,minor,intrastate,0,government,287
+Burundi,BDI,2008,1,1,1,minor,intrastate,1,government,287
+Burundi,BDI,2014,1,1,1,minor,intrastate,1,government,287
+Burundi,BDI,2015,1,1,1,minor,intrastate,0,government,287
+Burundi,BDI,2019,1,1,1,minor,internationalized intrastate,1,government,287
+Burundi,BDI,2020,1,1,1,minor,internationalized intrastate,0,government,287
+Burundi,BDI,2021,1,1,1,minor,internationalized intrastate,0,government,287
+Burundi,BDI,2022,1,1,1,minor,internationalized intrastate,0,government,287
+Burundi,BDI,2023,1,1,1,minor,internationalized intrastate,0,government,287
+Benin,BEN,2022,1,1,1,minor,intrastate,1,government,15256
+Benin,BEN,2023,1,1,1,minor,intrastate,0,government,15256
+Burkina Faso,BFA,1985,1,1,1,minor,interstate,1,territory,355
+Burkina Faso,BFA,1987,1,1,1,minor,intrastate,1,government,360
+Burkina Faso,BFA,2018,1,1,1,minor,internationalized intrastate,1,government,360
+Burkina Faso,BFA,2019,1,2,1,minor,internationalized intrastate,1,government; territory,13840; 360
+Burkina Faso,BFA,2020,1,2,1,minor,internationalized intrastate,0,government; territory,13840; 360
+Burkina Faso,BFA,2021,1,2,1,minor,internationalized intrastate,0,government; territory,13840; 360
+Burkina Faso,BFA,2022,1,2,2,war,internationalized intrastate,0,government; territory,13840; 360
+Burkina Faso,BFA,2023,1,2,2,war,internationalized intrastate; intrastate,0,government; territory,13840; 360
+Bangladesh,BGD,1975,1,1,1,minor,intrastate,1,territory,322
+Bangladesh,BGD,1976,1,1,1,minor,intrastate,0,territory,322
+Bangladesh,BGD,1977,1,1,1,minor,intrastate,0,territory,322
+Bangladesh,BGD,1978,1,1,1,minor,intrastate,0,territory,322
+Bangladesh,BGD,1979,1,1,1,minor,intrastate,0,territory,322
+Bangladesh,BGD,1980,1,1,1,minor,intrastate,0,territory,322
+Bangladesh,BGD,1981,1,1,1,minor,intrastate,0,territory,322
+Bangladesh,BGD,1982,1,1,1,minor,intrastate,0,territory,322
+Bangladesh,BGD,1983,1,1,1,minor,intrastate,0,territory,322
+Bangladesh,BGD,1984,1,1,1,minor,intrastate,0,territory,322
+Bangladesh,BGD,1985,1,1,1,minor,intrastate,0,territory,322
+Bangladesh,BGD,1986,1,1,1,minor,intrastate,0,territory,322
+Bangladesh,BGD,1987,1,1,1,minor,intrastate,0,territory,322
+Bangladesh,BGD,1988,1,1,1,minor,intrastate,0,territory,322
+Bangladesh,BGD,1989,1,1,1,minor,intrastate,0,territory,322
+Bangladesh,BGD,1990,1,1,1,minor,intrastate,0,territory,322
+Bangladesh,BGD,1991,1,1,1,minor,intrastate,0,territory,322
+Bangladesh,BGD,2005,1,1,1,minor,intrastate,1,government,11350
+Bangladesh,BGD,2006,1,1,1,minor,intrastate,0,government,11350
+Bangladesh,BGD,2016,1,1,1,minor,intrastate,1,territory,13674
+Bangladesh,BGD,2017,1,1,1,minor,intrastate,0,territory,13674
+Bosnia-Herzegovina,BIH,1992,1,2,2,war,internationalized intrastate; intrastate,1,territory,389; 398
+Bosnia-Herzegovina,BIH,1993,1,3,2,war,internationalized intrastate; intrastate,1,territory,389; 397; 398
+Bosnia-Herzegovina,BIH,1994,1,3,2,war,intrastate,0,territory,389; 397; 398
+Bosnia-Herzegovina,BIH,1995,1,2,2,war,intrastate,0,territory,389; 397
+Bolivia,BOL,1946,1,1,2,war,intrastate,1,government,200
+Bolivia,BOL,1949,1,1,1,minor,intrastate,1,government,200
+Bolivia,BOL,1952,1,1,1,minor,intrastate,1,government,200
+Bolivia,BOL,1967,1,1,1,minor,intrastate,1,government,200
+Brunei,BRN,1962,1,1,1,minor,extrasystemic,1,territory,273
+Central African Republic,CAF,2001,1,1,1,minor,internationalized intrastate,1,government,416
+Central African Republic,CAF,2002,1,1,1,minor,intrastate,0,government,416
+Central African Republic,CAF,2006,1,1,1,minor,internationalized intrastate,1,government,416
+Central African Republic,CAF,2009,1,1,1,minor,intrastate,1,government,416
+Central African Republic,CAF,2010,1,1,1,minor,intrastate,0,government,416
+Central African Republic,CAF,2011,1,1,1,minor,intrastate,0,government,416
+Central African Republic,CAF,2012,1,1,1,minor,internationalized intrastate,0,government,416
+Central African Republic,CAF,2013,1,1,1,minor,internationalized intrastate,0,government,416
+Central African Republic,CAF,2014,1,1,1,minor,internationalized intrastate,0,government,416
+Central African Republic,CAF,2015,1,1,1,minor,internationalized intrastate,1,territory,15283
+Central African Republic,CAF,2017,1,1,1,minor,internationalized intrastate,1,government,416
+Central African Republic,CAF,2018,1,1,1,minor,internationalized intrastate,0,government,416
+Central African Republic,CAF,2019,1,1,1,minor,internationalized intrastate,0,government,416
+Central African Republic,CAF,2020,1,1,1,minor,internationalized intrastate,0,government,416
+Central African Republic,CAF,2021,1,1,1,minor,internationalized intrastate,0,government,416
+Central African Republic,CAF,2022,1,1,1,minor,internationalized intrastate,0,government,416
+Central African Republic,CAF,2023,1,2,1,minor,internationalized intrastate,1,government; territory,15283; 416
+Chile,CHL,1973,1,1,1,minor,intrastate,1,government,321
+China,CHN,1946,1,1,2,war,intrastate,1,government,202
+China,CHN,1947,1,2,2,war,intrastate,1,government; territory,202; 217
+China,CHN,1948,1,1,2,war,intrastate,0,government,202
+China,CHN,1949,1,2,2,war,interstate; intrastate,1,both; government,202; 232
+China,CHN,1950,1,2,1,minor,interstate; intrastate,1,both; territory,232; 236
+China,CHN,1954,1,1,2,war,interstate,1,both,232
+China,CHN,1956,1,1,2,war,intrastate,1,territory,236
+China,CHN,1958,1,1,2,war,interstate,1,both,232
+China,CHN,1959,1,1,2,war,intrastate,1,territory,236
+China,CHN,1962,1,1,2,war,interstate,1,territory,274
+China,CHN,1967,1,1,1,minor,interstate,1,territory,274
+China,CHN,1969,1,2,1,minor,interstate,1,territory,304; 305
+China,CHN,1974,1,1,1,minor,interstate,1,territory,334
+China,CHN,1978,1,1,1,minor,interstate,1,territory,334
+China,CHN,1979,1,1,2,war,interstate,0,territory,334
+China,CHN,1980,1,1,1,minor,interstate,0,territory,334
+China,CHN,1981,1,1,1,minor,interstate,0,territory,334
+China,CHN,1983,1,1,1,minor,interstate,1,territory,334
+China,CHN,1984,1,1,1,minor,interstate,0,territory,334
+China,CHN,1986,1,1,1,minor,interstate,1,territory,334
+China,CHN,1987,1,1,1,minor,interstate,0,territory,334
+China,CHN,1988,1,1,1,minor,interstate,0,territory,334
+China,CHN,2008,1,1,1,minor,intrastate,1,territory,11349
+China,CHN,2020,1,1,1,minor,interstate,1,territory,274
+Ivory Coast,CIV,2002,1,1,1,minor,intrastate,1,government,419
+Ivory Coast,CIV,2003,1,1,1,minor,intrastate,0,government,419
+Ivory Coast,CIV,2004,1,1,1,minor,intrastate,0,government,419
+Ivory Coast,CIV,2011,1,1,1,minor,intrastate,1,government,419
+Cameroon,CMR,1957,1,1,1,minor,extrasystemic,1,territory,254
+Cameroon,CMR,1958,1,1,1,minor,extrasystemic,0,territory,254
+Cameroon,CMR,1959,1,1,1,minor,extrasystemic,0,territory,254
+Cameroon,CMR,1960,1,1,2,war,internationalized intrastate,1,government,353
+Cameroon,CMR,1961,1,1,1,minor,intrastate,0,government,353
+Cameroon,CMR,1984,1,1,1,minor,intrastate,1,government,353
+Cameroon,CMR,1996,1,1,1,minor,interstate,1,territory,405
+Cameroon,CMR,2015,1,2,1,minor,internationalized intrastate,1,government; territory,13638; 353
+Cameroon,CMR,2016,1,2,1,minor,intrastate,0,government; territory,13638; 353
+Cameroon,CMR,2017,1,2,1,minor,intrastate,1,government; territory,14129; 353
+Cameroon,CMR,2018,1,1,1,minor,intrastate,0,territory,14129
+Cameroon,CMR,2019,1,2,1,minor,internationalized intrastate; intrastate,1,territory,13638; 14129
+Cameroon,CMR,2020,1,2,1,minor,intrastate,1,government; territory,14129; 353
+Cameroon,CMR,2021,1,2,1,minor,internationalized intrastate; intrastate,1,territory,13638; 14129
+Cameroon,CMR,2022,1,2,1,minor,intrastate,1,government; territory,14129; 353
+Cameroon,CMR,2023,1,3,1,minor,intrastate,1,government; territory,13638; 14129; 353
+DR Congo,COD,1960,1,1,1,minor,intrastate,1,territory,266
+DR Congo,COD,1961,1,2,1,minor,intrastate,1,territory,265; 266
+DR Congo,COD,1962,1,2,1,minor,intrastate,0,territory,265; 266
+DR Congo,COD,1964,1,1,2,war,intrastate,1,government,283
+DR Congo,COD,1965,1,1,2,war,intrastate,0,government,283
+DR Congo,COD,1967,1,1,1,minor,intrastate,1,government,283
+DR Congo,COD,1977,1,1,1,minor,internationalized intrastate,1,government,283
+DR Congo,COD,1978,1,1,1,minor,intrastate,0,government,283
+DR Congo,COD,1996,1,1,2,war,internationalized intrastate,1,government,283
+DR Congo,COD,1997,1,1,2,war,internationalized intrastate,0,government,283
+DR Congo,COD,1998,1,1,2,war,internationalized intrastate,0,government,283
+DR Congo,COD,1999,1,1,2,war,internationalized intrastate,0,government,283
+DR Congo,COD,2000,1,1,2,war,internationalized intrastate,0,government,283
+DR Congo,COD,2001,1,1,1,minor,internationalized intrastate,0,government,283
+DR Congo,COD,2005,1,1,1,minor,intrastate,1,government,283
+DR Congo,COD,2006,1,1,1,minor,intrastate,0,government,283
+DR Congo,COD,2007,1,2,1,minor,intrastate,1,government; territory,283; 429
+DR Congo,COD,2008,1,2,1,minor,intrastate,0,government; territory,283; 429
+DR Congo,COD,2011,1,1,1,minor,intrastate,1,government,283
+DR Congo,COD,2012,1,1,1,minor,internationalized intrastate,0,government,283
+DR Congo,COD,2013,1,2,2,war,internationalized intrastate,1,government; territory,265; 283
+DR Congo,COD,2014,1,2,1,minor,internationalized intrastate,0,government; territory,265; 283
+DR Congo,COD,2016,1,1,1,minor,intrastate,1,government,283
+DR Congo,COD,2017,1,3,2,war,internationalized intrastate,1,government; territory,14692; 283; 429
+DR Congo,COD,2018,1,2,1,minor,internationalized intrastate,0,government; territory,14692; 283
+DR Congo,COD,2019,1,2,1,minor,internationalized intrastate,0,government; territory,14692; 283
+DR Congo,COD,2020,1,4,1,minor,internationalized intrastate,1,government; territory,14692; 265; 283; 429
+DR Congo,COD,2021,1,2,1,minor,internationalized intrastate,0,government; territory,14692; 283
+DR Congo,COD,2022,1,2,1,minor,internationalized intrastate,0,government; territory,14692; 283
+DR Congo,COD,2023,1,2,1,minor,internationalized intrastate,0,government; territory,14692; 283
+Congo,COG,1993,1,1,1,minor,intrastate,1,government,408
+Congo,COG,1997,1,1,2,war,internationalized intrastate,1,government,408
+Congo,COG,1998,1,1,2,war,internationalized intrastate,0,government,408
+Congo,COG,1999,1,1,1,minor,internationalized intrastate,0,government,408
+Congo,COG,2002,1,1,1,minor,internationalized intrastate,1,government,408
+Congo,COG,2016,1,1,1,minor,intrastate,1,government,408
+Colombia,COL,1964,1,1,1,minor,intrastate,1,government,289
+Colombia,COL,1965,1,1,1,minor,intrastate,0,government,289
+Colombia,COL,1966,1,1,1,minor,intrastate,0,government,289
+Colombia,COL,1967,1,1,1,minor,intrastate,0,government,289
+Colombia,COL,1968,1,1,1,minor,intrastate,0,government,289
+Colombia,COL,1969,1,1,1,minor,intrastate,0,government,289
+Colombia,COL,1970,1,1,1,minor,intrastate,0,government,289
+Colombia,COL,1971,1,1,1,minor,intrastate,0,government,289
+Colombia,COL,1972,1,1,1,minor,intrastate,0,government,289
+Colombia,COL,1973,1,1,1,minor,intrastate,0,government,289
+Colombia,COL,1974,1,1,1,minor,intrastate,0,government,289
+Colombia,COL,1975,1,1,1,minor,intrastate,0,government,289
+Colombia,COL,1976,1,1,1,minor,intrastate,0,government,289
+Colombia,COL,1977,1,1,1,minor,intrastate,0,government,289
+Colombia,COL,1978,1,1,1,minor,intrastate,0,government,289
+Colombia,COL,1979,1,1,1,minor,intrastate,0,government,289
+Colombia,COL,1980,1,1,1,minor,intrastate,0,government,289
+Colombia,COL,1981,1,1,1,minor,intrastate,0,government,289
+Colombia,COL,1982,1,1,1,minor,intrastate,0,government,289
+Colombia,COL,1983,1,1,1,minor,intrastate,0,government,289
+Colombia,COL,1984,1,1,1,minor,intrastate,0,government,289
+Colombia,COL,1985,1,1,2,war,intrastate,0,government,289
+Colombia,COL,1986,1,1,1,minor,intrastate,0,government,289
+Colombia,COL,1987,1,1,1,minor,intrastate,0,government,289
+Colombia,COL,1988,1,1,1,minor,intrastate,0,government,289
+Colombia,COL,1989,1,1,1,minor,intrastate,0,government,289
+Colombia,COL,1990,1,1,1,minor,intrastate,0,government,289
+Colombia,COL,1991,1,1,1,minor,intrastate,0,government,289
+Colombia,COL,1992,1,1,2,war,intrastate,0,government,289
+Colombia,COL,1993,1,1,1,minor,intrastate,0,government,289
+Colombia,COL,1994,1,1,2,war,intrastate,0,government,289
+Colombia,COL,1995,1,1,1,minor,intrastate,0,government,289
+Colombia,COL,1996,1,1,2,war,intrastate,0,government,289
+Colombia,COL,1997,1,1,1,minor,intrastate,0,government,289
+Colombia,COL,1998,1,1,1,minor,intrastate,0,government,289
+Colombia,COL,1999,1,1,2,war,intrastate,0,government,289
+Colombia,COL,2000,1,1,2,war,intrastate,0,government,289
+Colombia,COL,2001,1,1,2,war,intrastate,0,government,289
+Colombia,COL,2002,1,1,2,war,intrastate,0,government,289
+Colombia,COL,2003,1,1,2,war,intrastate,0,government,289
+Colombia,COL,2004,1,1,2,war,intrastate,0,government,289
+Colombia,COL,2005,1,1,2,war,intrastate,0,government,289
+Colombia,COL,2006,1,1,1,minor,intrastate,0,government,289
+Colombia,COL,2007,1,1,1,minor,intrastate,0,government,289
+Colombia,COL,2008,1,1,1,minor,intrastate,0,government,289
+Colombia,COL,2009,1,1,1,minor,intrastate,0,government,289
+Colombia,COL,2010,1,1,1,minor,intrastate,0,government,289
+Colombia,COL,2011,1,1,1,minor,intrastate,0,government,289
+Colombia,COL,2012,1,1,1,minor,intrastate,0,government,289
+Colombia,COL,2013,1,1,1,minor,intrastate,0,government,289
+Colombia,COL,2014,1,1,1,minor,intrastate,0,government,289
+Colombia,COL,2015,1,1,1,minor,intrastate,0,government,289
+Colombia,COL,2016,1,1,1,minor,intrastate,0,government,289
+Colombia,COL,2018,1,1,1,minor,intrastate,1,government,289
+Colombia,COL,2019,1,1,1,minor,intrastate,0,government,289
+Colombia,COL,2020,1,1,1,minor,intrastate,0,government,289
+Colombia,COL,2021,1,1,1,minor,intrastate,0,government,289
+Colombia,COL,2022,1,1,1,minor,intrastate,0,government,289
+Colombia,COL,2023,1,1,1,minor,intrastate,0,government,289
+Comoros,COM,1989,1,1,1,minor,intrastate,1,government,362
+Comoros,COM,1997,1,1,1,minor,intrastate,1,territory,407
+Costa Rica,CRI,1948,1,1,2,war,intrastate,1,government,225
+Cuba,CUB,1953,1,1,1,minor,intrastate,1,government,242
+Cuba,CUB,1956,1,1,1,minor,intrastate,1,government,242
+Cuba,CUB,1957,1,1,1,minor,intrastate,0,government,242
+Cuba,CUB,1958,1,1,2,war,intrastate,0,government,242
+Cuba,CUB,1961,1,1,1,minor,internationalized intrastate,1,government,242
+Cyprus,CYP,1955,1,1,1,minor,extrasystemic,1,territory,248
+Cyprus,CYP,1956,1,1,1,minor,extrasystemic,0,territory,248
+Cyprus,CYP,1957,1,1,1,minor,extrasystemic,0,territory,248
+Cyprus,CYP,1958,1,1,1,minor,extrasystemic,0,territory,248
+Cyprus,CYP,1959,1,1,1,minor,extrasystemic,0,territory,248
+Cyprus,CYP,1974,1,1,2,war,interstate,1,territory,323
+Czech Republic,CZE,1956,1,1,2,war,interstate,1,government,250
+Djibouti,DJI,1991,1,1,1,minor,intrastate,1,government,379
+Djibouti,DJI,1992,1,1,1,minor,intrastate,0,government,379
+Djibouti,DJI,1993,1,1,1,minor,intrastate,0,government,379
+Djibouti,DJI,1994,1,1,1,minor,intrastate,0,government,379
+Djibouti,DJI,1999,1,1,1,minor,intrastate,1,government,379
+Djibouti,DJI,2008,1,1,1,minor,interstate,1,territory,435
+Dominican Republic,DOM,1965,1,1,1,minor,intrastate,1,government,290
+Algeria,DZA,1954,1,1,1,minor,extrasystemic,1,territory,246
+Algeria,DZA,1955,1,1,2,war,extrasystemic,0,territory,246
+Algeria,DZA,1956,1,1,2,war,extrasystemic,0,territory,246
+Algeria,DZA,1957,1,1,2,war,extrasystemic,0,territory,246
+Algeria,DZA,1958,1,1,2,war,extrasystemic,0,territory,246
+Algeria,DZA,1959,1,1,2,war,extrasystemic,0,territory,246
+Algeria,DZA,1960,1,1,2,war,extrasystemic,0,territory,246
+Algeria,DZA,1961,1,1,2,war,extrasystemic,0,territory,246
+Algeria,DZA,1962,1,1,1,minor,extrasystemic,0,territory,246
+Algeria,DZA,1963,1,1,1,minor,interstate,1,territory,278
+Algeria,DZA,1991,1,1,1,minor,intrastate,1,government,386
+Algeria,DZA,1992,1,1,1,minor,intrastate,0,government,386
+Algeria,DZA,1993,1,1,1,minor,intrastate,0,government,386
+Algeria,DZA,1994,1,1,2,war,intrastate,0,government,386
+Algeria,DZA,1995,1,1,2,war,intrastate,0,government,386
+Algeria,DZA,1996,1,1,2,war,intrastate,0,government,386
+Algeria,DZA,1997,1,1,2,war,intrastate,0,government,386
+Algeria,DZA,1998,1,1,2,war,intrastate,0,government,386
+Algeria,DZA,1999,1,1,2,war,intrastate,0,government,386
+Algeria,DZA,2000,1,1,1,minor,intrastate,0,government,386
+Algeria,DZA,2001,1,1,1,minor,intrastate,0,government,386
+Algeria,DZA,2002,1,1,1,minor,intrastate,0,government,386
+Algeria,DZA,2003,1,1,1,minor,intrastate,0,government,386
+Algeria,DZA,2004,1,1,1,minor,internationalized intrastate,0,government,386
+Algeria,DZA,2005,1,1,1,minor,intrastate,0,government,386
+Algeria,DZA,2006,1,1,1,minor,intrastate,0,government,386
+Algeria,DZA,2007,1,1,1,minor,intrastate,0,government,386
+Algeria,DZA,2008,1,1,1,minor,intrastate,0,government,386
+Algeria,DZA,2009,1,1,1,minor,intrastate,0,government,386
+Algeria,DZA,2010,1,1,1,minor,intrastate,0,government,386
+Algeria,DZA,2011,1,1,1,minor,intrastate,0,government,386
+Algeria,DZA,2012,1,1,1,minor,intrastate,0,government,386
+Algeria,DZA,2013,1,1,1,minor,intrastate,0,government,386
+Algeria,DZA,2014,1,1,1,minor,intrastate,0,government,386
+Algeria,DZA,2015,1,2,1,minor,intrastate,1,government; territory,13721; 386
+Algeria,DZA,2016,1,1,1,minor,intrastate,0,government,386
+Algeria,DZA,2017,1,1,1,minor,intrastate,0,government,386
+Algeria,DZA,2018,1,1,1,minor,intrastate,0,government,386
+Algeria,DZA,2020,1,1,1,minor,intrastate,1,government,386
+Ecuador,ECU,1995,1,1,1,minor,interstate,1,territory,403
+Egypt,EGY,1948,1,1,2,war,interstate,1,territory,228
+Egypt,EGY,1949,1,1,1,minor,interstate,0,territory,228
+Egypt,EGY,1951,1,1,1,minor,interstate,1,territory,239
+Egypt,EGY,1952,1,1,1,minor,interstate,0,territory,239
+Egypt,EGY,1956,1,1,2,war,interstate,1,territory,252
+Egypt,EGY,1967,1,1,2,war,interstate,1,territory,11343
+Egypt,EGY,1969,1,1,1,minor,interstate,1,territory,11343
+Egypt,EGY,1970,1,1,1,minor,interstate,0,territory,11343
+Egypt,EGY,1973,1,1,2,war,interstate,1,territory,11343
+Egypt,EGY,1993,1,1,1,minor,intrastate,1,government,391
+Egypt,EGY,1994,1,1,1,minor,intrastate,0,government,391
+Egypt,EGY,1995,1,1,1,minor,intrastate,0,government,391
+Egypt,EGY,1996,1,1,1,minor,intrastate,0,government,391
+Egypt,EGY,1997,1,1,1,minor,intrastate,0,government,391
+Egypt,EGY,1998,1,1,1,minor,intrastate,0,government,391
+Egypt,EGY,2014,1,1,1,minor,intrastate,1,government,391
+Egypt,EGY,2015,1,1,1,minor,intrastate,1,territory,13648
+Egypt,EGY,2016,1,1,1,minor,intrastate,0,territory,13648
+Egypt,EGY,2017,1,2,1,minor,intrastate,1,government; territory,13648; 391
+Egypt,EGY,2018,1,2,1,minor,intrastate,0,government; territory,13648; 391
+Egypt,EGY,2019,1,2,1,minor,intrastate,0,government; territory,13648; 391
+Egypt,EGY,2020,1,1,1,minor,intrastate,0,territory,13648
+Egypt,EGY,2021,1,1,1,minor,intrastate,0,territory,13648
+Egypt,EGY,2022,1,1,1,minor,intrastate,0,territory,13648
+Eritrea,ERI,1997,1,1,1,minor,intrastate,1,government,326
+Eritrea,ERI,1998,1,1,2,war,interstate,1,territory,409
+Eritrea,ERI,1999,1,2,2,war,interstate; intrastate,1,government; territory,326; 409
+Eritrea,ERI,2000,1,1,2,war,interstate,0,territory,409
+Eritrea,ERI,2003,1,1,1,minor,intrastate,1,government,326
+Eritrea,ERI,2008,1,1,1,minor,interstate,1,territory,435
+Eritrea,ERI,2016,1,1,1,minor,interstate,1,territory,409
+Spain,ESP,1978,1,1,1,minor,intrastate,1,territory,342
+Spain,ESP,1979,1,1,1,minor,intrastate,0,territory,342
+Spain,ESP,1980,1,1,1,minor,intrastate,0,territory,342
+Spain,ESP,1981,1,1,1,minor,intrastate,0,territory,342
+Spain,ESP,1982,1,1,1,minor,intrastate,0,territory,342
+Spain,ESP,1985,1,1,1,minor,intrastate,1,territory,342
+Spain,ESP,1986,1,1,1,minor,intrastate,0,territory,342
+Spain,ESP,1987,1,1,1,minor,intrastate,0,territory,342
+Spain,ESP,1991,1,1,1,minor,intrastate,1,territory,342
+Ethiopia,ETH,1960,1,1,1,minor,intrastate,1,government,267
+Ethiopia,ETH,1964,1,3,1,minor,interstate; intrastate,1,territory,268; 275; 329
+Ethiopia,ETH,1965,1,1,1,minor,intrastate,0,territory,275
+Ethiopia,ETH,1966,1,1,1,minor,intrastate,0,territory,275
+Ethiopia,ETH,1967,1,1,1,minor,intrastate,0,territory,275
+Ethiopia,ETH,1968,1,1,1,minor,intrastate,0,territory,275
+Ethiopia,ETH,1969,1,1,1,minor,intrastate,0,territory,275
+Ethiopia,ETH,1970,1,1,1,minor,intrastate,0,territory,275
+Ethiopia,ETH,1971,1,1,1,minor,intrastate,0,territory,275
+Ethiopia,ETH,1972,1,1,1,minor,intrastate,0,territory,275
+Ethiopia,ETH,1973,1,1,1,minor,intrastate,0,territory,275
+Ethiopia,ETH,1974,1,1,1,minor,intrastate,0,territory,275
+Ethiopia,ETH,1975,1,2,2,war,intrastate,1,territory,275; 363
+Ethiopia,ETH,1976,1,4,2,war,intrastate,1,government; territory,267; 275; 329; 363
+Ethiopia,ETH,1977,1,6,2,war,internationalized intrastate; interstate; intrastate,1,government; territory,267; 268; 275; 329; 413; 436
+Ethiopia,ETH,1978,1,6,2,war,internationalized intrastate; interstate; intrastate,0,government; territory,267; 268; 275; 329; 413; 436
+Ethiopia,ETH,1979,1,4,2,war,internationalized intrastate; intrastate,0,government; territory,267; 275; 329; 436
+Ethiopia,ETH,1980,1,6,2,war,internationalized intrastate; interstate; intrastate,1,government; territory,267; 268; 275; 329; 413; 436
+Ethiopia,ETH,1981,1,5,2,war,internationalized intrastate; intrastate,1,government; territory,267; 275; 329; 413; 437
+Ethiopia,ETH,1982,1,3,2,war,internationalized intrastate; intrastate,0,government; territory,267; 275; 329
+Ethiopia,ETH,1983,1,5,2,war,internationalized intrastate; intrastate,1,government; territory,267; 275; 329; 413; 437
+Ethiopia,ETH,1984,1,3,2,war,intrastate,0,government; territory,267; 275; 413
+Ethiopia,ETH,1985,1,3,2,war,intrastate,0,government; territory,267; 275; 413
+Ethiopia,ETH,1986,1,3,1,minor,intrastate,0,government; territory,267; 275; 413
+Ethiopia,ETH,1987,1,3,2,war,intrastate,0,government; territory,267; 275; 413
+Ethiopia,ETH,1988,1,3,2,war,intrastate,0,government; territory,267; 275; 413
+Ethiopia,ETH,1989,1,3,2,war,intrastate,0,government; territory,267; 275; 413
+Ethiopia,ETH,1990,1,3,2,war,intrastate,0,government; territory,267; 275; 413
+Ethiopia,ETH,1991,1,4,2,war,intrastate,1,government; territory,11447; 267; 275; 413
+Ethiopia,ETH,1992,1,1,1,minor,intrastate,0,territory,413
+Ethiopia,ETH,1993,1,1,1,minor,intrastate,1,territory,329
+Ethiopia,ETH,1994,1,2,1,minor,intrastate,1,territory,329; 413
+Ethiopia,ETH,1995,1,1,1,minor,intrastate,0,territory,413
+Ethiopia,ETH,1996,1,2,1,minor,intrastate,1,territory,329; 363
+Ethiopia,ETH,1998,1,3,2,war,interstate; intrastate,1,territory,329; 409; 413
+Ethiopia,ETH,1999,1,3,2,war,interstate; intrastate,0,territory,329; 409; 413
+Ethiopia,ETH,2000,1,3,2,war,interstate; intrastate,0,territory,329; 409; 413
+Ethiopia,ETH,2001,1,2,1,minor,intrastate,0,territory,329; 413
+Ethiopia,ETH,2002,1,2,1,minor,intrastate,0,territory,329; 413
+Ethiopia,ETH,2003,1,2,1,minor,intrastate,0,territory,329; 413
+Ethiopia,ETH,2004,1,2,1,minor,intrastate,0,territory,329; 413
+Ethiopia,ETH,2005,1,2,1,minor,intrastate,0,territory,329; 413
+Ethiopia,ETH,2006,1,2,1,minor,intrastate,0,territory,329; 413
+Ethiopia,ETH,2007,1,2,1,minor,intrastate,0,territory,329; 413
+Ethiopia,ETH,2008,1,2,1,minor,intrastate,0,territory,329; 413
+Ethiopia,ETH,2009,1,2,1,minor,intrastate,0,territory,329; 413
+Ethiopia,ETH,2010,1,2,1,minor,intrastate,0,territory,329; 413
+Ethiopia,ETH,2011,1,2,1,minor,intrastate,0,territory,329; 413
+Ethiopia,ETH,2012,1,2,1,minor,intrastate,0,territory,329; 413
+Ethiopia,ETH,2013,1,2,1,minor,intrastate,0,territory,329; 413
+Ethiopia,ETH,2014,1,1,1,minor,intrastate,0,territory,329
+Ethiopia,ETH,2015,1,2,1,minor,intrastate,1,territory,329; 413
+Ethiopia,ETH,2016,1,3,1,minor,interstate; intrastate,1,territory,329; 409; 413
+Ethiopia,ETH,2019,1,2,1,minor,intrastate,1,territory,14935; 413
+Ethiopia,ETH,2020,1,2,2,war,internationalized intrastate; intrastate,1,government; territory,267; 413
+Ethiopia,ETH,2021,1,2,2,war,internationalized intrastate; intrastate,0,government; territory,267; 413
+Ethiopia,ETH,2022,1,2,2,war,internationalized intrastate,0,government; territory,267; 413
+Ethiopia,ETH,2023,1,2,2,war,intrastate,1,both; territory,16069; 413
+France,FRA,1946,1,1,1,minor,interstate,1,territory,214
+France,FRA,1956,1,1,2,war,interstate,1,territory,252
+France,FRA,1961,1,2,2,war,interstate; intrastate,1,government; territory,270; 272
+France,FRA,1962,1,1,2,war,intrastate,0,government,270
+Gabon,GAB,1964,1,1,1,minor,internationalized intrastate,1,government,284
+United Kingdom,GBR,1946,1,1,1,minor,interstate,1,territory,215
+United Kingdom,GBR,1951,1,1,1,minor,interstate,1,territory,239
+United Kingdom,GBR,1952,1,1,1,minor,interstate,0,territory,239
+United Kingdom,GBR,1956,1,1,2,war,interstate,1,territory,252
+United Kingdom,GBR,1971,1,1,1,minor,intrastate,1,territory,315
+United Kingdom,GBR,1972,1,1,1,minor,intrastate,0,territory,315
+United Kingdom,GBR,1973,1,1,1,minor,intrastate,0,territory,315
+United Kingdom,GBR,1974,1,1,1,minor,intrastate,0,territory,315
+United Kingdom,GBR,1975,1,1,1,minor,intrastate,0,territory,315
+United Kingdom,GBR,1976,1,1,1,minor,intrastate,0,territory,315
+United Kingdom,GBR,1977,1,1,1,minor,intrastate,0,territory,315
+United Kingdom,GBR,1978,1,1,1,minor,intrastate,0,territory,315
+United Kingdom,GBR,1979,1,1,1,minor,intrastate,0,territory,315
+United Kingdom,GBR,1980,1,1,1,minor,intrastate,0,territory,315
+United Kingdom,GBR,1981,1,1,1,minor,intrastate,0,territory,315
+United Kingdom,GBR,1982,1,2,1,minor,interstate; intrastate,1,territory,315; 346
+United Kingdom,GBR,1983,1,1,1,minor,intrastate,0,territory,315
+United Kingdom,GBR,1984,1,1,1,minor,intrastate,0,territory,315
+United Kingdom,GBR,1985,1,1,1,minor,intrastate,0,territory,315
+United Kingdom,GBR,1986,1,1,1,minor,intrastate,0,territory,315
+United Kingdom,GBR,1987,1,1,1,minor,intrastate,0,territory,315
+United Kingdom,GBR,1988,1,1,1,minor,intrastate,0,territory,315
+United Kingdom,GBR,1989,1,1,1,minor,intrastate,0,territory,315
+United Kingdom,GBR,1990,1,1,1,minor,intrastate,0,territory,315
+United Kingdom,GBR,1991,1,1,1,minor,intrastate,0,territory,315
+United Kingdom,GBR,1998,1,1,1,minor,intrastate,1,territory,315
+United Kingdom,GBR,2001,1,1,2,war,interstate,1,government,13692
+United Kingdom,GBR,2003,1,1,2,war,interstate,1,government,420
+Georgia,GEO,1991,1,1,1,minor,intrastate,1,government,380
+Georgia,GEO,1992,1,3,1,minor,intrastate,1,government; territory,380; 392; 393
+Georgia,GEO,1993,1,2,2,war,intrastate,0,government; territory,380; 392
+Georgia,GEO,2004,1,1,1,minor,intrastate,1,territory,393
+Georgia,GEO,2008,1,1,1,minor,internationalized intrastate,1,territory,393
+Ghana,GHA,1966,1,1,1,minor,intrastate,1,government,295
+Ghana,GHA,1981,1,1,1,minor,intrastate,1,government,295
+Ghana,GHA,1983,1,1,1,minor,intrastate,1,government,295
+Guinea,GIN,2000,1,1,1,minor,intrastate,1,government,307
+Guinea,GIN,2001,1,1,1,minor,intrastate,0,government,307
+Gambia,GMB,1981,1,1,1,minor,internationalized intrastate,1,government,344
+Guinea-Bissau,GNB,1963,1,1,1,minor,extrasystemic,1,territory,279
+Guinea-Bissau,GNB,1964,1,1,1,minor,extrasystemic,0,territory,279
+Guinea-Bissau,GNB,1965,1,1,1,minor,extrasystemic,0,territory,279
+Guinea-Bissau,GNB,1966,1,1,1,minor,extrasystemic,0,territory,279
+Guinea-Bissau,GNB,1967,1,1,1,minor,extrasystemic,0,territory,279
+Guinea-Bissau,GNB,1968,1,1,1,minor,extrasystemic,0,territory,279
+Guinea-Bissau,GNB,1969,1,1,1,minor,extrasystemic,0,territory,279
+Guinea-Bissau,GNB,1970,1,1,1,minor,extrasystemic,0,territory,279
+Guinea-Bissau,GNB,1971,1,1,1,minor,extrasystemic,0,territory,279
+Guinea-Bissau,GNB,1972,1,1,1,minor,extrasystemic,0,territory,279
+Guinea-Bissau,GNB,1973,1,1,1,minor,extrasystemic,0,territory,279
+Guinea-Bissau,GNB,1998,1,1,1,minor,internationalized intrastate,1,government,410
+Guinea-Bissau,GNB,1999,1,1,1,minor,internationalized intrastate,0,government,410
+Greece,GRC,1946,1,1,2,war,intrastate,1,government,203
+Greece,GRC,1947,1,1,2,war,intrastate,0,government,203
+Greece,GRC,1948,1,1,2,war,intrastate,0,government,203
+Greece,GRC,1949,1,1,2,war,intrastate,0,government,203
+Guatemala,GTM,1949,1,1,1,minor,intrastate,1,government,233
+Guatemala,GTM,1954,1,1,1,minor,intrastate,1,government,233
+Guatemala,GTM,1963,1,1,1,minor,intrastate,1,government,233
+Guatemala,GTM,1965,1,1,1,minor,intrastate,1,government,233
+Guatemala,GTM,1966,1,1,1,minor,intrastate,0,government,233
+Guatemala,GTM,1967,1,1,1,minor,intrastate,0,government,233
+Guatemala,GTM,1968,1,1,1,minor,intrastate,0,government,233
+Guatemala,GTM,1969,1,1,1,minor,intrastate,0,government,233
+Guatemala,GTM,1970,1,1,1,minor,intrastate,0,government,233
+Guatemala,GTM,1971,1,1,1,minor,intrastate,0,government,233
+Guatemala,GTM,1972,1,1,1,minor,intrastate,0,government,233
+Guatemala,GTM,1973,1,1,1,minor,intrastate,0,government,233
+Guatemala,GTM,1974,1,1,1,minor,intrastate,0,government,233
+Guatemala,GTM,1975,1,1,1,minor,intrastate,0,government,233
+Guatemala,GTM,1976,1,1,1,minor,intrastate,0,government,233
+Guatemala,GTM,1977,1,1,1,minor,intrastate,0,government,233
+Guatemala,GTM,1978,1,1,1,minor,intrastate,0,government,233
+Guatemala,GTM,1979,1,1,1,minor,intrastate,0,government,233
+Guatemala,GTM,1980,1,1,1,minor,intrastate,0,government,233
+Guatemala,GTM,1981,1,1,1,minor,intrastate,0,government,233
+Guatemala,GTM,1982,1,1,1,minor,intrastate,0,government,233
+Guatemala,GTM,1983,1,1,1,minor,intrastate,0,government,233
+Guatemala,GTM,1984,1,1,1,minor,intrastate,0,government,233
+Guatemala,GTM,1985,1,1,1,minor,intrastate,0,government,233
+Guatemala,GTM,1986,1,1,1,minor,intrastate,0,government,233
+Guatemala,GTM,1987,1,1,1,minor,intrastate,0,government,233
+Guatemala,GTM,1988,1,1,1,minor,intrastate,0,government,233
+Guatemala,GTM,1989,1,1,1,minor,intrastate,0,government,233
+Guatemala,GTM,1990,1,1,1,minor,intrastate,0,government,233
+Guatemala,GTM,1991,1,1,1,minor,intrastate,0,government,233
+Guatemala,GTM,1992,1,1,1,minor,intrastate,0,government,233
+Guatemala,GTM,1993,1,1,1,minor,intrastate,0,government,233
+Guatemala,GTM,1994,1,1,1,minor,intrastate,0,government,233
+Guatemala,GTM,1995,1,1,1,minor,intrastate,0,government,233
+Honduras,HND,1957,1,1,1,minor,interstate,1,territory,255
+Honduras,HND,1969,1,1,2,war,interstate,1,territory,306
+Croatia,HRV,1992,1,1,2,war,internationalized intrastate,1,territory,390
+Croatia,HRV,1993,1,1,1,minor,internationalized intrastate,0,territory,390
+Croatia,HRV,1994,1,1,1,minor,intrastate,0,territory,390
+Croatia,HRV,1995,1,1,2,war,intrastate,0,territory,390
+Haiti,HTI,1989,1,1,1,minor,intrastate,1,government,381
+Haiti,HTI,1991,1,1,1,minor,intrastate,1,government,381
+Haiti,HTI,2004,1,1,1,minor,intrastate,1,government,381
+Indonesia,IDN,1946,1,1,1,minor,extrasystemic,1,territory,204
+Indonesia,IDN,1947,1,1,1,minor,extrasystemic,0,territory,204
+Indonesia,IDN,1948,1,1,1,minor,extrasystemic,0,territory,204
+Indonesia,IDN,1949,1,1,1,minor,extrasystemic,0,territory,204
+Indonesia,IDN,1950,1,1,2,war,intrastate,1,territory,237
+Indonesia,IDN,1953,1,1,2,war,intrastate,1,government,243
+Indonesia,IDN,1958,1,1,2,war,intrastate,1,government,243
+Indonesia,IDN,1959,1,1,2,war,intrastate,0,government,243
+Indonesia,IDN,1960,1,1,1,minor,intrastate,0,government,243
+Indonesia,IDN,1961,1,1,2,war,intrastate,0,government,243
+Indonesia,IDN,1962,1,1,1,minor,interstate,1,territory,276
+Indonesia,IDN,1963,1,1,1,minor,interstate,1,territory,281
+Indonesia,IDN,1964,1,1,1,minor,interstate,0,territory,281
+Indonesia,IDN,1965,1,2,1,minor,interstate; intrastate,1,territory,281; 291
+Indonesia,IDN,1966,1,1,1,minor,interstate,0,territory,281
+Indonesia,IDN,1967,1,1,1,minor,intrastate,1,territory,291
+Indonesia,IDN,1968,1,1,1,minor,intrastate,0,territory,291
+Indonesia,IDN,1969,1,1,1,minor,intrastate,0,territory,291
+Indonesia,IDN,1975,1,1,2,war,intrastate,1,territory,330
+Indonesia,IDN,1976,1,2,2,war,intrastate,1,territory,291; 330
+Indonesia,IDN,1977,1,2,2,war,intrastate,0,territory,291; 330
+Indonesia,IDN,1978,1,2,2,war,intrastate,0,territory,291; 330
+Indonesia,IDN,1979,1,1,1,minor,intrastate,0,territory,330
+Indonesia,IDN,1980,1,1,1,minor,intrastate,0,territory,330
+Indonesia,IDN,1981,1,2,2,war,intrastate,1,territory,291; 330
+Indonesia,IDN,1982,1,1,1,minor,intrastate,0,territory,330
+Indonesia,IDN,1983,1,1,1,minor,intrastate,0,territory,330
+Indonesia,IDN,1984,1,2,1,minor,intrastate,1,territory,291; 330
+Indonesia,IDN,1985,1,1,1,minor,intrastate,0,territory,330
+Indonesia,IDN,1986,1,1,1,minor,intrastate,0,territory,330
+Indonesia,IDN,1987,1,1,1,minor,intrastate,0,territory,330
+Indonesia,IDN,1988,1,1,1,minor,intrastate,0,territory,330
+Indonesia,IDN,1990,1,1,1,minor,intrastate,1,territory,366
+Indonesia,IDN,1991,1,1,1,minor,intrastate,0,territory,366
+Indonesia,IDN,1992,1,1,1,minor,intrastate,1,territory,330
+Indonesia,IDN,1997,1,1,1,minor,intrastate,1,territory,330
+Indonesia,IDN,1998,1,1,1,minor,intrastate,0,territory,330
+Indonesia,IDN,1999,1,2,1,minor,intrastate,1,territory,330; 366
+Indonesia,IDN,2000,1,1,1,minor,intrastate,0,territory,366
+Indonesia,IDN,2001,1,1,1,minor,intrastate,0,territory,366
+Indonesia,IDN,2002,1,1,1,minor,intrastate,0,territory,366
+Indonesia,IDN,2003,1,1,1,minor,intrastate,0,territory,366
+Indonesia,IDN,2004,1,1,1,minor,intrastate,0,territory,366
+Indonesia,IDN,2005,1,1,1,minor,intrastate,0,territory,366
+Indonesia,IDN,2018,1,1,1,minor,intrastate,1,territory,291
+Indonesia,IDN,2021,1,1,1,minor,intrastate,1,territory,291
+Indonesia,IDN,2022,1,1,1,minor,intrastate,0,territory,291
+Indonesia,IDN,2023,1,1,1,minor,intrastate,0,territory,291
+India,IND,1948,1,3,2,war,interstate; intrastate,1,government; territory,218; 226; 227
+India,IND,1949,1,1,2,war,intrastate,0,government,227
+India,IND,1950,1,1,2,war,intrastate,0,government,227
+India,IND,1951,1,1,2,war,intrastate,0,government,227
+India,IND,1956,1,1,1,minor,intrastate,1,territory,251
+India,IND,1957,1,1,1,minor,intrastate,0,territory,251
+India,IND,1958,1,1,1,minor,intrastate,0,territory,251
+India,IND,1959,1,1,1,minor,intrastate,0,territory,251
+India,IND,1961,1,1,1,minor,intrastate,1,territory,251
+India,IND,1962,1,2,2,war,interstate; intrastate,1,territory,251; 274
+India,IND,1963,1,1,1,minor,intrastate,0,territory,251
+India,IND,1964,1,2,1,minor,interstate; intrastate,1,territory,218; 251
+India,IND,1965,1,2,2,war,interstate; intrastate,0,territory,218; 251
+India,IND,1966,1,2,1,minor,intrastate,1,territory,251; 296
+India,IND,1967,1,3,1,minor,interstate; intrastate,1,territory,251; 274; 296
+India,IND,1968,1,2,1,minor,intrastate,0,territory,251; 296
+India,IND,1969,1,1,1,minor,intrastate,1,government,227
+India,IND,1970,1,1,1,minor,intrastate,0,government,227
+India,IND,1971,1,2,2,war,interstate; intrastate,1,government; territory,218; 227
+India,IND,1979,1,1,1,minor,intrastate,1,territory,335
+India,IND,1980,1,1,1,minor,intrastate,0,territory,335
+India,IND,1981,1,1,1,minor,intrastate,0,territory,335
+India,IND,1982,1,2,1,minor,intrastate,1,territory,335; 347
+India,IND,1983,1,3,1,minor,intrastate,1,territory,335; 347; 351
+India,IND,1984,1,4,1,minor,interstate; intrastate,1,territory,218; 335; 347; 351
+India,IND,1985,1,3,1,minor,intrastate,0,territory,335; 347; 351
+India,IND,1986,1,3,1,minor,intrastate,0,territory,335; 347; 351
+India,IND,1987,1,4,1,minor,interstate; intrastate,1,territory,218; 335; 347; 351
+India,IND,1988,1,3,2,war,intrastate,0,territory,335; 347; 351
+India,IND,1989,1,3,1,minor,interstate; intrastate,1,territory,218; 351; 421
+India,IND,1990,1,5,2,war,interstate; intrastate,1,territory,218; 351; 364; 365; 421
+India,IND,1991,1,4,2,war,interstate; intrastate,1,government; territory,218; 227; 351; 364
+India,IND,1992,1,6,2,war,interstate; intrastate,1,government; territory,218; 227; 251; 335; 351; 364
+India,IND,1993,1,5,1,minor,intrastate,1,government; territory,227; 251; 347; 351; 364
+India,IND,1994,1,7,1,minor,interstate; intrastate,1,government; territory,218; 227; 251; 347; 364; 365; 421
+India,IND,1995,1,4,1,minor,intrastate,0,territory,251; 347; 364; 365
+India,IND,1996,1,7,1,minor,interstate; intrastate,1,government; territory,218; 227; 251; 347; 364; 365; 421
+India,IND,1997,1,7,1,minor,interstate; intrastate,1,government; territory,218; 227; 251; 335; 364; 365; 421
+India,IND,1998,1,6,1,minor,interstate; intrastate,1,government; territory,218; 227; 347; 364; 365; 421
+India,IND,1999,1,7,1,minor,interstate; intrastate,1,government; territory,218; 227; 335; 347; 364; 365; 421
+India,IND,2000,1,7,2,war,interstate; intrastate,1,government; territory,218; 227; 251; 335; 347; 364; 365
+India,IND,2001,1,6,1,minor,interstate; intrastate,1,government; territory,218; 227; 335; 364; 365; 421
+India,IND,2002,1,6,2,war,interstate; intrastate,0,government; territory,218; 227; 335; 364; 365; 421
+India,IND,2003,1,7,2,war,interstate; intrastate,1,government; territory,218; 227; 335; 347; 364; 365; 421
+India,IND,2004,1,6,2,war,intrastate,0,government; territory,227; 335; 347; 364; 365; 421
+India,IND,2005,1,4,2,war,intrastate,0,government; territory,227; 347; 364; 365
+India,IND,2006,1,4,1,minor,intrastate,0,government; territory,227; 347; 364; 365
+India,IND,2007,1,4,1,minor,intrastate,0,government; territory,227; 347; 364; 365
+India,IND,2008,1,5,1,minor,intrastate,1,government; territory,227; 347; 364; 365; 434
+India,IND,2009,1,5,1,minor,intrastate,1,government; territory,227; 347; 364; 365; 421
+India,IND,2010,1,4,1,minor,intrastate,0,government; territory,227; 364; 365; 421
+India,IND,2011,1,2,1,minor,intrastate,0,government; territory,227; 364
+India,IND,2012,1,3,1,minor,intrastate,1,government; territory,11342; 227; 364
+India,IND,2013,1,4,1,minor,interstate; intrastate,1,government; territory,218; 227; 364; 421
+India,IND,2014,1,5,1,minor,interstate; intrastate,1,government; territory,11342; 218; 227; 364; 421
+India,IND,2015,1,4,1,minor,interstate; intrastate,1,government; territory,13653; 218; 227; 364
+India,IND,2016,1,4,1,minor,interstate; intrastate,0,government; territory,13653; 218; 227; 364
+India,IND,2017,1,4,1,minor,interstate; intrastate,0,government; territory,13653; 218; 227; 364
+India,IND,2018,1,4,1,minor,interstate; intrastate,0,government; territory,13653; 218; 227; 364
+India,IND,2019,1,3,1,minor,interstate; intrastate,0,government; territory,218; 227; 364
+India,IND,2020,1,4,1,minor,interstate; intrastate,1,government; territory,218; 227; 274; 364
+India,IND,2021,1,2,1,minor,intrastate,0,government; territory,227; 364
+India,IND,2022,1,2,1,minor,intrastate,0,government; territory,227; 364
+India,IND,2023,1,2,1,minor,intrastate,0,government; territory,227; 364
+Iran,IRN,1946,1,2,1,minor,internationalized intrastate,1,territory,205; 206
+Iran,IRN,1966,1,1,1,minor,intrastate,1,territory,205
+Iran,IRN,1967,1,1,1,minor,intrastate,0,territory,205
+Iran,IRN,1968,1,1,1,minor,intrastate,0,territory,205
+Iran,IRN,1974,1,1,1,minor,interstate,1,both,324
+Iran,IRN,1979,1,3,2,war,intrastate,1,government; territory,205; 338; 339
+Iran,IRN,1980,1,4,2,war,interstate; intrastate,1,both; government; territory,205; 324; 338; 339
+Iran,IRN,1981,1,3,2,war,interstate; intrastate,0,both; government; territory,205; 324; 338
+Iran,IRN,1982,1,3,2,war,interstate; intrastate,0,both; government; territory,205; 324; 338
+Iran,IRN,1983,1,2,2,war,interstate; intrastate,0,both; territory,205; 324
+Iran,IRN,1984,1,2,2,war,interstate; intrastate,0,both; territory,205; 324
+Iran,IRN,1985,1,2,2,war,interstate; intrastate,0,both; territory,205; 324
+Iran,IRN,1986,1,3,2,war,interstate; intrastate,1,both; government; territory,205; 324; 338
+Iran,IRN,1987,1,3,2,war,interstate; intrastate,0,both; government; territory,205; 324; 338
+Iran,IRN,1988,1,3,2,war,interstate; intrastate,0,both; government; territory,205; 324; 338
+Iran,IRN,1990,1,1,1,minor,intrastate,1,territory,205
+Iran,IRN,1991,1,1,1,minor,intrastate,1,government,338
+Iran,IRN,1993,1,2,1,minor,intrastate,1,government; territory,205; 338
+Iran,IRN,1996,1,1,1,minor,intrastate,1,territory,205
+Iran,IRN,1997,1,1,1,minor,intrastate,1,government,338
+Iran,IRN,1999,1,1,1,minor,intrastate,1,government,338
+Iran,IRN,2000,1,1,1,minor,intrastate,0,government,338
+Iran,IRN,2001,1,1,1,minor,intrastate,0,government,338
+Iran,IRN,2005,1,1,1,minor,intrastate,1,government,338
+Iran,IRN,2006,1,1,1,minor,intrastate,0,government,338
+Iran,IRN,2007,1,1,1,minor,intrastate,0,government,338
+Iran,IRN,2008,1,1,1,minor,intrastate,0,government,338
+Iran,IRN,2009,1,1,1,minor,intrastate,0,government,338
+Iran,IRN,2010,1,1,1,minor,intrastate,0,government,338
+Iran,IRN,2011,1,1,1,minor,intrastate,0,government,338
+Iran,IRN,2016,1,1,1,minor,intrastate,1,territory,205
+Iran,IRN,2017,1,1,1,minor,intrastate,1,territory,14268
+Iran,IRN,2018,1,3,1,minor,interstate; intrastate,1,government; territory,14609; 205; 338
+Iran,IRN,2019,1,2,1,minor,interstate; intrastate,0,government,14609; 338
+Iran,IRN,2020,1,2,1,minor,interstate; intrastate,0,government,14609; 338
+Iran,IRN,2021,1,2,1,minor,interstate; intrastate,0,government,14609; 338
+Iran,IRN,2022,1,1,1,minor,interstate,0,government,14609
+Iran,IRN,2023,1,2,1,minor,interstate; intrastate,1,government,14609; 338
+Iraq,IRQ,1948,1,1,2,war,interstate,1,territory,228
+Iraq,IRQ,1949,1,1,1,minor,interstate,0,territory,228
+Iraq,IRQ,1958,1,1,1,minor,intrastate,1,government,259
+Iraq,IRQ,1959,1,1,1,minor,intrastate,0,government,259
+Iraq,IRQ,1961,1,1,2,war,intrastate,1,territory,271
+Iraq,IRQ,1962,1,1,2,war,intrastate,0,territory,271
+Iraq,IRQ,1963,1,2,2,war,intrastate,1,government; territory,259; 271
+Iraq,IRQ,1964,1,1,1,minor,intrastate,0,territory,271
+Iraq,IRQ,1965,1,1,2,war,intrastate,0,territory,271
+Iraq,IRQ,1966,1,1,2,war,intrastate,0,territory,271
+Iraq,IRQ,1967,1,1,1,minor,intrastate,0,territory,271
+Iraq,IRQ,1968,1,1,1,minor,intrastate,0,territory,271
+Iraq,IRQ,1969,1,1,2,war,intrastate,0,territory,271
+Iraq,IRQ,1970,1,1,1,minor,intrastate,0,territory,271
+Iraq,IRQ,1973,1,1,1,minor,intrastate,1,territory,271
+Iraq,IRQ,1974,1,2,2,war,interstate; intrastate,1,both; territory,271; 324
+Iraq,IRQ,1975,1,1,2,war,intrastate,0,territory,271
+Iraq,IRQ,1976,1,1,1,minor,intrastate,0,territory,271
+Iraq,IRQ,1977,1,1,1,minor,intrastate,0,territory,271
+Iraq,IRQ,1978,1,1,1,minor,intrastate,0,territory,271
+Iraq,IRQ,1979,1,1,1,minor,intrastate,0,territory,271
+Iraq,IRQ,1980,1,2,2,war,interstate; intrastate,1,both; territory,271; 324
+Iraq,IRQ,1981,1,2,2,war,interstate; intrastate,0,both; territory,271; 324
+Iraq,IRQ,1982,1,3,2,war,interstate; intrastate,1,both; government; territory,259; 271; 324
+Iraq,IRQ,1983,1,3,2,war,interstate; intrastate,0,both; government; territory,259; 271; 324
+Iraq,IRQ,1984,1,3,2,war,interstate; intrastate,0,both; government; territory,259; 271; 324
+Iraq,IRQ,1985,1,2,2,war,interstate; intrastate,0,both; territory,271; 324
+Iraq,IRQ,1986,1,2,2,war,interstate; intrastate,0,both; territory,271; 324
+Iraq,IRQ,1987,1,3,2,war,interstate; intrastate,1,both; government; territory,259; 271; 324
+Iraq,IRQ,1988,1,2,2,war,interstate; intrastate,0,both; territory,271; 324
+Iraq,IRQ,1989,1,1,1,minor,intrastate,0,territory,271
+Iraq,IRQ,1990,1,2,2,war,interstate; intrastate,1,territory,271; 371
+Iraq,IRQ,1991,1,3,2,war,interstate; intrastate,1,government; territory,259; 271; 371
+Iraq,IRQ,1992,1,2,1,minor,intrastate,0,government; territory,259; 271
+Iraq,IRQ,1993,1,1,1,minor,intrastate,0,government,259
+Iraq,IRQ,1994,1,1,1,minor,intrastate,0,government,259
+Iraq,IRQ,1995,1,2,1,minor,intrastate,1,government; territory,259; 271
+Iraq,IRQ,1996,1,2,1,minor,intrastate,0,government; territory,259; 271
+Iraq,IRQ,2003,1,1,2,war,interstate,1,government,420
+Iraq,IRQ,2004,1,1,2,war,internationalized intrastate,1,government,259
+Iraq,IRQ,2005,1,1,2,war,internationalized intrastate,0,government,259
+Iraq,IRQ,2006,1,1,2,war,internationalized intrastate,0,government,259
+Iraq,IRQ,2007,1,1,2,war,internationalized intrastate,0,government,259
+Iraq,IRQ,2008,1,1,2,war,internationalized intrastate,0,government,259
+Iraq,IRQ,2009,1,1,2,war,internationalized intrastate,0,government,259
+Iraq,IRQ,2010,1,1,1,minor,internationalized intrastate,0,government,259
+Iraq,IRQ,2011,1,1,1,minor,internationalized intrastate,0,government,259
+Iraq,IRQ,2012,1,1,1,minor,intrastate,0,government,259
+Iraq,IRQ,2013,1,1,2,war,intrastate,0,government,259
+Iraq,IRQ,2014,1,1,2,war,internationalized intrastate,0,government,259
+Iraq,IRQ,2015,1,1,2,war,internationalized intrastate,0,government,259
+Iraq,IRQ,2016,1,1,2,war,internationalized intrastate,0,government,259
+Iraq,IRQ,2017,1,1,2,war,internationalized intrastate,0,government,259
+Iraq,IRQ,2018,1,1,1,minor,internationalized intrastate,0,government,259
+Iraq,IRQ,2019,1,1,1,minor,internationalized intrastate,0,government,259
+Iraq,IRQ,2020,1,1,1,minor,internationalized intrastate,0,government,259
+Iraq,IRQ,2021,1,1,1,minor,internationalized intrastate,0,government,259
+Iraq,IRQ,2022,1,1,1,minor,internationalized intrastate,0,government,259
+Iraq,IRQ,2023,1,1,1,minor,internationalized intrastate,0,government,259
+Israel,ISR,1946,1,1,1,minor,extrasystemic,1,territory,207
+Israel,ISR,1948,1,1,2,war,interstate,1,territory,228
+Israel,ISR,1949,1,2,1,minor,interstate; intrastate,1,territory,228; 234
+Israel,ISR,1950,1,1,1,minor,intrastate,0,territory,234
+Israel,ISR,1951,1,1,1,minor,intrastate,0,territory,234
+Israel,ISR,1952,1,1,1,minor,intrastate,0,territory,234
+Israel,ISR,1953,1,1,1,minor,intrastate,0,territory,234
+Israel,ISR,1954,1,1,1,minor,intrastate,0,territory,234
+Israel,ISR,1955,1,1,1,minor,intrastate,0,territory,234
+Israel,ISR,1956,1,2,2,war,interstate; intrastate,1,territory,234; 252
+Israel,ISR,1957,1,1,1,minor,intrastate,0,territory,234
+Israel,ISR,1958,1,1,1,minor,intrastate,0,territory,234
+Israel,ISR,1959,1,1,1,minor,intrastate,0,territory,234
+Israel,ISR,1960,1,1,1,minor,intrastate,0,territory,234
+Israel,ISR,1961,1,1,1,minor,intrastate,0,territory,234
+Israel,ISR,1962,1,1,1,minor,intrastate,0,territory,234
+Israel,ISR,1963,1,1,1,minor,intrastate,0,territory,234
+Israel,ISR,1964,1,1,1,minor,intrastate,0,territory,234
+Israel,ISR,1965,1,1,1,minor,intrastate,0,territory,234
+Israel,ISR,1966,1,1,1,minor,intrastate,0,territory,234
+Israel,ISR,1967,1,4,2,war,interstate; intrastate,1,territory,11343; 234; 301; 302
+Israel,ISR,1968,1,1,1,minor,intrastate,0,territory,234
+Israel,ISR,1969,1,2,1,minor,interstate; intrastate,1,territory,11343; 234
+Israel,ISR,1970,1,2,1,minor,interstate; intrastate,0,territory,11343; 234
+Israel,ISR,1971,1,1,1,minor,intrastate,0,territory,234
+Israel,ISR,1972,1,1,1,minor,intrastate,0,territory,234
+Israel,ISR,1973,1,3,2,war,interstate; intrastate,1,territory,11343; 234; 302
+Israel,ISR,1974,1,1,1,minor,intrastate,0,territory,234
+Israel,ISR,1975,1,1,1,minor,intrastate,0,territory,234
+Israel,ISR,1976,1,1,1,minor,intrastate,0,territory,234
+Israel,ISR,1977,1,1,1,minor,intrastate,0,territory,234
+Israel,ISR,1978,1,1,1,minor,intrastate,0,territory,234
+Israel,ISR,1979,1,1,1,minor,intrastate,0,territory,234
+Israel,ISR,1980,1,1,1,minor,intrastate,0,territory,234
+Israel,ISR,1981,1,1,1,minor,intrastate,0,territory,234
+Israel,ISR,1982,1,1,2,war,internationalized intrastate,0,territory,234
+Israel,ISR,1983,1,1,1,minor,intrastate,0,territory,234
+Israel,ISR,1984,1,1,1,minor,intrastate,0,territory,234
+Israel,ISR,1985,1,1,1,minor,intrastate,0,territory,234
+Israel,ISR,1986,1,1,1,minor,intrastate,0,territory,234
+Israel,ISR,1987,1,1,1,minor,intrastate,0,territory,234
+Israel,ISR,1988,1,1,1,minor,intrastate,0,territory,234
+Israel,ISR,1989,1,1,1,minor,intrastate,0,territory,234
+Israel,ISR,1990,1,2,1,minor,intrastate,1,territory,234; 426
+Israel,ISR,1991,1,2,1,minor,intrastate,0,territory,234; 426
+Israel,ISR,1992,1,2,1,minor,intrastate,0,territory,234; 426
+Israel,ISR,1993,1,2,1,minor,intrastate,0,territory,234; 426
+Israel,ISR,1994,1,2,1,minor,intrastate,0,territory,234; 426
+Israel,ISR,1995,1,2,1,minor,intrastate,0,territory,234; 426
+Israel,ISR,1996,1,2,1,minor,intrastate,0,territory,234; 426
+Israel,ISR,1997,1,1,1,minor,intrastate,0,territory,426
+Israel,ISR,1998,1,1,1,minor,intrastate,0,territory,426
+Israel,ISR,1999,1,1,1,minor,intrastate,0,territory,426
+Israel,ISR,2000,1,1,1,minor,intrastate,1,territory,234
+Israel,ISR,2001,1,1,1,minor,intrastate,0,territory,234
+Israel,ISR,2002,1,1,1,minor,intrastate,0,territory,234
+Israel,ISR,2003,1,1,1,minor,intrastate,0,territory,234
+Israel,ISR,2004,1,1,1,minor,intrastate,0,territory,234
+Israel,ISR,2005,1,1,1,minor,intrastate,0,territory,234
+Israel,ISR,2006,1,2,1,minor,intrastate,1,territory,234; 426
+Israel,ISR,2007,1,1,1,minor,intrastate,0,territory,234
+Israel,ISR,2008,1,1,1,minor,intrastate,0,territory,234
+Israel,ISR,2009,1,1,1,minor,intrastate,0,territory,234
+Israel,ISR,2010,1,1,1,minor,intrastate,0,territory,234
+Israel,ISR,2011,1,1,1,minor,intrastate,0,territory,234
+Israel,ISR,2012,1,1,1,minor,intrastate,0,territory,234
+Israel,ISR,2014,1,1,2,war,intrastate,1,territory,234
+Israel,ISR,2018,1,2,1,minor,interstate; intrastate,1,government; territory,14609; 234
+Israel,ISR,2019,1,2,1,minor,interstate; intrastate,0,government; territory,14609; 234
+Israel,ISR,2020,1,1,1,minor,interstate,0,government,14609
+Israel,ISR,2021,1,2,1,minor,interstate; intrastate,1,government; territory,14609; 234
+Israel,ISR,2022,1,2,1,minor,interstate; intrastate,0,government; territory,14609; 234
+Israel,ISR,2023,1,3,2,war,interstate; intrastate,1,government; territory,14609; 234; 426
+Jordan,JOR,1948,1,1,2,war,interstate,1,territory,228
+Jordan,JOR,1949,1,1,1,minor,interstate,0,territory,228
+Jordan,JOR,1967,1,1,2,war,interstate,1,territory,301
+Jordan,JOR,2016,1,1,1,minor,intrastate,1,territory,13886
+Kenya,KEN,1952,1,1,1,minor,extrasystemic,1,territory,241
+Kenya,KEN,1953,1,1,2,war,extrasystemic,0,territory,241
+Kenya,KEN,1954,1,1,2,war,extrasystemic,0,territory,241
+Kenya,KEN,1955,1,1,2,war,extrasystemic,0,territory,241
+Kenya,KEN,1956,1,1,2,war,extrasystemic,0,territory,241
+Kenya,KEN,1982,1,1,1,minor,intrastate,1,government,348
+Kenya,KEN,2015,1,1,1,minor,intrastate,1,territory,13646
+Kenya,KEN,2016,1,1,1,minor,intrastate,0,territory,13646
+Kenya,KEN,2017,1,1,1,minor,intrastate,0,territory,13646
+Kenya,KEN,2018,1,1,1,minor,intrastate,0,territory,13646
+Kenya,KEN,2019,1,1,1,minor,internationalized intrastate,0,territory,13646
+Kenya,KEN,2020,1,1,1,minor,internationalized intrastate,0,territory,13646
+Kenya,KEN,2021,1,1,1,minor,internationalized intrastate,0,territory,13646
+Kenya,KEN,2022,1,1,1,minor,intrastate,0,territory,13646
+Kenya,KEN,2023,1,1,1,minor,intrastate,0,territory,13646
+Kyrgyzstan,KGZ,2021,1,1,1,minor,interstate,1,territory,13324
+Kyrgyzstan,KGZ,2022,1,1,1,minor,interstate,0,territory,13324
+Cambodia,KHM,1946,1,1,1,minor,extrasystemic,1,territory,201
+Cambodia,KHM,1947,1,1,1,minor,extrasystemic,0,territory,201
+Cambodia,KHM,1948,1,1,1,minor,extrasystemic,0,territory,201
+Cambodia,KHM,1949,1,1,1,minor,extrasystemic,0,territory,201
+Cambodia,KHM,1950,1,1,1,minor,extrasystemic,0,territory,201
+Cambodia,KHM,1951,1,1,1,minor,extrasystemic,0,territory,201
+Cambodia,KHM,1952,1,1,1,minor,extrasystemic,0,territory,201
+Cambodia,KHM,1953,1,1,1,minor,extrasystemic,0,territory,201
+Cambodia,KHM,1967,1,1,2,war,intrastate,1,government,300
+Cambodia,KHM,1968,1,1,1,minor,intrastate,0,government,300
+Cambodia,KHM,1969,1,1,1,minor,intrastate,0,government,300
+Cambodia,KHM,1970,1,1,2,war,internationalized intrastate,0,government,300
+Cambodia,KHM,1971,1,1,2,war,internationalized intrastate,0,government,300
+Cambodia,KHM,1972,1,1,2,war,internationalized intrastate,0,government,300
+Cambodia,KHM,1973,1,1,2,war,internationalized intrastate,0,government,300
+Cambodia,KHM,1974,1,1,2,war,internationalized intrastate,0,government,300
+Cambodia,KHM,1975,1,2,2,war,internationalized intrastate; interstate,1,government; territory,300; 328
+Cambodia,KHM,1976,1,1,1,minor,interstate,0,territory,328
+Cambodia,KHM,1977,1,2,1,minor,interstate,1,territory,294; 328
+Cambodia,KHM,1978,1,2,2,war,internationalized intrastate; interstate,1,government; territory,294; 300
+Cambodia,KHM,1979,1,1,1,minor,internationalized intrastate,0,government,300
+Cambodia,KHM,1980,1,1,1,minor,internationalized intrastate,0,government,300
+Cambodia,KHM,1981,1,1,1,minor,internationalized intrastate,0,government,300
+Cambodia,KHM,1982,1,1,1,minor,internationalized intrastate,0,government,300
+Cambodia,KHM,1983,1,1,1,minor,internationalized intrastate,0,government,300
+Cambodia,KHM,1984,1,1,1,minor,internationalized intrastate,0,government,300
+Cambodia,KHM,1985,1,1,1,minor,internationalized intrastate,0,government,300
+Cambodia,KHM,1986,1,1,1,minor,internationalized intrastate,0,government,300
+Cambodia,KHM,1987,1,1,1,minor,internationalized intrastate,0,government,300
+Cambodia,KHM,1988,1,1,1,minor,internationalized intrastate,0,government,300
+Cambodia,KHM,1989,1,1,1,minor,internationalized intrastate,0,government,300
+Cambodia,KHM,1990,1,1,1,minor,intrastate,0,government,300
+Cambodia,KHM,1991,1,1,1,minor,intrastate,0,government,300
+Cambodia,KHM,1992,1,1,1,minor,intrastate,0,government,300
+Cambodia,KHM,1993,1,1,1,minor,intrastate,0,government,300
+Cambodia,KHM,1994,1,1,1,minor,intrastate,0,government,300
+Cambodia,KHM,1995,1,1,1,minor,intrastate,0,government,300
+Cambodia,KHM,1996,1,1,1,minor,intrastate,0,government,300
+Cambodia,KHM,1997,1,1,1,minor,intrastate,0,government,300
+Cambodia,KHM,1998,1,1,1,minor,intrastate,0,government,300
+Cambodia,KHM,2011,1,1,1,minor,interstate,1,territory,294
+South Korea,KOR,1949,1,1,1,minor,interstate,1,territory,235
+South Korea,KOR,1950,1,1,2,war,interstate,0,territory,235
+South Korea,KOR,1951,1,1,2,war,interstate,0,territory,235
+South Korea,KOR,1952,1,1,2,war,interstate,0,territory,235
+South Korea,KOR,1953,1,1,2,war,interstate,0,territory,235
+Kuwait,KWT,1990,1,1,2,war,interstate,1,territory,371
+Kuwait,KWT,1991,1,1,2,war,interstate,0,territory,371
+Laos,LAO,1946,1,1,1,minor,extrasystemic,1,territory,208
+Laos,LAO,1947,1,1,1,minor,extrasystemic,0,territory,208
+Laos,LAO,1948,1,1,1,minor,extrasystemic,0,territory,208
+Laos,LAO,1949,1,1,1,minor,extrasystemic,0,territory,208
+Laos,LAO,1950,1,1,1,minor,extrasystemic,0,territory,208
+Laos,LAO,1951,1,1,1,minor,extrasystemic,0,territory,208
+Laos,LAO,1952,1,1,1,minor,extrasystemic,0,territory,208
+Laos,LAO,1953,1,1,1,minor,extrasystemic,0,territory,208
+Laos,LAO,1959,1,1,2,war,intrastate,1,government,262
+Laos,LAO,1960,1,1,2,war,internationalized intrastate,0,government,262
+Laos,LAO,1961,1,1,2,war,internationalized intrastate,0,government,262
+Laos,LAO,1963,1,1,2,war,internationalized intrastate,1,government,262
+Laos,LAO,1964,1,1,2,war,internationalized intrastate,0,government,262
+Laos,LAO,1965,1,1,2,war,internationalized intrastate,0,government,262
+Laos,LAO,1966,1,1,2,war,internationalized intrastate,0,government,262
+Laos,LAO,1967,1,1,2,war,internationalized intrastate,0,government,262
+Laos,LAO,1968,1,1,2,war,internationalized intrastate,0,government,262
+Laos,LAO,1969,1,1,2,war,internationalized intrastate,0,government,262
+Laos,LAO,1970,1,1,2,war,internationalized intrastate,0,government,262
+Laos,LAO,1971,1,1,2,war,internationalized intrastate,0,government,262
+Laos,LAO,1972,1,1,2,war,internationalized intrastate,0,government,262
+Laos,LAO,1973,1,1,2,war,internationalized intrastate,0,government,262
+Laos,LAO,1986,1,1,1,minor,interstate,1,territory,356
+Laos,LAO,1987,1,1,1,minor,interstate,0,territory,356
+Laos,LAO,1988,1,1,1,minor,interstate,0,territory,356
+Laos,LAO,1989,1,1,1,minor,intrastate,1,government,262
+Laos,LAO,1990,1,1,1,minor,intrastate,0,government,262
+Lebanon,LBN,1948,1,1,2,war,interstate,1,territory,228
+Lebanon,LBN,1949,1,1,1,minor,interstate,0,territory,228
+Lebanon,LBN,1958,1,1,2,war,intrastate,1,government,260
+Lebanon,LBN,1975,1,1,1,minor,intrastate,1,government,260
+Lebanon,LBN,1976,1,1,2,war,intrastate,0,government,260
+Lebanon,LBN,1982,1,1,1,minor,intrastate,1,government,260
+Lebanon,LBN,1983,1,1,1,minor,internationalized intrastate,0,government,260
+Lebanon,LBN,1984,1,1,2,war,internationalized intrastate,0,government,260
+Lebanon,LBN,1985,1,1,1,minor,intrastate,0,government,260
+Lebanon,LBN,1986,1,1,1,minor,intrastate,0,government,260
+Lebanon,LBN,1989,1,1,1,minor,internationalized intrastate,1,government,260
+Lebanon,LBN,1990,1,1,1,minor,internationalized intrastate,0,government,260
+Lebanon,LBN,2014,1,1,1,minor,intrastate,1,territory,13675
+Lebanon,LBN,2015,1,1,1,minor,intrastate,0,territory,13675
+Lebanon,LBN,2017,1,1,1,minor,intrastate,1,territory,13675
+Liberia,LBR,1980,1,1,1,minor,intrastate,1,government,341
+Liberia,LBR,1989,1,1,1,minor,intrastate,1,government,341
+Liberia,LBR,1990,1,1,1,minor,intrastate,0,government,341
+Liberia,LBR,2000,1,1,1,minor,intrastate,1,government,341
+Liberia,LBR,2001,1,1,1,minor,intrastate,0,government,341
+Liberia,LBR,2002,1,1,1,minor,intrastate,0,government,341
+Liberia,LBR,2003,1,1,2,war,intrastate,0,government,341
+Libya,LBY,1987,1,1,2,war,interstate,1,territory,361
+Libya,LBY,2011,1,1,2,war,internationalized intrastate,1,government,11346
+Libya,LBY,2013,1,1,1,minor,intrastate,1,government,11346
+Libya,LBY,2014,1,1,1,minor,intrastate,0,government,11346
+Libya,LBY,2015,1,2,1,minor,intrastate,1,government; territory,11346; 13694
+Libya,LBY,2016,1,1,2,war,internationalized intrastate,0,territory,13694
+Libya,LBY,2017,1,2,1,minor,internationalized intrastate; intrastate,1,government; territory,11346; 13694
+Libya,LBY,2018,1,1,1,minor,internationalized intrastate,0,territory,13694
+Libya,LBY,2019,1,2,2,war,internationalized intrastate,1,government; territory,11346; 13694
+Libya,LBY,2020,1,1,1,minor,internationalized intrastate,0,government,11346
+Sri Lanka,LKA,1971,1,1,2,war,intrastate,1,government,313
+Sri Lanka,LKA,1984,1,1,1,minor,intrastate,1,territory,352
+Sri Lanka,LKA,1985,1,1,1,minor,intrastate,0,territory,352
+Sri Lanka,LKA,1986,1,1,1,minor,intrastate,0,territory,352
+Sri Lanka,LKA,1987,1,1,2,war,intrastate,0,territory,352
+Sri Lanka,LKA,1988,1,1,1,minor,intrastate,0,territory,352
+Sri Lanka,LKA,1989,1,2,1,minor,intrastate,1,government; territory,313; 352
+Sri Lanka,LKA,1990,1,2,2,war,intrastate,0,government; territory,313; 352
+Sri Lanka,LKA,1991,1,1,2,war,intrastate,0,territory,352
+Sri Lanka,LKA,1992,1,1,2,war,intrastate,0,territory,352
+Sri Lanka,LKA,1993,1,1,2,war,intrastate,0,territory,352
+Sri Lanka,LKA,1994,1,1,1,minor,intrastate,0,territory,352
+Sri Lanka,LKA,1995,1,1,2,war,intrastate,0,territory,352
+Sri Lanka,LKA,1996,1,1,2,war,intrastate,0,territory,352
+Sri Lanka,LKA,1997,1,1,2,war,intrastate,0,territory,352
+Sri Lanka,LKA,1998,1,1,2,war,intrastate,0,territory,352
+Sri Lanka,LKA,1999,1,1,2,war,intrastate,0,territory,352
+Sri Lanka,LKA,2000,1,1,2,war,intrastate,0,territory,352
+Sri Lanka,LKA,2001,1,1,2,war,intrastate,0,territory,352
+Sri Lanka,LKA,2003,1,1,1,minor,intrastate,1,territory,352
+Sri Lanka,LKA,2005,1,1,1,minor,intrastate,1,territory,352
+Sri Lanka,LKA,2006,1,1,2,war,intrastate,0,territory,352
+Sri Lanka,LKA,2007,1,1,2,war,intrastate,0,territory,352
+Sri Lanka,LKA,2008,1,1,2,war,intrastate,0,territory,352
+Sri Lanka,LKA,2009,1,1,2,war,intrastate,0,territory,352
+Lesotho,LSO,1998,1,1,1,minor,internationalized intrastate,1,government,411
+Morocco,MAR,1953,1,1,1,minor,extrasystemic,1,territory,244
+Morocco,MAR,1954,1,1,1,minor,extrasystemic,0,territory,244
+Morocco,MAR,1955,1,1,1,minor,extrasystemic,0,territory,244
+Morocco,MAR,1956,1,1,1,minor,extrasystemic,0,territory,244
+Morocco,MAR,1957,1,2,1,minor,extrasystemic,1,territory,256; 257
+Morocco,MAR,1958,1,2,1,minor,extrasystemic,0,territory,256; 257
+Morocco,MAR,1963,1,1,1,minor,interstate,1,territory,278
+Morocco,MAR,1971,1,1,1,minor,intrastate,1,government,311
+Morocco,MAR,1975,1,1,1,minor,intrastate,1,territory,331
+Morocco,MAR,1976,1,1,1,minor,internationalized intrastate,0,territory,331
+Morocco,MAR,1977,1,1,1,minor,intrastate,0,territory,331
+Morocco,MAR,1978,1,1,1,minor,intrastate,0,territory,331
+Morocco,MAR,1979,1,1,2,war,intrastate,0,territory,331
+Morocco,MAR,1980,1,1,2,war,intrastate,0,territory,331
+Morocco,MAR,1981,1,1,1,minor,intrastate,0,territory,331
+Morocco,MAR,1982,1,1,1,minor,intrastate,0,territory,331
+Morocco,MAR,1983,1,1,1,minor,intrastate,0,territory,331
+Morocco,MAR,1984,1,1,1,minor,intrastate,0,territory,331
+Morocco,MAR,1985,1,1,1,minor,intrastate,0,territory,331
+Morocco,MAR,1986,1,1,1,minor,intrastate,0,territory,331
+Morocco,MAR,1987,1,1,1,minor,intrastate,0,territory,331
+Morocco,MAR,1988,1,1,1,minor,intrastate,0,territory,331
+Morocco,MAR,1989,1,1,1,minor,intrastate,0,territory,331
+Moldova,MDA,1992,1,1,1,minor,intrastate,1,territory,394
+Madagascar,MDG,1947,1,1,2,war,extrasystemic,1,territory,219
+Madagascar,MDG,1971,1,1,1,minor,intrastate,1,government,310
+Mexico,MEX,1994,1,1,1,minor,intrastate,1,government,400
+Mexico,MEX,1996,1,1,1,minor,intrastate,1,government,400
+North Macedonia,MKD,2001,1,1,1,minor,intrastate,1,government,417
+Mali,MLI,1985,1,1,1,minor,interstate,1,territory,355
+Mali,MLI,1990,1,1,1,minor,intrastate,1,territory,372
+Mali,MLI,1991,1,1,1,minor,intrastate,0,territory,372
+Mali,MLI,1994,1,1,1,minor,intrastate,1,territory,372
+Mali,MLI,2007,1,1,1,minor,intrastate,1,territory,372
+Mali,MLI,2008,1,1,1,minor,intrastate,0,territory,372
+Mali,MLI,2009,1,2,1,minor,intrastate,1,government; territory,11347; 372
+Mali,MLI,2012,1,2,1,minor,intrastate,1,government; territory,11347; 372
+Mali,MLI,2013,1,1,1,minor,internationalized intrastate,0,government,11347
+Mali,MLI,2014,1,2,1,minor,internationalized intrastate; intrastate,1,government; territory,11347; 372
+Mali,MLI,2015,1,3,1,minor,internationalized intrastate; intrastate,1,government; territory,11347; 13611; 372
+Mali,MLI,2016,1,1,1,minor,internationalized intrastate,0,government,11347
+Mali,MLI,2017,1,2,1,minor,internationalized intrastate,1,government; territory,11347; 14113
+Mali,MLI,2018,1,2,1,minor,internationalized intrastate,0,government; territory,11347; 14113
+Mali,MLI,2019,1,2,1,minor,internationalized intrastate,0,government; territory,11347; 14113
+Mali,MLI,2020,1,2,1,minor,internationalized intrastate,0,government; territory,11347; 14113
+Mali,MLI,2021,1,2,1,minor,internationalized intrastate,0,government; territory,11347; 14113
+Mali,MLI,2022,1,2,2,war,internationalized intrastate,0,government; territory,11347; 14113
+Mali,MLI,2023,1,3,1,minor,internationalized intrastate; intrastate,1,both; government; territory,11347; 14113; 16038
+Myanmar,MMR,1948,1,2,2,war,intrastate,1,government; territory,222; 223
+Myanmar,MMR,1949,1,5,2,war,intrastate,1,government; territory,221; 222; 223; 224; 231
+Myanmar,MMR,1950,1,5,2,war,intrastate,0,government; territory,221; 222; 223; 224; 231
+Myanmar,MMR,1951,1,4,2,war,intrastate,0,government; territory,221; 222; 223; 224
+Myanmar,MMR,1952,1,4,2,war,intrastate,0,government; territory,221; 222; 223; 224
+Myanmar,MMR,1953,1,4,2,war,intrastate,0,government; territory,221; 222; 223; 224
+Myanmar,MMR,1954,1,4,1,minor,intrastate,0,government; territory,221; 222; 223; 224
+Myanmar,MMR,1955,1,4,2,war,intrastate,0,government; territory,221; 222; 223; 224
+Myanmar,MMR,1956,1,4,1,minor,intrastate,0,government; territory,221; 222; 223; 224
+Myanmar,MMR,1957,1,5,1,minor,intrastate,1,government; territory,221; 222; 223; 224; 253
+Myanmar,MMR,1958,1,4,1,minor,intrastate,0,government; territory,221; 222; 223; 224
+Myanmar,MMR,1959,1,5,1,minor,intrastate,1,government; territory,221; 222; 223; 224; 264
+Myanmar,MMR,1960,1,5,1,minor,intrastate,0,government; territory,221; 222; 223; 224; 264
+Myanmar,MMR,1961,1,6,2,war,intrastate,1,government; territory,221; 222; 223; 224; 231; 264
+Myanmar,MMR,1962,1,5,2,war,intrastate,0,government; territory,221; 222; 224; 231; 264
+Myanmar,MMR,1963,1,5,2,war,intrastate,0,government; territory,221; 222; 224; 231; 264
+Myanmar,MMR,1964,1,5,2,war,intrastate,1,government; territory,221; 222; 223; 231; 264
+Myanmar,MMR,1965,1,5,2,war,intrastate,0,government; territory,221; 222; 223; 231; 264
+Myanmar,MMR,1966,1,5,2,war,intrastate,0,government; territory,221; 222; 223; 231; 264
+Myanmar,MMR,1967,1,5,2,war,intrastate,0,government; territory,221; 222; 223; 231; 264
+Myanmar,MMR,1968,1,5,2,war,intrastate,0,government; territory,221; 222; 223; 231; 264
+Myanmar,MMR,1969,1,6,2,war,interstate; intrastate,1,government; territory,221; 222; 223; 231; 264; 304
+Myanmar,MMR,1970,1,5,2,war,intrastate,0,government; territory,221; 222; 223; 231; 264
+Myanmar,MMR,1971,1,4,2,war,intrastate,0,government; territory,221; 222; 223; 231
+Myanmar,MMR,1972,1,5,2,war,intrastate,1,government; territory,221; 222; 223; 231; 264
+Myanmar,MMR,1973,1,6,2,war,intrastate,1,government; territory,221; 222; 223; 231; 264; 440
+Myanmar,MMR,1974,1,5,2,war,intrastate,0,government; territory,221; 222; 223; 231; 440
+Myanmar,MMR,1975,1,5,2,war,intrastate,0,government; territory,221; 222; 223; 231; 440
+Myanmar,MMR,1976,1,6,2,war,intrastate,1,government; territory,221; 222; 223; 231; 264; 440
+Myanmar,MMR,1977,1,6,2,war,intrastate,0,government; territory,221; 222; 223; 231; 264; 440
+Myanmar,MMR,1978,1,6,2,war,intrastate,0,government; territory,221; 222; 223; 231; 264; 440
+Myanmar,MMR,1979,1,5,2,war,intrastate,0,government; territory,221; 222; 231; 264; 440
+Myanmar,MMR,1980,1,5,2,war,intrastate,0,government; territory,221; 222; 231; 264; 440
+Myanmar,MMR,1981,1,5,1,minor,intrastate,0,government; territory,221; 222; 231; 264; 440
+Myanmar,MMR,1982,1,5,2,war,intrastate,0,government; territory,221; 222; 231; 264; 440
+Myanmar,MMR,1983,1,4,2,war,intrastate,0,government; territory,221; 222; 231; 264
+Myanmar,MMR,1984,1,4,2,war,intrastate,0,government; territory,221; 222; 231; 264
+Myanmar,MMR,1985,1,4,1,minor,intrastate,0,government; territory,221; 222; 231; 264
+Myanmar,MMR,1986,1,4,2,war,intrastate,0,government; territory,221; 222; 231; 264
+Myanmar,MMR,1987,1,5,1,minor,intrastate,1,government; territory,221; 222; 231; 253; 264
+Myanmar,MMR,1988,1,4,2,war,intrastate,0,government; territory,221; 222; 231; 264
+Myanmar,MMR,1989,1,2,2,war,intrastate,0,territory,221; 231
+Myanmar,MMR,1990,1,4,1,minor,intrastate,1,government; territory,221; 222; 224; 231
+Myanmar,MMR,1991,1,5,1,minor,intrastate,1,government; territory,11475; 221; 222; 223; 231
+Myanmar,MMR,1992,1,4,2,war,intrastate,1,government; territory,221; 222; 231; 253
+Myanmar,MMR,1993,1,1,1,minor,intrastate,1,territory,264
+Myanmar,MMR,1994,1,4,1,minor,intrastate,1,government; territory,221; 222; 223; 264
+Myanmar,MMR,1995,1,3,1,minor,intrastate,1,territory,11475; 221; 264
+Myanmar,MMR,1996,1,3,1,minor,intrastate,1,territory,224; 253; 264
+Myanmar,MMR,1997,1,3,1,minor,intrastate,1,territory,221; 264; 422
+Myanmar,MMR,1998,1,2,1,minor,intrastate,0,territory,221; 264
+Myanmar,MMR,1999,1,1,1,minor,intrastate,0,territory,264
+Myanmar,MMR,2000,1,3,1,minor,intrastate,1,territory,11475; 221; 264
+Myanmar,MMR,2001,1,3,1,minor,intrastate,0,territory,11475; 221; 264
+Myanmar,MMR,2002,1,2,1,minor,intrastate,0,territory,221; 264
+Myanmar,MMR,2003,1,1,1,minor,intrastate,0,territory,221
+Myanmar,MMR,2004,1,1,1,minor,intrastate,0,territory,221
+Myanmar,MMR,2005,1,4,1,minor,intrastate,1,territory,11475; 221; 253; 264
+Myanmar,MMR,2006,1,3,1,minor,intrastate,0,territory,11475; 221; 264
+Myanmar,MMR,2007,1,3,1,minor,intrastate,0,territory,11475; 221; 264
+Myanmar,MMR,2008,1,2,1,minor,intrastate,0,territory,221; 264
+Myanmar,MMR,2009,1,3,1,minor,intrastate,1,territory,221; 264; 439
+Myanmar,MMR,2010,1,2,1,minor,intrastate,0,territory,221; 264
+Myanmar,MMR,2011,1,3,1,minor,intrastate,1,territory,221; 231; 264
+Myanmar,MMR,2012,1,1,1,minor,intrastate,0,territory,231
+Myanmar,MMR,2013,1,4,1,minor,intrastate,1,government; territory,221; 222; 231; 264
+Myanmar,MMR,2014,1,3,1,minor,intrastate,1,government; territory,222; 231; 439
+Myanmar,MMR,2015,1,4,1,minor,intrastate,1,government; territory,222; 231; 264; 439
+Myanmar,MMR,2016,1,2,1,minor,intrastate,1,territory,223; 231
+Myanmar,MMR,2017,1,4,1,minor,intrastate,1,government; territory,222; 223; 231; 439
+Myanmar,MMR,2018,1,3,1,minor,intrastate,0,government; territory,222; 223; 231
+Myanmar,MMR,2019,1,3,1,minor,intrastate,0,government; territory,222; 223; 231
+Myanmar,MMR,2020,1,1,1,minor,intrastate,0,territory,223
+Myanmar,MMR,2021,1,5,1,minor,intrastate,1,government; territory,221; 222; 231; 253; 439
+Myanmar,MMR,2022,1,5,2,war,intrastate,1,government; territory,221; 222; 223; 231; 253
+Myanmar,MMR,2023,1,6,2,war,intrastate,1,government; territory,221; 222; 223; 231; 253; 439
+Mozambique,MOZ,1964,1,1,1,minor,extrasystemic,1,territory,285
+Mozambique,MOZ,1965,1,1,1,minor,extrasystemic,0,territory,285
+Mozambique,MOZ,1966,1,1,1,minor,extrasystemic,0,territory,285
+Mozambique,MOZ,1967,1,1,1,minor,extrasystemic,0,territory,285
+Mozambique,MOZ,1968,1,1,1,minor,extrasystemic,0,territory,285
+Mozambique,MOZ,1969,1,1,1,minor,extrasystemic,0,territory,285
+Mozambique,MOZ,1970,1,1,1,minor,extrasystemic,0,territory,285
+Mozambique,MOZ,1971,1,1,1,minor,extrasystemic,0,territory,285
+Mozambique,MOZ,1972,1,1,2,war,extrasystemic,0,territory,285
+Mozambique,MOZ,1973,1,1,2,war,extrasystemic,0,territory,285
+Mozambique,MOZ,1974,1,1,1,minor,extrasystemic,0,territory,285
+Mozambique,MOZ,1977,1,1,1,minor,intrastate,1,government,332
+Mozambique,MOZ,1978,1,1,1,minor,intrastate,0,government,332
+Mozambique,MOZ,1979,1,1,1,minor,intrastate,0,government,332
+Mozambique,MOZ,1980,1,1,1,minor,intrastate,0,government,332
+Mozambique,MOZ,1981,1,1,2,war,intrastate,0,government,332
+Mozambique,MOZ,1982,1,1,2,war,intrastate,0,government,332
+Mozambique,MOZ,1983,1,1,2,war,intrastate,0,government,332
+Mozambique,MOZ,1984,1,1,2,war,intrastate,0,government,332
+Mozambique,MOZ,1985,1,1,2,war,internationalized intrastate,0,government,332
+Mozambique,MOZ,1986,1,1,2,war,internationalized intrastate,0,government,332
+Mozambique,MOZ,1987,1,1,2,war,internationalized intrastate,0,government,332
+Mozambique,MOZ,1988,1,1,2,war,internationalized intrastate,0,government,332
+Mozambique,MOZ,1989,1,1,2,war,internationalized intrastate,0,government,332
+Mozambique,MOZ,1990,1,1,2,war,internationalized intrastate,0,government,332
+Mozambique,MOZ,1991,1,1,2,war,intrastate,0,government,332
+Mozambique,MOZ,1992,1,1,1,minor,intrastate,0,government,332
+Mozambique,MOZ,2013,1,1,1,minor,intrastate,1,government,332
+Mozambique,MOZ,2014,1,1,1,minor,intrastate,0,government,332
+Mozambique,MOZ,2016,1,1,1,minor,intrastate,1,government,332
+Mozambique,MOZ,2018,1,1,1,minor,intrastate,1,government,332
+Mozambique,MOZ,2019,1,2,1,minor,intrastate,1,government; territory,14845; 332
+Mozambique,MOZ,2020,1,1,1,minor,intrastate,0,territory,14845
+Mozambique,MOZ,2021,1,1,1,minor,internationalized intrastate,0,territory,14845
+Mozambique,MOZ,2022,1,1,1,minor,internationalized intrastate,0,territory,14845
+Mozambique,MOZ,2023,1,1,1,minor,internationalized intrastate,0,territory,14845
+Mauritania,MRT,1957,1,2,1,minor,extrasystemic,1,territory,256; 257
+Mauritania,MRT,1958,1,2,1,minor,extrasystemic,0,territory,256; 257
+Mauritania,MRT,1975,1,1,1,minor,intrastate,1,territory,428
+Mauritania,MRT,1976,1,1,1,minor,intrastate,0,territory,428
+Mauritania,MRT,1977,1,1,1,minor,intrastate,0,territory,428
+Mauritania,MRT,1978,1,1,1,minor,intrastate,0,territory,428
+Mauritania,MRT,2010,1,1,1,minor,internationalized intrastate,1,government,442
+Malaysia,MYS,1948,1,1,1,minor,extrasystemic,1,territory,229
+Malaysia,MYS,1949,1,1,1,minor,extrasystemic,0,territory,229
+Malaysia,MYS,1950,1,1,2,war,extrasystemic,0,territory,229
+Malaysia,MYS,1951,1,1,2,war,extrasystemic,0,territory,229
+Malaysia,MYS,1952,1,1,2,war,extrasystemic,0,territory,229
+Malaysia,MYS,1953,1,1,2,war,extrasystemic,0,territory,229
+Malaysia,MYS,1954,1,1,1,minor,extrasystemic,0,territory,229
+Malaysia,MYS,1955,1,1,1,minor,extrasystemic,0,territory,229
+Malaysia,MYS,1956,1,1,1,minor,extrasystemic,0,territory,229
+Malaysia,MYS,1957,1,1,1,minor,extrasystemic,0,territory,229
+Malaysia,MYS,1958,1,1,1,minor,internationalized intrastate,1,government,261
+Malaysia,MYS,1959,1,1,1,minor,internationalized intrastate,0,government,261
+Malaysia,MYS,1960,1,1,1,minor,internationalized intrastate,0,government,261
+Malaysia,MYS,1963,1,2,1,minor,interstate; intrastate,1,territory,280; 281
+Malaysia,MYS,1964,1,2,1,minor,interstate; intrastate,0,territory,280; 281
+Malaysia,MYS,1965,1,2,1,minor,internationalized intrastate; interstate,0,territory,280; 281
+Malaysia,MYS,1966,1,2,1,minor,internationalized intrastate; interstate,0,territory,280; 281
+Malaysia,MYS,1974,1,1,1,minor,intrastate,1,government,261
+Malaysia,MYS,1975,1,1,1,minor,intrastate,0,government,261
+Malaysia,MYS,1981,1,1,1,minor,intrastate,1,government,261
+Malaysia,MYS,2013,1,1,1,minor,intrastate,1,territory,11487
+Niger,NER,1991,1,1,1,minor,intrastate,1,government,430
+Niger,NER,1992,1,1,1,minor,intrastate,0,government,430
+Niger,NER,1994,1,1,1,minor,intrastate,1,territory,373
+Niger,NER,1995,1,1,1,minor,intrastate,1,territory,406
+Niger,NER,1997,1,1,1,minor,intrastate,1,government,430
+Niger,NER,2007,1,1,1,minor,intrastate,1,government,430
+Niger,NER,2008,1,1,1,minor,intrastate,0,government,430
+Niger,NER,2015,1,1,1,minor,internationalized intrastate,1,territory,13639
+Niger,NER,2016,1,1,1,minor,internationalized intrastate,0,territory,13639
+Niger,NER,2017,1,1,1,minor,internationalized intrastate,0,territory,13639
+Niger,NER,2018,1,1,1,minor,internationalized intrastate,0,territory,13639
+Niger,NER,2019,1,1,1,minor,internationalized intrastate,0,territory,13639
+Niger,NER,2020,1,1,1,minor,internationalized intrastate,0,territory,13639
+Niger,NER,2021,1,2,1,minor,internationalized intrastate,1,government; territory,13639; 430
+Niger,NER,2022,1,2,1,minor,internationalized intrastate,0,government; territory,13639; 430
+Niger,NER,2023,1,2,1,minor,internationalized intrastate,0,government; territory,13639; 430
+Nigeria,NGA,1966,1,1,1,minor,intrastate,1,government,297
+Nigeria,NGA,1967,1,1,2,war,intrastate,1,territory,303
+Nigeria,NGA,1968,1,1,2,war,intrastate,0,territory,303
+Nigeria,NGA,1969,1,1,2,war,intrastate,0,territory,303
+Nigeria,NGA,1970,1,1,2,war,intrastate,0,territory,303
+Nigeria,NGA,1983,1,1,1,minor,interstate,1,territory,349
+Nigeria,NGA,1996,1,1,1,minor,interstate,1,territory,405
+Nigeria,NGA,2004,1,2,1,minor,intrastate,1,territory,424; 425
+Nigeria,NGA,2009,1,1,1,minor,intrastate,1,government,297
+Nigeria,NGA,2011,1,1,1,minor,intrastate,1,government,297
+Nigeria,NGA,2012,1,1,1,minor,internationalized intrastate,0,government,297
+Nigeria,NGA,2013,1,1,2,war,internationalized intrastate,0,government,297
+Nigeria,NGA,2014,1,1,2,war,internationalized intrastate,0,government,297
+Nigeria,NGA,2015,1,2,2,war,internationalized intrastate,1,government; territory,13641; 297
+Nigeria,NGA,2016,1,2,2,war,internationalized intrastate,0,government; territory,13641; 297
+Nigeria,NGA,2017,1,2,2,war,internationalized intrastate,0,government; territory,13641; 297
+Nigeria,NGA,2018,1,2,1,minor,internationalized intrastate,0,government; territory,13641; 297
+Nigeria,NGA,2019,1,2,2,war,internationalized intrastate,0,government; territory,13641; 297
+Nigeria,NGA,2020,1,2,2,war,internationalized intrastate,0,government; territory,13641; 297
+Nigeria,NGA,2021,1,3,2,war,internationalized intrastate; intrastate,1,government; territory,13641; 297; 303
+Nigeria,NGA,2022,1,3,2,war,internationalized intrastate; intrastate,0,government; territory,13641; 297; 303
+Nigeria,NGA,2023,1,3,2,war,internationalized intrastate,0,government; territory,13641; 297; 303
+Nicaragua,NIC,1957,1,1,1,minor,interstate,1,territory,255
+Nicaragua,NIC,1977,1,1,1,minor,intrastate,1,government,336
+Nicaragua,NIC,1978,1,1,2,war,intrastate,0,government,336
+Nicaragua,NIC,1979,1,1,2,war,intrastate,0,government,336
+Nicaragua,NIC,1982,1,1,1,minor,intrastate,1,government,336
+Nicaragua,NIC,1983,1,1,2,war,intrastate,0,government,336
+Nicaragua,NIC,1984,1,1,2,war,intrastate,0,government,336
+Nicaragua,NIC,1985,1,1,2,war,intrastate,0,government,336
+Nicaragua,NIC,1986,1,1,2,war,intrastate,0,government,336
+Nicaragua,NIC,1987,1,1,2,war,intrastate,0,government,336
+Nicaragua,NIC,1988,1,1,2,war,intrastate,0,government,336
+Nicaragua,NIC,1989,1,1,1,minor,intrastate,0,government,336
+Nicaragua,NIC,1990,1,1,1,minor,intrastate,0,government,336
+Netherlands,NLD,1962,1,1,1,minor,interstate,1,territory,276
+Nepal,NPL,1960,1,1,1,minor,intrastate,1,government,269
+Nepal,NPL,1961,1,1,1,minor,intrastate,0,government,269
+Nepal,NPL,1962,1,1,1,minor,intrastate,0,government,269
+Nepal,NPL,1996,1,1,1,minor,intrastate,1,government,269
+Nepal,NPL,1997,1,1,1,minor,intrastate,0,government,269
+Nepal,NPL,1998,1,1,1,minor,intrastate,0,government,269
+Nepal,NPL,1999,1,1,1,minor,intrastate,0,government,269
+Nepal,NPL,2000,1,1,1,minor,intrastate,0,government,269
+Nepal,NPL,2001,1,1,1,minor,intrastate,0,government,269
+Nepal,NPL,2002,1,1,2,war,intrastate,0,government,269
+Nepal,NPL,2003,1,1,2,war,intrastate,0,government,269
+Nepal,NPL,2004,1,1,2,war,intrastate,0,government,269
+Nepal,NPL,2005,1,1,2,war,intrastate,0,government,269
+Nepal,NPL,2006,1,1,1,minor,intrastate,0,government,269
+Oman,OMN,1957,1,1,1,minor,internationalized intrastate,1,territory,258
+Oman,OMN,1969,1,1,1,minor,internationalized intrastate,1,government,317
+Oman,OMN,1970,1,1,1,minor,internationalized intrastate,0,government,317
+Oman,OMN,1971,1,1,1,minor,internationalized intrastate,0,government,317
+Oman,OMN,1972,1,1,1,minor,internationalized intrastate,0,government,317
+Oman,OMN,1973,1,1,1,minor,internationalized intrastate,0,government,317
+Oman,OMN,1974,1,1,1,minor,internationalized intrastate,0,government,317
+Oman,OMN,1975,1,1,1,minor,internationalized intrastate,0,government,317
+Pakistan,PAK,1948,1,1,2,war,interstate,1,territory,218
+Pakistan,PAK,1964,1,1,1,minor,interstate,1,territory,218
+Pakistan,PAK,1965,1,1,2,war,interstate,0,territory,218
+Pakistan,PAK,1971,1,2,2,war,interstate; intrastate,1,territory,218; 312
+Pakistan,PAK,1974,1,1,2,war,intrastate,1,territory,325
+Pakistan,PAK,1975,1,1,1,minor,intrastate,0,territory,325
+Pakistan,PAK,1976,1,1,1,minor,intrastate,0,territory,325
+Pakistan,PAK,1977,1,1,1,minor,intrastate,0,territory,325
+Pakistan,PAK,1984,1,1,1,minor,interstate,1,territory,218
+Pakistan,PAK,1987,1,1,1,minor,interstate,1,territory,218
+Pakistan,PAK,1989,1,1,1,minor,interstate,1,territory,218
+Pakistan,PAK,1990,1,2,1,minor,interstate; intrastate,1,government; territory,218; 404
+Pakistan,PAK,1991,1,1,1,minor,interstate,0,territory,218
+Pakistan,PAK,1992,1,1,1,minor,interstate,0,territory,218
+Pakistan,PAK,1994,1,2,1,minor,interstate; intrastate,1,government; territory,218; 404
+Pakistan,PAK,1995,1,1,1,minor,intrastate,0,government,404
+Pakistan,PAK,1996,1,2,1,minor,interstate; intrastate,1,government; territory,218; 404
+Pakistan,PAK,1997,1,1,1,minor,interstate,0,territory,218
+Pakistan,PAK,1998,1,1,1,minor,interstate,0,territory,218
+Pakistan,PAK,1999,1,1,1,minor,interstate,0,territory,218
+Pakistan,PAK,2000,1,1,1,minor,interstate,0,territory,218
+Pakistan,PAK,2001,1,1,1,minor,interstate,0,territory,218
+Pakistan,PAK,2002,1,1,1,minor,interstate,0,territory,218
+Pakistan,PAK,2003,1,1,1,minor,interstate,0,territory,218
+Pakistan,PAK,2004,1,1,1,minor,intrastate,1,territory,325
+Pakistan,PAK,2006,1,1,1,minor,intrastate,1,territory,325
+Pakistan,PAK,2007,1,2,1,minor,intrastate,1,government; territory,325; 404
+Pakistan,PAK,2008,1,2,2,war,intrastate,0,government; territory,325; 404
+Pakistan,PAK,2009,1,2,2,war,intrastate,0,government; territory,325; 404
+Pakistan,PAK,2010,1,1,2,war,intrastate,0,government,404
+Pakistan,PAK,2011,1,2,2,war,intrastate,1,government; territory,325; 404
+Pakistan,PAK,2012,1,2,2,war,intrastate,0,government; territory,325; 404
+Pakistan,PAK,2013,1,3,2,war,interstate; intrastate,1,government; territory,218; 325; 404
+Pakistan,PAK,2014,1,3,2,war,interstate; intrastate,0,government; territory,218; 325; 404
+Pakistan,PAK,2015,1,3,2,war,internationalized intrastate; interstate; intrastate,0,government; territory,218; 325; 404
+Pakistan,PAK,2016,1,4,1,minor,internationalized intrastate; interstate; intrastate,1,government; territory,13936; 218; 325; 404
+Pakistan,PAK,2017,1,3,1,minor,internationalized intrastate; interstate; intrastate,0,government; territory,13936; 218; 404
+Pakistan,PAK,2018,1,3,1,minor,internationalized intrastate; interstate; intrastate,0,government; territory,13936; 218; 404
+Pakistan,PAK,2019,1,4,1,minor,interstate; intrastate,1,government; territory,13936; 218; 325; 404
+Pakistan,PAK,2020,1,3,1,minor,interstate; intrastate,0,government; territory,218; 325; 404
+Pakistan,PAK,2021,1,3,1,minor,intrastate,1,government; territory,13936; 325; 404
+Pakistan,PAK,2022,1,3,1,minor,intrastate,0,government; territory,13936; 325; 404
+Pakistan,PAK,2023,1,3,1,minor,intrastate,0,government; territory,13936; 325; 404
+Panama,PAN,1989,1,2,1,minor,interstate; intrastate,1,government,367; 368
+Peru,PER,1965,1,1,1,minor,intrastate,1,government,292
+Peru,PER,1982,1,1,1,minor,intrastate,1,government,292
+Peru,PER,1983,1,1,2,war,intrastate,0,government,292
+Peru,PER,1984,1,1,2,war,intrastate,0,government,292
+Peru,PER,1985,1,1,2,war,intrastate,0,government,292
+Peru,PER,1986,1,1,1,minor,intrastate,0,government,292
+Peru,PER,1987,1,1,1,minor,intrastate,0,government,292
+Peru,PER,1988,1,1,2,war,intrastate,0,government,292
+Peru,PER,1989,1,1,2,war,intrastate,0,government,292
+Peru,PER,1990,1,1,2,war,intrastate,0,government,292
+Peru,PER,1991,1,1,2,war,intrastate,0,government,292
+Peru,PER,1992,1,1,2,war,intrastate,0,government,292
+Peru,PER,1993,1,1,1,minor,intrastate,0,government,292
+Peru,PER,1994,1,1,1,minor,intrastate,0,government,292
+Peru,PER,1995,1,2,1,minor,interstate; intrastate,1,government; territory,292; 403
+Peru,PER,1996,1,1,1,minor,intrastate,0,government,292
+Peru,PER,1997,1,1,1,minor,intrastate,0,government,292
+Peru,PER,1998,1,1,1,minor,intrastate,0,government,292
+Peru,PER,1999,1,1,1,minor,intrastate,0,government,292
+Peru,PER,2007,1,1,1,minor,intrastate,1,government,292
+Peru,PER,2008,1,1,1,minor,intrastate,0,government,292
+Peru,PER,2009,1,1,1,minor,intrastate,0,government,292
+Peru,PER,2010,1,1,1,minor,intrastate,0,government,292
+Philippines,PHL,1946,1,1,2,war,intrastate,1,government,209
+Philippines,PHL,1947,1,1,2,war,intrastate,0,government,209
+Philippines,PHL,1948,1,1,2,war,intrastate,0,government,209
+Philippines,PHL,1949,1,1,2,war,intrastate,0,government,209
+Philippines,PHL,1950,1,1,2,war,intrastate,0,government,209
+Philippines,PHL,1951,1,1,2,war,intrastate,0,government,209
+Philippines,PHL,1952,1,1,2,war,intrastate,0,government,209
+Philippines,PHL,1953,1,1,2,war,intrastate,0,government,209
+Philippines,PHL,1954,1,1,2,war,intrastate,0,government,209
+Philippines,PHL,1969,1,1,1,minor,intrastate,1,government,209
+Philippines,PHL,1970,1,2,1,minor,intrastate,1,government; territory,209; 308
+Philippines,PHL,1971,1,2,1,minor,intrastate,0,government; territory,209; 308
+Philippines,PHL,1972,1,2,1,minor,intrastate,0,government; territory,209; 308
+Philippines,PHL,1973,1,2,1,minor,intrastate,0,government; territory,209; 308
+Philippines,PHL,1974,1,2,1,minor,intrastate,0,government; territory,209; 308
+Philippines,PHL,1975,1,2,1,minor,intrastate,0,government; territory,209; 308
+Philippines,PHL,1976,1,2,1,minor,intrastate,0,government; territory,209; 308
+Philippines,PHL,1977,1,2,1,minor,intrastate,0,government; territory,209; 308
+Philippines,PHL,1978,1,2,2,war,intrastate,0,government; territory,209; 308
+Philippines,PHL,1979,1,2,1,minor,intrastate,0,government; territory,209; 308
+Philippines,PHL,1980,1,2,1,minor,intrastate,0,government; territory,209; 308
+Philippines,PHL,1981,1,2,2,war,intrastate,0,government; territory,209; 308
+Philippines,PHL,1982,1,2,2,war,intrastate,0,government; territory,209; 308
+Philippines,PHL,1983,1,2,2,war,intrastate,0,government; territory,209; 308
+Philippines,PHL,1984,1,2,2,war,intrastate,0,government; territory,209; 308
+Philippines,PHL,1985,1,2,2,war,intrastate,0,government; territory,209; 308
+Philippines,PHL,1986,1,2,2,war,intrastate,0,government; territory,209; 308
+Philippines,PHL,1987,1,2,2,war,intrastate,0,government; territory,209; 308
+Philippines,PHL,1988,1,2,1,minor,intrastate,0,government; territory,209; 308
+Philippines,PHL,1989,1,2,1,minor,intrastate,0,government; territory,209; 308
+Philippines,PHL,1990,1,2,2,war,intrastate,0,government; territory,209; 308
+Philippines,PHL,1991,1,1,2,war,intrastate,0,government,209
+Philippines,PHL,1992,1,1,1,minor,intrastate,0,government,209
+Philippines,PHL,1993,1,2,1,minor,intrastate,1,government; territory,209; 308
+Philippines,PHL,1994,1,2,1,minor,intrastate,0,government; territory,209; 308
+Philippines,PHL,1995,1,2,1,minor,intrastate,0,government; territory,209; 308
+Philippines,PHL,1996,1,1,1,minor,intrastate,0,territory,308
+Philippines,PHL,1997,1,2,1,minor,intrastate,1,government; territory,209; 308
+Philippines,PHL,1998,1,1,1,minor,intrastate,0,territory,308
+Philippines,PHL,1999,1,2,1,minor,intrastate,1,government; territory,209; 308
+Philippines,PHL,2000,1,2,2,war,intrastate,0,government; territory,209; 308
+Philippines,PHL,2001,1,2,1,minor,intrastate,0,government; territory,209; 308
+Philippines,PHL,2002,1,2,1,minor,intrastate,0,government; territory,209; 308
+Philippines,PHL,2003,1,2,1,minor,intrastate,0,government; territory,209; 308
+Philippines,PHL,2004,1,2,1,minor,intrastate,0,government; territory,209; 308
+Philippines,PHL,2005,1,2,1,minor,intrastate,0,government; territory,209; 308
+Philippines,PHL,2006,1,2,1,minor,intrastate,0,government; territory,209; 308
+Philippines,PHL,2007,1,2,1,minor,intrastate,0,government; territory,209; 308
+Philippines,PHL,2008,1,2,1,minor,intrastate,0,government; territory,209; 308
+Philippines,PHL,2009,1,2,1,minor,intrastate,0,government; territory,209; 308
+Philippines,PHL,2010,1,2,1,minor,intrastate,0,government; territory,209; 308
+Philippines,PHL,2011,1,2,1,minor,intrastate,0,government; territory,209; 308
+Philippines,PHL,2012,1,2,1,minor,intrastate,0,government; territory,209; 308
+Philippines,PHL,2013,1,2,1,minor,intrastate,0,government; territory,209; 308
+Philippines,PHL,2014,1,2,1,minor,intrastate,0,government; territory,209; 308
+Philippines,PHL,2015,1,2,1,minor,intrastate,0,government; territory,209; 308
+Philippines,PHL,2016,1,3,1,minor,intrastate,1,government; territory,14275; 209; 308
+Philippines,PHL,2017,1,3,2,war,internationalized intrastate; intrastate,0,government; territory,14275; 209; 308
+Philippines,PHL,2018,1,3,1,minor,intrastate,0,government; territory,14275; 209; 308
+Philippines,PHL,2019,1,3,1,minor,intrastate,0,government; territory,14275; 209; 308
+Philippines,PHL,2020,1,3,1,minor,intrastate,0,government; territory,14275; 209; 308
+Philippines,PHL,2021,1,2,1,minor,intrastate,0,government; territory,14275; 209
+Philippines,PHL,2022,1,2,1,minor,intrastate,0,government; territory,14275; 209
+Philippines,PHL,2023,1,2,1,minor,intrastate,0,government; territory,14275; 209
+Papua New Guinea,PNG,1990,1,1,1,minor,intrastate,1,territory,369
+Papua New Guinea,PNG,1992,1,1,1,minor,intrastate,1,territory,369
+Papua New Guinea,PNG,1993,1,1,1,minor,intrastate,0,territory,369
+Papua New Guinea,PNG,1994,1,1,1,minor,intrastate,0,territory,369
+Papua New Guinea,PNG,1995,1,1,1,minor,intrastate,0,territory,369
+Papua New Guinea,PNG,1996,1,1,1,minor,intrastate,0,territory,369
+North Korea,PRK,1949,1,1,1,minor,interstate,1,territory,235
+North Korea,PRK,1950,1,1,2,war,interstate,0,territory,235
+North Korea,PRK,1951,1,1,2,war,interstate,0,territory,235
+North Korea,PRK,1952,1,1,2,war,interstate,0,territory,235
+North Korea,PRK,1953,1,1,2,war,interstate,0,territory,235
+Paraguay,PRY,1947,1,1,2,war,intrastate,1,government,220
+Paraguay,PRY,1954,1,1,1,minor,intrastate,1,government,220
+Paraguay,PRY,1989,1,1,1,minor,intrastate,1,government,220
+Romania,ROU,1989,1,1,1,minor,intrastate,1,government,370
+Russia,RUS,1946,1,4,2,war,intrastate,1,territory,210; 211; 212; 213
+Russia,RUS,1947,1,3,2,war,intrastate,0,territory,210; 212; 213
+Russia,RUS,1948,1,3,2,war,intrastate,0,territory,210; 212; 213
+Russia,RUS,1949,1,1,1,minor,intrastate,0,territory,213
+Russia,RUS,1950,1,1,1,minor,intrastate,0,territory,213
+Russia,RUS,1956,1,1,2,war,interstate,1,government,250
+Russia,RUS,1969,1,1,1,minor,interstate,1,territory,305
+Russia,RUS,1979,1,1,1,minor,interstate,1,government,431
+Russia,RUS,1990,1,2,1,minor,intrastate,1,territory,376; 377
+Russia,RUS,1991,1,1,1,minor,intrastate,0,territory,376
+Russia,RUS,1993,1,1,1,minor,intrastate,1,government,399
+Russia,RUS,1994,1,1,1,minor,intrastate,1,territory,401
+Russia,RUS,1995,1,1,2,war,intrastate,0,territory,401
+Russia,RUS,1996,1,1,2,war,intrastate,0,territory,401
+Russia,RUS,1999,1,2,2,war,intrastate,1,territory,401; 414
+Russia,RUS,2000,1,1,2,war,intrastate,0,territory,401
+Russia,RUS,2001,1,1,1,minor,intrastate,0,territory,401
+Russia,RUS,2002,1,1,2,war,intrastate,0,territory,401
+Russia,RUS,2003,1,1,1,minor,intrastate,0,territory,401
+Russia,RUS,2004,1,1,2,war,intrastate,0,territory,401
+Russia,RUS,2005,1,1,1,minor,intrastate,0,territory,401
+Russia,RUS,2006,1,1,1,minor,intrastate,0,territory,401
+Russia,RUS,2007,1,2,1,minor,intrastate,1,territory,401; 432
+Russia,RUS,2008,1,1,1,minor,intrastate,0,territory,432
+Russia,RUS,2009,1,1,1,minor,intrastate,0,territory,432
+Russia,RUS,2010,1,1,1,minor,intrastate,0,territory,432
+Russia,RUS,2011,1,1,1,minor,intrastate,0,territory,432
+Russia,RUS,2012,1,1,1,minor,intrastate,0,territory,432
+Russia,RUS,2013,1,1,1,minor,intrastate,0,territory,432
+Russia,RUS,2014,1,1,1,minor,intrastate,0,territory,432
+Russia,RUS,2015,1,2,1,minor,intrastate,1,territory,13588; 432
+Russia,RUS,2016,1,1,1,minor,intrastate,0,territory,13588
+Russia,RUS,2017,1,1,1,minor,intrastate,0,territory,13588
+Russia,RUS,2018,1,1,1,minor,intrastate,0,territory,13588
+Russia,RUS,2019,1,1,1,minor,intrastate,0,territory,13588
+Russia,RUS,2020,1,1,1,minor,intrastate,0,territory,13588
+Russia,RUS,2022,1,1,2,war,interstate,1,both,13243
+Russia,RUS,2023,1,2,2,war,interstate; intrastate,1,both; government,13243; 399
+Rwanda,RWA,1990,1,1,2,war,internationalized intrastate,1,government,374
+Rwanda,RWA,1991,1,1,1,minor,intrastate,0,government,374
+Rwanda,RWA,1992,1,1,1,minor,intrastate,0,government,374
+Rwanda,RWA,1993,1,1,1,minor,intrastate,0,government,374
+Rwanda,RWA,1994,1,1,2,war,intrastate,0,government,374
+Rwanda,RWA,1996,1,1,1,minor,intrastate,1,government,374
+Rwanda,RWA,1997,1,1,2,war,intrastate,0,government,374
+Rwanda,RWA,1998,1,1,2,war,intrastate,0,government,374
+Rwanda,RWA,1999,1,1,1,minor,intrastate,0,government,374
+Rwanda,RWA,2000,1,1,1,minor,intrastate,0,government,374
+Rwanda,RWA,2001,1,1,2,war,intrastate,0,government,374
+Rwanda,RWA,2002,1,1,1,minor,intrastate,0,government,374
+Rwanda,RWA,2009,1,1,2,war,internationalized intrastate,1,government,374
+Rwanda,RWA,2010,1,1,1,minor,internationalized intrastate,0,government,374
+Rwanda,RWA,2011,1,1,1,minor,internationalized intrastate,0,government,374
+Rwanda,RWA,2012,1,1,1,minor,internationalized intrastate,0,government,374
+Rwanda,RWA,2016,1,1,1,minor,internationalized intrastate,1,government,374
+Rwanda,RWA,2019,1,1,1,minor,internationalized intrastate,1,government,374
+Rwanda,RWA,2020,1,1,1,minor,internationalized intrastate,0,government,374
+Rwanda,RWA,2022,1,1,1,minor,intrastate,1,government,374
+Rwanda,RWA,2023,1,1,1,minor,intrastate,0,government,374
+Saudi Arabia,SAU,1979,1,1,1,minor,intrastate,1,government,340
+Sudan,SDN,1963,1,1,2,war,intrastate,1,territory,282
+Sudan,SDN,1964,1,1,2,war,intrastate,0,territory,282
+Sudan,SDN,1965,1,1,2,war,intrastate,0,territory,282
+Sudan,SDN,1966,1,1,2,war,intrastate,0,territory,282
+Sudan,SDN,1967,1,1,2,war,intrastate,0,territory,282
+Sudan,SDN,1968,1,1,2,war,intrastate,0,territory,282
+Sudan,SDN,1969,1,1,2,war,intrastate,0,territory,282
+Sudan,SDN,1970,1,1,2,war,intrastate,0,territory,282
+Sudan,SDN,1971,1,2,2,war,intrastate,1,government; territory,282; 309
+Sudan,SDN,1972,1,1,2,war,intrastate,0,territory,282
+Sudan,SDN,1976,1,1,1,minor,intrastate,1,government,309
+Sudan,SDN,1983,1,1,2,war,intrastate,1,government,309
+Sudan,SDN,1984,1,1,2,war,intrastate,0,government,309
+Sudan,SDN,1985,1,1,2,war,intrastate,0,government,309
+Sudan,SDN,1986,1,1,2,war,intrastate,0,government,309
+Sudan,SDN,1987,1,1,2,war,intrastate,0,government,309
+Sudan,SDN,1988,1,1,2,war,intrastate,0,government,309
+Sudan,SDN,1989,1,1,2,war,intrastate,0,government,309
+Sudan,SDN,1990,1,1,2,war,intrastate,0,government,309
+Sudan,SDN,1991,1,1,2,war,intrastate,0,government,309
+Sudan,SDN,1992,1,1,2,war,intrastate,0,government,309
+Sudan,SDN,1993,1,1,1,minor,intrastate,0,government,309
+Sudan,SDN,1994,1,1,1,minor,intrastate,0,government,309
+Sudan,SDN,1995,1,1,2,war,intrastate,0,government,309
+Sudan,SDN,1996,1,1,2,war,intrastate,0,government,309
+Sudan,SDN,1997,1,1,2,war,intrastate,0,government,309
+Sudan,SDN,1998,1,1,2,war,intrastate,0,government,309
+Sudan,SDN,1999,1,1,2,war,intrastate,0,government,309
+Sudan,SDN,2000,1,1,2,war,intrastate,0,government,309
+Sudan,SDN,2001,1,1,2,war,intrastate,0,government,309
+Sudan,SDN,2002,1,1,2,war,intrastate,0,government,309
+Sudan,SDN,2003,1,1,2,war,internationalized intrastate,0,government,309
+Sudan,SDN,2004,1,1,2,war,intrastate,0,government,309
+Sudan,SDN,2005,1,1,1,minor,intrastate,0,government,309
+Sudan,SDN,2006,1,1,2,war,intrastate,0,government,309
+Sudan,SDN,2007,1,1,1,minor,intrastate,0,government,309
+Sudan,SDN,2008,1,1,1,minor,intrastate,0,government,309
+Sudan,SDN,2009,1,1,1,minor,intrastate,0,government,309
+Sudan,SDN,2010,1,1,2,war,intrastate,0,government,309
+Sudan,SDN,2011,1,2,2,war,internationalized intrastate; intrastate,1,government; territory,11344; 309
+Sudan,SDN,2012,1,2,2,war,interstate; intrastate,1,government; territory,11348; 309
+Sudan,SDN,2013,1,1,1,minor,intrastate,0,government,309
+Sudan,SDN,2014,1,1,1,minor,intrastate,0,government,309
+Sudan,SDN,2015,1,1,2,war,intrastate,0,government,309
+Sudan,SDN,2016,1,1,2,war,intrastate,0,government,309
+Sudan,SDN,2017,1,1,1,minor,intrastate,0,government,309
+Sudan,SDN,2018,1,1,1,minor,intrastate,0,government,309
+Sudan,SDN,2020,1,1,1,minor,intrastate,1,government,309
+Sudan,SDN,2021,1,1,1,minor,intrastate,0,government,309
+Sudan,SDN,2022,1,1,1,minor,intrastate,0,government,309
+Sudan,SDN,2023,1,1,2,war,intrastate,0,government,309
+Senegal,SEN,1990,1,1,1,minor,intrastate,1,territory,375
+Senegal,SEN,1992,1,1,1,minor,intrastate,1,territory,375
+Senegal,SEN,1993,1,1,1,minor,intrastate,0,territory,375
+Senegal,SEN,1995,1,1,1,minor,intrastate,1,territory,375
+Senegal,SEN,1997,1,1,1,minor,intrastate,1,territory,375
+Senegal,SEN,1998,1,1,1,minor,intrastate,0,territory,375
+Senegal,SEN,2000,1,1,1,minor,intrastate,1,territory,375
+Senegal,SEN,2001,1,1,1,minor,intrastate,0,territory,375
+Senegal,SEN,2003,1,1,1,minor,intrastate,1,territory,375
+Senegal,SEN,2011,1,1,1,minor,intrastate,1,territory,375
+Sierra Leone,SLE,1991,1,1,1,minor,internationalized intrastate,1,government,382
+Sierra Leone,SLE,1992,1,1,1,minor,internationalized intrastate,0,government,382
+Sierra Leone,SLE,1993,1,1,1,minor,internationalized intrastate,0,government,382
+Sierra Leone,SLE,1994,1,1,1,minor,internationalized intrastate,0,government,382
+Sierra Leone,SLE,1995,1,1,2,war,internationalized intrastate,0,government,382
+Sierra Leone,SLE,1996,1,1,1,minor,internationalized intrastate,0,government,382
+Sierra Leone,SLE,1997,1,1,1,minor,internationalized intrastate,0,government,382
+Sierra Leone,SLE,1998,1,1,2,war,internationalized intrastate,0,government,382
+Sierra Leone,SLE,1999,1,1,2,war,internationalized intrastate,0,government,382
+Sierra Leone,SLE,2000,1,1,1,minor,internationalized intrastate,0,government,382
+Sierra Leone,SLE,2001,1,1,1,minor,intrastate,0,government,382
+El Salvador,SLV,1969,1,1,2,war,interstate,1,territory,306
+El Salvador,SLV,1972,1,1,1,minor,intrastate,1,government,316
+El Salvador,SLV,1979,1,1,1,minor,intrastate,1,government,316
+El Salvador,SLV,1980,1,1,1,minor,intrastate,0,government,316
+El Salvador,SLV,1981,1,1,2,war,intrastate,0,government,316
+El Salvador,SLV,1982,1,1,2,war,intrastate,0,government,316
+El Salvador,SLV,1983,1,1,2,war,intrastate,0,government,316
+El Salvador,SLV,1984,1,1,2,war,intrastate,0,government,316
+El Salvador,SLV,1985,1,1,2,war,intrastate,0,government,316
+El Salvador,SLV,1986,1,1,2,war,intrastate,0,government,316
+El Salvador,SLV,1987,1,1,2,war,intrastate,0,government,316
+El Salvador,SLV,1988,1,1,2,war,intrastate,0,government,316
+El Salvador,SLV,1989,1,1,2,war,intrastate,0,government,316
+El Salvador,SLV,1990,1,1,1,minor,intrastate,0,government,316
+El Salvador,SLV,1991,1,1,1,minor,intrastate,0,government,316
+Somalia,SOM,1964,1,1,1,minor,interstate,1,territory,268
+Somalia,SOM,1977,1,1,2,war,interstate,1,territory,268
+Somalia,SOM,1978,1,1,2,war,interstate,0,territory,268
+Somalia,SOM,1980,1,1,1,minor,interstate,1,territory,268
+Somalia,SOM,1982,1,1,1,minor,intrastate,1,government,337
+Somalia,SOM,1983,1,1,1,minor,intrastate,0,government,337
+Somalia,SOM,1984,1,1,1,minor,intrastate,0,government,337
+Somalia,SOM,1986,1,1,1,minor,intrastate,1,government,337
+Somalia,SOM,1987,1,1,1,minor,intrastate,0,government,337
+Somalia,SOM,1988,1,1,2,war,intrastate,0,government,337
+Somalia,SOM,1989,1,1,1,minor,intrastate,0,government,337
+Somalia,SOM,1990,1,1,2,war,intrastate,0,government,337
+Somalia,SOM,1991,1,1,2,war,intrastate,0,government,337
+Somalia,SOM,1992,1,1,2,war,intrastate,0,government,337
+Somalia,SOM,1993,1,1,1,minor,intrastate,0,government,337
+Somalia,SOM,1994,1,1,1,minor,intrastate,0,government,337
+Somalia,SOM,1995,1,1,1,minor,intrastate,0,government,337
+Somalia,SOM,1996,1,1,1,minor,intrastate,0,government,337
+Somalia,SOM,2001,1,1,1,minor,intrastate,1,government,337
+Somalia,SOM,2002,1,1,1,minor,intrastate,0,government,337
+Somalia,SOM,2006,1,1,1,minor,internationalized intrastate,1,government,337
+Somalia,SOM,2007,1,1,2,war,internationalized intrastate,0,government,337
+Somalia,SOM,2008,1,1,2,war,internationalized intrastate,0,government,337
+Somalia,SOM,2009,1,1,2,war,internationalized intrastate,0,government,337
+Somalia,SOM,2010,1,1,2,war,internationalized intrastate,0,government,337
+Somalia,SOM,2011,1,1,2,war,internationalized intrastate,0,government,337
+Somalia,SOM,2012,1,1,2,war,internationalized intrastate,0,government,337
+Somalia,SOM,2013,1,1,1,minor,internationalized intrastate,0,government,337
+Somalia,SOM,2014,1,1,2,war,internationalized intrastate,0,government,337
+Somalia,SOM,2015,1,1,2,war,internationalized intrastate,0,government,337
+Somalia,SOM,2016,1,1,2,war,internationalized intrastate,0,government,337
+Somalia,SOM,2017,1,1,2,war,internationalized intrastate,0,government,337
+Somalia,SOM,2018,1,2,2,war,internationalized intrastate; intrastate,1,government; territory,14074; 337
+Somalia,SOM,2019,1,2,2,war,internationalized intrastate,1,government; territory,14197; 337
+Somalia,SOM,2020,1,2,2,war,internationalized intrastate,0,government; territory,14197; 337
+Somalia,SOM,2021,1,2,2,war,internationalized intrastate,0,government; territory,14197; 337
+Somalia,SOM,2022,1,1,2,war,internationalized intrastate,0,government,337
+Somalia,SOM,2023,1,1,2,war,internationalized intrastate,0,government,337
+Serbia,SRB,1991,1,2,2,war,intrastate,1,territory,384; 385
+Serbia,SRB,1992,1,1,1,minor,intrastate,0,territory,385
+Serbia,SRB,1998,1,1,2,war,intrastate,1,territory,412
+Serbia,SRB,1999,1,1,2,war,internationalized intrastate,0,territory,412
+South Sudan,SSD,2011,1,1,1,minor,intrastate,1,government,11345
+South Sudan,SSD,2012,1,2,1,minor,interstate; intrastate,1,government; territory,11345; 11348
+South Sudan,SSD,2013,1,1,1,minor,intrastate,0,government,11345
+South Sudan,SSD,2014,1,1,2,war,internationalized intrastate,0,government,11345
+South Sudan,SSD,2015,1,1,1,minor,internationalized intrastate,0,government,11345
+South Sudan,SSD,2016,1,1,1,minor,intrastate,0,government,11345
+South Sudan,SSD,2017,1,1,1,minor,intrastate,0,government,11345
+South Sudan,SSD,2018,1,1,1,minor,intrastate,0,government,11345
+South Sudan,SSD,2019,1,1,1,minor,intrastate,0,government,11345
+South Sudan,SSD,2020,1,1,1,minor,intrastate,0,government,11345
+South Sudan,SSD,2021,1,1,1,minor,intrastate,0,government,11345
+Suriname,SUR,1987,1,1,1,minor,intrastate,1,government,357
+Syria,SYR,1948,1,1,2,war,interstate,1,territory,228
+Syria,SYR,1949,1,1,1,minor,interstate,0,territory,228
+Syria,SYR,1966,1,1,1,minor,intrastate,1,government,299
+Syria,SYR,1967,1,1,2,war,interstate,1,territory,302
+Syria,SYR,1973,1,1,2,war,interstate,1,territory,302
+Syria,SYR,1979,1,1,1,minor,intrastate,1,government,299
+Syria,SYR,1980,1,1,1,minor,intrastate,0,government,299
+Syria,SYR,1981,1,1,1,minor,intrastate,0,government,299
+Syria,SYR,1982,1,1,2,war,intrastate,0,government,299
+Syria,SYR,2011,1,1,2,war,intrastate,1,government,299
+Syria,SYR,2012,1,2,2,war,intrastate,1,government; territory,13042; 299
+Syria,SYR,2013,1,3,2,war,intrastate,1,government; territory,13042; 13604; 299
+Syria,SYR,2014,1,3,2,war,intrastate,0,government; territory,13042; 13604; 299
+Syria,SYR,2015,1,3,2,war,internationalized intrastate; intrastate,0,government; territory,13042; 13604; 299
+Syria,SYR,2016,1,3,2,war,internationalized intrastate; intrastate,1,both; government; territory,13604; 13809; 299
+Syria,SYR,2017,1,2,2,war,internationalized intrastate,0,government; territory,13604; 299
+Syria,SYR,2018,1,3,2,war,internationalized intrastate; intrastate,1,both; government; territory,13604; 13809; 299
+Syria,SYR,2019,1,2,2,war,internationalized intrastate,0,government; territory,13604; 299
+Syria,SYR,2020,1,2,2,war,internationalized intrastate,0,government; territory,13604; 299
+Syria,SYR,2021,1,2,1,minor,internationalized intrastate,0,government; territory,13604; 299
+Syria,SYR,2022,1,2,1,minor,internationalized intrastate,0,government; territory,13604; 299
+Syria,SYR,2023,1,3,2,war,internationalized intrastate; intrastate,1,both; government; territory,13604; 13809; 299
+Chad,TCD,1966,1,1,1,minor,intrastate,1,government,288
+Chad,TCD,1967,1,1,1,minor,intrastate,0,government,288
+Chad,TCD,1968,1,1,1,minor,intrastate,0,government,288
+Chad,TCD,1969,1,1,1,minor,internationalized intrastate,0,government,288
+Chad,TCD,1970,1,1,1,minor,internationalized intrastate,0,government,288
+Chad,TCD,1971,1,1,1,minor,internationalized intrastate,0,government,288
+Chad,TCD,1972,1,1,1,minor,internationalized intrastate,0,government,288
+Chad,TCD,1976,1,1,1,minor,intrastate,1,government,288
+Chad,TCD,1977,1,1,1,minor,intrastate,0,government,288
+Chad,TCD,1978,1,1,2,war,internationalized intrastate,0,government,288
+Chad,TCD,1979,1,1,2,war,intrastate,0,government,288
+Chad,TCD,1980,1,1,2,war,internationalized intrastate,0,government,288
+Chad,TCD,1981,1,1,1,minor,internationalized intrastate,0,government,288
+Chad,TCD,1982,1,1,1,minor,intrastate,0,government,288
+Chad,TCD,1983,1,2,1,minor,internationalized intrastate; interstate,1,government; territory,288; 349
+Chad,TCD,1984,1,1,1,minor,internationalized intrastate,0,government,288
+Chad,TCD,1986,1,1,1,minor,internationalized intrastate,1,government,288
+Chad,TCD,1987,1,2,2,war,internationalized intrastate; interstate,1,government; territory,288; 361
+Chad,TCD,1989,1,1,1,minor,intrastate,1,government,288
+Chad,TCD,1990,1,1,2,war,intrastate,0,government,288
+Chad,TCD,1991,1,1,1,minor,intrastate,0,government,288
+Chad,TCD,1992,1,1,1,minor,intrastate,0,government,288
+Chad,TCD,1993,1,1,1,minor,intrastate,0,government,288
+Chad,TCD,1994,1,1,1,minor,intrastate,0,government,288
+Chad,TCD,1997,1,1,1,minor,intrastate,1,government,288
+Chad,TCD,1998,1,1,1,minor,intrastate,0,government,288
+Chad,TCD,1999,1,1,1,minor,intrastate,0,government,288
+Chad,TCD,2000,1,1,2,war,intrastate,0,government,288
+Chad,TCD,2001,1,1,1,minor,intrastate,0,government,288
+Chad,TCD,2002,1,1,1,minor,intrastate,0,government,288
+Chad,TCD,2003,1,1,1,minor,intrastate,0,government,288
+Chad,TCD,2005,1,1,1,minor,intrastate,1,government,288
+Chad,TCD,2006,1,1,2,war,intrastate,0,government,288
+Chad,TCD,2007,1,1,1,minor,intrastate,0,government,288
+Chad,TCD,2008,1,1,1,minor,intrastate,0,government,288
+Chad,TCD,2009,1,1,1,minor,intrastate,0,government,288
+Chad,TCD,2010,1,1,1,minor,intrastate,0,government,288
+Chad,TCD,2015,1,1,1,minor,intrastate,1,territory,13640
+Chad,TCD,2017,1,1,1,minor,intrastate,1,territory,13640
+Chad,TCD,2018,1,2,1,minor,intrastate,1,government; territory,13640; 288
+Chad,TCD,2019,1,1,1,minor,intrastate,0,territory,13640
+Chad,TCD,2020,1,2,1,minor,intrastate,1,government; territory,13640; 288
+Chad,TCD,2021,1,2,1,minor,intrastate,0,government; territory,13640; 288
+Chad,TCD,2022,1,1,1,minor,intrastate,0,territory,13640
+Chad,TCD,2023,1,1,1,minor,intrastate,1,government,288
+Togo,TGO,1986,1,1,1,minor,intrastate,1,government,358
+Togo,TGO,2022,1,1,1,minor,intrastate,1,government,358
+Togo,TGO,2023,1,1,1,minor,intrastate,0,government,358
+Thailand,THA,1946,1,1,1,minor,interstate,1,territory,214
+Thailand,THA,1951,1,1,1,minor,intrastate,1,government,240
+Thailand,THA,1974,1,1,1,minor,intrastate,1,government,240
+Thailand,THA,1975,1,1,1,minor,intrastate,0,government,240
+Thailand,THA,1976,1,1,1,minor,intrastate,0,government,240
+Thailand,THA,1977,1,2,1,minor,interstate; intrastate,1,government; territory,240; 294
+Thailand,THA,1978,1,2,1,minor,interstate; intrastate,0,government; territory,240; 294
+Thailand,THA,1979,1,1,1,minor,intrastate,0,government,240
+Thailand,THA,1980,1,1,1,minor,intrastate,0,government,240
+Thailand,THA,1981,1,1,1,minor,intrastate,0,government,240
+Thailand,THA,1982,1,1,1,minor,intrastate,0,government,240
+Thailand,THA,1986,1,1,1,minor,interstate,1,territory,356
+Thailand,THA,1987,1,1,1,minor,interstate,0,territory,356
+Thailand,THA,1988,1,1,1,minor,interstate,0,territory,356
+Thailand,THA,2003,1,1,1,minor,intrastate,1,territory,423
+Thailand,THA,2004,1,1,1,minor,intrastate,0,territory,423
+Thailand,THA,2005,1,1,1,minor,intrastate,0,territory,423
+Thailand,THA,2006,1,1,1,minor,intrastate,0,territory,423
+Thailand,THA,2007,1,1,1,minor,intrastate,0,territory,423
+Thailand,THA,2008,1,1,1,minor,intrastate,0,territory,423
+Thailand,THA,2009,1,1,1,minor,intrastate,0,territory,423
+Thailand,THA,2010,1,1,1,minor,intrastate,0,territory,423
+Thailand,THA,2011,1,2,1,minor,interstate; intrastate,1,territory,294; 423
+Thailand,THA,2012,1,1,1,minor,intrastate,0,territory,423
+Thailand,THA,2013,1,1,1,minor,intrastate,0,territory,423
+Thailand,THA,2014,1,1,1,minor,intrastate,0,territory,423
+Thailand,THA,2015,1,1,1,minor,intrastate,0,territory,423
+Thailand,THA,2016,1,1,1,minor,intrastate,0,territory,423
+Thailand,THA,2017,1,1,1,minor,intrastate,0,territory,423
+Thailand,THA,2018,1,1,1,minor,intrastate,0,territory,423
+Thailand,THA,2019,1,1,1,minor,intrastate,0,territory,423
+Thailand,THA,2020,1,1,1,minor,intrastate,0,territory,423
+Thailand,THA,2021,1,1,1,minor,intrastate,0,territory,423
+Thailand,THA,2022,1,1,1,minor,intrastate,0,territory,423
+Thailand,THA,2023,1,1,1,minor,intrastate,0,territory,423
+Tajikistan,TJK,1992,1,1,2,war,internationalized intrastate,1,government,395
+Tajikistan,TJK,1993,1,1,2,war,internationalized intrastate,0,government,395
+Tajikistan,TJK,1994,1,1,1,minor,internationalized intrastate,0,government,395
+Tajikistan,TJK,1995,1,1,1,minor,internationalized intrastate,0,government,395
+Tajikistan,TJK,1996,1,1,2,war,internationalized intrastate,0,government,395
+Tajikistan,TJK,1997,1,1,1,minor,intrastate,0,government,395
+Tajikistan,TJK,1998,1,1,1,minor,intrastate,0,government,395
+Tajikistan,TJK,2000,1,1,1,minor,intrastate,1,government,395
+Tajikistan,TJK,2010,1,1,1,minor,intrastate,1,government,395
+Tajikistan,TJK,2011,1,1,1,minor,intrastate,0,government,395
+Tajikistan,TJK,2021,1,1,1,minor,interstate,1,territory,13324
+Tajikistan,TJK,2022,1,1,1,minor,interstate,0,territory,13324
+Trinidad and Tobago,TTO,1990,1,1,1,minor,intrastate,1,government,378
+Tunisia,TUN,1953,1,1,1,minor,extrasystemic,1,territory,245
+Tunisia,TUN,1954,1,1,1,minor,extrasystemic,0,territory,245
+Tunisia,TUN,1955,1,1,1,minor,extrasystemic,0,territory,245
+Tunisia,TUN,1956,1,1,1,minor,extrasystemic,0,territory,245
+Tunisia,TUN,1961,1,1,2,war,interstate,1,territory,272
+Tunisia,TUN,1980,1,1,1,minor,intrastate,1,government,343
+Tunisia,TUN,2013,1,1,1,minor,intrastate,1,government,343
+Tunisia,TUN,2014,1,1,1,minor,intrastate,0,government,343
+Tunisia,TUN,2015,1,1,1,minor,intrastate,0,government,343
+Tunisia,TUN,2016,1,1,1,minor,intrastate,1,territory,14333
+Turkey,TUR,1974,1,1,2,war,interstate,1,territory,323
+Turkey,TUR,1984,1,1,1,minor,intrastate,1,territory,354
+Turkey,TUR,1985,1,1,1,minor,intrastate,0,territory,354
+Turkey,TUR,1986,1,1,1,minor,intrastate,0,territory,354
+Turkey,TUR,1987,1,1,1,minor,intrastate,0,territory,354
+Turkey,TUR,1988,1,1,1,minor,intrastate,0,territory,354
+Turkey,TUR,1989,1,1,1,minor,intrastate,0,territory,354
+Turkey,TUR,1990,1,1,1,minor,intrastate,0,territory,354
+Turkey,TUR,1991,1,2,1,minor,intrastate,1,government; territory,354; 383
+Turkey,TUR,1992,1,2,2,war,intrastate,0,government; territory,354; 383
+Turkey,TUR,1993,1,2,2,war,intrastate,0,government; territory,354; 383
+Turkey,TUR,1994,1,1,2,war,intrastate,0,territory,354
+Turkey,TUR,1995,1,1,2,war,intrastate,0,territory,354
+Turkey,TUR,1996,1,1,2,war,intrastate,0,territory,354
+Turkey,TUR,1997,1,1,2,war,intrastate,0,territory,354
+Turkey,TUR,1998,1,1,2,war,intrastate,0,territory,354
+Turkey,TUR,1999,1,1,2,war,intrastate,0,territory,354
+Turkey,TUR,2000,1,2,1,minor,intrastate,1,government; territory,354; 383
+Turkey,TUR,2001,1,1,1,minor,intrastate,0,territory,354
+Turkey,TUR,2002,1,1,1,minor,intrastate,0,territory,354
+Turkey,TUR,2003,1,1,1,minor,intrastate,0,territory,354
+Turkey,TUR,2004,1,1,1,minor,intrastate,0,territory,354
+Turkey,TUR,2005,1,2,1,minor,intrastate,1,government; territory,354; 383
+Turkey,TUR,2006,1,1,1,minor,intrastate,0,territory,354
+Turkey,TUR,2007,1,1,1,minor,intrastate,0,territory,354
+Turkey,TUR,2008,1,1,1,minor,intrastate,0,territory,354
+Turkey,TUR,2009,1,1,1,minor,intrastate,0,territory,354
+Turkey,TUR,2010,1,1,1,minor,intrastate,0,territory,354
+Turkey,TUR,2011,1,1,1,minor,intrastate,0,territory,354
+Turkey,TUR,2012,1,1,1,minor,intrastate,0,territory,354
+Turkey,TUR,2013,1,1,1,minor,intrastate,0,territory,354
+Turkey,TUR,2015,1,2,1,minor,intrastate,1,territory,13902; 354
+Turkey,TUR,2016,1,3,2,war,intrastate,1,government; territory,13902; 354; 383
+Turkey,TUR,2017,1,2,1,minor,intrastate,0,territory,13902; 354
+Turkey,TUR,2018,1,1,1,minor,intrastate,0,territory,354
+Turkey,TUR,2019,1,1,1,minor,intrastate,0,territory,354
+Turkey,TUR,2020,1,1,1,minor,intrastate,0,territory,354
+Turkey,TUR,2021,1,1,1,minor,intrastate,0,territory,354
+Turkey,TUR,2022,1,1,1,minor,intrastate,0,territory,354
+Turkey,TUR,2023,1,1,1,minor,intrastate,0,territory,354
+Taiwan,TWN,1949,1,1,2,war,interstate,1,both,232
+Taiwan,TWN,1950,1,1,1,minor,interstate,0,both,232
+Taiwan,TWN,1954,1,1,2,war,interstate,1,both,232
+Taiwan,TWN,1958,1,1,2,war,interstate,1,both,232
+Tanzania,TZA,1978,1,1,1,minor,interstate,1,territory,427
+Tanzania,TZA,2020,1,1,1,minor,intrastate,1,territory,15183
+Uganda,UGA,1971,1,1,1,minor,intrastate,1,government,314
+Uganda,UGA,1972,1,1,1,minor,intrastate,0,government,314
+Uganda,UGA,1974,1,1,1,minor,intrastate,1,government,314
+Uganda,UGA,1978,1,1,1,minor,interstate,1,territory,427
+Uganda,UGA,1979,1,1,1,minor,internationalized intrastate,1,government,314
+Uganda,UGA,1980,1,1,1,minor,internationalized intrastate,0,government,314
+Uganda,UGA,1981,1,1,2,war,internationalized intrastate,0,government,314
+Uganda,UGA,1982,1,1,2,war,intrastate,0,government,314
+Uganda,UGA,1983,1,1,2,war,intrastate,0,government,314
+Uganda,UGA,1984,1,1,2,war,intrastate,0,government,314
+Uganda,UGA,1985,1,1,2,war,intrastate,0,government,314
+Uganda,UGA,1986,1,1,2,war,intrastate,0,government,314
+Uganda,UGA,1987,1,1,2,war,intrastate,0,government,314
+Uganda,UGA,1988,1,1,2,war,intrastate,0,government,314
+Uganda,UGA,1989,1,1,2,war,intrastate,0,government,314
+Uganda,UGA,1990,1,1,1,minor,intrastate,0,government,314
+Uganda,UGA,1991,1,1,1,minor,intrastate,0,government,314
+Uganda,UGA,1992,1,1,1,minor,intrastate,0,government,314
+Uganda,UGA,1994,1,1,1,minor,intrastate,1,government,314
+Uganda,UGA,1995,1,1,1,minor,intrastate,0,government,314
+Uganda,UGA,1996,1,1,2,war,intrastate,0,government,314
+Uganda,UGA,1997,1,1,1,minor,intrastate,0,government,314
+Uganda,UGA,1998,1,1,1,minor,intrastate,0,government,314
+Uganda,UGA,1999,1,1,1,minor,intrastate,0,government,314
+Uganda,UGA,2000,1,1,1,minor,intrastate,0,government,314
+Uganda,UGA,2001,1,1,1,minor,intrastate,0,government,314
+Uganda,UGA,2002,1,1,2,war,intrastate,0,government,314
+Uganda,UGA,2003,1,1,1,minor,intrastate,0,government,314
+Uganda,UGA,2004,1,1,2,war,intrastate,0,government,314
+Uganda,UGA,2005,1,1,1,minor,internationalized intrastate,0,government,314
+Uganda,UGA,2006,1,1,1,minor,intrastate,0,government,314
+Uganda,UGA,2007,1,1,1,minor,intrastate,0,government,314
+Uganda,UGA,2008,1,1,1,minor,internationalized intrastate,0,government,314
+Uganda,UGA,2009,1,1,1,minor,internationalized intrastate,0,government,314
+Uganda,UGA,2010,1,1,1,minor,internationalized intrastate,0,government,314
+Uganda,UGA,2011,1,1,1,minor,internationalized intrastate,0,government,314
+Uganda,UGA,2013,1,1,1,minor,internationalized intrastate,1,government,314
+Uganda,UGA,2014,1,1,1,minor,internationalized intrastate,0,government,314
+Uganda,UGA,2015,1,1,1,minor,internationalized intrastate,0,government,314
+Uganda,UGA,2016,1,1,1,minor,internationalized intrastate,0,government,314
+Uganda,UGA,2017,1,1,1,minor,internationalized intrastate,0,government,314
+Uganda,UGA,2022,1,1,1,minor,intrastate,1,territory,15438
+Ukraine,UKR,2014,1,4,2,war,internationalized intrastate; intrastate,1,government; territory,13219; 13246; 13247; 13306
+Ukraine,UKR,2015,1,1,2,war,internationalized intrastate,0,territory,13306
+Ukraine,UKR,2016,1,1,1,minor,internationalized intrastate,0,territory,13306
+Ukraine,UKR,2017,1,1,1,minor,internationalized intrastate,0,territory,13306
+Ukraine,UKR,2018,1,1,1,minor,internationalized intrastate,0,territory,13306
+Ukraine,UKR,2019,1,1,1,minor,internationalized intrastate,0,territory,13306
+Ukraine,UKR,2020,1,1,1,minor,internationalized intrastate,0,territory,13306
+Ukraine,UKR,2021,1,1,1,minor,internationalized intrastate,0,territory,13306
+Ukraine,UKR,2022,1,2,2,war,internationalized intrastate; interstate,1,both; territory,13243; 13306
+Ukraine,UKR,2023,1,1,2,war,interstate,0,both,13243
+Uruguay,URY,1972,1,1,1,minor,intrastate,1,government,319
+United States,USA,1950,1,1,1,minor,extrasystemic,1,territory,238
+United States,USA,1983,1,1,1,minor,interstate,1,government,350
+United States,USA,1989,1,1,1,minor,interstate,1,government,368
+United States,USA,2001,1,2,2,war,internationalized intrastate; interstate,1,government,13692; 418
+United States,USA,2002,1,1,1,minor,internationalized intrastate,0,government,418
+United States,USA,2003,1,2,2,war,internationalized intrastate; interstate,1,government,418; 420
+United States,USA,2004,1,1,1,minor,internationalized intrastate,0,government,418
+United States,USA,2005,1,1,1,minor,internationalized intrastate,0,government,418
+United States,USA,2006,1,1,1,minor,internationalized intrastate,0,government,418
+United States,USA,2007,1,1,1,minor,internationalized intrastate,0,government,418
+United States,USA,2008,1,1,1,minor,internationalized intrastate,0,government,418
+United States,USA,2009,1,1,1,minor,internationalized intrastate,0,government,418
+United States,USA,2010,1,1,1,minor,internationalized intrastate,0,government,418
+United States,USA,2011,1,1,1,minor,internationalized intrastate,0,government,418
+United States,USA,2012,1,1,1,minor,internationalized intrastate,0,government,418
+United States,USA,2013,1,1,1,minor,internationalized intrastate,0,government,418
+United States,USA,2014,1,1,1,minor,internationalized intrastate,0,government,418
+United States,USA,2015,1,1,1,minor,internationalized intrastate,0,government,418
+United States,USA,2016,1,1,1,minor,internationalized intrastate,0,government,418
+United States,USA,2017,1,1,1,minor,internationalized intrastate,0,government,418
+United States,USA,2019,1,1,1,minor,internationalized intrastate,1,government,418
+Uzbekistan,UZB,1999,1,1,1,minor,intrastate,1,government,415
+Uzbekistan,UZB,2000,1,1,1,minor,internationalized intrastate,0,government,415
+Uzbekistan,UZB,2004,1,1,1,minor,intrastate,1,government,415
+Venezuela,VEN,1962,1,1,1,minor,intrastate,1,government,277
+Venezuela,VEN,1982,1,1,1,minor,intrastate,1,government,277
+Venezuela,VEN,1992,1,1,1,minor,intrastate,1,government,277
+Vietnam,VNM,1946,1,1,2,war,extrasystemic,1,territory,216
+Vietnam,VNM,1947,1,1,2,war,extrasystemic,0,territory,216
+Vietnam,VNM,1948,1,1,2,war,extrasystemic,0,territory,216
+Vietnam,VNM,1949,1,1,2,war,extrasystemic,0,territory,216
+Vietnam,VNM,1950,1,1,2,war,extrasystemic,0,territory,216
+Vietnam,VNM,1951,1,1,2,war,extrasystemic,0,territory,216
+Vietnam,VNM,1952,1,1,2,war,extrasystemic,0,territory,216
+Vietnam,VNM,1953,1,1,2,war,extrasystemic,0,territory,216
+Vietnam,VNM,1954,1,1,2,war,extrasystemic,0,territory,216
+Vietnam,VNM,1955,1,1,2,war,intrastate,1,territory,249
+Vietnam,VNM,1956,1,1,2,war,intrastate,0,territory,249
+Vietnam,VNM,1957,1,1,2,war,intrastate,0,territory,249
+Vietnam,VNM,1958,1,1,2,war,intrastate,0,territory,249
+Vietnam,VNM,1959,1,1,2,war,intrastate,0,territory,249
+Vietnam,VNM,1960,1,1,2,war,intrastate,0,territory,249
+Vietnam,VNM,1961,1,1,2,war,intrastate,0,territory,249
+Vietnam,VNM,1962,1,1,2,war,internationalized intrastate,0,territory,249
+Vietnam,VNM,1963,1,1,2,war,internationalized intrastate,0,territory,249
+Vietnam,VNM,1964,1,1,2,war,internationalized intrastate,0,territory,249
+Vietnam,VNM,1965,1,2,2,war,interstate,1,territory,293; 293
+Vietnam,VNM,1966,1,2,2,war,interstate,0,territory,293; 293
+Vietnam,VNM,1967,1,2,2,war,interstate,0,territory,293; 293
+Vietnam,VNM,1968,1,2,2,war,interstate,0,territory,293; 293
+Vietnam,VNM,1969,1,2,2,war,interstate,0,territory,293; 293
+Vietnam,VNM,1970,1,2,2,war,interstate,0,territory,293; 293
+Vietnam,VNM,1971,1,2,2,war,interstate,0,territory,293; 293
+Vietnam,VNM,1972,1,2,2,war,interstate,0,territory,293; 293
+Vietnam,VNM,1973,1,2,2,war,interstate,0,territory,293; 293
+Vietnam,VNM,1974,1,3,2,war,interstate,1,territory,293; 293; 334
+Vietnam,VNM,1975,1,3,2,war,interstate,1,territory,293; 293; 328
+Vietnam,VNM,1976,1,1,1,minor,interstate,0,territory,328
+Vietnam,VNM,1977,1,1,1,minor,interstate,0,territory,328
+Vietnam,VNM,1978,1,1,1,minor,interstate,1,territory,334
+Vietnam,VNM,1979,1,1,2,war,interstate,0,territory,334
+Vietnam,VNM,1980,1,1,1,minor,interstate,0,territory,334
+Vietnam,VNM,1981,1,1,1,minor,interstate,0,territory,334
+Vietnam,VNM,1983,1,1,1,minor,interstate,1,territory,334
+Vietnam,VNM,1984,1,1,1,minor,interstate,0,territory,334
+Vietnam,VNM,1986,1,1,1,minor,interstate,1,territory,334
+Vietnam,VNM,1987,1,1,1,minor,interstate,0,territory,334
+Vietnam,VNM,1988,1,1,1,minor,interstate,0,territory,334
+Yemen,YEM,1948,1,1,2,war,intrastate,1,government,230
+Yemen,YEM,1962,1,1,2,war,internationalized intrastate,1,government,230
+Yemen,YEM,1963,1,1,2,war,internationalized intrastate,0,government,230
+Yemen,YEM,1964,1,2,2,war,extrasystemic; internationalized intrastate,1,government; territory,230; 286
+Yemen,YEM,1965,1,2,1,minor,extrasystemic; internationalized intrastate,0,government; territory,230; 286
+Yemen,YEM,1966,1,2,2,war,extrasystemic; internationalized intrastate,0,government; territory,230; 286
+Yemen,YEM,1967,1,2,2,war,extrasystemic; internationalized intrastate,0,government; territory,230; 286
+Yemen,YEM,1968,1,1,1,minor,internationalized intrastate,0,government,230
+Yemen,YEM,1969,1,1,1,minor,internationalized intrastate,0,government,230
+Yemen,YEM,1970,1,1,1,minor,internationalized intrastate,0,government,230
+Yemen,YEM,1972,1,2,1,minor,interstate,1,both,320; 320
+Yemen,YEM,1979,1,3,1,minor,interstate; intrastate,1,both; government,230; 320; 320
+Yemen,YEM,1980,1,1,1,minor,intrastate,0,government,230
+Yemen,YEM,1981,1,1,1,minor,intrastate,0,government,230
+Yemen,YEM,1982,1,1,1,minor,intrastate,0,government,230
+Yemen,YEM,1986,1,1,2,war,intrastate,1,government,359
+Yemen,YEM,1994,1,1,2,war,intrastate,1,territory,402
+Yemen,YEM,2009,1,1,1,minor,internationalized intrastate,1,government,230
+Yemen,YEM,2010,1,1,1,minor,internationalized intrastate,0,government,230
+Yemen,YEM,2011,1,1,2,war,internationalized intrastate,0,government,230
+Yemen,YEM,2012,1,1,2,war,internationalized intrastate,0,government,230
+Yemen,YEM,2013,1,1,1,minor,internationalized intrastate,0,government,230
+Yemen,YEM,2014,1,1,2,war,internationalized intrastate,0,government,230
+Yemen,YEM,2015,1,2,2,war,internationalized intrastate; intrastate,1,government; territory,13645; 230
+Yemen,YEM,2016,1,1,2,war,internationalized intrastate,0,government,230
+Yemen,YEM,2017,1,2,2,war,internationalized intrastate; intrastate,1,government; territory,13645; 230
+Yemen,YEM,2018,1,1,2,war,internationalized intrastate,0,government,230
+Yemen,YEM,2019,1,1,2,war,internationalized intrastate,0,government,230
+Yemen,YEM,2020,1,2,2,war,internationalized intrastate; intrastate,1,government; territory,13645; 230
+Yemen,YEM,2021,1,1,2,war,internationalized intrastate,0,government,230
+Yemen,YEM,2022,1,1,2,war,internationalized intrastate,0,government,230
+Yemen,YEM,2023,1,1,1,minor,internationalized intrastate,0,government,230
+South Africa,ZAF,1966,1,1,1,minor,intrastate,1,territory,298
+South Africa,ZAF,1967,1,1,1,minor,intrastate,0,territory,298
+South Africa,ZAF,1968,1,1,1,minor,intrastate,0,territory,298
+South Africa,ZAF,1969,1,1,1,minor,intrastate,0,territory,298
+South Africa,ZAF,1970,1,1,1,minor,intrastate,0,territory,298
+South Africa,ZAF,1971,1,1,1,minor,intrastate,0,territory,298
+South Africa,ZAF,1972,1,1,1,minor,intrastate,0,territory,298
+South Africa,ZAF,1973,1,1,1,minor,intrastate,0,territory,298
+South Africa,ZAF,1974,1,1,1,minor,intrastate,0,territory,298
+South Africa,ZAF,1975,1,1,1,minor,intrastate,0,territory,298
+South Africa,ZAF,1976,1,1,1,minor,intrastate,0,territory,298
+South Africa,ZAF,1977,1,1,1,minor,intrastate,0,territory,298
+South Africa,ZAF,1978,1,1,2,war,intrastate,0,territory,298
+South Africa,ZAF,1979,1,1,1,minor,intrastate,0,territory,298
+South Africa,ZAF,1980,1,1,2,war,intrastate,0,territory,298
+South Africa,ZAF,1981,1,2,2,war,intrastate,1,government; territory,298; 345
+South Africa,ZAF,1982,1,2,2,war,intrastate,0,government; territory,298; 345
+South Africa,ZAF,1983,1,2,2,war,intrastate,0,government; territory,298; 345
+South Africa,ZAF,1984,1,1,1,minor,intrastate,0,territory,298
+South Africa,ZAF,1985,1,2,1,minor,intrastate,1,government; territory,298; 345
+South Africa,ZAF,1986,1,2,2,war,intrastate,0,government; territory,298; 345
+South Africa,ZAF,1987,1,2,2,war,intrastate,0,government; territory,298; 345
+South Africa,ZAF,1988,1,2,2,war,intrastate,0,government; territory,298; 345
+South Africa,ZAF,1989,1,1,1,minor,intrastate,0,territory,298
+Zimbabwe,ZWE,1967,1,1,1,minor,intrastate,1,government,318
+Zimbabwe,ZWE,1968,1,1,1,minor,intrastate,0,government,318
+Zimbabwe,ZWE,1973,1,1,1,minor,intrastate,1,government,318
+Zimbabwe,ZWE,1974,1,1,1,minor,intrastate,0,government,318
+Zimbabwe,ZWE,1975,1,1,1,minor,internationalized intrastate,0,government,318
+Zimbabwe,ZWE,1976,1,1,2,war,intrastate,0,government,318
+Zimbabwe,ZWE,1977,1,1,2,war,intrastate,0,government,318
+Zimbabwe,ZWE,1978,1,1,2,war,intrastate,0,government,318
+Zimbabwe,ZWE,1979,1,1,2,war,intrastate,0,government,318
