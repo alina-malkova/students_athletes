@@ -1,0 +1,128 @@
+Regression results -- N = 102 countries
+Outcome: log(athletes from country in NCAA D-I rosters)
+Robust SEs (HC1).
+
+======================================================================
+Spec 1: log_athletes ~ log_gdp_pc
+======================================================================
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:           log_athletes   R-squared:                       0.042
+Model:                            OLS   Adj. R-squared:                  0.032
+Method:                 Least Squares   F-statistic:                     4.871
+Date:                Thu, 07 May 2026   Prob (F-statistic):             0.0296
+Time:                        16:18:59   Log-Likelihood:                -183.69
+No. Observations:                 102   AIC:                             371.4
+Df Residuals:                     100   BIC:                             376.6
+Df Model:                           1                                         
+Covariance Type:                  HC1                                         
+==============================================================================
+                 coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         -1.5202      1.431     -1.063      0.288      -4.324       1.284
+log_gdp_pc     0.3125      0.142      2.207      0.027       0.035       0.590
+==============================================================================
+Omnibus:                        6.678   Durbin-Watson:                   1.976
+Prob(Omnibus):                  0.035   Jarque-Bera (JB):                6.911
+Skew:                           0.614   Prob(JB):                       0.0316
+Kurtosis:                       2.657   Cond. No.                         107.
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC1)
+
+======================================================================
+Spec 2: + political_stability + shocks + disaster deaths
+======================================================================
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:           log_athletes   R-squared:                       0.180
+Model:                            OLS   Adj. R-squared:                  0.145
+Method:                 Least Squares   F-statistic:                     6.149
+Date:                Thu, 07 May 2026   Prob (F-statistic):           0.000192
+Time:                        16:18:59   Log-Likelihood:                -172.09
+No. Observations:                 100   AIC:                             354.2
+Df Residuals:                      95   BIC:                             367.2
+Df Model:                           4                                         
+Covariance Type:                  HC1                                         
+===============================================================================================
+                                  coef    std err          z      P>|z|      [0.025      0.975]
+-----------------------------------------------------------------------------------------------
+const                          -2.7299      1.770     -1.542      0.123      -6.200       0.740
+log_gdp_pc                      0.3237      0.170      1.906      0.057      -0.009       0.657
+political_stability             0.1056      0.220      0.481      0.631      -0.325       0.536
+econ_shocks_2010_23             0.0637      0.086      0.742      0.458      -0.105       0.232
+log_disaster_deaths_2010_23     0.1815      0.046      3.985      0.000       0.092       0.271
+==============================================================================
+Omnibus:                        6.326   Durbin-Watson:                   2.021
+Prob(Omnibus):                  0.042   Jarque-Bera (JB):                6.263
+Skew:                           0.613   Prob(JB):                       0.0437
+Kurtosis:                       3.002   Cond. No.                         162.
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC1)
+
+======================================================================
+Spec 3: track-only outcome (log_track)
+======================================================================
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:              log_track   R-squared:                       0.185
+Model:                            OLS   Adj. R-squared:                  0.150
+Method:                 Least Squares   F-statistic:                     6.236
+Date:                Thu, 07 May 2026   Prob (F-statistic):           0.000170
+Time:                        16:18:59   Log-Likelihood:                -170.19
+No. Observations:                  99   AIC:                             350.4
+Df Residuals:                      94   BIC:                             363.4
+Df Model:                           4                                         
+Covariance Type:                  HC1                                         
+===============================================================================================
+                                  coef    std err          z      P>|z|      [0.025      0.975]
+-----------------------------------------------------------------------------------------------
+const                          -3.3442      1.772     -1.887      0.059      -6.818       0.129
+log_gdp_pc                      0.3845      0.170      2.264      0.024       0.052       0.717
+political_stability             0.0750      0.218      0.343      0.731      -0.353       0.503
+econ_shocks_2010_23             0.0681      0.086      0.791      0.429      -0.101       0.237
+log_disaster_deaths_2010_23     0.1724      0.046      3.785      0.000       0.083       0.262
+==============================================================================
+Omnibus:                        8.128   Durbin-Watson:                   2.029
+Prob(Omnibus):                  0.017   Jarque-Bera (JB):                8.128
+Skew:                           0.698   Prob(JB):                       0.0172
+Kurtosis:                       3.147   Cond. No.                         162.
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC1)
+
+======================================================================
+Spec 4: + years_with_conflict_2010_23
+======================================================================
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:           log_athletes   R-squared:                       0.176
+Model:                            OLS   Adj. R-squared:                  0.141
+Method:                 Least Squares   F-statistic:                     6.260
+Date:                Thu, 07 May 2026   Prob (F-statistic):           0.000163
+Time:                        16:18:59   Log-Likelihood:                -172.31
+No. Observations:                 100   AIC:                             354.6
+Df Residuals:                      95   BIC:                             367.6
+Df Model:                           4                                         
+Covariance Type:                  HC1                                         
+===============================================================================================
+                                  coef    std err          z      P>|z|      [0.025      0.975]
+-----------------------------------------------------------------------------------------------
+const                          -2.5130      1.682     -1.494      0.135      -5.810       0.784
+log_gdp_pc                      0.3130      0.167      1.870      0.062      -0.015       0.641
+political_stability             0.1018      0.258      0.394      0.693      -0.404       0.608
+years_with_conflict_2010_23     0.0119      0.050      0.241      0.810      -0.085       0.109
+log_disaster_deaths_2010_23     0.1858      0.044      4.204      0.000       0.099       0.272
+==============================================================================
+Omnibus:                        5.423   Durbin-Watson:                   2.033
+Prob(Omnibus):                  0.066   Jarque-Bera (JB):                5.419
+Skew:                           0.567   Prob(JB):                       0.0666
+Kurtosis:                       2.888   Cond. No.                         160.
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC1)
