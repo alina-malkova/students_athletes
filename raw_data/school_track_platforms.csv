@@ -1,0 +1,356 @@
+school_name,wiki_match,match_type,match_score,base_url,roster_url,probe_status,hometown_count,real_hometowns
+Abilene Christian,Abilene Christian,exact,100,https://acusports.com/,https://acusports.com/sports/track-and-field/roster,OK_static,263,193
+Air Force,Air Force,exact,100,https://goairforcefalcons.com/,https://goairforcefalcons.com/sports/track-and-field/roster,OK_static,409,349
+Akron,Akron,exact,100,https://gozips.com/,https://gozips.com/sports/track-and-field/roster,OK_static,332,240
+Alabama,Alabama,exact,100,http://rolltide.com/,http://rolltide.com/sports/xctrack/roster,OK_rediscovered,0,198
+Alabama A&M,Alabama A&M,exact,100,https://aamusports.com/,https://aamusports.com/sports/mens-track-and-field/roster,OK_static,362,189
+Alabama State,Alabama State,exact,100,https://bamastatesports.com/,https://bamastatesports.com/sports/mens-track-and-field/roster,OK_static,125,38
+Alcorn State,Alcorn State,exact,100,https://alcornsports.com/,https://alcornsports.com/sports/mens-track-and-field/roster,OK_static,129,72
+American,American,exact,100,https://aueagles.com/,https://aueagles.com/sports/track-and-field/roster,OK_static,333,136
+App State,Appalachian State,alias,100,https://appstatesports.com/,https://appstatesports.com/sports/mens-track-and-field/roster,OK_static,283,74
+Arizona,Arizona,exact,100,https://arizonawildcats.com/,https://arizonawildcats.com/sports/track-and-field/roster,OK_static,497,265
+Arizona State,Arizona State,exact,100,https://sundevils.com/,https://thesundevils.com/sports/track-and-field/roster,OK_rediscovered,0,72
+Arkansas,Arkansas,exact,100,https://arkansasrazorbacks.com/,https://arkansasrazorbacks.com/sport/m-track/roster/,OK_rediscovered,0,43
+Arkansas State,Arkansas State,exact,100,https://astateredwolves.com/,https://astateredwolves.com/sports/track-and-field/roster,OK_static,589,325
+Arkansas-Pine Bluff,Arkansas–Pine Bluff,exact,100,https://uapblionsroar.com/,https://uapblionsroar.com/sports/mens-track-and-field/roster,OK_static,150,74
+Army West Point,Army / Army West Point [ N 21 ],alias,100,https://goarmywestpoint.com/,https://goarmywestpoint.com/sports/mens-track-and-field/roster,OK_static,365,229
+Auburn,Auburn,exact,100,https://auburntigers.com/,https://auburntigers.com/sports/cross-country/roster,js_only,0,0
+Austin Peay,Austin Peay,exact,100,https://letsgopeay.com/,https://letsgopeay.com/sports/track-and-field/roster,OK_static,213,119
+BYU,BYU,exact,100,https://byucougars.com,https://byucougars.com/sports/mens-track-and-field/roster,OK_static,53,47
+Ball State,Ball State,exact,100,https://ballstatesports.com/,https://ballstatesports.com/sports/womens-track-and-field/roster,OK_rediscovered,0,96
+Baylor,Baylor,exact,100,https://baylorbears.com/,https://baylorbears.com/sports/track-and-field/roster,OK_static,329,219
+Bellarmine,Bellarmine,exact,100,https://athletics.bellarmine.edu/,https://athletics.bellarmine.edu/sports/mens-track-and-field/roster,OK_static,283,182
+Belmont,Belmont,exact,100,https://belmontbruins.com/,https://belmontbruins.com/sports/mens-track-and-field/roster,OK_static,234,131
+Bethune-Cookman,Bethune–Cookman,exact,100,https://bcuathletics.com,https://bcuathletics.com/sports/track-and-field/roster,OK_static,434,178
+Binghamton,Binghamton,exact,100,https://bubearcats.com/,https://bubearcats.com/sports/mens-track-and-field/roster,js_table_stub,304,6
+Boise State,Boise State,exact,100,https://broncosports.com/,https://broncosports.com/sports/track-and-field/roster,OK_static,324,258
+Boston College,Boston University,exact,100,https://goterriers.com/,https://goterriers.com/sports/mens-track-and-field/roster,OK_static,170,121
+Boston University,Boston University,exact,100,https://goterriers.com/,https://goterriers.com/sports/mens-track-and-field/roster,OK_static,170,121
+Bowling Green,Bowling Green,exact,100,https://bgsufalcons.com/,https://bgsufalcons.com/sports/mens-cross-country/roster,OK_static,49,52
+Bradley,Bradley,exact,100,https://bradleybraves.com/,https://bradleybraves.com/sports/track-and-field/roster,js_table_stub,132,21
+Brown,Brown,exact,100,https://brownbears.com/,https://brownbears.com/sports/mens-track-and-field/roster,OK_static,215,145
+Bryant,Bryant,exact,100,https://bryantbulldogs.com,https://bryantbulldogs.com/sports/track-and-field/roster,OK_static,673,241
+Bucknell,Bucknell,exact,100,http://www.bucknellbison.com/,http://www.bucknellbison.com/sports/mens-track-and-field/roster,OK_static,278,133
+Buffalo,Buffalo,exact,100,https://ubbulls.com/,https://ubbulls.com/sports/track-and-field/roster,OK_static,361,203
+Butler,Butler,exact,100,https://butlersports.com/,https://butlersports.com/sports/mens-track-and-field/roster,OK_static,234,116
+CSU Bakersfield,Bakersfield [ N 1 ],alias,100,https://gorunners.com/,https://gorunners.com/sports/track-and-field/roster,OK_static,157,37
+CSUN,Cal State Northridge / CSUN,alias,100,https://gomatadors.com/,https://gomatadors.com/sports/mens-track-and-field/roster,OK_static,175,153
+Cal Poly,Cal Poly,exact,100,https://gopoly.com/index.aspx,https://gopoly.com/sports/track-and-field/roster,OK_rediscovered,0,198
+Cal St. Fullerton,Cal State Fullerton,exact,100,http://fullertontitans.com,http://fullertontitans.com/sports/track-and-field/roster,OK_static,581,319
+California,California,exact,100,https://calbears.com/,https://calbears.com/sports/track-and-field/roster,OK_static,718,416
+Campbell,Campbell,exact,100,https://gocamels.com/,https://gocamels.com/sports/track-and-field/roster,OK_static,446,110
+Canisius,Canisius,exact,100,https://gogriffs.com/,https://gogriffs.com/sports/cross-country/roster,js_table_stub,284,29
+Central Arkansas,Central Arkansas,exact,100,https://ucasports.com/,https://ucasports.com/sports/mens-track-and-field/roster,OK_static,262,116
+Central Connecticut,Central Connecticut,exact,100,http://www.ccsubluedevils.com/,http://www.ccsubluedevils.com/sports/mtrack/2025-26/roster,OK_rediscovered,0,59
+Central Michigan,Central Michigan,exact,100,https://cmuchippewas.com/,https://cmuchippewas.com/sports/mens-track-and-field/roster,OK_static,102,87
+Charleston Southern,Charleston Southern,exact,100,https://www.csusports.com/,https://www.csusports.com/sports/mens-track-and-field/roster,OK_static,276,89
+Charlotte,Charlotte,exact,100,https://charlotte49ers.com,https://charlotte49ers.com/sports/track-and-field/roster,OK_static,466,103
+Chattanooga,Chattanooga,exact,100,https://gomocs.com/,https://gomocs.com/sports/cross-country/roster,OK_static,288,162
+Chicago State,Chicago State,exact,100,https://www.gocsucougars.com/,https://www.gocsucougars.com/sports/mens-track-and-field/roster,OK_static,227,134
+Cincinnati,Cincinnati,exact,100,https://gobearcats.com/,https://gobearcats.com/sports/cross-country/roster,OK_rediscovered,144,27
+Citadel,The Citadel,alias,100,https://citadelsports.com/,https://citadelsports.com/sports/track-and-field/roster,OK_static,536,124
+Clemson,Clemson,exact,100,http://clemsontigers.com/,http://clemsontigers.com/sports/track-field/roster,js_table_stub,88,6
+Cleveland St.,Cleveland State,exact,100,https://csuvikings.com/,https://csuvikings.com/sports/womens-cross-country/roster,OK_rediscovered,0,27
+Coastal Carolina,Coastal Carolina,exact,100,https://goccusports.com/,https://goccusports.com/sports/track-and-field/roster,OK_static,403,237
+Col. of Charleston,Charleston [ N 3 ],alias,100,https://cofcsports.com/,https://cofcsports.com/sports/mens-cross-country/roster,OK_static,70,33
+Colgate,Colgate,exact,100,https://colgateathletics.com/,https://colgateathletics.com/sports/mens-track-and-field/roster,OK_static,353,106
+Colorado,Colorado,exact,100,https://cubuffs.com/,https://cubuffs.com/sports/track-and-field/roster,OK_static,240,184
+Colorado St.,Colorado State,exact,100,https://csurams.com/,https://csurams.com/sports/track-and-field/roster,OK_static,436,323
+Columbia,Columbia,exact,100,https://gocolumbialions.com/,https://gocolumbialions.com/sports/track-and-field/roster,OK_static,509,275
+Connecticut,UConn,alias,100,https://uconnhuskies.com/,https://uconnhuskies.com/sports/mens-track-and-field/roster,OK_static,179,149
+Coppin State,Coppin State,exact,100,https://coppinstatesports.com/,https://coppinstatesports.com/sports/mens-track-and-field/roster,OK_static,150,39
+Cornell,Cornell,exact,100,https://cornellbigred.com/,https://cornellbigred.com/sports/track-and-field/roster,OK_static,1858,95
+Creighton,Creighton,exact,100,https://gocreighton.com/,https://gocreighton.com/sports/mens-cross-country/roster,OK_static,118,102
+Dartmouth,Dartmouth,exact,100,https://dartmouthsports.com/,https://dartmouthsports.com/sports/mens-track-and-field/roster,OK_static,167,126
+Davidson,Davidson,exact,100,https://davidsonwildcats.com/,https://davidsonwildcats.com/sports/mens-track-and-field/roster,OK_static,147,78
+Dayton,Dayton,exact,100,https://daytonflyers.com/,https://daytonflyers.com/sports/mens-cross-country/roster,OK_static,115,66
+DePaul,DePaul,exact,100,https://depaulbluedemons.com/,https://depaulbluedemons.com/sports/track-and-field/roster,OK_static,339,268
+Delaware,Delaware,exact,100,https://bluehens.com/,https://bluehens.com/sports/track-and-field/roster,OK_static,182,107
+Delaware State,Delaware State,exact,100,https://dsuhornets.com/,https://dsuhornets.com/sports/mens-track-and-field/roster,OK_static,227,106
+Detroit Mercy,Detroit Mercy,exact,100,https://detroittitans.com/,https://detroittitans.com/sports/mens-track-and-field/roster,OK_static,283,154
+Drake,Drake,exact,100,https://godrakebulldogs.com/,https://godrakebulldogs.com/sports/track-and-field/roster,OK_static,529,295
+Duke,Duke,exact,100,https://goduke.com/,https://goduke.com/sports/track-and-field/roster,OK_static,446,273
+Duquesne,Duquesne,exact,100,https://goduquesne.com/,https://goduquesne.com/sports/mens-track-and-field/roster,OK_static,302,149
+East Carolina,East Carolina,exact,100,https://ecupirates.com/,https://ecupirates.com/sports/track-and-field/roster,OK_static,251,116
+East Tenn. St.,East Tennessee State,alias,100,https://etsubucs.com/,https://etsubucs.com/sports/mens-track-and-field/roster,OK_static,208,118
+East Texas A&M,East Texas A&M,exact,100,https://lionathletics.com/,https://lionathletics.com/sports/mens-track-and-field/roster,OK_static,269,145
+Eastern Illinois,Eastern Illinois,exact,100,https://eiupanthers.com/index.aspx,https://eiupanthers.com/sports/mens-track-and-field/roster,OK_rediscovered,0,51
+Eastern Kentucky,Eastern Kentucky,exact,100,https://ekusports.com/index.aspx,https://ekusports.com/sports/track-and-field/roster,OK_rediscovered,0,48
+Eastern Michigan,Eastern Michigan,exact,100,https://emueagles.com/,https://emueagles.com/sports/mens-track-and-field/roster,OK_static,159,120
+Eastern Washington,Eastern Washington,exact,100,http://goeags.com/,http://goeags.com/sports/track-and-field/roster,OK_static,578,345
+Elon,Elon,exact,100,https://elonphoenix.com/index.aspx,,js_only,0,0
+Evansville,Evansville,exact,100,https://gopurpleaces.com/,https://gopurpleaces.com/sports/track-and-field/roster,OK_static,397,228
+FDU,Fairleigh Dickinson,alias,100,https://fduknights.com/,https://fduknights.com/sports/mens-track-and-field/roster,OK_static,287,46
+FIU,FIU,exact,100,https://fiusports.com/,https://fiusports.com/sports/mens-track-and-field/roster,OK_static,178,100
+Fairfield,Fairfield,exact,100,https://fairfieldstags.com/,https://fairfieldstags.com/sports/mens-cross-country/roster,OK_static,115,48
+Florida,Florida,exact,100,https://floridagators.com/,https://floridagators.com/sports/track-and-field/roster,OK_static,305,238
+Florida A&M,Florida A&M,exact,100,https://famuathletics.com/,https://famuathletics.com/sports/mens-track-and-field/roster,js_table_stub,108,28
+Florida Atlantic,Florida Atlantic,exact,100,https://fausports.com/,https://fausports.com/sports/womens-track-and-field/roster,OK_rediscovered,5,64
+Florida State,Florida State,exact,100,https://seminoles.com/,https://seminoles.com/sports/mens-track-and-field/roster,OK_static,131,111
+Fordham,Fordham,exact,100,https://fordhamsports.com/,https://fordhamsports.com/sports/mens-track-and-field/roster,OK_static,311,79
+Fresno State,Fresno State,exact,100,https://gobulldogs.com,https://gobulldogs.com/sports/track-and-field/roster,OK_static,238,183
+Furman,Furman,exact,100,https://furmanpaladins.com/,https://furmanpaladins.com/sports/track-and-field/roster,OK_static,312,134
+Gardner-Webb,Gardner–Webb,exact,100,https://gwusports.com/index.aspx,https://gwusports.com/sports/track-and-field/roster,OK_rediscovered,0,54
+George Mason,George Mason,exact,100,https://gomason.com/index.aspx,,js_only,0,0
+George Washington,George Washington,exact,100,https://gwsports.com/,https://gwsports.com/sports/mens-cross-country/roster,OK_static,94,79
+Georgetown,Georgetown,exact,100,https://guhoyas.com/,https://guhoyas.com/sports/mens-track-and-field-xc/roster,OK_rediscovered,0,39
+Georgia,Georgia,exact,100,https://georgiadogs.com/,https://georgiadogs.com/sports/track-and-field/roster,OK_static,306,221
+Georgia Southern,Georgia Southern,exact,100,https://gseagles.com/,https://gseagles.com/sports/cross-country/roster,OK_static,163,131
+Georgia State,Georgia State,exact,100,https://georgiastatesports.com,https://georgiastatesports.com/sports/womens-track-and-field/roster,OK_rediscovered,0,34
+Georgia Tech,Georgia Tech,exact,100,https://ramblinwreck.com/,https://ramblinwreck.com/sports/m-track/roster/,OK_rediscovered,0,23
+Gonzaga,Gonzaga,exact,100,https://gozags.com/,https://gozags.com/sports/track-and-field/roster,OK_static,487,272
+Grambling,Grambling State,alias,100,https://gsutigers.com/,https://gsutigers.com/sports/mens-track-and-field/roster,OK_static,162,94
+Grand Canyon,Grand Canyon,exact,100,https://gculopes.com/,https://gculopes.com/sports/track-and-field/roster,OK_static,335,231
+Hampton,Hampton,exact,100,https://hamptonpirates.com/,https://hamptonpirates.com/sports/mens-track-and-field/roster,OK_static,227,92
+Harvard,Harvard,exact,100,https://gocrimson.com/,https://gocrimson.com/sports/mens-track-and-field/roster,OK_static,642,335
+Hawaii,Hawaiʻi,exact,100,https://hawaiiathletics.com/index.aspx,https://hawaiiathletics.com/sports/womens-track-and-field/roster,OK_rediscovered,0,41
+High Point,High Point,exact,100,https://highpointpanthers.com/,https://highpointpanthers.com/sports/mens-track-and-field/roster,OK_static,323,119
+Hofstra,Hofstra,exact,100,https://gohofstra.com/,https://gohofstra.com/sports/mens-cross-country/roster,OK_static,147,83
+Holy Cross,Holy Cross,exact,100,https://goholycross.com/,https://goholycross.com/sports/mens-track-and-field/roster,OK_static,248,77
+Houston,Houston,exact,100,http://uhcougars.com,http://uhcougars.com/sports/track-and-field/roster,OK_static,358,264
+Houston Christian,Houston Christian,exact,100,https://hcuhuskies.com/,https://hcuhuskies.com/sports/track-and-field/roster,OK_static,361,174
+Howard,Howard,exact,100,https://hubison.com/,https://hubison.com/sports/mens-track-and-field/roster,OK_static,203,95
+IU Indianapolis,IU Indy,alias,100,https://iuindyjags.com/,https://iuindyjags.com/sports/mens-track-and-field/roster,OK_static,185,106
+Idaho,Idaho,exact,100,https://govandals.com,https://govandals.com/sports/cross-country/roster,OK_static,158,85
+Idaho State,Idaho State,exact,100,https://isubengals.com/,https://isubengals.com/sports/mens-track-and-field/roster,OK_static,222,116
+Illinois,Illinois,exact,100,https://fightingillini.com/,https://fightingillini.com/sports/mens-track-and-field/roster,OK_static,178,101
+Illinois State,Illinois State,exact,100,https://goredbirds.com/,https://goredbirds.com/sports/track-and-field/roster,OK_static,557,313
+Illinois-Chicago,UIC,alias,100,https://uicflames.com/index.aspx,https://uicflames.com/sports/mens-track-and-field/roster,OK_rediscovered,0,34
+Incarnate Word,Incarnate Word [ N 28 ],exact,100,https://uiwcardinals.com/,https://uiwcardinals.com/sports/mens-track-and-field/roster,OK_static,406,200
+Indiana,Indiana,exact,100,https://iuhoosiers.com/,https://iuhoosiers.com/sports/track-and-field/roster,OK_static,385,268
+Indiana State,Indiana State,exact,100,https://gosycamores.com/,https://gosycamores.com/sports/track-and-field/roster,OK_static,744,423
+Iona,Iona,exact,100,https://ionagaels.com/,https://ionagaels.com/sports/mens-track-and-field/roster,OK_static,333,187
+Iowa,Iowa,exact,100,https://hawkeyesports.com/,https://hawkeyesports.com/sports/mtrack/roster,OK_rediscovered,0,52
+Iowa State,Iowa State,exact,100,https://cyclones.com/,https://cyclones.com/sports/track-and-field/roster,OK_static,347,253
+Jackson State,Jackson State,exact,100,https://gojsutigers.com/,https://gojsutigers.com/sports/mens-track-and-field/roster,OK_static,249,135
+Jacksonville,Jacksonville,exact,100,https://judolphins.com/,https://judolphins.com/sports/mens-cross-country/roster,OK_static,108,69
+Jacksonville St.,Jax State,alias,100,https://jaxstatesports.com/,https://jaxstatesports.com/sports/cross-country/roster,OK_static,115,64
+James Madison,James Madison,exact,100,https://jmusports.com/,https://jmusports.com/sports/track-and-field/roster,OK_static,174,112
+Kansas,Kansas,exact,100,https://kuathletics.com/,https://kuathletics.com/sports/track-and-field/roster,OK_static,347,256
+Kansas City,Kansas City,exact,100,https://kcroos.com/,https://kcroos.com/sports/track-and-field/roster,OK_static,221,165
+Kansas State,Kansas State,exact,100,http://www.kstatesports.com/,http://www.kstatesports.com/sports/track-and-field/roster,OK_static,371,262
+Kennesaw State,Kennesaw State,exact,100,https://ksuowls.com/,https://ksuowls.com/sports/mens-track-and-field/roster,OK_static,269,155
+Kent State,Kent State,exact,100,https://kentstatesports.com,https://kentstatesports.com/sports/track-and-field/roster,OK_static,453,320
+Kentucky,Kentucky,exact,100,https://ukathletics.com/,https://ukathletics.com/sports/track/roster/,OK_rediscovered,0,35
+LIU,LIU,exact,100,https://www.liuathletics.com/,https://www.liuathletics.com/sports/mens-track-and-field/roster,OK_static,137,43
+LSU,LSU,exact,100,https://lsusports.net/,https://lsusports.net/sports/tf/roster/,OK_rediscovered,0,27
+La Salle,La Salle,exact,100,https://goexplorers.com/,https://goexplorers.com/sports/track-and-field/roster,OK_static,304,158
+Lafayette,Lafayette,exact,100,https://goleopards.com/,https://goleopards.com/sports/track-and-field/roster,OK_static,746,231
+Lamar,Lamar,exact,100,https://lamarcardinals.com/,https://lamarcardinals.com/sports/track-and-field/roster,OK_static,568,315
+Le Moyne,Le Moyne,exact,100,https://lemoynedolphins.com/,https://lemoynedolphins.com/sports/mens-track-and-field/roster,js_table_stub,220,9
+Lehigh,Lehigh,exact,100,https://lehighsports.com/,https://lehighsports.com/sports/mens-track-and-field/roster,OK_static,258,138
+Liberty,Liberty,exact,100,https://libertyflames.com/,https://libertyflames.com/sports/track-and-field/roster,OK_static,377,261
+Lindenwood,Lindenwood,exact,100,https://lindenwoodlions.com/,https://lindenwoodlions.com/sports/mens-track-and-field/roster,OK_static,245,139
+Lipscomb,Lipscomb,exact,100,https://lipscombsports.com/,https://lipscombsports.com/sports/mens-track-and-field/roster,OK_static,208,89
+Little Rock,Little Rock,exact,100,https://lrtrojans.com/,https://lrtrojans.com/sports/cross-country/roster,OK_static,116,67
+Long Beach St.,Long Beach State,exact,100,https://longbeachstate.com/,https://longbeachstate.com/sports/track-and-field/roster,OK_static,297,241
+Longwood,Longwood,exact,100,https://longwoodlancers.com/,https://longwoodlancers.com/sports/mens-cross-country/roster,OK_static,133,73
+Louisiana,Louisiana,exact,100,https://ragincajuns.com/,https://ragincajuns.com/sports/track-and-field/roster,OK_static,378,286
+Louisiana Tech,Louisiana Tech,exact,100,http://latechsports.com,http://latechsports.com/sports/track-and-field/roster,OK_static,413,216
+Louisville,Louisville,exact,100,https://gocards.com/,https://gocards.com/sports/track-and-field/roster,OK_static,326,226
+Loyola (Ill.),Loyola Chicago,alias,100,https://loyolaramblers.com/,https://loyolaramblers.com/sports/track-and-field/roster,OK_static,319,171
+Loyola (Md.),Loyola,alias,100,https://loyolagreyhounds.com/,https://loyolagreyhounds.com/sports/cross-country/roster,OK_static,221,78
+Maine,Maine,exact,100,http://goblackbears.com,http://goblackbears.com/sports/mens-track-and-field/roster,OK_static,305,160
+Manhattan,Manhattan,exact,100,https://gojaspers.com/,https://gojaspers.com/sports/mens-track-and-field/roster,OK_static,205,115
+Marist,Marist,exact,100,https://goredfoxes.com/,https://goredfoxes.com/sports/mens-track-and-field/roster,OK_static,321,152
+Marquette,Marquette,exact,100,https://gomarquette.com/,https://gomarquette.com/sports/track-and-field/roster,OK_static,357,268
+Marshall,Marshall,exact,100,https://herdzone.com/,https://herdzone.com/sports/track-and-field/roster,OK_static,368,189
+Maryland,Maryland,exact,100,https://umterps.com/,https://umterps.com/sports/track-and-field/roster,OK_static,295,242
+Maryland-Eastern Shore,Maryland Eastern Shore,exact,100,https://easternshorehawks.com/,https://easternshorehawks.com/sports/cross-country/roster,OK_static,108,56
+McNeese State,McNeese,alias,100,https://mcneesesports.com/,https://mcneesesports.com/sports/track-and-field/roster,OK_static,268,150
+Memphis,Memphis,exact,100,https://gotigersgo.com/,https://gotigersgo.com/sports/mens-track-and-field/roster,OK_static,121,95
+Mercer,Mercer,exact,100,https://mercerbears.com/,https://mercerbears.com/sports/mens-cross-country/roster,OK_static,54,42
+Mercyhurst,Mercyhurst,exact,100,https://hurstathletics.com/,https://hurstathletics.com/sports/mens-track-and-field/roster,OK_static,154,63
+Merrimack,Merrimack,exact,100,https://merrimackathletics.com/,https://merrimackathletics.com/sports/mens-track-and-field/roster,OK_static,293,142
+Miami (Fla.),Miami (Florida),alias,100,https://miamihurricanes.com/,https://miamihurricanes.com/sports/track/roster/,OK_rediscovered,0,27
+Miami (Ohio),Miami (Ohio),exact,100,https://miamiredhawks.com/,https://miamiredhawks.com/sports/track-and-field/roster,OK_static,367,284
+Michigan,Michigan,exact,100,https://mgoblue.com,https://mgoblue.com/sports/mens-track-and-field/roster,OK_static,186,140
+Michigan State,Michigan State,exact,100,https://msuspartans.com/,https://msuspartans.com/sports/track-and-field/roster,OK_static,308,229
+Mid. Tenn. State,Middle Tennessee,alias,100,https://goblueraiders.com/,https://goblueraiders.com/sports/mens-track-and-field/roster,OK_static,113,93
+Milwaukee,Milwaukee,exact,100,https://mkepanthers.com/,https://mkepanthers.com/sports/mens-track-and-field/roster,OK_static,283,164
+Minnesota,Minnesota,exact,100,https://gophersports.com/,https://gophersports.com/sports/mens-track-and-field/roster,OK_static,171,134
+Miss State,Mississippi State,alias,100,https://hailstate.com/,https://hailstate.com/sports/track-and-field/roster,OK_static,270,194
+Mississippi Valley,Mississippi Valley State,alias,100,https://mvsusports.com/,https://mvsusports.com/sports/mens-track-and-field/roster,OK_static,148,61
+Missouri,Missouri,exact,100,https://mutigers.com/,https://mutigers.com/sports/track-and-field/roster,OK_static,287,229
+Missouri State,Missouri State,exact,100,https://missouristatebears.com/,https://missouristatebears.com/sports/womens-track-and-field/roster,OK_rediscovered,0,43
+Monmouth,Monmouth,exact,100,https://monmouthhawks.com/,https://monmouthhawks.com/sports/mens-track-and-field/roster,OK_static,385,194
+Montana,Montana,exact,100,https://gogriz.com/,https://gogriz.com/sports/mens-track-and-field/roster,OK_static,199,148
+Montana State,Montana State,exact,100,https://msubobcats.com/,https://msubobcats.com/sports/mens-track-and-field/roster,OK_static,166,130
+Morehead State,Morehead State,exact,100,https://msueagles.com/,https://msueagles.com/sports/mens-track-and-field/roster,OK_static,178,100
+Morgan State,Morgan State,exact,100,https://morganstatebears.com/,https://morganstatebears.com/sports/mens-track-and-field/roster,OK_static,206,109
+Mount St. Mary's,Mount St. Mary's,exact,100,https://mountathletics.com/,https://mountathletics.com/sports/track-and-field/roster,OK_static,829,375
+Murray State,Murray State,exact,100,https://goracers.com/,https://goracers.com/sports/mens-cross-country/roster,OK_static,38,34
+N. Carolina A&T,North Carolina A&T,alias,100,https://ncataggies.com/,https://ncataggies.com/sports/track-and-field/roster,OK_static,648,343
+N.C. Central,North Carolina Central,alias,100,https://nccueaglepride.com/,https://nccueaglepride.com/sports/track-and-field/roster,OK_static,347,52
+NC State,NC State,exact,100,https://gopack.com/,https://gopack.com/sports/track-and-field/roster,OK_static,365,286
+NJIT,NJIT,exact,100,https://njithighlanders.com/,https://njithighlanders.com/sports/track-and-field/roster,OK_static,101,48
+Navy,Navy,exact,100,https://navysports.com/,https://navysports.com/sports/mens-track-and-field/roster,OK_static,766,358
+Nebraska,Nebraska,exact,100,https://huskers.com/,https://huskers.com/sports/track-and-field/roster,OK_static,100,90
+Nevada,Nevada,exact,100,https://nevadawolfpack.com/,https://nevadawolfpack.com/sports/mens-cross-country/roster,OK_static,94,62
+New Hampshire,New Hampshire,exact,100,https://unhwildcats.com/,https://unhwildcats.com/sports/mens-track-and-field/roster,OK_static,150,68
+New Haven,New Haven,exact,100,https://newhavenchargers.com/,https://newhavenchargers.com/sports/mens-track-and-field/roster,OK_static,427,120
+New Mexico,New Mexico,exact,100,http://www.golobos.com/,http://www.golobos.com/sports/track/roster,OK_rediscovered,0,78
+New Mexico St.,New Mexico State,exact,100,http://www.nmstatesports.com/,http://www.nmstatesports.com/sports/cross-country/roster,OK_static,214,74
+New Orleans,New Orleans,exact,100,https://unoprivateers.com/,https://unoprivateers.com/sports/track-and-field/roster,OK_static,258,141
+Niagara,Niagara,exact,100,https://purpleeagles.com/,https://purpleeagles.com/sports/track-and-field/roster,OK_static,213,110
+Nicholls State,Nicholls,alias,100,https://geauxcolonels.com/,https://geauxcolonels.com/sports/womens-track-and-field/roster,OK_rediscovered,0,28
+Norfolk State,Norfolk State,exact,100,https://nsuspartans.com/,https://nsuspartans.com/sports/mens-track-and-field/roster,OK_static,223,115
+North Alabama,North Alabama,exact,100,http://www.roarlions.com/index.aspx,,js_only,0,0
+North Carolina,North Carolina,exact,100,https://goheels.com,https://goheels.com/sports/track-and-field/roster,OK_static,322,171
+North Dakota,North Dakota,exact,100,http://www.fightinghawks.com,http://www.fightinghawks.com/sports/mens-track-and-field/roster,OK_static,266,97
+North Dakota State,North Dakota State,exact,100,https://gobison.com/,https://gobison.com/sports/mens-track-and-field/roster,OK_static,214,101
+North Florida,North Florida,exact,100,https://unfospreys.com/,https://unfospreys.com/sports/mens-track-and-field/roster,OK_static,162,130
+North Texas,North Texas,exact,100,https://meangreensports.com/,https://meangreensports.com/sports/track-and-field/roster,OK_static,332,254
+Northeastern,Northeastern,exact,100,https://nuhuskies.com/,https://nuhuskies.com/sports/mens-track-and-field/roster,OK_static,350,148
+Northern Arizona,Northern Arizona,exact,100,https://nauathletics.com/,https://nauathletics.com/sports/track-and-field/roster,OK_static,535,229
+Northern Colorado,Northern Colorado,exact,100,https://uncbears.com/,https://uncbears.com/sports/cross-country/roster,OK_static,42,37
+Northern Illinois,Northern Illinois,exact,100,http://www.niuhuskies.com/,http://www.niuhuskies.com/sports/womens-track-and-field/roster,OK_rediscovered,0,35
+Northern Iowa,Northern Iowa,exact,100,https://unipanthers.com/,https://unipanthers.com/sports/track-and-field/roster,OK_static,456,343
+Northern Kentucky,Northern Kentucky,exact,100,https://nkunorse.com/,https://nkunorse.com/sports/mens-track-and-field/roster,OK_static,262,151
+Northwestern,Northwestern,exact,100,https://nusports.com/,https://nusports.com/sports/womens-cross-country/roster,OK_rediscovered,0,64
+Northwestern St.,Northwestern State,exact,100,https://nsudemons.com/,https://nsudemons.com/sports/mens-track-and-field/roster,OK_static,262,140
+Notre Dame,Notre Dame,exact,100,https://fightingirish.com/,https://fightingirish.com/sports/track/roster/,OK_rediscovered,0,43
+Oakland,Oakland,exact,100,https://goldengrizzlies.com/,https://goldengrizzlies.com/sports/track-and-field/roster,OK_static,501,289
+Ohio,Ohio,exact,100,https://ohiobobcats.com/index.aspx,https://ohiobobcats.com/sports/wtrack/roster,OK_rediscovered,0,53
+Ohio State,Ohio State,exact,100,https://ohiostatebuckeyes.com/,https://ohiostatebuckeyes.com/sports/mens-cross-country/roster,OK_static,62,53
+Oklahoma,Oklahoma,exact,100,https://soonersports.com/,https://soonersports.com/sports/track-and-field/roster,OK_static,342,257
+Oklahoma State,Oklahoma State,exact,100,https://okstate.com,https://okstate.com/sports/womens-cross-country-track/roster,OK_rediscovered,0,138
+Ole Miss,Ole Miss,exact,100,https://olemisssports.com/,https://olemisssports.com/sports/track-and-field/roster,OK_static,360,259
+Omaha,Omaha,exact,100,https://omavs.com/,,js_only,0,0
+Oral Roberts,Oral Roberts,exact,100,https://oruathletics.com/,https://oruathletics.com/sports/track-and-field/roster,OK_static,376,194
+Oregon,Oregon,exact,100,https://goducks.com/,https://goducks.com/sports/track-and-field/roster,OK_static,329,252
+Oregon State,Oregon State,exact,100,https://osubeavers.com/,https://osubeavers.com/sports/track-and-field/roster,OK_static,205,161
+Pacific,Pacific,exact,100,https://pacifictigers.com/,https://pacifictigers.com/sports/mens-cross-country/roster,OK_static,101,63
+Penn,Penn,exact,100,https://pennathletics.com/,https://pennathletics.com/sports/mens-track-and-field/roster,OK_static,388,179
+Penn State,Penn State,exact,100,http://www.gopsusports.com/,http://www.gopsusports.com/sports/track-field/roster,js_only_revealed,212,85
+Pepperdine,Pepperdine,exact,100,https://pepperdinewaves.com/,https://pepperdinewaves.com/sports/track-and-field/roster,OK_static,200,137
+Pittsburgh,Pittsburgh,exact,100,https://pittsburghpanthers.com/,https://pittsburghpanthers.com/sports/track-and-field/roster,OK_static,285,207
+Portland,Portland,exact,100,https://portlandpilots.com/,https://portlandpilots.com/sports/mens-track-and-field/roster,OK_static,262,142
+Portland State,Portland State,exact,100,https://goviks.com/,https://goviks.com/sports/track-and-field/roster,OK_static,494,252
+Prairie View,Prairie View A&M,alias,100,https://pvpanthers.com/,https://pvpanthers.com/sports/mens-track-and-field/roster,OK_static,273,122
+Presbyterian,Presbyterian,exact,100,https://gobluehose.com/,https://gobluehose.com/sports/mens-cross-country/roster,js_table_stub,111,25
+Princeton,Princeton,exact,100,https://goprincetontigers.com/,https://goprincetontigers.com/sports/mens-track-and-field/roster,OK_static,267,168
+Providence,Providence,exact,100,https://friars.com,https://friars.com/sports/mens-track-and-field/roster,OK_static,126,82
+Purdue,Purdue,exact,100,https://purduesports.com/,https://purduesports.com/sports/track-and-field/roster,js_only_revealed,130,62
+Purdue Fort Wayne,Purdue Fort Wayne,exact,100,https://gomastodons.com/,https://gomastodons.com/sports/mens-track-and-field/roster,OK_static,170,126
+Queens (N.C.),Queens (NC),alias,100,https://queensathletics.com,https://queensathletics.com/sports/mens-track-and-field/roster,OK_static,227,67
+Quinnipiac,Quinnipiac,exact,100,https://gobobcats.com/,https://gobobcats.com/sports/mens-cross-country/roster,OK_static,58,35
+Radford,Radford,exact,100,https://radfordathletics.com/,https://radfordathletics.com/sports/mens-track-and-field/roster,OK_static,115,64
+Rhode Island,Rhode Island,exact,100,https://gorhody.com/,https://gorhody.com/sports/mens-track-and-field/roster,OK_static,518,168
+Rice,Rice,exact,100,https://riceowls.com/,https://riceowls.com/sports/mens-track-and-field/roster,OK_static,193,149
+Richmond,Richmond,exact,100,https://richmondspiders.com/,https://richmondspiders.com/sports/cross-country/roster,OK_static,155,103
+Rider,Rider,exact,100,https://gobroncs.com/,https://gobroncs.com/sports/track-and-field/roster,OK_static,928,528
+Robert Morris,Robert Morris,exact,100,https://rmucolonials.com/,https://rmucolonials.com/sports/mens-track-and-field/roster,OK_static,255,140
+Rutgers,Rutgers,exact,100,https://scarletknights.com/index.aspx,https://scarletknights.com/sports/track-and-field/roster,OK_rediscovered,0,194
+SC State,South Carolina State,alias,100,https://www.scsuathletics.com/,https://www.scsuathletics.com/sports/mens-cross-country/roster,OK_static,73,40
+SE Louisiana,Southeastern Louisiana,alias,100,https://lionsports.net/index.aspx,,js_only,0,0
+SE Missouri,SEMO [ N 9 ],alias,100,https://semoredhawks.com/,https://semoredhawks.com/sports/track-and-field/roster,OK_static,512,288
+SIU Edwardsville,SIUE [ N 10 ],alias,100,https://siuecougars.com/,https://siuecougars.com/sports/mens-track-and-field/roster,OK_static,172,97
+SMU,SMU,exact,100,https://smumustangs.com/,https://smumustangs.com/sports/womens-track-and-field/roster,OK_rediscovered,0,25
+Sacramento St.,Sacramento State,exact,100,https://hornetsports.com/,https://hornetsports.com/sports/cross-country/roster,OK_static,163,96
+Sacred Heart,Sacred Heart,exact,100,https://sacredheartpioneers.com/,https://sacredheartpioneers.com/sports/mens-track-and-field/roster,OK_static,358,210
+Saint Francis,Saint Francis (PA),alias,100,http://www.sfuathletics.com/,http://www.sfuathletics.com/sports/mens-track-and-field/roster,OK_static,311,160
+Saint Joseph's University,Saint Joseph's,exact,100,https://sjuhawks.com/,https://sjuhawks.com/sports/mens-track-and-field/roster,OK_static,283,80
+Saint Louis,Saint Louis,exact,100,https://slubillikens.com/,https://slubillikens.com/sports/track-and-field/roster,OK_static,529,294
+Sam Houston,Sam Houston,exact,100,https://gobearkats.com,https://gobearkats.com/sports/mens-track-and-field/roster,OK_static,241,182
+Samford,Samford,exact,100,https://samfordsports.com/,https://samfordsports.com/sports/track-and-field/roster,OK_static,487,265
+San Diego,San Diego,exact,100,http://www.usdtoreros.com/,http://www.usdtoreros.com/sports/mens-cross-country/roster,OK_static,66,40
+San Diego St.,San Diego State,exact,100,https://goaztecs.com/,https://goaztecs.com/sports/track-and-field/roster,js_only_revealed,84,40
+San Francisco,San Francisco,exact,100,https://usfdons.com/,https://usfdons.com/sports/track-and-field/roster,OK_static,241,219
+San Jose St.,San Jose State,exact,100,https://sjsuspartans.com/,https://sjsuspartans.com/sports/track-and-field/roster,OK_static,62,58
+Santa Clara,Santa Clara,exact,100,https://santaclarabroncos.com/,https://santaclarabroncos.com/sports/mens-cross-country/roster,OK_static,199,102
+Seton Hall,Seton Hall,exact,100,https://shupirates.com/,https://shupirates.com/sports/mens-cross-country/roster,OK_static,68,49
+Siena,Siena,exact,100,https://sienasaints.com/,https://sienasaints.com/sports/cross-country/roster,OK_static,298,181
+South Alabama,South Alabama,exact,100,https://usajaguars.com/,https://usajaguars.com/sports/mens-track-and-field/roster,OK_static,325,186
+South Carolina,South Carolina,exact,100,https://gamecocksonline.com/,,js_only,0,0
+South Dakota,South Dakota,exact,100,https://goyotes.com/,https://goyotes.com/sports/track-and-field/roster,OK_static,753,294
+South Dakota St.,South Dakota State,exact,100,https://gojacks.com/,https://gojacks.com/sports/mens-track-and-field/roster,OK_static,234,151
+South Florida,South Florida,exact,100,https://gousfbulls.com/,https://gousfbulls.com/sports/track-and-field/roster,OK_static,523,292
+Southern,Southern,exact,100,https://gojagsports.com/,https://gojagsports.com/sports/track-and-field/roster,OK_static,345,146
+Southern Illinois,Southern Illinois,exact,100,https://siusalukis.com/,https://siusalukis.com/sports/mens-track-and-field/roster,OK_static,205,129
+Southern Indiana,Southern Indiana,exact,100,https://usiscreamingeagles.com/,https://usiscreamingeagles.com/sports/mens-track-and-field/roster,OK_static,261,152
+Southern Miss.,Southern Miss,exact,100,https://southernmiss.com/,https://southernmiss.com/sports/track-and-field/roster,OK_static,229,156
+Southern Utah,Southern Utah,exact,100,https://suutbirds.com/,https://suutbirds.com/sports/mens-track-and-field/roster,OK_static,263,127
+St. Bonaventure,St. Bonaventure,exact,100,https://gobonnies.com/,https://gobonnies.com/sports/mens-track-and-field/roster,OK_static,283,72
+St. John's,St. John's,exact,100,https://redstormsports.com,https://redstormsports.com/sports/mens-cross-country/roster,js_only,0,0
+St. Mary's (Cal.),Saint Mary's,alias,100,http://www.smcgaels.com,http://www.smcgaels.com/sports/track-and-field/roster,OK_static,148,117
+St. Peter's,Saint Peter's,alias,100,https://saintpeterspeacocks.com/,https://saintpeterspeacocks.com/sports/track-and-field/roster,OK_static,385,216
+St. Thomas (Minn.),St. Thomas,alias,100,https://tommiesports.com/,https://tommiesports.com/sports/mens-cross-country/roster,js_only,0,0
+Stanford,Stanford,exact,100,http://www.gostanford.com/,http://www.gostanford.com/sports/track-and-field/roster,js_only_revealed,218,70
+Stephen F. Austin,Stephen F. Austin,exact,100,https://sfajacks.com/,https://sfajacks.com/sports/track-and-field/roster,OK_static,336,253
+Stonehill,Stonehill,exact,100,https://stonehillskyhawks.com/,https://stonehillskyhawks.com/sports/mens-track-and-field/roster,OK_static,391,154
+Stony Brook,Stony Brook,exact,100,https://stonybrookathletics.com/,https://stonybrookathletics.com/sports/mens-track-and-field/roster,js_table_stub,249,26
+Syracuse,Syracuse,exact,100,https://cuse.com/,https://cuse.com/sports/track-and-field/roster,OK_static,252,97
+TCU,TCU,exact,100,https://gofrogs.com/,https://gofrogs.com/sports/mens-track-and-field/roster,OK_static,158,121
+Tarleton State,Tarleton State [ N 18 ],exact,100,https://tarletonsports.com/,https://tarletonsports.com/sports/track-and-field/roster,OK_static,530,302
+Temple,Temple,exact,100,https://owlsports.com/,https://owlsports.com/sports/mens-track-and-field/roster,OK_static,102,68
+Tennessee,Tennessee,exact,100,https://utsports.com/,https://utsports.com/sports/track-and-field/roster,OK_static,346,221
+Tennessee St.,Tennessee State,exact,100,https://tsutigers.com/,https://tsutigers.com/sports/mens-track-and-field/roster,OK_static,214,96
+Tennessee Tech,Tennessee Tech,exact,100,https://www.ttusports.com/landing/index,,js_only,0,0
+Texas,Texas,exact,100,https://texaslonghorns.com/,https://texaslonghorns.com/sports/track-and-field/roster,OK_static,271,198
+Texas A&M,Texas A&M,exact,100,https://12thman.com/,https://12thman.com/sports/track-and-field/roster,OK_static,442,319
+Texas A&M-CC,Texas A&M–Corpus Christi,alias,100,https://goislanders.com/,https://goislanders.com/sports/track-and-field/roster,OK_static,418,218
+Texas Southern,Texas Southern,exact,100,https://tsusports.com/,https://tsusports.com/sports/track-and-field/roster,OK_static,276,162
+Texas State,Texas State,exact,100,https://txst.com/,https://txst.com/sports/track-and-field/roster,OK_static,578,314
+Texas Tech,Texas Tech,exact,100,https://texastech.com/,https://texastech.com/sports/track-and-field/roster,OK_static,371,241
+Toledo,Toledo,exact,100,https://utrockets.com/,https://utrockets.com/sports/mens-cross-country/roster,js_table_stub,38,29
+Towson,Towson,exact,100,https://towsontigers.com/,https://towsontigers.com/sports/track-field/roster,OK_static,294,114
+Troy,Troy,exact,100,https://troytrojans.com/,https://troytrojans.com/sports/track-and-field/roster,OK_static,312,223
+Tulane,Tulane,exact,100,https://tulanegreenwave.com,https://tulanegreenwave.com/sports/track-and-field/roster,OK_static,237,177
+Tulsa,Tulsa,exact,100,http://tulsahurricane.com/,http://tulsahurricane.com/sports/track-and-field/roster,OK_static,316,233
+UAB,UAB,exact,100,https://uabsports.com/,https://uabsports.com/sports/track-and-field/roster,OK_static,168,123
+UAlbany,Albany [ N 13 ],alias,100,https://ualbanysports.com/,https://ualbanysports.com/sports/mens-track-and-field/roster,OK_static,346,73
+UC Davis,UC Davis,exact,100,https://ucdavisaggies.com/,https://ucdavisaggies.com/sports/track-and-field/roster,OK_static,557,291
+UC Irvine,UC Irvine,exact,100,https://ucirvinesports.com/,https://ucirvinesports.com/sports/mens-track-and-field/roster,OK_static,122,97
+UC Riverside,UC Riverside,exact,100,https://gohighlanders.com/,https://gohighlanders.com/sports/track-and-field/roster,OK_static,564,329
+UC San Diego,UC San Diego,exact,100,https://ucsdtritons.com/,https://ucsdtritons.com/sports/track-and-field/roster,OK_static,822,511
+UC Santa Barbara,UC Santa Barbara,exact,100,https://ucsbgauchos.com,https://ucsbgauchos.com/sports/mens-track-and-field/roster,OK_static,315,174
+UCF,UCF,exact,100,https://ucfknights.com/,https://ucfknights.com/sports/track-and-field/roster,js_only_revealed,132,38
+UCLA,UCLA,exact,100,https://uclabruins.com/,https://uclabruins.com/sports/track-and-field/roster,OK_static,359,289
+ULM,ULM [ N 22 ],exact,100,https://ulmwarhawks.com/index.aspx,,js_only,0,0
+UMBC,UMBC,exact,100,https://umbcretrievers.com/,https://umbcretrievers.com/sports/mens-track-and-field/roster,OK_static,269,140
+UMass Amherst,UMass / Massachusetts [ N 23 ],alias,100,https://umassathletics.com/,https://umassathletics.com/sports/mens-track-and-field/roster,OK_static,178,138
+UMass Lowell,UMass Lowell,exact,100,https://goriverhawks.com/,https://goriverhawks.com/sports/mens-track-and-field/roster,OK_static,518,234
+UNC-Asheville,UNC Asheville,exact,100,https://uncabulldogs.com/,https://uncabulldogs.com/sports/track-and-field/roster,OK_static,302,109
+UNC-Greensboro,UNC Greensboro,exact,100,https://uncgspartans.com/,https://uncgspartans.com/sports/track-and-field/roster,OK_static,254,35
+UNCW,UNCW [ N 25 ],exact,100,https://uncwsports.com/,https://uncwsports.com/sports/mens-track-and-field/roster,js_table_stub,178,24
+UNLV,UNLV,exact,100,https://unlvrebels.com/index.aspx,,js_only,0,0
+USC,USC [ N 27 ],exact,100,https://usctrojans.com/,https://usctrojans.com/sports/track-and-field/roster,OK_static,272,277
+USC Upstate,USC Upstate [ N 26 ],exact,100,https://upstatespartans.com/,https://upstatespartans.com/sports/track-and-field/roster,OK_static,352,77
+UT Martin,UT Martin,exact,100,https://utmsports.com/,https://utmsports.com/sports/mens-track-and-field/roster,OK_static,106,84
+UT-Arlington,UT Arlington,exact,100,https://utamavs.com/,https://utamavs.com/sports/track-and-field/roster,OK_static,572,304
+UT-Rio Grande Valley,UTRGV [ N 20 ],alias,100,https://goutrgv.com/,https://goutrgv.com/sports/mens-track-and-field/roster,OK_static,227,132
+UTEP,UTEP,exact,100,https://utepminers.com/,https://utepminers.com/sports/track-and-field/roster,OK_static,421,297
+UTSA,UTSA,exact,100,https://goutsa.com/,https://goutsa.com/sports/cross-country/roster,js_table_stub,31,28
+Utah,Utah,exact,100,https://utahutes.com/,https://utahutes.com/sports/track-and-field/roster,OK_static,146,115
+Utah State,Utah State,exact,100,https://utahstateaggies.com/index.aspx,,js_only,0,0
+Utah Tech,Utah Tech,exact,100,https://utahtechtrailblazers.com/,https://utahtechtrailblazers.com/sports/mens-cross-country/roster,OK_static,87,49
+Utah Valley,Utah Valley,exact,100,https://gouvu.com/,https://gouvu.com/sports/track-and-field/roster,OK_static,714,398
+VCU,VCU,exact,100,https://vcuathletics.com/,https://vcuathletics.com/sports/mens-track-and-field/roster,OK_static,192,92
+VMI,VMI,exact,100,https://vmikeydets.com/,https://vmikeydets.com/sports/mens-track-and-field/roster,OK_static,196,112
+Valparaiso,Valparaiso,exact,100,https://valpoathletics.com/,https://valpoathletics.com/sports/mens-track-and-field/roster,OK_static,199,110
+Vanderbilt,Vanderbilt,exact,100,https://vucommodores.com/,https://vucommodores.com/sports/mens-cross-country/roster,js_only,0,0
+Vermont,Vermont,exact,100,https://uvmathletics.com/,https://uvmathletics.com/sports/track-and-field/roster,OK_static,781,319
+Villanova,Villanova,exact,100,https://villanova.com/,https://villanova.com/sports/mens-track-and-field/roster,OK_static,297,110
+Virginia,Virginia,exact,100,https://virginiasports.com,,js_only,0,0
+Virginia Tech,Virginia Tech,exact,100,https://hokiesports.com/,https://hokiesports.com/sports/track-and-field/roster,js_only_revealed,149,70
+Wagner,Wagner,exact,100,https://wagnerathletics.com/,https://wagnerathletics.com/sports/mens-track-and-field/roster,OK_static,294,61
+Wake Forest,Wake Forest,exact,100,https://godeacs.com,https://godeacs.com/sports/track-and-field/roster,OK_static,251,165
+Washington,Washington,exact,100,https://gohuskies.com/,https://gohuskies.com/sports/track-and-field/roster,OK_static,281,230
+Washington St.,Washington State,exact,100,https://wsucougars.com/,https://wsucougars.com/sports/track-and-field/roster,OK_static,178,143
+Weber State,Weber State,exact,100,https://weberstatesports.com,https://weberstatesports.com/sports/track-and-field/roster,OK_static,191,151
+West Virginia,West Virginia,exact,100,https://wvusports.com/,https://wvusports.com/sports/mens-cross-country/roster,js_only,0,0
+Western Carolina,Western Carolina,exact,100,https://catamountsports.com/,https://catamountsports.com/sports/mens-track-and-field/roster,OK_static,671,185
+Western Illinois,Western Illinois,exact,100,https://goleathernecks.com/,https://goleathernecks.com/sports/mens-track-and-field/roster,OK_static,137,80
+Western Kentucky,Western Kentucky,exact,100,http://www.wkusports.com/,http://www.wkusports.com/sports/track-and-field/roster,OK_static,314,238
+Western Michigan,Western Michigan,exact,100,https://wmubroncos.com/,,js_only,0,0
+Wichita State,Wichita State,exact,100,https://goshockers.com/,https://goshockers.com/sports/track-and-field/roster,OK_static,760,432
+William & Mary,William & Mary,exact,100,https://tribeathletics.com/,https://tribeathletics.com/sports/track-and-field/roster,OK_static,568,278
+Winthrop,Winthrop,exact,100,https://winthropeagles.com/,https://winthropeagles.com/sports/mens-track-and-field/roster,OK_static,207,87
+Wisconsin,Wisconsin,exact,100,https://uwbadgers.com/,https://uwbadgers.com/sports/mens-track-and-field/roster,OK_static,135,102
+Wofford,Wofford,exact,100,https://woffordterriers.com/,https://woffordterriers.com/sports/mens-track-and-field/roster,OK_static,185,34
+Wright State,Wright State,exact,100,https://wsuraiders.com/index.aspx,,js_only,0,0
+Wyoming,Wyoming,exact,100,https://gowyo.com/,https://gowyo.com/sports/track-and-field/roster,js_table_stub,176,21
+Xavier (Ohio),Xavier,alias,100,https://goxavier.com/,https://goxavier.com/sports/track-and-field/roster,OK_static,230,151
+Yale,Yale,exact,100,https://yalebulldogs.com/,https://yalebulldogs.com/sports/mens-track-and-field/roster,OK_static,381,193
+Youngstown St.,Youngstown State,exact,100,https://ysusports.com/,,js_only,0,0

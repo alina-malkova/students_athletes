@@ -1,0 +1,32 @@
+school_name,wiki_match,match_type,match_score,base_url,roster_url,probe_status,hometown_count,real_hometowns
+Arizona State,Arizona State,exact,100,https://sundevils.com/,https://thesundevils.com/sports/track-and-field/roster,OK_rediscovered,0,72
+Auburn,Auburn,exact,100,https://auburntigers.com/,https://auburntigers.com/sports/cross-country/roster,js_only,0,0
+Bradley,Bradley,exact,100,https://bradleybraves.com/,https://bradleybraves.com/sports/track-and-field/roster,js_table_stub,132,21
+Central Connecticut,Central Connecticut,exact,100,http://www.ccsubluedevils.com/,http://www.ccsubluedevils.com/sports/mtrack/2025-26/roster,OK_rediscovered,0,59
+Cincinnati,Cincinnati,exact,100,https://gobearcats.com/,https://gobearcats.com/sports/cross-country/roster,OK_rediscovered,144,27
+Elon,Elon,exact,100,https://elonphoenix.com/index.aspx,,js_only,0,0
+George Mason,George Mason,exact,100,https://gomason.com/index.aspx,,js_only,0,0
+New Mexico,New Mexico,exact,100,http://www.golobos.com/,http://www.golobos.com/sports/track/roster,OK_rediscovered,0,78
+North Alabama,North Alabama,exact,100,http://www.roarlions.com/index.aspx,,js_only,0,0
+Omaha,Omaha,exact,100,https://omavs.com/,,js_only,0,0
+Penn State,Penn State,exact,100,http://www.gopsusports.com/,http://www.gopsusports.com/sports/track-field/roster,js_only_revealed,212,85
+Purdue,Purdue,exact,100,https://purduesports.com/,https://purduesports.com/sports/track-and-field/roster,js_only_revealed,130,62
+Rutgers,Rutgers,exact,100,https://scarletknights.com/index.aspx,https://scarletknights.com/sports/track-and-field/roster,OK_rediscovered,0,194
+SE Louisiana,Southeastern Louisiana,alias,100,https://lionsports.net/index.aspx,,js_only,0,0
+SMU,SMU,exact,100,https://smumustangs.com/,https://smumustangs.com/sports/womens-track-and-field/roster,OK_rediscovered,0,25
+San Diego St.,San Diego State,exact,100,https://goaztecs.com/,https://goaztecs.com/sports/track-and-field/roster,js_only_revealed,84,40
+South Carolina,South Carolina,exact,100,https://gamecocksonline.com/,,js_only,0,0
+St. John's,St. John's,exact,100,https://redstormsports.com,https://redstormsports.com/sports/mens-cross-country/roster,js_only,0,0
+St. Thomas (Minn.),St. Thomas,alias,100,https://tommiesports.com/,https://tommiesports.com/sports/mens-cross-country/roster,js_only,0,0
+Tennessee Tech,Tennessee Tech,exact,100,https://www.ttusports.com/landing/index,,js_only,0,0
+ULM,ULM [ N 22 ],exact,100,https://ulmwarhawks.com/index.aspx,,js_only,0,0
+UNLV,UNLV,exact,100,https://unlvrebels.com/index.aspx,,js_only,0,0
+Utah State,Utah State,exact,100,https://utahstateaggies.com/index.aspx,,js_only,0,0
+Vanderbilt,Vanderbilt,exact,100,https://vucommodores.com/,https://vucommodores.com/sports/mens-cross-country/roster,js_only,0,0
+Virginia,Virginia,exact,100,https://virginiasports.com,,js_only,0,0
+Virginia Tech,Virginia Tech,exact,100,https://hokiesports.com/,https://hokiesports.com/sports/track-and-field/roster,js_only_revealed,149,70
+West Virginia,West Virginia,exact,100,https://wvusports.com/,https://wvusports.com/sports/mens-cross-country/roster,js_only,0,0
+Western Michigan,Western Michigan,exact,100,https://wmubroncos.com/,,js_only,0,0
+Wright State,Wright State,exact,100,https://wsuraiders.com/index.aspx,,js_only,0,0
+Wyoming,Wyoming,exact,100,https://gowyo.com/,https://gowyo.com/sports/track-and-field/roster,js_table_stub,176,21
+Youngstown St.,Youngstown State,exact,100,https://ysusports.com/,,js_only,0,0

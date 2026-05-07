@@ -1,0 +1,34 @@
+school_name,roster_url,probe_status,reason
+Clemson,http://clemsontigers.com/sports/track-field/roster,js_table_stub,no_data
+Stanford,http://www.gostanford.com/sports/track-and-field/roster,OK_static,no_data
+UCF,https://ucfknights.com/sports/track-and-field/roster,OK_static,no_data
+Alabama,http://rolltide.com/sports/mens-cross-country/roster,js_only,selenium_no_data
+Ball State,https://ballstatesports.com/sports/mens-cross-country/roster,js_only,selenium_no_data
+Florida Atlantic,https://fausports.com/sports/track-and-field/roster,js_table_stub,selenium_no_data
+Georgia Tech,https://ramblinwreck.com/sports/mens-cross-country/roster,js_only,selenium_no_data
+Northwestern,https://nusports.com/sports/mens-cross-country/roster,js_only,selenium_no_data
+Notre Dame,https://fightingirish.com/sports/mens-cross-country/roster,js_only,selenium_no_data
+Oklahoma State,https://okstate.com/sports/mens-cross-country/roster,js_only,selenium_no_data
+Cleveland St.,https://csuvikings.com/sports/womens-cross-country/roster,OK_rediscovered,selenium_no_data
+Eastern Illinois,https://eiupanthers.com/sports/mens-track-and-field/roster,OK_rediscovered,selenium_no_data
+Eastern Kentucky,https://ekusports.com/sports/track-and-field/roster,OK_rediscovered,selenium_no_data
+Gardner-Webb,https://gwusports.com/sports/track-and-field/roster,OK_rediscovered,selenium_no_data
+Georgia State,https://georgiastatesports.com/sports/womens-track-and-field/roster,OK_rediscovered,selenium_no_data
+Hawaii,https://hawaiiathletics.com/sports/womens-track-and-field/roster,OK_rediscovered,selenium_no_data
+Illinois-Chicago,https://uicflames.com/sports/mens-track-and-field/roster,OK_rediscovered,selenium_no_data
+Nicholls State,https://geauxcolonels.com/sports/womens-track-and-field/roster,OK_rediscovered,selenium_no_data
+Ohio,https://ohiobobcats.com/sports/wtrack/roster,OK_rediscovered,selenium_no_data
+Cincinnati,https://gobearcats.com/sports/track-and-field/roster,js_only_revealed,selenium_no_data
+Auburn,https://auburntigers.com/sports/cross-country/roster,js_only,selenium_no_data
+Bradley,https://bradleybraves.com/sports/track-and-field/roster,js_table_stub,selenium_no_data
+Central Connecticut,http://www.ccsubluedevils.com/sports/mtrack/2025-26/roster,OK_rediscovered,selenium_no_data
+New Mexico,http://www.golobos.com/sports/track/roster,OK_rediscovered,selenium_no_data
+Penn State,http://www.gopsusports.com/sports/track-field/roster,js_only_revealed,selenium_no_data
+Purdue,https://purduesports.com/sports/track-and-field/roster,js_only_revealed,selenium_no_data
+San Diego St.,https://goaztecs.com/sports/track-and-field/roster,js_only_revealed,selenium_no_data
+St. John's,https://redstormsports.com/sports/mens-cross-country/roster,js_only,selenium_no_data
+St. Thomas (Minn.),https://tommiesports.com/sports/mens-cross-country/roster,js_only,selenium_no_data
+Vanderbilt,https://vucommodores.com/sports/mens-cross-country/roster,js_only,selenium_no_data
+Virginia Tech,https://hokiesports.com/sports/track-and-field/roster,js_only_revealed,selenium_no_data
+West Virginia,https://wvusports.com/sports/mens-cross-country/roster,js_only,selenium_no_data
+Wyoming,https://gowyo.com/sports/track-and-field/roster,js_table_stub,selenium_no_data
