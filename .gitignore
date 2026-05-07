@@ -11,6 +11,15 @@ raw_data/*
 !raw_data/soccer_analysis_dataset.csv
 !raw_data/soccer_rosters_mapped.csv
 
+# Track scraped roster data + merge artifacts
+!raw_data/soccer_rosters.csv
+!raw_data/track_rosters.csv
+!raw_data/school_track_platforms.csv
+!raw_data/track_roster_failures.csv
+!raw_data/track_selenium_deferred.csv
+!raw_data/unmatched_hometowns.csv
+!raw_data/analysis_dataset.csv
+
 # Zip archives
 *.zip
 
