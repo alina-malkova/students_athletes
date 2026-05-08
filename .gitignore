@@ -19,6 +19,7 @@ raw_data/*
 !raw_data/track_selenium_deferred.csv
 !raw_data/unmatched_hometowns.csv
 !raw_data/analysis_dataset.csv
+!raw_data/wdi_population.csv
 
 # Zip archives
 *.zip

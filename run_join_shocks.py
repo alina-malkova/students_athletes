@@ -45,6 +45,24 @@ def main():
     warnings.filterwarnings('ignore', category=pd.errors.DtypeWarning)
     df = pd.read_csv(ANALYSIS, low_memory=False)
     print(f"Loaded analysis_dataset: {df.shape}")
+    # Drop any shock columns from a prior run so the script is idempotent.
+    SHOCK_COLS = {
+        'gdp_growth_zscore', 'gdp_shock', 'exchange_rate_change', 'currency_crisis',
+        'currency_crisis_severe', 'unemployment_change', 'unemployment_spike',
+        'ppp_change', 'ppp_shock', 'econ_shock_index', 'any_econ_shock',
+        'econ_shocks_2010_23', 'currency_crises_2010_23', 'gdp_shocks_2010_23',
+        'conflict_2023', 'n_conflicts_2023', 'conflict_intensity_2023',
+        'years_with_conflict_2010_23', 'conflict_onsets_2010_23',
+        'disaster_events_2023', 'disaster_deaths_2023', 'disaster_affected_2023',
+        'disaster_deaths_2010_23', 'disaster_events_2010_23',
+        'stringency_2020_21', 'covid_cases_per_million', 'covid_deaths_per_million',
+        'political_stability', 'govt_effectiveness', 'rule_of_law',
+        'control_corruption', 'population',
+    }
+    drop = [c for c in df.columns if c in SHOCK_COLS]
+    if drop:
+        df = df.drop(columns=drop)
+        print(f"  dropped {len(drop)} pre-existing shock columns to avoid suffix collisions")
     cols_before = set(df.columns)
 
     # ---------- 1. Macro shocks (binary indicators) ----------
@@ -139,6 +157,12 @@ def main():
     ps_2023 = ps_2023.drop(columns='year')
     df = df.merge(ps_2023, on='country_code', how='left')
     print(f"  + Political stability 2023: now {df.shape[1]} cols")
+
+    # ---------- 6. Population (SP.POP.TOTL) ----------
+    pop = pd.read_csv(os.path.join(RAW_DATA, 'wdi_population.csv'))
+    pop_2023 = pop[pop['year'] == 2023][['country_code', 'population']]
+    df = df.merge(pop_2023, on='country_code', how='left')
+    print(f"  + Population 2023: now {df.shape[1]} cols")
 
     # ---------- Save ----------
     df.to_csv(ANALYSIS, index=False)

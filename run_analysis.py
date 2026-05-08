@@ -32,6 +32,7 @@ def country_panel(df: pd.DataFrame) -> pd.DataFrame:
                      soccer_athletes=('sport', lambda s: (s == 'Soccer').sum()),
                      track_athletes=('sport', lambda s: (s == 'Track & Field').sum()),
                      gdp_per_capita_ppp=('gdp_per_capita_ppp', 'first'),
+                     population=('population', 'first'),
                      unemployment=('unemployment', 'first'),
                      gdp_growth=('gdp_growth', 'first'),
                      political_stability=('political_stability', 'first'),
@@ -47,8 +48,12 @@ def country_panel(df: pd.DataFrame) -> pd.DataFrame:
 
 def add_log_outcomes(panel: pd.DataFrame) -> pd.DataFrame:
     panel = panel.copy()
-    panel['log_athletes']    = np.log(panel['athletes'])
-    panel['log_gdp_pc']      = np.log(panel['gdp_per_capita_ppp'])
+    panel['log_athletes'] = np.log(panel['athletes'])
+    panel['log_gdp_pc']   = np.log(panel['gdp_per_capita_ppp'])
+    panel['log_pop']      = np.log(panel['population'])
+    # athletes per million people -- a rate that's invariant to country size
+    panel['athletes_per_million'] = 1e6 * panel['athletes'] / panel['population']
+    panel['log_athletes_per_million'] = np.log(panel['athletes_per_million'])
     # log(deaths+1) handles zeros
     panel['log_disaster_deaths_2010_23'] = np.log1p(panel['disaster_deaths_2010_23'])
     return panel
@@ -86,34 +91,52 @@ def main():
 
     y = panel['log_athletes']
 
-    # Spec 1: GDP only
+    # Spec 1: GDP only (no population)
     m1 = run_ols(y, panel[['log_gdp_pc']], 'Spec 1: log_athletes ~ log_gdp_pc', fh)
 
-    # Spec 2: GDP + governance + recent econ shocks
-    X2 = panel[['log_gdp_pc', 'political_stability',
+    # Spec 2: + log_pop (population control)
+    m2 = run_ols(y, panel[['log_gdp_pc', 'log_pop']],
+                 'Spec 2: + log_pop (population control)', fh)
+
+    # Spec 3: + governance + shocks + disasters (with pop control)
+    X3 = panel[['log_gdp_pc', 'log_pop', 'political_stability',
                 'econ_shocks_2010_23', 'log_disaster_deaths_2010_23']]
-    m2 = run_ols(y, X2, 'Spec 2: + political_stability + shocks + disaster deaths', fh)
+    m3 = run_ols(y, X3,
+                 'Spec 3: + pop_control + political_stability + shocks + log(disaster deaths)', fh)
 
-    # Spec 3: track-only (where the international concentration is)
-    panel_track = panel.copy()
+    # Spec 4: outcome = athletes per million population (rate, no scale confound)
+    panel_rate = panel.dropna(subset=['log_athletes_per_million']).copy()
+    Xr = panel_rate[['log_gdp_pc', 'political_stability',
+                     'econ_shocks_2010_23', 'log_disaster_deaths_2010_23']]
+    m4 = run_ols(panel_rate['log_athletes_per_million'], Xr,
+                 'Spec 4: log(athletes per million) ~ log_gdp + governance + shocks',
+                 fh)
+
+    # Spec 5: track-only with population control
+    panel_track = panel.dropna(subset=['log_pop']).copy()
     panel_track['log_track'] = np.log(panel_track['track_athletes'].replace(0, np.nan))
-    m3 = run_ols(panel_track.dropna(subset=['log_track'])['log_track'],
-                 panel_track.dropna(subset=['log_track'])[
-                     ['log_gdp_pc', 'political_stability',
+    sub = panel_track.dropna(subset=['log_track'])
+    m5 = run_ols(sub['log_track'],
+                 sub[['log_gdp_pc', 'log_pop', 'political_stability',
                       'econ_shocks_2010_23', 'log_disaster_deaths_2010_23']],
-                 'Spec 3: track-only outcome (log_track)', fh)
+                 'Spec 5: track-only outcome with population control', fh)
 
-    # Spec 4: years_with_conflict instead of econ shocks
-    X4 = panel[['log_gdp_pc', 'political_stability',
+    # Spec 6: years_with_conflict instead of econ shocks
+    X6 = panel[['log_gdp_pc', 'log_pop', 'political_stability',
                 'years_with_conflict_2010_23', 'log_disaster_deaths_2010_23']]
-    m4 = run_ols(y, X4, 'Spec 4: + years_with_conflict_2010_23', fh)
+    m6 = run_ols(y, X6, 'Spec 6: + years_with_conflict (pop-controlled)', fh)
 
     fh.close()
     print(f"\nWrote {out_path}")
 
     # ---------- Console summary ----------
     print("\n=== Headline coefficients (HC1 robust SEs) ===")
-    for name, m in [('Spec 1', m1), ('Spec 2', m2), ('Spec 3 track', m3), ('Spec 4', m4)]:
+    for name, m in [('Spec 1 (GDP only)', m1),
+                    ('Spec 2 (+log_pop)', m2),
+                    ('Spec 3 (+governance/shocks)', m3),
+                    ('Spec 4 (rate outcome)', m4),
+                    ('Spec 5 (track only)', m5),
+                    ('Spec 6 (+conflict)', m6)]:
         print(f"\n{name}:  R^2 = {m.rsquared:.3f}, n = {int(m.nobs)}")
         for k, v in m.params.items():
             se = m.bse[k]
