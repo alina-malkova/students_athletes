@@ -57,7 +57,7 @@ def main():
         'disaster_deaths_2010_23', 'disaster_events_2010_23',
         'stringency_2020_21', 'covid_cases_per_million', 'covid_deaths_per_million',
         'political_stability', 'govt_effectiveness', 'rule_of_law',
-        'control_corruption', 'population',
+        'control_corruption', 'population', 'pop_15_24_avg_2018_22',
     }
     drop = [c for c in df.columns if c in SHOCK_COLS]
     if drop:
@@ -163,6 +163,13 @@ def main():
     pop_2023 = pop[pop['year'] == 2023][['country_code', 'population']]
     df = df.merge(pop_2023, on='country_code', how='left')
     print(f"  + Population 2023: now {df.shape[1]} cols")
+
+    # ---------- 7. Age-15-24 cohort population (2018-22 average) ----------
+    # Aligns with the recruitment window of athletes currently enrolled
+    # (mostly Fr-Sr in 2024-25 / 2025-26, who were 15-22 during 2018-22).
+    cohort = pd.read_csv(os.path.join(RAW_DATA, 'wdi_population_15_24.csv'))
+    df = df.merge(cohort, on='country_code', how='left')
+    print(f"  + Age 15-24 cohort population (2018-22 avg): now {df.shape[1]} cols")
 
     # ---------- Save ----------
     df.to_csv(ANALYSIS, index=False)

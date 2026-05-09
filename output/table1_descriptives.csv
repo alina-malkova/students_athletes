@@ -1,0 +1,6 @@
+Tier,Countries,Athletes (sum),Athletes per country (mean),GDP/cap PPP (median),"Pop, mil (median)","15-24 pop, mil (median)",Athletes / million pop,Athletes / million 15-24,Pol. stab. (median),Econ shocks 2010-23 (mean),Disaster deaths 2010-23 (median),Years w/ conflict 2010-23 (mean)
+1. Low (Q1),26,533,20.5,7670,22.5,4.1,0.16,0.84,-0.6,2.85,208,3.6
+2. Lower-middle (Q2),25,109,4.4,21917,5.1,0.7,0.27,2.38,-0.08,2.56,70,1.7
+3. Upper-middle (Q3),25,352,14.1,41288,5.4,0.6,1.35,12.15,0.58,2.48,733,1.4
+4. High (Q4),26,825,31.7,64485,8.2,0.9,1.43,13.17,0.79,1.5,228,0.0
+All,102,1819,17.8,30837,9.7,1.1,0.71,5.59,0.39,2.34,259,1.7

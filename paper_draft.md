@@ -30,6 +30,33 @@ count of macroeconomic shocks).
 The country panel for analysis contains the **102 countries with at
 least one international athlete in our sample**.
 
+### Table 1. Descriptive statistics by income tier
+
+Countries are split into quartiles by 2023 GDP per capita PPP.
+
+| Tier (Q of GDP/cap PPP) | Countries | Athletes | Per country | GDP/cap PPP (med.) | 15-24 pop, mil (med.) | Athletes / mil pop | **Athletes / mil 15-24** | Pol. stab. (med.) | Econ shocks 2010-23 | Years w/ conflict |
+|---|---|---|---|---|---|---|---|---|---|---|
+| Q1 Low                | 26 |  533 | 20.5 |  $7,670 | 4.1 | 0.16 |   **0.84** | -0.60 | 2.85 | 3.6 |
+| Q2 Lower-middle       | 25 |  109 |  4.4 | $21,917 | 0.7 | 0.27 |   **2.38** | -0.08 | 2.56 | 1.7 |
+| Q3 Upper-middle       | 25 |  352 | 14.1 | $41,288 | 0.6 | 1.35 |  **12.15** | +0.58 | 2.48 | 1.4 |
+| Q4 High               | 26 |  825 | 31.7 | $64,485 | 0.9 | 1.43 |  **13.17** | +0.79 | 1.50 | 0.0 |
+| All                   |102 | 1819 | 17.8 | $30,837 | 1.1 | 0.71 |   **5.59** | +0.39 | 2.34 | 1.7 |
+
+Two patterns to note before we turn to regressions:
+
+1. **Per-cohort rate rises sharply with income.** Athletes per million
+   15-24 year-olds is 16× higher in Q4 (13.17) than in Q1 (0.84). Q3
+   countries already approach Q4 rates.
+
+2. **Aggregate counts do not.** Q1 supplies 533 athletes vs Q4's 825 --
+   only a 1.5× ratio -- because Q1 contains large populous countries
+   (median 4.1 million 15-24-year-olds vs 0.9 million in Q4). The
+   Kenya / Nigeria / Jamaica pipelines load heavily into Q1 and
+   sustain the count, even as the per-cohort rate is small.
+
+This U-shape in counts (Q1 high, Q2 low, Q3-Q4 high) versus monotonic
+rate (Q1 low → Q4 high) is the central tension we model.
+
 ## 2. Specification
 
 The baseline model regresses log athlete count or log athletes per
@@ -64,19 +91,36 @@ Adding $\log \text{pop}_c$ knocks the disaster coefficient out of
 significance, while $\log \text{GDPpc}$ rises to β = 0.48 (p < 0.01)
 and $\log \text{pop}_c$ enters at β = 0.29 (p < 0.01).
 
-The substantively most informative specification is the rate model
-($\log$ athletes per million population), which removes the scale
-mechanic entirely. Here the picture changes:
+The substantively most informative specifications are the rate models,
+which remove the scale mechanic entirely. We report two: the
+conventional rate (athletes per million total population) and a
+cohort-corrected rate (athletes per million age-15-24 population,
+2018-2022 average) that matches the recruitment age window of currently
+enrolled athletes.
 
-| Variable                         | Coef  | SE    | t      |
-|----------------------------------|-------|-------|--------|
-| $\log \text{GDPpc}$              | +0.22 | 0.24  | 0.93   |
-| Political stability (WGI)        | **+1.16** | 0.31  | **3.81** |
-| Economic shocks (count, 2010-23) | +0.03 | 0.11  | 0.30   |
-| $\log(1 + \text{disaster deaths})$ | **−0.25** | 0.06 | **−3.99** |
-|                                  |       |       |        |
-| $R^2$                            | 0.45  |       |        |
-| n                                | 100   |       |        |
+| Variable                         | Per million total pop | Per million age 15-24 |
+|----------------------------------|----:|----:|
+| $\log \text{GDPpc}$              | +0.22 (0.24)  | **+0.39*** (0.24) |
+| Political stability (WGI)        | **+1.16*** (0.31) | **+1.19*** (0.30) |
+| Economic shocks (count, 2010-23) | +0.03 (0.11)  | +0.05 (0.12) |
+| $\log(1 + \text{disaster deaths})$ | **−0.25*** (0.06) | **−0.23*** (0.06) |
+|                                  |       |       |
+| $R^2$                            | 0.45  | 0.48  |
+| n                                | 100   | 100   |
+
+*Standard errors in parentheses. Stars: \*\*\* p<0.01, \*\* p<0.05, \* p<0.10.*
+
+Substantively, scaling by the 15-24 cohort rather than by total
+population brings $\log \text{GDPpc}$ to marginal significance (+0.39,
+p<0.10) and raises $R^2$ slightly. The political-stability and
+disaster-deaths coefficients are essentially unchanged. We use the
+cohort rate as the preferred outcome going forward.
+
+A 1-unit increase on the WGI political-stability index (which ranges
+roughly from −2.5 to +2.5 across countries) is associated with
+$\exp(1.19) \approx 3.3$ times more athletes per young person in NCAA
+D-I. A doubling of cumulative disaster deaths is associated with about
+$2^{-0.23} \approx 15\,\%$ fewer athletes per young person.
 
 *Stars: *** p<0.01, ** p<0.05, * p<0.10. HC1 robust SEs throughout.*
 
@@ -136,6 +180,55 @@ sender countries) to identify any structural effect; only $\log
 A separate research design — possibly modelling school-level recruiting
 networks rather than country-year macroeconomics — is required for
 international soccer.
+
+### 3.4 Shift-share decomposition
+
+To probe whether sport-mix specialization itself drives the country
+panel result, we construct a Bartik-style shift-share exposure on
+track-event composition. For each country $c$ with at least five
+international track athletes (n=40), we compute shares $s_{c,e}$
+across nine event groups (Sprints, Mid-Distance, Distance, Cross
+Country, Hurdles, Jumps, Pole Vault, Throws, Multi-Events) parsed from
+roster position fields. Leave-one-out shifts $\Delta_e^{-c}$ are the
+total intl athletes in event $e$ summed over countries other than $c$.
+The Bartik exposure is
+
+$$
+B_c = \sum_e s_{c,e} \cdot \log(1 + \Delta_e^{-c}).
+$$
+
+Three uses confirm and refine the main story.
+
+**(i) As a covariate.** When $B_c$ is added to the count specification,
+it enters at +0.95 (p<0.10) and absorbs the $\log \text{GDPpc}$
+coefficient (which falls from +0.32 to −0.08, n.s.). This is mechanical:
+sport mix and country wealth are correlated, so including both
+introduces multicollinearity. In the rate specification, $B_c$ is
+insignificant on its own but the $\log \text{disaster deaths}$
+coefficient strengthens to −0.41 (p<0.01) and political stability
+remains at +1.21 (p<0.01).
+
+**(ii) As 2SLS instrument.** The first-stage F on $B_c$ is 13.5 -- just
+above the rule-of-thumb 10. We do not lean on the IV estimates: the
+2SLS standard errors blow up to the point where no coefficient is
+distinguishable from zero. The instrument is too weak in our cross-
+section to identify a clean local average treatment effect.
+
+**(iii) Decomposition.** Regressing $\log \text{athletes}$ on $B_c$
+alone yields $R^2 = 0.13$ and slope +1.09. The Bartik captures meaningful
+but not dominant variation. After residualizing on $B_c$, country-level
+shocks no longer correlate with the residual ($R^2 = 0.04$, no
+significant coefficients) -- in this 40-country subsample, what the
+shocks "explained" was largely sport-mix variation correlated with
+country fundamentals.
+
+The most consequential finding from the Bartik exercise is the
+**robustness of the political-stability coefficient**: it remains
++1.21 (p<0.01) in the rate model even after the Bartik enters as a
+covariate. This rules out a plausible alternative -- that
+political-stability is a hidden sport-mix effect (e.g., stable
+countries doing more throwing) -- and supports the institutions-as-
+mechanism interpretation we develop in Section 4.
 
 ## 4. Discussion
 
@@ -210,3 +303,9 @@ scripts in this repository:
 - `run_analysis.py` and `run_robustness.py` produce the coefficient
   tables in `output/regression_results.txt` and
   `output/robustness_results.txt`.
+- `run_bartik.py` builds the track-event shift-share exposure and
+  writes `output/bartik_results.txt` and `output/bartik_panel.csv`.
+- `run_paper_outputs.py` builds Table 1 (`output/table1_descriptives.csv`),
+  the coefficient forest plot (`output/fig_coef_forest.png`), the
+  cohort-rate scatter (`output/fig_log_athletes_per_cohort.png`), and
+  the top-20 panel (`output/fig_top20_countries_panel.png`).

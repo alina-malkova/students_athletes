@@ -10,8 +10,8 @@ Spec 1: log_athletes ~ log_gdp_pc
 Dep. Variable:           log_athletes   R-squared:                       0.042
 Model:                            OLS   Adj. R-squared:                  0.032
 Method:                 Least Squares   F-statistic:                     4.871
-Date:                Thu, 07 May 2026   Prob (F-statistic):             0.0296
-Time:                        17:35:58   Log-Likelihood:                -183.69
+Date:                Fri, 08 May 2026   Prob (F-statistic):             0.0296
+Time:                        20:22:38   Log-Likelihood:                -183.69
 No. Observations:                 102   AIC:                             371.4
 Df Residuals:                     100   BIC:                             376.6
 Df Model:                           1                                         
@@ -39,8 +39,8 @@ Spec 2: + log_pop (population control)
 Dep. Variable:           log_athletes   R-squared:                       0.207
 Model:                            OLS   Adj. R-squared:                  0.191
 Method:                 Least Squares   F-statistic:                     15.10
-Date:                Thu, 07 May 2026   Prob (F-statistic):           1.89e-06
-Time:                        17:35:58   Log-Likelihood:                -174.07
+Date:                Fri, 08 May 2026   Prob (F-statistic):           1.89e-06
+Time:                        20:22:38   Log-Likelihood:                -174.07
 No. Observations:                 102   AIC:                             354.1
 Df Residuals:                      99   BIC:                             362.0
 Df Model:                           2                                         
@@ -69,8 +69,8 @@ Spec 3: + pop_control + political_stability + shocks + log(disaster deaths)
 Dep. Variable:           log_athletes   R-squared:                       0.220
 Model:                            OLS   Adj. R-squared:                  0.178
 Method:                 Least Squares   F-statistic:                     6.392
-Date:                Thu, 07 May 2026   Prob (F-statistic):           3.75e-05
-Time:                        17:35:58   Log-Likelihood:                -169.59
+Date:                Fri, 08 May 2026   Prob (F-statistic):           3.75e-05
+Time:                        20:22:38   Log-Likelihood:                -169.59
 No. Observations:                 100   AIC:                             351.2
 Df Residuals:                      94   BIC:                             366.8
 Df Model:                           5                                         
@@ -102,8 +102,8 @@ Spec 4: log(athletes per million) ~ log_gdp + governance + shocks
 Dep. Variable:     log_athletes_per_million   R-squared:                       0.448
 Model:                                  OLS   Adj. R-squared:                  0.424
 Method:                       Least Squares   F-statistic:                     16.69
-Date:                      Thu, 07 May 2026   Prob (F-statistic):           2.17e-10
-Time:                              17:35:58   Log-Likelihood:                -188.77
+Date:                      Fri, 08 May 2026   Prob (F-statistic):           2.17e-10
+Time:                              20:22:38   Log-Likelihood:                -188.77
 No. Observations:                       100   AIC:                             387.5
 Df Residuals:                            95   BIC:                             400.6
 Df Model:                                 4                                         
@@ -127,6 +127,38 @@ Notes:
 [1] Standard Errors are heteroscedasticity robust (HC1)
 
 ======================================================================
+Spec 4b: log(athletes per million age 15-24)
+======================================================================
+                                  OLS Regression Results                                  
+==========================================================================================
+Dep. Variable:     log_athletes_per_million_15_24   R-squared:                       0.478
+Model:                                        OLS   Adj. R-squared:                  0.456
+Method:                             Least Squares   F-statistic:                     19.14
+Date:                            Fri, 08 May 2026   Prob (F-statistic):           1.42e-11
+Time:                                    20:22:38   Log-Likelihood:                -189.37
+No. Observations:                             100   AIC:                             388.7
+Df Residuals:                                  95   BIC:                             401.8
+Df Model:                                       4                                         
+Covariance Type:                              HC1                                         
+===============================================================================================
+                                  coef    std err          z      P>|z|      [0.025      0.975]
+-----------------------------------------------------------------------------------------------
+const                          -1.4384      2.302     -0.625      0.532      -5.949       3.073
+log_gdp_pc                      0.3932      0.236      1.668      0.095      -0.069       0.855
+political_stability             1.1924      0.297      4.010      0.000       0.610       1.775
+econ_shocks_2010_23             0.0449      0.117      0.384      0.701      -0.184       0.274
+log_disaster_deaths_2010_23    -0.2330      0.062     -3.748      0.000      -0.355      -0.111
+==============================================================================
+Omnibus:                        1.085   Durbin-Watson:                   2.240
+Prob(Omnibus):                  0.581   Jarque-Bera (JB):                0.887
+Skew:                          -0.231   Prob(JB):                        0.642
+Kurtosis:                       2.998   Cond. No.                         162.
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC1)
+
+======================================================================
 Spec 5: track-only outcome with population control
 ======================================================================
                             OLS Regression Results                            
@@ -134,8 +166,8 @@ Spec 5: track-only outcome with population control
 Dep. Variable:              log_track   R-squared:                       0.216
 Model:                            OLS   Adj. R-squared:                  0.174
 Method:                 Least Squares   F-statistic:                     6.158
-Date:                Thu, 07 May 2026   Prob (F-statistic):           5.67e-05
-Time:                        17:35:58   Log-Likelihood:                -168.23
+Date:                Fri, 08 May 2026   Prob (F-statistic):           5.67e-05
+Time:                        20:22:38   Log-Likelihood:                -168.23
 No. Observations:                  99   AIC:                             348.5
 Df Residuals:                      93   BIC:                             364.0
 Df Model:                           5                                         
@@ -167,8 +199,8 @@ Spec 6: + years_with_conflict (pop-controlled)
 Dep. Variable:           log_athletes   R-squared:                       0.217
 Model:                            OLS   Adj. R-squared:                  0.175
 Method:                 Least Squares   F-statistic:                     6.393
-Date:                Thu, 07 May 2026   Prob (F-statistic):           3.74e-05
-Time:                        17:35:58   Log-Likelihood:                -169.76
+Date:                Fri, 08 May 2026   Prob (F-statistic):           3.74e-05
+Time:                        20:22:38   Log-Likelihood:                -169.76
 No. Observations:                 100   AIC:                             351.5
 Df Residuals:                      94   BIC:                             367.2
 Df Model:                           5                                         

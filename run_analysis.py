@@ -33,6 +33,7 @@ def country_panel(df: pd.DataFrame) -> pd.DataFrame:
                      track_athletes=('sport', lambda s: (s == 'Track & Field').sum()),
                      gdp_per_capita_ppp=('gdp_per_capita_ppp', 'first'),
                      population=('population', 'first'),
+                     pop_15_24=('pop_15_24_avg_2018_22', 'first'),
                      unemployment=('unemployment', 'first'),
                      gdp_growth=('gdp_growth', 'first'),
                      political_stability=('political_stability', 'first'),
@@ -51,10 +52,12 @@ def add_log_outcomes(panel: pd.DataFrame) -> pd.DataFrame:
     panel['log_athletes'] = np.log(panel['athletes'])
     panel['log_gdp_pc']   = np.log(panel['gdp_per_capita_ppp'])
     panel['log_pop']      = np.log(panel['population'])
-    # athletes per million people -- a rate that's invariant to country size
-    panel['athletes_per_million'] = 1e6 * panel['athletes'] / panel['population']
+    panel['log_pop_15_24'] = np.log(panel['pop_15_24'])
+    # rate per million total pop and rate per million 15-24 year olds
+    panel['athletes_per_million']     = 1e6 * panel['athletes'] / panel['population']
+    panel['athletes_per_million_15_24'] = 1e6 * panel['athletes'] / panel['pop_15_24']
     panel['log_athletes_per_million'] = np.log(panel['athletes_per_million'])
-    # log(deaths+1) handles zeros
+    panel['log_athletes_per_million_15_24'] = np.log(panel['athletes_per_million_15_24'])
     panel['log_disaster_deaths_2010_23'] = np.log1p(panel['disaster_deaths_2010_23'])
     return panel
 
@@ -112,6 +115,15 @@ def main():
                  'Spec 4: log(athletes per million) ~ log_gdp + governance + shocks',
                  fh)
 
+    # Spec 4b: outcome = athletes per million age 15-24 (cohort-rate, the
+    # right denominator for college-age athletes)
+    panel_cohort = panel.dropna(subset=['log_athletes_per_million_15_24']).copy()
+    Xc = panel_cohort[['log_gdp_pc', 'political_stability',
+                       'econ_shocks_2010_23', 'log_disaster_deaths_2010_23']]
+    m4b = run_ols(panel_cohort['log_athletes_per_million_15_24'], Xc,
+                  'Spec 4b: log(athletes per million age 15-24)',
+                  fh)
+
     # Spec 5: track-only with population control
     panel_track = panel.dropna(subset=['log_pop']).copy()
     panel_track['log_track'] = np.log(panel_track['track_athletes'].replace(0, np.nan))
@@ -134,7 +146,8 @@ def main():
     for name, m in [('Spec 1 (GDP only)', m1),
                     ('Spec 2 (+log_pop)', m2),
                     ('Spec 3 (+governance/shocks)', m3),
-                    ('Spec 4 (rate outcome)', m4),
+                    ('Spec 4 (rate / total pop)', m4),
+                    ('Spec 4b (rate / 15-24 cohort)', m4b),
                     ('Spec 5 (track only)', m5),
                     ('Spec 6 (+conflict)', m6)]:
         print(f"\n{name}:  R^2 = {m.rsquared:.3f}, n = {int(m.nobs)}")
