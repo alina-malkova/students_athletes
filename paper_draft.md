@@ -181,7 +181,60 @@ A separate research design — possibly modelling school-level recruiting
 networks rather than country-year macroeconomics — is required for
 international soccer.
 
-### 3.4 Shift-share decomposition
+### 3.4 Extended specification with inflation and refugees
+
+We extend the rate model with two additional shock variables that
+arrived after the headline results: average CPI inflation 2010-2023
+(World Bank WDI) and total refugee outflows 2010-2023 normalised by
+the 15-24 cohort (UNHCR Refugee Statistics, country of origin).
+
+| Variable                                | Spec 4b | Spec 7 (extended) |
+|-----------------------------------------|---------|-------------------|
+| $\log \text{GDPpc}$                     | +0.39*  | +0.37 (n.s.)      |
+| Political stability (WGI)               | +1.19***| **+1.13***        |
+| $\log(1 + \text{mean inflation 2010-23})$ |       | −0.20 (n.s.)      |
+| $\log(1 + \text{refugees per cohort 2010-23})$ |   | **+0.77*          |
+| Years with conflict 2010-23             |         | −0.00 (n.s.)      |
+| $\log(1 + \text{disaster deaths 2010-23})$ | −0.23*** | **−0.22***       |
+| $R^2$                                   | 0.48    | 0.47              |
+| $n$                                     | 100     | 99                |
+
+Three observations.
+
+**Refugee outflows are positively associated with athlete supply.** A
+doubling of refugees-plus-asylum-seekers per young person is associated
+with $\exp(0.77 \cdot \ln 2) - 1 \approx 70\,\%$ more athletes per young
+person, after conditioning on GDP, political stability, conflict, and
+disasters. The point estimate is significant only at the 10% level, but
+the direction is opposite to the naive "refugee push" reading and worth
+naming. Three plausible mechanisms:
+
+  *(i)* selection -- athletes from refugee-producing countries who
+        successfully reach US college sports are positively selected on
+        unobservables (skills, networks, institutional ties);
+  *(ii)* a common-cause story -- whatever degrades home institutions
+        (war, economic collapse) raises both refugee outflows and the
+        marginal value of an outside option, including athletic
+        scholarships;
+  *(iii)* mechanical -- the cohort denominator is small in war-affected
+        states, inflating the rate ratio.
+
+Decomposing by sport (soccer vs track separately) and looking at
+country-specific time-series of refugee waves and subsequent NCAA
+enrollment would be needed to discriminate; this is left for further
+work.
+
+**Inflation does not predict athlete supply** in this specification
+(coefficient −0.20, n.s.). The cumulative-inflation control was
+intended to capture economic disturbance not picked up by the
+binary `econ_shocks` count; it adds no information here.
+
+**Disaster deaths and political stability survive again.** Both
+coefficients are essentially unchanged from Spec 4b (within standard
+error). The headline "institutions over economics" reading from
+Section 3.2 is robust to these additional controls.
+
+### 3.5 Shift-share decomposition
 
 To probe whether sport-mix specialization itself drives the country
 panel result, we construct a Bartik-style shift-share exposure on
@@ -203,10 +256,11 @@ Three uses confirm and refine the main story.
 it enters at +0.95 (p<0.10) and absorbs the $\log \text{GDPpc}$
 coefficient (which falls from +0.32 to −0.08, n.s.). This is mechanical:
 sport mix and country wealth are correlated, so including both
-introduces multicollinearity. In the rate specification, $B_c$ is
-insignificant on its own but the $\log \text{disaster deaths}$
-coefficient strengthens to −0.41 (p<0.01) and political stability
-remains at +1.21 (p<0.01).
+introduces multicollinearity. In the cohort-rate specification, $B_c$
+is insignificant on its own (+0.91, n.s.) but the $\log \text{disaster
+deaths}$ coefficient strengthens to −0.39 (p<0.01) and political
+stability rises to **+1.30 (p<0.01)** -- the strongest stability point
+estimate in any specification.
 
 **(ii) As 2SLS instrument.** The first-stage F on $B_c$ is 13.5 -- just
 above the rule-of-thumb 10. We do not lean on the IV estimates: the

@@ -58,6 +58,12 @@ def main():
         'stringency_2020_21', 'covid_cases_per_million', 'covid_deaths_per_million',
         'political_stability', 'govt_effectiveness', 'rule_of_law',
         'control_corruption', 'population', 'pop_15_24_avg_2018_22',
+        'inflation_2023', 'mean_inflation_2010_23', 'max_inflation_2010_23',
+        'hyperinflation_event',
+        'refugees_origin_2023', 'asylum_seekers_origin_2023',
+        'refugees_plus_asylum_2023',
+        'refugees_origin_2010_23_total', 'asylum_seekers_origin_2010_23_total',
+        'refugees_plus_asylum_2010_23_total',
     }
     drop = [c for c in df.columns if c in SHOCK_COLS]
     if drop:
@@ -170,6 +176,54 @@ def main():
     cohort = pd.read_csv(os.path.join(RAW_DATA, 'wdi_population_15_24.csv'))
     df = df.merge(cohort, on='country_code', how='left')
     print(f"  + Age 15-24 cohort population (2018-22 avg): now {df.shape[1]} cols")
+
+    # ---------- 8. CPI inflation (WDI FP.CPI.TOTL.ZG) ----------
+    if os.path.exists(os.path.join(RAW_DATA, 'wdi_inflation.csv')):
+        infl = pd.read_csv(os.path.join(RAW_DATA, 'wdi_inflation.csv'))
+        infl_2023 = (infl[infl['year'] == 2023][['country_code', 'inflation_pct']]
+                     .rename(columns={'inflation_pct': 'inflation_2023'}))
+        df = df.merge(infl_2023, on='country_code', how='left')
+        # 2010-2023 mean and a high-inflation indicator
+        agg = (infl[(infl['year'] >= 2010) & (infl['year'] <= 2023)]
+                  .groupby('country_code')['inflation_pct']
+                  .agg(mean_inflation_2010_23='mean',
+                       max_inflation_2010_23='max')
+                  .reset_index())
+        agg['hyperinflation_event'] = (agg['max_inflation_2010_23'] >= 50).astype(int)
+        df = df.merge(agg, on='country_code', how='left')
+        print(f"  + Inflation (2023 + 2010-23 aggregates): now {df.shape[1]} cols")
+
+    # ---------- 9. UNHCR refugees + asylum seekers (origin) ----------
+    if os.path.exists(os.path.join(RAW_DATA, 'unhcr_refugees.csv')):
+        ref = pd.read_csv(os.path.join(RAW_DATA, 'unhcr_refugees.csv'))
+        ref_2023 = (ref[ref['year'] == 2023]
+                       [['country_code', 'refugees', 'asylum_seekers',
+                         'refugees_plus_asylum']]
+                       .rename(columns={
+                           'refugees':              'refugees_origin_2023',
+                           'asylum_seekers':        'asylum_seekers_origin_2023',
+                           'refugees_plus_asylum':  'refugees_plus_asylum_2023',
+                       }))
+        df = df.merge(ref_2023, on='country_code', how='left')
+        # 2010-2023 totals
+        agg = (ref[(ref['year'] >= 2010) & (ref['year'] <= 2023)]
+                  .groupby('country_code')[['refugees', 'asylum_seekers',
+                                             'refugees_plus_asylum']]
+                  .sum().reset_index()
+                  .rename(columns={
+                      'refugees':              'refugees_origin_2010_23_total',
+                      'asylum_seekers':        'asylum_seekers_origin_2010_23_total',
+                      'refugees_plus_asylum':  'refugees_plus_asylum_2010_23_total',
+                  }))
+        df = df.merge(agg, on='country_code', how='left')
+        # Fill 0 for non-conflict countries (UNHCR doesn't list them)
+        for c in ['refugees_origin_2023', 'asylum_seekers_origin_2023',
+                  'refugees_plus_asylum_2023',
+                  'refugees_origin_2010_23_total', 'asylum_seekers_origin_2010_23_total',
+                  'refugees_plus_asylum_2010_23_total']:
+            if c in df.columns:
+                df[c] = df[c].fillna(0)
+        print(f"  + Refugees/asylum (origin, 2023 + 2010-23 totals): now {df.shape[1]} cols")
 
     # ---------- Save ----------
     df.to_csv(ANALYSIS, index=False)

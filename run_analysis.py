@@ -42,7 +42,12 @@ def country_panel(df: pd.DataFrame) -> pd.DataFrame:
                      years_with_conflict_2010_23=('years_with_conflict_2010_23', 'first'),
                      disaster_deaths_2010_23=('disaster_deaths_2010_23', 'first'),
                      econ_shocks_2010_23=('econ_shocks_2010_23', 'first'),
-                     stringency_2020_21=('stringency_2020_21', 'first'))
+                     stringency_2020_21=('stringency_2020_21', 'first'),
+                     inflation_2023=('inflation_2023', 'first'),
+                     mean_inflation_2010_23=('mean_inflation_2010_23', 'first'),
+                     hyperinflation_event=('hyperinflation_event', 'first'),
+                     refugees_origin_2023=('refugees_origin_2023', 'first'),
+                     refugees_plus_asylum_2010_23_total=('refugees_plus_asylum_2010_23_total', 'first'))
                 .reset_index())
     return agg
 
@@ -59,6 +64,12 @@ def add_log_outcomes(panel: pd.DataFrame) -> pd.DataFrame:
     panel['log_athletes_per_million'] = np.log(panel['athletes_per_million'])
     panel['log_athletes_per_million_15_24'] = np.log(panel['athletes_per_million_15_24'])
     panel['log_disaster_deaths_2010_23'] = np.log1p(panel['disaster_deaths_2010_23'])
+    # New shock variables: refugees per cohort + log inflation
+    panel['log_refugees_per_cohort'] = np.log1p(
+        panel['refugees_plus_asylum_2010_23_total'].fillna(0) /
+        panel['pop_15_24'])
+    panel['log_inflation_2023']      = np.log1p(panel['inflation_2023'].clip(lower=0))
+    panel['log_mean_inflation_2010_23'] = np.log1p(panel['mean_inflation_2010_23'].clip(lower=0))
     return panel
 
 
@@ -138,6 +149,19 @@ def main():
                 'years_with_conflict_2010_23', 'log_disaster_deaths_2010_23']]
     m6 = run_ols(y, X6, 'Spec 6: + years_with_conflict (pop-controlled)', fh)
 
+    # Spec 7: extended -- inflation + refugee outflows + conflict + disasters
+    # on the cohort-rate outcome.
+    panel_ext = panel.dropna(subset=['log_athletes_per_million_15_24',
+                                      'log_gdp_pc', 'political_stability']).copy()
+    Xe = panel_ext[['log_gdp_pc', 'political_stability',
+                    'log_mean_inflation_2010_23',
+                    'log_refugees_per_cohort',
+                    'years_with_conflict_2010_23',
+                    'log_disaster_deaths_2010_23']]
+    m7 = run_ols(panel_ext['log_athletes_per_million_15_24'], Xe,
+                 'Spec 7: cohort rate + inflation + refugees + conflict + disasters',
+                 fh)
+
     fh.close()
     print(f"\nWrote {out_path}")
 
@@ -149,7 +173,8 @@ def main():
                     ('Spec 4 (rate / total pop)', m4),
                     ('Spec 4b (rate / 15-24 cohort)', m4b),
                     ('Spec 5 (track only)', m5),
-                    ('Spec 6 (+conflict)', m6)]:
+                    ('Spec 6 (+conflict)', m6),
+                    ('Spec 7 (extended w/ inflation + refugees)', m7)]:
         print(f"\n{name}:  R^2 = {m.rsquared:.3f}, n = {int(m.nobs)}")
         for k, v in m.params.items():
             se = m.bse[k]

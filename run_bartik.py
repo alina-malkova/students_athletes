@@ -139,6 +139,7 @@ def main():
                 .agg(athletes=('school_name', 'count'),
                      gdp_per_capita_ppp=('gdp_per_capita_ppp', 'first'),
                      population=('population', 'first'),
+                     pop_15_24=('pop_15_24_avg_2018_22', 'first'),
                      political_stability=('political_stability', 'first'),
                      econ_shocks_2010_23=('econ_shocks_2010_23', 'first'),
                      disaster_deaths_2010_23=('disaster_deaths_2010_23', 'first'),
@@ -150,7 +151,8 @@ def main():
     panel['log_athletes']    = np.log(panel['athletes'])
     panel['log_gdp_pc']      = np.log(panel['gdp_per_capita_ppp'])
     panel['log_pop']         = np.log(panel['population'])
-    panel['log_athletes_per_million'] = np.log(1e6 * panel['athletes'] / panel['population'])
+    panel['log_athletes_per_million']     = np.log(1e6 * panel['athletes'] / panel['population'])
+    panel['log_athletes_per_million_15_24'] = np.log(1e6 * panel['athletes'] / panel['pop_15_24'])
     panel['log_disaster_deaths_2010_23'] = np.log1p(panel['disaster_deaths_2010_23'])
     panel = panel.dropna(subset=['log_gdp_pc', 'log_pop', 'bartik'])
     print(f"\nPanel for analysis: {len(panel)} countries")
@@ -166,11 +168,12 @@ def main():
 
     # ---------- (i) Bartik as covariate ----------
     print("\n--- (i) Bartik as covariate ---")
-    for outcome, label in [('log_athletes',                'count'),
-                           ('log_athletes_per_million',    'rate')]:
+    for outcome, label in [('log_athletes',                       'count'),
+                           ('log_athletes_per_million',           'rate (total pop)'),
+                           ('log_athletes_per_million_15_24',     'rate (15-24 cohort)')]:
         rhs = ['bartik', 'log_gdp_pc', 'log_pop', 'political_stability',
                'econ_shocks_2010_23', 'log_disaster_deaths_2010_23']
-        if outcome == 'log_athletes_per_million':
+        if outcome.startswith('log_athletes_per_million'):
             rhs = [r for r in rhs if r != 'log_pop']
         sub = panel.dropna(subset=[outcome] + rhs).copy()
         X = sm.add_constant(sub[rhs])

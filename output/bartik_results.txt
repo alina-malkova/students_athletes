@@ -12,7 +12,7 @@ Dep. Variable:           log_athletes   R-squared:                       0.172
 Model:                            OLS   Adj. R-squared:                  0.021
 Method:                 Least Squares   F-statistic:                     1.407
 Date:                Fri, 08 May 2026   Prob (F-statistic):              0.241
-Time:                        20:20:05   Log-Likelihood:                -53.412
+Time:                        20:45:54   Log-Likelihood:                -53.412
 No. Observations:                  40   AIC:                             120.8
 Df Residuals:                      33   BIC:                             132.6
 Df Model:                           6                                         
@@ -37,14 +37,14 @@ Kurtosis:                       2.234   Cond. No.                         672.
 Notes:
 [1] Standard Errors are heteroscedasticity robust (HC1)
 
-=== Bartik as covariate (rate outcome) ===
+=== Bartik as covariate (rate (total pop) outcome) ===
                                OLS Regression Results                               
 ====================================================================================
 Dep. Variable:     log_athletes_per_million   R-squared:                       0.568
 Model:                                  OLS   Adj. R-squared:                  0.505
 Method:                       Least Squares   F-statistic:                     9.059
 Date:                      Fri, 08 May 2026   Prob (F-statistic):           1.51e-05
-Time:                              20:20:05   Log-Likelihood:                -66.358
+Time:                              20:45:54   Log-Likelihood:                -66.358
 No. Observations:                        40   AIC:                             144.7
 Df Residuals:                            34   BIC:                             154.9
 Df Model:                                 5                                         
@@ -68,6 +68,37 @@ Kurtosis:                       2.472   Cond. No.                         385.
 Notes:
 [1] Standard Errors are heteroscedasticity robust (HC1)
 
+=== Bartik as covariate (rate (15-24 cohort) outcome) ===
+                                  OLS Regression Results                                  
+==========================================================================================
+Dep. Variable:     log_athletes_per_million_15_24   R-squared:                       0.596
+Model:                                        OLS   Adj. R-squared:                  0.537
+Method:                             Least Squares   F-statistic:                     9.869
+Date:                            Fri, 08 May 2026   Prob (F-statistic):           6.78e-06
+Time:                                    20:45:54   Log-Likelihood:                -66.246
+No. Observations:                              40   AIC:                             144.5
+Df Residuals:                                  34   BIC:                             154.6
+Df Model:                                       5                                         
+Covariance Type:                              HC1                                         
+===============================================================================================
+                                  coef    std err          z      P>|z|      [0.025      0.975]
+-----------------------------------------------------------------------------------------------
+const                          -0.0791      8.261     -0.010      0.992     -16.270      16.111
+bartik                          0.9069      0.864      1.049      0.294      -0.787       2.601
+log_gdp_pc                      0.0461      0.503      0.092      0.927      -0.940       1.032
+political_stability             1.3018      0.439      2.965      0.003       0.441       2.162
+econ_shocks_2010_23            -0.0859      0.269     -0.319      0.750      -0.614       0.442
+log_disaster_deaths_2010_23    -0.3924      0.103     -3.803      0.000      -0.595      -0.190
+==============================================================================
+Omnibus:                        0.854   Durbin-Watson:                   2.444
+Prob(Omnibus):                  0.652   Jarque-Bera (JB):                0.788
+Skew:                          -0.023   Prob(JB):                        0.674
+Kurtosis:                       2.314   Cond. No.                         385.
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC1)
+
 === 2SLS: log_athletes on log_gdp_pc (instrument = bartik) ===
                           IV2SLS Regression Results                           
 ==============================================================================
@@ -76,7 +107,7 @@ Model:                         IV2SLS   Adj. R-squared:                 -2.305
 Method:                     Two Stage   F-statistic:                    0.4011
                         Least Squares   Prob (F-statistic):              0.845
 Date:                Fri, 08 May 2026                                         
-Time:                        20:20:05                                         
+Time:                        20:45:54                                         
 No. Observations:                  40                                         
 Df Residuals:                      34                                         
 Df Model:                           5                                         
@@ -109,7 +140,7 @@ Dep. Variable:     log_athletes_resid   R-squared:                       0.038
 Model:                            OLS   Adj. R-squared:                 -0.072
 Method:                 Least Squares   F-statistic:                    0.3697
 Date:                Fri, 08 May 2026   Prob (F-statistic):              0.829
-Time:                        20:20:05   Log-Likelihood:                -53.733
+Time:                        20:45:54   Log-Likelihood:                -53.733
 No. Observations:                  40   AIC:                             117.5
 Df Residuals:                      35   BIC:                             125.9
 Df Model:                           4                                         
