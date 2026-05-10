@@ -1,0 +1,19 @@
+NCAA international athlete pseudo-panel: COVID event study
+  N countries:      98
+  N cohorts:        5
+  N panel cells:    490
+
+=== Static DID: Stringency_z x 1{entry_year in 2021,2022} ===
+(Country + year FE; SE clustered at country)
+  treat_x_post coef = +0.072
+  SE              = 0.038
+  t               = 1.91
+  p               = 0.056
+
+=== Dynamic event study: Stringency_z x cohort-year ===
+(Base year = 2020; SE clustered at country)
+  sZ_x_y2021: +0.052  (SE 0.053, p=0.328) 
+  sZ_x_y2022: +0.037  (SE 0.065, p=0.572) 
+  sZ_x_y2023: -0.034  (SE 0.059, p=0.570) 
+  sZ_x_y2024: -0.048  (SE 0.062, p=0.440) 
+
