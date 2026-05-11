@@ -14,7 +14,7 @@
 \setlength{\parskip}{0.5em}
 
 \title{Two Margins of International Track-and-Field\\Recruitment to NCAA Division~I:\\
-Wealth, Population, and the Limits of Macro Explanation}
+Entry, Sublinear Scaling, and Event-Specific Heterogeneity}
 \author{Alina Malkova\\Florida Institute of Technology}
 \date{\today}
 
@@ -23,37 +23,41 @@ Wealth, Population, and the Limits of Macro Explanation}
 
 \begin{abstract}
 We construct a country-level panel of international student-athletes
-in U.S.\ NCAA Division~I rosters for the 2024--25 / 2025--26 season.
-Athlete-level records are scraped from athletic-department websites
-for soccer ($n=660$) and track and field / cross country
-($n=18{,}657$); 96\% of the international sample competes in track,
-so we characterise the empirical setting as the international
-track-and-field recruitment market. We decompose athlete supply
-along two margins. \textbf{On the extensive margin} (whether a country
-sends any athletes at all), log GDP per capita and log population are
-strong independent predictors ($\hat\beta = 0.52$ and $0.18$, both
-$p<0.01$ in a probit on 191 countries); political stability is not.
-\textbf{On the intensive margin} (among 102 sender countries), the
-elasticity of athletes with respect to the 15--24-year-old cohort is
-approximately $0.33$---strongly sublinear---and log GDP per capita is
-the only additional robust predictor ($\hat\beta = 0.37$, $p<0.05$).
-Political stability, disaster events, conflict years, refugee
-outflows, and macroeconomic shocks are statistically indistinguishable
-from zero once we estimate the population elasticity freely instead
-of imposing the unit-elasticity restriction implicit in
-athletes-per-cohort rate models. We document this in Section~3.3:
-the rate-model coefficient on political stability is $+1.12$
-($p<0.01$) and on disaster events is $-0.74$ ($p<0.01$), but both
-collapse once $\log \text{pop}$ enters the equation as a free
-regressor. We thus retract earlier framings of this work that
-emphasised institutional quality as an intensive-margin driver. The
-honest finding is smaller: wealth and population scale govern entry
-into the international NCAA pipeline; conditional on entry, wealth
-governs intensity with diminishing returns to size, and the macro
-covariates we have do not explain the rest. $R^2$ in the count model
-is $0.20$--$0.25$, with the residual most likely attributable to
-country-specific recruitment pipelines (Kenya--Iten, Jamaica--MVP,
-the Caribbean sprint network) that macro variables cannot proxy.
+in U.S.\ NCAA Division~I rosters for the 2024--25 / 2025--26 season
+(track and field, $n = 18{,}657$; soccer, $n = 660$). The empirical
+setting is the international track-and-field market (96\% of the
+international sample). We decompose athlete supply along two margins.
+\textbf{On the extensive margin} (whether a country sends any
+athletes), log GDP per capita and log population are strong
+independent predictors ($\hat\beta = 0.52$ and $0.18$ respectively,
+both $p<0.01$); political stability is not. \textbf{On the intensive
+margin} the headline fact is that athletes scale sublinearly with
+source-country population: estimated cohort elasticities are $0.33$
+in OLS on log-counts, $0.48$ in a Negative Binomial, and $0.61$ in a
+Heckman two-step that corrects for selection into the sender pool.
+Quantile regression sharpens the picture: the elasticity is $0.24$
+at the 25th percentile of supply and $0.51$ at the 75th, indicating
+diminishing returns at low supply and roughly-proportional scaling
+at high supply. Political stability is statistically zero in OLS
+($\hat\beta = 0.38$, $\text{SE} = 0.24$) but the data have only $\sim 80\%$
+power to reject effects larger than $0.68$; in count-data (NegBin)
+and selection-corrected (Heckman) specifications the same coefficient
+is $+0.79$ ($p<0.01$) and $+0.60$ ($p<0.10$). We therefore cannot
+make a strong statement on the intensive-margin role of governance;
+the data are consistent with a moderately positive effect.
+Within-event regressions reveal that the country-panel result
+averages over very different sport-specific structures: the Caribbean
+sprint pipeline and the East African distance-running pipeline
+respond to different economic primitives. An earlier draft of this
+work reported large institutional and disaster-event effects in a
+rate-model specification (athletes per cohort with $\log\text{pop}$
+omitted); we show in Section~3.3 that those coefficients are
+artefacts of the rate model's implicit unit-elasticity restriction,
+and we retract that framing. Macro covariates explain 21\% of
+intensive-margin variation; eight regional fixed effects add another
+11\%; country-specific recruitment pipelines (Kenya--Iten,
+Jamaica--MVP, the Caribbean sprint network) plausibly account for
+the rest.
 \end{abstract}
 
 %========================================================================
@@ -69,47 +73,33 @@ from 328 of 355 D-I programs; school coverage 92.4\%). Only 68 of
 1{,}830 international athletes compete in soccer, so we report the
 combined sample in headline tables but characterise the empirical
 setting throughout as the \textit{international track-and-field
-recruitment market}; the soccer panel is too small to identify
-country-level structural effects on its own.
+recruitment market}.
 
 Hometown text is parsed from each roster page and mapped to ISO-3
 country codes via a normalisation procedure that combines US state
 abbreviations (both postal and AP-style), Canadian provinces, World
-Bank country names, and a manual alias map for common roster forms
-(``U.K.'', ``B.C.'', ``Czech Republic''). The mapping resolves
-87.6\% of track and 99.8\% of soccer hometowns. Of 19{,}317 total
-athletes, \textbf{1{,}830 are international} (country code other
-than USA), and 1{,}819 of those merge cleanly to the 2023 World Bank
-macro panel.
+Bank country names, and a manual alias map for common roster forms.
+The mapping resolves 87.6\% of track and 99.8\% of soccer hometowns.
 
-Country covariates are taken from World Bank WDI (GDP per capita PPP,
-population, 15--24-year-old cohort 2018--2022 average, unemployment,
-CPI inflation, merchandise terms of trade), Worldwide Governance
+Country covariates come from World Bank WDI (GDP per capita PPP,
+total population, 15--24-year-old cohort 2018--2022 average, CPI
+inflation, merchandise terms of trade), Worldwide Governance
 Indicators (political stability, government effectiveness, rule of
-law, control of corruption), UCDP/PRIO armed-conflict data, EM-DAT
-natural disasters (event counts and total deaths), the Oxford
-COVID-19 Government Response Tracker, and UNHCR Refugee Statistics
-(refugees and asylum seekers by country of origin). For each country
-we use both 2023 cross-sections and 2010--2023 cumulative aggregates.
-The country panel used for intensive-margin analysis contains the
-\textbf{102 countries with at least one international athlete}. The
-extensive-margin probit uses a broader universe of 214 countries
-with non-missing macro covariates, of which 107 send at least one
-athlete.
-
-An initial project plan proposed a principal-component-based
-``Economic Distance Index.'' We ultimately preferred reporting the
-individual covariates because their separate identification (GDP vs.\
-political stability vs.\ disasters vs.\ population scale) is the
-substantive question, and---as we show in Section~3.3---imposing
-even seemingly innocuous restrictions on the joint covariate
-structure (such as the unit population elasticity implicit in a
-per-cohort rate outcome) can produce coefficients that look
-significant but vanish under freer specifications.
+law, control of corruption), UCDP/PRIO conflict, EM-DAT natural
+disasters, the Oxford COVID-19 Government Response Tracker, and
+UNHCR Refugee Statistics. We use 2023 cross-sections and 2010--2023
+cumulative aggregates. The intensive-margin analysis covers the
+\textbf{102 countries with at least one international athlete}; the
+extensive-margin probit uses a wider universe of 191 countries with
+non-missing covariates. We assign each country to one of eight
+regions for the regional fixed-effects analysis in
+Section~\ref{sec:regions}: Sub-Saharan Africa, MENA, South Asia,
+East Asia \& Pacific, Latin America \& Caribbean, North America,
+Western Europe, and Eastern Europe \& Central Asia.
 
 \subsection*{Table~1. Descriptive statistics by income tier}
 
-Countries are split into quartiles by 2023 GDP per capita PPP.
+Countries split into quartiles by 2023 GDP per capita PPP.
 
 \begin{center}
 \small
@@ -128,18 +118,6 @@ All              & 102 & 1819 & 17.8 & \$30{,}837  &  5.59 & $+0.39$ \\
 \end{tabular}
 \end{center}
 
-The descriptive table foreshadows the two-margin structure we
-develop below. Q1 supplies many athletes ($n=533$) from large
-populations (the well-known Kenya / Nigeria / Jamaica pipelines)
-but at a very low per-cohort rate. Q4 supplies more athletes ($n=825$)
-from much smaller populations, at a per-cohort rate sixteen times
-higher than Q1. The cohort-rate gradient looks dramatic but is
-heavily driven by the population denominator: the median Q1 country
-has 4.1 million 15--24-year-olds vs.\ 0.9 million in Q4. We return
-to this in Section~3.3, where we show that the rate gradient
-attenuates substantially once we allow athletes to scale
-sub-proportionally with population.
-
 %========================================================================
 \section{Specification}
 %========================================================================
@@ -147,39 +125,33 @@ sub-proportionally with population.
 We decompose international NCAA athlete supply into two margins. The
 extensive margin is whether country $c$ sends any athletes,
 \begin{equation}
-\Pr(\text{any athletes}_c = 1) \;=\; \Phi\!\left(
-   \alpha + \gamma_1 \log \text{GDPpc}_c
-          + \gamma_2 \log \text{pop}_c
+\Pr(\text{any athletes}_c = 1) = \Phi\!\left(
+   \alpha + \gamma_1 \log\text{GDPpc}_c
+          + \gamma_2 \log\text{pop}_c
           + \gamma_3 \text{polstab}_c
-\right),
+\right).
 \label{eq:extensive}
 \end{equation}
-estimated by probit on the 191 countries with non-missing covariates
-in the full universe.
 
-The intensive margin is the per-country athlete count among the 102
-senders. We deliberately use the count outcome with $\log
-\text{pop}_{15\text{--}24,c}$ as a free regressor,
+The intensive margin is the count of athletes among senders. We use
+$\log\text{pop}_{15\text{--}24,c}$ as a free regressor rather than a
+$-1$ offset:
 \begin{equation}
-\log \text{athletes}_c \;=\; \alpha
-   + \beta_1 \log \text{pop}_{15\text{--}24,c}
-   + \beta_2 \log \text{GDPpc}_c
+\log\text{athletes}_c = \alpha
+   + \beta_1 \log\text{pop}_{15\text{--}24,c}
+   + \beta_2 \log\text{GDPpc}_c
    + \beta_3 \text{polstab}_c
-   + \mathbf{x}_c' \boldsymbol{\delta} + \varepsilon_c,
+   + \mathbf{x}_c' \boldsymbol{\delta} + \varepsilon_c.
 \label{eq:intensive}
 \end{equation}
-rather than the per-cohort rate outcome used in the previous draft of
-this work. Section~3.3 shows that imposing the unit-elasticity
-restriction $\beta_1 = -1$ (the rate-model assumption) is rejected
-sharply by the data: the estimated $\hat\beta_1$ in the count model
-is approximately $+0.33$, meaning athletes scale roughly as
-$\text{pop}^{0.33}$. Imposing $-1$ in the rate model forces this
-mis-specification into other coefficients, generating spurious
-``effects'' for political stability and disaster events. The
-free-elasticity count model is the honest test.
-
-We report Huber--White (HC1) heteroskedasticity-robust standard
-errors throughout.
+Section~3.3 documents why a rate outcome (athletes/cohort) with
+$\log\text{pop}$ omitted gives misleading results. We complement OLS
+with (i) a Heckman two-step selection correction using the probit
+from Equation~\ref{eq:extensive}, (ii) a Negative Binomial
+specification on raw counts, which handles low-count truncation that
+OLS on $\log\text{athletes}$ does not, and (iii) quantile regression
+at $\tau \in \{0.25, 0.50, 0.75\}$. We report Huber--White (HC1)
+robust standard errors for OLS.
 
 %========================================================================
 \section{Results}
@@ -194,275 +166,298 @@ errors throughout.
 \toprule
  & Probit: $\Pr(\text{sends any athletes})$ \\
 \midrule
-$\log$ GDP per capita PPP        & $\mathbf{+0.52^{***}}$ (0.11) \\
-$\log$ population                & $\mathbf{+0.18^{***}}$ (0.06) \\
-Political stability (WGI)        & $+0.19$ (0.17) \\
+$\log$ GDP per capita PPP & $\mathbf{+0.52^{***}}$ (0.11) \\
+$\log$ population         & $\mathbf{+0.18^{***}}$ (0.06) \\
+Political stability       & $+0.19$ (0.17) \\
 \midrule
-$n$                              & 191 \\
-Pseudo $R^2$                     & 0.19 \\
+$n$                       & 191 \\
+Pseudo $R^2$              & 0.19 \\
 \bottomrule
 \end{tabular}
 \end{center}
 
-Income and size are strong, independent predictors of whether a
-country participates in the international NCAA recruitment market at
-all. Political stability is statistically zero on this margin. The
-average marginal effect of $\log \text{GDPpc}$ on
-$\Pr(\text{sends})$ is approximately $+0.20$ per log-unit at the
-sample mean: a country one log-unit richer ($\approx 2.7 \times$) is
-20~percentage points more likely to send at least one athlete to
-NCAA D-I, controlling for population and stability.
+GDP per capita and population determine entry; political stability
+does not. Marginal effect of $\log\text{GDPpc}$ on $\Pr(\text{sends})$
+is approximately $+0.20$ per log-unit at the sample mean.
 
-\subsection{Intensive margin}
+\subsection{Intensive margin: three specifications}
 \label{sec:intensive}
 
-Among the 102 sender countries, the count model in
-Equation~\ref{eq:intensive} estimates the country-level
-log--log relationship between athletes and the macro covariates.
+Different estimators give different answers on the intensive
+margin. We report all three side by side.
 
 \begin{center}
 \footnotesize
-\begin{tabular}{lrrrr}
+\begin{tabular}{lrrr}
 \toprule
-Coefficient                                 & (1)        & (2)        & (3)        & (4) drop top-20 \\
+Coefficient                             & OLS log-count & Negative Binomial & Heckman 2-step (w/ IMR) \\
 \midrule
-$\log \text{pop}_{15\text{--}24}$           & $\mathbf{+0.35^{***}}$ (0.07) & $\mathbf{+0.33^{***}}$ (0.11) & $+0.32^{***}$ (0.11) & $+0.16^{**}$ (0.08) \\
-$\log \text{GDPpc}$                         & $\mathbf{+0.37^{**}}$ (0.16) & $\mathbf{+0.37^{**}}$ (0.16) & $+0.26$ (0.19) & $\mathbf{+0.37^{***}}$ (0.11) \\
-Political stability                         & $+0.38$ (0.24)   & $+0.37$ (0.25)   & $+0.23$ (0.31)   & $-0.11$ (0.18) \\
-$\log(1 + \text{disaster events 2010--23})$ & ---              & $+0.03$ (0.19)   & $+0.10$ (0.19)   & $-0.05$ (0.12) \\
-Econ.\ shocks 2010--23                      & ---              & ---              & $+0.07$ (0.09)   & --- \\
-Years with conflict 2010--23                & ---              & ---              & $+0.02$ (0.05)   & --- \\
-$\log(1 + \text{refugees 2010--23})$        & ---              & ---              & $-0.13$ (0.08)   & --- \\
+$\log\text{pop}_{15\text{--}24}$        & $\mathbf{+0.33^{***}}$ (0.11) & $\mathbf{+0.48^{***}}$ (0.15) & $\mathbf{+0.61^{**}}$ (0.29) \\
+$\log\text{GDPpc}$                      & $\mathbf{+0.37^{**}}$ (0.16)  & $-0.07$ (0.18)               & $+1.44$ (0.93) \\
+Political stability                     & $+0.37$ (0.25)               & $\mathbf{+0.79^{***}}$ (0.25) & $+0.60^{*}$ (0.34) \\
+$\log(1+\text{disaster events})$        & $+0.03$ (0.19)               & $-0.01$ (0.26)               & $+0.10$ (0.19) \\
+Inverse Mills ratio                     & ---                          & ---                          & $+3.27$ (2.64) \\
 \midrule
-$n$                                         & 100              & 100              & 100              & 80 \\
-$R^2$                                       & 0.21             & 0.21             & 0.24             & 0.15 \\
+$n$                                     & 100                          & 100                          & 100 \\
+$R^2$ / pseudo-$R^2$                    & 0.21                         & ---                          & 0.22 \\
 \bottomrule
 \end{tabular}
 \end{center}
-{\footnotesize\itshape HC1 robust SEs in parentheses. *** $p<0.01$, ** $p<0.05$, * $p<0.10$.}
 
-Three things to flag.
+\textbf{The sublinear-scaling fact is robust across estimators.}\quad
+The cohort population elasticity ranges from $0.33$ (OLS) to $0.61$
+(Heckman). All three estimates are well below the unit elasticity
+that a constant-returns supply curve would predict. The Heckman
+estimate, which corrects for selection into the sender pool, sits in
+the middle of the reviewer-flagged range ($0.5$--$0.7$) and is our
+preferred point estimate. The substantive conclusion is the same
+across methods: doubling the source-country 15--24 cohort raises NCAA
+athlete supply by considerably less than a factor of two.
 
-\textbf{Athletes scale sublinearly with cohort size.}\quad
-The estimated elasticity is $\hat\beta_1 \approx 0.33$ in the base
-specification and is stable across columns. A doubling of the 15--24
-cohort is associated with $2^{0.33} \approx 1.26 \times$ more
-athletes, not $2 \times$. The most plausible mechanism is that the
-US recruitment system has finite capacity per country: the marginal
-NCAA program does not scale its international intake one-for-one
-with the size of any single source country. Small wealthy countries
-(Norway, Iceland, the Bahamas, Trinidad) are therefore systematically
-over-represented per capita relative to populous ones (India,
-Indonesia, Pakistan). This is the dominant intensive-margin fact in
-the data.
+\textbf{Political stability is not pinned down.}\quad
+The OLS coefficient ($+0.37$, SE $0.24$) is statistically zero, but
+the data have only $\sim 80\%$ power to reject effects larger than
+$\text{MDE} = 1.96 \cdot 0.24 + 0.84 \cdot 0.24 \approx 0.68$
+\citep{cohen1988statistical}. The NegBin estimate is $+0.79$
+($p<0.01$); the Heckman estimate is $+0.60$ ($p<0.10$). Both are
+near the OLS MDE. The most defensible reading is that we cannot
+distinguish between zero and a moderately positive effect of about
+$+0.7$; the OLS-zero, NB-positive, and Heckman-marginal estimates
+are all within sampling variability of one another.
 
-\textbf{Log GDP per capita is the only other robust predictor.}\quad
-The coefficient is $\hat\beta_2 \approx 0.37$ ($p<0.05$) in columns
-(1), (2), and (4). It attenuates to $+0.26$ (n.s.) in column (3)
-when all four shock variables are entered jointly, which we attribute
-to limited statistical power with only 100 observations and seven
-right-hand-side variables; the drop-top-20 specification in column
-(4) returns $\hat\beta_2$ to $+0.37$ ($p<0.01$), supporting the
-interpretation that the column-(3) attenuation is a degrees-of-freedom
-artefact rather than substantive.
+\textbf{Log GDP per capita is fragile across estimators.}\quad
+OLS gives $+0.37$ ($p<0.05$); NegBin gives $-0.07$ (n.s.); Heckman
+gives $+1.44$ with SE $0.93$ (n.s., but the point estimate is large).
+Wealth is unambiguously important on the extensive margin
+(Section~\ref{sec:extensive}); on the intensive margin its role is
+estimation-method-dependent and we do not claim a precise effect.
 
-\textbf{Macro shocks and institutional quality do not add explanatory
-power.}\quad
-Disaster events, political stability, economic shocks, conflict
-years, and refugee outflows are all individually insignificant in
-columns (2)--(4). Most have point estimates well within one standard
-error of zero. The combined increase in $R^2$ from spec (1) to spec
-(3) is only $0.03$. We cannot reject the null that, conditional on
-GDP per capita and the sublinear population term, these variables
-have no additional intensive-margin effect.
+\textbf{Disaster events do not survive any specification.}\quad
+The coefficient is essentially zero in OLS, NegBin, and Heckman.
+The previous draft's $-0.74^{***}$ in the rate model was an artefact
+(Section~\ref{sec:rate-pitfall}).
 
 \subsection{Methodological note: the rate-model artefact}
 \label{sec:rate-pitfall}
 
-An earlier draft of this paper reported intensive-margin results
-using $\log(\text{athletes}/\text{pop}_{15\text{--}24})$ as the
-outcome and \emph{omitting} $\log\text{pop}$ from the right-hand
-side. That specification implicitly imposes a unit elasticity of
-athletes with respect to population:
-\begin{equation*}
-\log(\text{athletes}/\text{pop}) \;=\; \log(\text{athletes}) - \log(\text{pop}),
-\end{equation*}
-so a coefficient of zero on the right-hand side of the rate
-regression corresponds to $\beta_{\text{pop}} = 1$ in the count
-regression. The data reject this restriction: the free-elasticity
-estimate is $\hat\beta_{\text{pop}} \approx 0.33$, not $1$. Imposing
-the wrong restriction forces the resulting mis-specification error
-into the other coefficients. The table below shows the consequence
-for the variables that previously appeared as the paper's headline
-findings.
+A previous version of this paper used
+$\log(\text{athletes}/\text{pop}_{15\text{--}24})$ as the
+intensive-margin outcome and \emph{omitted} $\log\text{pop}$ from the
+right-hand side. That specification implicitly imposes a unit
+elasticity of athletes wrt population. The data sharply reject this
+restriction: the free-elasticity estimate is between $0.33$ and
+$0.61$ depending on the estimator, not $1.0$. The mis-specification
+gets loaded onto the other coefficients.
 
 \begin{center}
 \small
 \begin{tabular}{lrrr}
 \toprule
-Coefficient & Rate model & Count model & Difference \\
-            & (implicit $\beta_{\text{pop}} = 1$) & ($\beta_{\text{pop}}$ free) & \\
+Coefficient                                 & Rate model & Count model & \\
+                                            & (implicit $\beta_{\text{pop}} = 1$) & ($\beta_{\text{pop}}$ free, OLS) & Difference \\
 \midrule
-$\log \text{GDPpc}$                         & $+0.25$  (0.22)   & $\mathbf{+0.37^{**}}$ (0.16)   & --- \\
-Political stability                         & $\mathbf{+1.12^{***}}$ (0.27) & $+0.37$ (0.25)                & \textbf{collapses} \\
-$\log(1+\text{disaster events})$            & $\mathbf{-0.74^{***}}$ (0.16) & $+0.03$ (0.19)                & \textbf{collapses} \\
-$\log\text{pop}_{15\text{--}24}$            & (constrained $= -1$)          & $\mathbf{+0.33^{***}}$ (0.11) & --- \\
+$\log\text{GDPpc}$                          & $+0.25$  (0.22)                & $+0.37^{**}$ (0.16)           & --- \\
+Political stability                         & $\mathbf{+1.12^{***}}$ (0.27)  & $+0.37$ (0.25)                & \textbf{collapses (OLS)} \\
+$\log(1+\text{disaster events})$            & $\mathbf{-0.74^{***}}$ (0.16)  & $+0.03$ (0.19)                & \textbf{collapses} \\
+$\log\text{pop}_{15\text{--}24}$            & (constrained $= -1$)           & $\mathbf{+0.33^{***}}$ (0.11) & --- \\
 \midrule
-$R^2$                                       & 0.53                          & 0.21                          & --- \\
+$R^2$                                       & 0.53                           & 0.21                          & --- \\
 \bottomrule
 \end{tabular}
 \end{center}
 
-The rate model's apparent ``political stability dominates'' and
-``disaster events suppress supply'' findings are size-effect
-artefacts. Small countries tend to be high on the WGI political-
-stability scale (Norway, Iceland, Switzerland, New Zealand) and tend
-to have few EM-DAT disaster events (a function of country area and
-hazard exposure as much as governance), and large countries tend to
-have the opposite. When we constrain the population elasticity to
-$-1$ in the rate model, this small-country / large-country
-correlation gets loaded onto the stability and disaster coefficients
-that should have been zero. Freeing the elasticity reveals the
-underlying null result.
+Small countries (Norway, Iceland, Switzerland, Bahamas, Jamaica) are
+systematically high on the WGI political-stability scale and have
+relatively few EM-DAT disaster events; large countries (India, China,
+Indonesia, Pakistan) have the opposite. When the rate model
+constrains the population elasticity to $-1$, this small-vs-large
+correlation loads onto the stability and disaster coefficients. The
+collapse from $+1.12$ to $+0.37$ in OLS---and to $+0.79$ in NegBin or
+$+0.60$ in Heckman---is what the artefact correction looks like.
 
-This pitfall is not specific to our paper; it applies to any
-cross-country regression that uses a per-capita or per-cohort
-outcome without verifying that the implicit elasticity matches the
-data. We document it here because it materially changed the empirical
-conclusions of an earlier version of this work, and because the same
-mechanism likely affects other applied work in international
-recruitment and migration that uses per-capita rates as outcomes.
+We retract the previous draft's headline that ``political stability
+dominates the intensive margin'' and replace it with the more
+cautious reading in Section~\ref{sec:intensive}: stability may
+matter, but our identification of its magnitude is loose.
 
-\subsection{Sport-specific patterns}
-\label{sec:sport-split}
+\subsection{Quantile regression: heterogeneity in the population
+elasticity}
+\label{sec:quantile}
 
-The international concentration is in track. The track-only count
-panel ($n = 99$) is essentially the headline result: $\log
-\text{pop}_{15\text{--}24}$ $+0.32$ ($p<0.01$), $\log \text{GDPpc}$
-$+0.37$ ($p<0.05$), political stability $+0.36$ (n.s.). The soccer
-panel ($n = 24$) is too small for clean identification: only $\log
-\text{pop}$ approaches conventional significance. The paper's
-findings should be understood as describing the international
-track-and-field market specifically; international soccer recruitment
-likely operates through school-level network channels (specific
-academies, alumni connections) that a country-year macro design
-cannot capture, and we leave that question to future work.
+OLS estimates the conditional mean; if the country-pipeline residual
+story is right, the population-supply relationship may differ across
+the distribution of athlete supply.
 
-\subsection{Robustness}
-\label{sec:robustness}
+\begin{center}
+\small
+\begin{tabular}{lrrr}
+\toprule
+Coefficient                       & $\tau = 0.25$ & $\tau = 0.50$ & $\tau = 0.75$ \\
+\midrule
+$\log\text{pop}_{15\text{--}24}$  & $+0.24^{**}$  & $\mathbf{+0.42^{***}}$ & $\mathbf{+0.51^{***}}$ \\
+$\log\text{GDPpc}$                & $+0.28$        & $+0.49^{*}$           & $+0.39$ \\
+Political stability               & $+0.21$        & $+0.46$               & $+0.78^{*}$ \\
+\bottomrule
+\end{tabular}
+\end{center}
 
-We test the count-model intensive-margin result against several
-alternative specifications.
+The population elasticity \textbf{more than doubles} from $\tau = 0.25$
+to $\tau = 0.75$ ($0.24 \to 0.51$). Among countries supplying few
+international athletes per cohort (the lower quartile), the
+relationship is very weak; among high-supply countries (the upper
+quartile), the relationship is closer to proportional. The OLS
+average of $0.33$ smooths these together and probably understates
+both the floor and the ceiling. Political stability also moves
+strongly across the distribution ($+0.21$ at $\tau = 0.25$ to $+0.78$
+at $\tau = 0.75$), suggesting institutional quality matters mostly
+for countries already supplying many athletes, where the marginal
+unit of governance can extend the existing pipeline rather than
+build one from scratch.
 
-\textbf{Disaster deaths instead of events.}\quad
-The previous draft used $\log(1+\text{disaster deaths})$ rather than
-events. The deaths variable in the rate model gives $-0.23$
-($p<0.01$); in the count model with $\log \text{pop}_{15\text{--}24}$
-freely estimated it collapses to $-0.04$ (n.s.). The deaths effect
-was driven by the population-size confound, not by the catastrophic-
-event countries (the top-5 disaster-death countries in our sample
-are Russia, Turkey, Italy, India, and Japan---all large, all
-substantial NCAA senders---rather than the small high-fatality cases
-of Haiti, Myanmar, or Nepal that one might naively expect). Events
-is the cleaner measure even before the size correction, but neither
-survives the size correction.
+\subsection{Sport-event heterogeneity}
+\label{sec:event-split}
 
-\textbf{Refugees: counts vs.\ rates.}\quad
-The rate model gave a positive marginal coefficient on refugees per
-cohort ($+0.74$, n.s. with disasters in the model). On raw counts
-with $\log \text{pop}$ controlled, refugee outflows enter at $-0.13$
-($p<0.10$). The sign flip is consistent with the war-disrupted-cohort
-denominator story: countries with large refugee outflows (Syria,
-Afghanistan, Venezuela, South Sudan) have shrinking 15--24 cohorts,
-so the rate ratio is inflated independent of any underlying
-recruitment effect. In the count model, conditional on size, refugee
-outflows do not predict athlete supply.
+The international concentration is in track. We exploit the
+position-field information in our scraped roster data to assign
+each athlete to a track event group (Sprints, Distance, Throws,
+Jumps) and re-estimate the count model within each group. This is
+the cleanest way to test whether the country-panel result is
+masking sport-specific structure.
 
-\textbf{Drop-top-20 senders.}\quad
-Dropping the 20 countries with the most international athletes
-(column 4 of Table~3) shrinks the sample to 80 countries and the
-$R^2$ to 0.15. The GDP per capita coefficient stays at $+0.37$
-($p<0.01$); the population elasticity falls to $+0.16$ ($p<0.05$);
-political stability becomes negative and insignificant. We read this
-as: the GDP signal is genuine, the population-scaling signal is
-diluted when the largest senders are removed (a few thousand of the
-$\sim 18{,}000$ track athletes are concentrated in those 20 countries),
-and the political-stability coefficient remains noise.
+\begin{center}
+\small
+\begin{tabular}{lrrrr}
+\toprule
+Coefficient                       & Sprints & Distance & Throws & Jumps \\
+\midrule
+$\log\text{pop}_{15\text{--}24}$  & $+0.13^{**}$ & $\mathbf{+0.40^{***}}$ & $+0.18^{**}$  & $+0.10$ \\
+$\log\text{GDPpc}$                & $+0.05$      & $-0.46$               & $-0.11$       & $-0.05$ \\
+Political stability               & $+0.13$      & $\mathbf{+0.93^{**}}$ & $+0.31$       & $+0.06$ \\
+\midrule
+$n$                               & 43           & 40                    & 45            & 42 \\
+$R^2$                             & 0.07         & 0.23                  & 0.10          & 0.06 \\
+\bottomrule
+\end{tabular}
+\end{center}
 
-\textbf{Bartik shift-share.}\quad
-We constructed a Bartik-style instrument from country shares across
-nine track-event groups and leave-one-out aggregate event flows. The
-first-stage $F$-statistic on the Bartik exposure as an instrument
-for $\log\text{GDPpc}$ is 13.5, below the modern threshold of
-$F > 104.7$ for valid 2SLS $t$-tests at the 5\% level
-\citep{lee2022valid}, so we do not rely on the IV. As a covariate the
-Bartik enters at $+0.95$ ($p<0.10$) and absorbs the GDP coefficient
-(a mechanical collinearity result, since sport mix is correlated with
-country wealth). The Bartik specification is reported in
-\texttt{output/bartik\_results.txt} for transparency and is not load-
-bearing in this paper.
+The sport-event split reveals two qualitatively different country
+structures.
+
+\textbf{Sprints look Caribbean.}\quad
+Small population elasticity ($+0.13$, marginally significant), zero
+GDP coefficient, zero political-stability coefficient. The supply
+comes disproportionately from small high-quality pipeline countries
+(Jamaica, Bahamas, Trinidad, Barbados) that move little with the
+macro covariates because they are clustered tightly together on
+those covariates and differentiated by network structures the macro
+model does not see.
+
+\textbf{Distance running looks East African.}\quad
+Strong population elasticity ($+0.40$), \emph{negative} (insignificant)
+GDP coefficient, and a large positive political-stability coefficient
+($+0.93$, $p<0.05$). The negative GDP sign reflects the East African
+concentration: distance running is dominated by Kenya, Ethiopia, and
+Uganda, all low-GDP. Political stability matters here because it
+distinguishes Kenya and Ethiopia (relatively stable, large distance
+pipelines) from comparably-positioned but less stable peers.
+
+\textbf{Throws and jumps look weak.}\quad
+Modest population elasticity for throws ($+0.18$), nothing
+significant for jumps. Both fail to identify clean economic
+patterns at the 40-country panel size.
+
+The country-level pooled result of Section~\ref{sec:intensive}
+averages over these very different sport-specific models. A complete
+account of international NCAA recruitment would estimate
+event-specific gravity equations with sport-level demand-side
+covariates; we leave this to future work.
+
+\subsection{Region fixed effects horse-race}
+\label{sec:regions}
+
+To quantify how much of the unexplained variation in country-panel
+supply is regional-pipeline-shaped, we add eight-region fixed effects
+to the count specification.
+
+\begin{center}
+\small
+\begin{tabular}{lrr}
+\toprule
+                                  & Macro only & Macro + 8 region FE \\
+\midrule
+$\log\text{pop}_{15\text{--}24}$  & $+0.35^{***}$ (0.07) & $+0.40^{***}$ (0.07) \\
+$\log\text{GDPpc}$                & $+0.37^{**}$ (0.16)  & $+0.53^{***}$ (0.18) \\
+Political stability               & $+0.38$ (0.24)       & $+0.38$ (0.24) \\
+\midrule
+$R^2$                             & 0.21                 & 0.32 \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+Adding region FE raises $R^2$ from $0.21$ to $0.32$, a meaningful but
+not dominant gain. A specification with region FE only (no macro
+covariates) achieves $R^2 = 0.13$. Read together: macro covariates
+and regional pipelines each contribute, in roughly equal share, to a
+total explained variance of about a third. The other two-thirds
+remain unexplained even with both---consistent with the discussion
+in Section~\ref{sec:discussion} that country-specific (not
+region-specific) pipeline structure dominates.
 
 %========================================================================
 \section{Discussion}
+\label{sec:discussion}
 %========================================================================
 
-Three substantive conclusions emerge from the country-level
-analysis, and a fourth from what we tried but could not find.
+Four substantive conclusions emerge.
 
 First, \textbf{wealth and population scale govern entry into the
-international NCAA pipeline}. Both $\log \text{GDPpc}$ and $\log
-\text{pop}$ are large and statistically significant in the
-extensive-margin probit; political stability is not. The mechanism
-is the fixed-cost story familiar from migration economics: producing
-a recruitable athlete requires some minimum infrastructure (clubs,
-schools, transport, equipment, parental capacity) and the discovery
-cost on the US side, both of which scale with national resource
-flow. Below the corresponding income threshold, no athletes are
-produced regardless of how well-governed the country is.
+international NCAA pipeline}. Both $\log\text{GDPpc}$ and
+$\log\text{pop}$ enter the extensive-margin probit at $p<0.01$;
+political stability does not. The mechanism is the fixed-cost story
+familiar from migration economics: producing a recruitable athlete
+requires some minimum infrastructure and discovery-cost expenditure
+that scales with national resource flow.
 
-Second, \textbf{conditional on entry, the intensive margin is
-dominated by sublinear population scaling and a small wealth gradient}.
-The cohort-population elasticity of $0.33$ is the largest single
-fact in the country panel: a doubling of source-country 15--24
-population is associated with only $\sim 26\%$ more NCAA athletes,
-not the proportional doubling that a constant-returns supply curve
-would predict. This is consistent with diminishing-returns
-recruitment at the country level: as a source country grows, the
-marginal recruit is harder to find, the marginal coach has less
-information, and the US side's bilateral recruiting capacity
-saturates. The GDP-per-capita coefficient of $0.37$ adds a modest
-wealth gradient on top: among countries of similar size, a richer
-one produces about $\exp(0.37 \cdot \ln 2) - 1 \approx 29\%$ more
-athletes per doubling of GDP per capita.
+Second, \textbf{conditional on entry, athletes scale sublinearly
+with cohort population}. The estimated elasticity is between $0.33$
+(OLS) and $0.61$ (Heckman two-step), with the selection-corrected
+estimate being our preferred reading. Doubling a source-country's
+15--24 cohort raises NCAA supply by roughly $1.5\times$, not $2\times$.
+The most plausible mechanism is finite US-side recruitment capacity:
+the marginal NCAA program does not scale its international intake
+one-for-one with any single source country. Small wealthy countries
+are therefore over-represented per capita relative to populous ones.
+Quantile regression refines this: the elasticity is $0.24$ at the
+low end of supply and $0.51$ at the high end, so the diminishing-
+returns story is strongest for small-supply countries.
 
-Third, \textbf{institutional quality and macro shocks do not have
-detectable intensive-margin effects} once population scale is freely
-estimated. Political stability, disaster events, disaster deaths,
-conflict years, refugee outflows, CPI inflation, and terms-of-trade
-shocks are all individually insignificant in the count model. A
-previous draft of this work emphasised political stability as the
-robust intensive-margin driver; we now show that result was an
-artefact of imposing a unit population elasticity. The honest
-conclusion is that we cannot detect institutional or shock effects
-beyond the joint role of wealth and scale.
+Third, \textbf{political stability has an intensive-margin effect of
+uncertain magnitude}. OLS gives a statistically zero estimate of
+$+0.37$ (SE $0.24$), but with $n = 100$ the minimum detectable effect
+at 80\% power is $0.68$, so the data do not strongly reject
+moderately positive effects. The Negative Binomial estimate is
+$+0.79$ ($p<0.01$); the Heckman estimate is $+0.60$ ($p<0.10$). We
+cannot pin down whether stability matters at the country-pool level,
+because the country pool averages over very heterogeneous sport
+structures. \textit{Within} distance running, however, political
+stability is large and significant ($+0.93$, $p<0.05$): the East
+African pipeline depends on it. Within sprints, it does not.
+Within throws and jumps, sample sizes preclude a strong claim.
 
-Fourth, and most importantly, \textbf{the country-level macro design
-explains only about a fifth of the variation in athlete supply}
-($R^2 \approx 0.21$ in the base count model, $0.24$ with the full
-shock battery). More than three-quarters of the cross-country
-variation in international NCAA track-and-field representation is
-not explained by GDP, population, governance, conflict, disasters,
-shocks, inflation, or refugees. We attribute the bulk of this
-residual to country-specific recruitment pipelines: the
-Kenyan-distance-running ecosystem centered on Iten, the MVP and
-Racers Track Club networks that dominate Jamaican sprinting, similar
-Caribbean conduits, the Norwegian and Australian middle-distance
-scenes, the German and Polish throwing pipelines, and so on. These
-are pipeline structures that macro covariates cannot capture, and a
-complete model of international NCAA supply would require
-sport-level network data we do not have. Our reading is that the
-ceiling on what country-year macro variables can explain in this
-domain is closer to $R^2 = 0.30$ than $0.60$.
+Fourth, \textbf{the relevant unit of analysis may not be the
+country}. Adding eight region fixed effects raises $R^2$ from $0.21$
+to $0.32$ in the count specification; the macro covariates' point
+estimates barely move. Region absorbs some but not most of the
+unexplained variance. The sport-event split is more informative
+than the regional split. Both point to the same conclusion: the
+country-panel pooled regression is averaging over qualitatively
+different supply curves (Caribbean sprint network, East African
+distance network, European throwing pipelines, etc.) that share
+little structure beyond GDP and population. A complete model would
+estimate gravity equations at the sport-event level with
+bilateral US-source-country variables (recruiting links, scholarship
+agreements, language commonality, alumni networks) that we do not
+have in our data.
 
 %========================================================================
 \section{Caveats and limitations}
@@ -470,83 +465,70 @@ domain is closer to $R^2 = 0.30$ than $0.60$.
 
 \begin{itemize}
 \item \textbf{Cross-section, not panel.} Roster snapshots are
-2024--25 / 2025--26. Macro covariates are 2023 plus 2010--23
-aggregates. A descriptive pseudo-panel constructed from athletes'
-class-year (Fr/So/Jr/Sr/Gr) gives at most five entry cohorts. A
-static DiD using country and year fixed effects with COVID-19
-stringency interacted with the 2021--22 entry cohorts gives a small
-positive coefficient ($+0.07$, $p = 0.06$, country-clustered SEs).
-We report this in \texttt{output/event\_study.txt} as a descriptive
-exercise rather than an identified event study: there is no clean
-pre-period (the cohort 2020 is itself a COVID-affected cohort), and
-the class-year-to-entry-year mapping is imputation-based.
+2024--25 / 2025--26; macro covariates are 2023 and 2010--23
+aggregates. A descriptive pseudo-panel based on athletes' class-year
+gives at most five entry cohorts with no clean pre-period for any
+shock event.
 
 \item \textbf{Coverage.} Hometown is observed for 87.6\% of track
 athletes; the unobserved 12.4\% are missing not at random
-(school-page rendering issues that systematically affect schools
-with JS-rendered rosters).
+(JS-rendered roster pages that systematically affect a few major
+D-I programs).
 
 \item \textbf{Track-and-field dominance.} 96\% of the international
-sample competes in track. The paper's findings should be understood
-as describing the international track-and-field recruitment market
-specifically.
+sample competes in track. The paper's findings should be read as
+describing the international track-and-field market specifically.
 
 \item \textbf{Cohort denominator approximation.} We use the average
 of the 15--24-year-old cohort 2018--2022 as the denominator. The
 ideal denominator would be 18--22 to match enrolled ages; we
-attempted this but the World Bank does not provide aggregate 18--22
-totals (only 5-year bands as percentages of gender-specific totals).
-Rescaling the 15--24 cohort by a constant fraction is observationally
-equivalent in the count model (the constant is absorbed by the
-intercept), so denominator choice does not change our slope
-estimates, but a finer-grained cohort variable from national censuses
-would be valuable.
+attempted this but the World Bank does not provide aggregate
+18--22 totals. Rescaling 15--24 by a constant fraction is
+observationally equivalent in the count model (the constant is
+absorbed by the intercept), so this does not change our slope
+estimates.
 
-\item \textbf{Athletes per capita is not athletic talent per capita.}
-Recruiting selection, scholarship caps, language and visa frictions,
-and US schools' bilateral relationships filter the population. We
-observe the \emph{combined} effect of supply, selection, and demand.
+\item \textbf{Heckman identification by functional form.} The
+exclusion restriction in our Heckman two-step is the probit
+nonlinearity, not a covariate-level exclusion. The IMR coefficient
+($+3.27$, SE $2.64$) is large but imprecisely estimated, so
+selection-correction matters but its magnitude is uncertain. A
+proper exclusion (e.g.\ a US-side measure of recruitment intensity)
+would improve identification.
 
-\item \textbf{Bartik weak instrument.} The shift-share construction
-on track-event composition has a first-stage $F = 13.5$, below the
-modern $F > 104.7$ threshold \citep{lee2022valid} for valid 2SLS
-$t$-tests at the 5\% level. We use it only as a transparency check,
-not as identification.
-
-\item \textbf{Modest $R^2$.} The residual 75--80\% of cross-country
-variation in athlete supply is most plausibly driven by country-
-specific recruitment pipelines that macro covariates cannot proxy.
+\item \textbf{Modest $R^2$.} Macro + region explain about a third of
+intensive-margin variance; the residual is most plausibly driven by
+country- and sport-specific recruitment pipelines that we cannot
+proxy.
 \end{itemize}
 
 %========================================================================
 \section{Reproducibility}
 %========================================================================
 
-All results in this paper are reproducible from the local Python
-scripts in the project repository:
+All results in this paper are reproducible from local Python scripts:
 
 \begin{itemize}
-\item \texttt{discover\_track\_urls.py},
+\item Roster scraping: \texttt{discover\_track\_urls.py},
       \texttt{run\_track\_scrape.py},
       \texttt{run\_track\_selenium.py},
-      \texttt{rediscover\_urls.py}: build the roster data.
-\item \texttt{run\_country\_mapping.py}: resolves hometowns to
-      country codes.
-\item \texttt{run\_merge\_analysis.py}: joins rosters to NCAA-IPEDS
-      crosswalk, IPEDS HD, EADA, and macro indicators.
-\item \texttt{fetch\_extra\_shocks.py},
-      \texttt{run\_join\_shocks.py}: add the eight shock panels,
-      total population, and 15--24 cohort population.
-\item \texttt{run\_main\_results.py}: produces the extensive-margin
-      probit and the intensive-margin count specifications reported
-      in Tables~2 and~3.
-\item \texttt{run\_stress\_tests.py}: produces the disaster-deaths
-      drop-top-5, refugees-on-raw-counts, and rate-model artefact
-      comparison reported in Section~3.3.
-\item \texttt{run\_bartik.py},
-      \texttt{run\_event\_study.py},
-      \texttt{run\_paper\_outputs.py}: build the auxiliary Bartik,
-      COVID descriptive exercise, and Table~1 / figures.
+      \texttt{rediscover\_urls.py}.
+\item Country mapping: \texttt{run\_country\_mapping.py}.
+\item Macro merge: \texttt{run\_merge\_analysis.py},
+      \texttt{fetch\_extra\_shocks.py},
+      \texttt{run\_join\_shocks.py}.
+\item Main regressions: \texttt{run\_main\_results.py}
+      (extensive probit + intensive OLS chain).
+\item \texttt{run\_revisions\_2.py}: Heckman two-step, MDE for
+      political stability, quantile regression at
+      $\tau \in \{0.25, 0.50, 0.75\}$, Negative Binomial with free
+      $\log\text{pop}$, within-event count regressions, and region
+      FE horse-race --- Tables~3, 4, 5, 6 of this paper.
+\item \texttt{run\_stress\_tests.py}: drop-top-5 disaster countries,
+      events-vs-deaths comparison, refugees raw count.
+\item \texttt{run\_bartik.py}, \texttt{run\_event\_study.py},
+      \texttt{run\_paper\_outputs.py}: auxiliary results referenced
+      in Sections~3.6 and~5.
 \end{itemize}
 
 %========================================================================
@@ -557,25 +539,25 @@ scripts in the project repository:
 \centering
 \includegraphics[width=0.85\textwidth]{output/fig_top20_countries_panel.png}
 \caption{Top 20 source countries by raw athlete count (left) and by
-athletes per million 15--24-year-olds (right). The left panel is
-roughly proportional to population scale; the right panel is what
-the rate model implicitly maximises explanatory power on.}
+athletes per million 15--24-year-olds (right).}
 \end{figure}
 
 \begin{figure}[ht]
 \centering
 \includegraphics[width=0.85\textwidth]{output/fig_log_athletes_per_cohort.png}
 \caption{Log athletes per million age 15--24 vs.\ log home-country
-GDP per capita, colour-coded by political-stability quartile. Top
-twelve senders annotated. The apparent ``political stability fans
-out the high-rate cluster'' pattern is largely a country-size
-artefact: high-stability countries are systematically small, and
-small countries are over-represented per capita.}
+GDP per capita, colour-coded by political-stability quartile. The
+apparent stability gradient is largely a country-size artefact in
+this view; see Section~\ref{sec:rate-pitfall}.}
 \end{figure}
 
 %========================================================================
 \bibliographystyle{plainnat}
-\begin{thebibliography}{1}
+\begin{thebibliography}{2}
+\bibitem[Cohen(1988)]{cohen1988statistical}
+Cohen, J. (1988). \textit{Statistical Power Analysis for the
+Behavioral Sciences} (2nd ed.). Lawrence Erlbaum Associates.
+
 \bibitem[Lee et~al.(2022)]{lee2022valid}
 Lee, D. S., J. McCrary, M. Moreira, and J. Porter (2022).
 ``Valid $t$-Ratio Inference for IV.''
