@@ -38,5 +38,16 @@ debug_html/
 __pycache__/
 *.pyc
 
+# LaTeX intermediate build files
+*.aux
+*.log
+*.out
+*.toc
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
 # macOS
 .DS_Store
