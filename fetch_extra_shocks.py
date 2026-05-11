@@ -38,6 +38,22 @@ def fetch_inflation():
           f'{long["country_code"].nunique()} countries')
 
 
+# ---------- (1b) WDI terms of trade ----------
+def fetch_terms_of_trade():
+    import wbgapi as wb
+    print('\nFetching WDI TT.PRI.MRCH.XD.WD (terms of trade index, 2015=100)...')
+    df = wb.data.DataFrame('TT.PRI.MRCH.XD.WD', time=range(2010, 2024), labels=False)
+    df = df.reset_index().rename(columns={'economy': 'country_code'})
+    long = df.melt(id_vars='country_code', var_name='year',
+                   value_name='terms_of_trade_index')
+    long['year'] = long['year'].str.replace('YR', '').astype(int)
+    long = long.dropna(subset=['terms_of_trade_index'])
+    out = os.path.join(RAW_DATA, 'wdi_terms_of_trade.csv')
+    long.to_csv(out, index=False)
+    print(f'  wrote {out}: {len(long)} country-year rows, '
+          f'{long["country_code"].nunique()} countries')
+
+
 # ---------- (2) UCDP battle deaths ----------
 def fetch_battle_deaths():
     """
@@ -160,6 +176,7 @@ def fetch_refugees():
 
 def main():
     fetch_inflation()
+    fetch_terms_of_trade()
     # fetch_battle_deaths()  -- UCDP API now requires registered token; skip.
     # The existing ucdp_conflict.csv has the binary indicators we need.
     fetch_refugees()

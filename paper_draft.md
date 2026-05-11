@@ -234,6 +234,17 @@ coefficients are essentially unchanged from Spec 4b (within standard
 error). The headline "institutions over economics" reading from
 Section 3.2 is robust to these additional controls.
 
+We add one further specification (Spec 8) that includes country-level
+terms-of-trade change 2010-2023 (WDI TT.PRI.MRCH.XD.WD, base 2015=100)
+and a count of years with $\geq$15% terms-of-trade drops in the same
+window. Both enter at conventional standard errors but neither is
+statistically distinguishable from zero (ToT change +0.14, SE 0.98;
+ToT-shock count −0.06, SE 0.17). The political-stability and
+disaster-deaths coefficients remain essentially unchanged. We
+interpret this as a **null result**: external-price shocks do not appear
+to be an independent channel for international NCAA recruitment after
+GDP and political stability are accounted for.
+
 ### 3.5 Shift-share decomposition
 
 To probe whether sport-mix specialization itself drives the country

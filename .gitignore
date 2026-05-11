@@ -23,6 +23,7 @@ raw_data/*
 !raw_data/wdi_population_15_24.csv
 !raw_data/wdi_inflation.csv
 !raw_data/unhcr_refugees.csv
+!raw_data/wdi_terms_of_trade.csv
 
 # Zip archives
 *.zip

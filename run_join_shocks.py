@@ -60,6 +60,7 @@ def main():
         'control_corruption', 'population', 'pop_15_24_avg_2018_22',
         'inflation_2023', 'mean_inflation_2010_23', 'max_inflation_2010_23',
         'hyperinflation_event',
+        'tot_2023', 'tot_change_2010_23', 'tot_shocks_2010_23',
         'refugees_origin_2023', 'asylum_seekers_origin_2023',
         'refugees_plus_asylum_2023',
         'refugees_origin_2010_23_total', 'asylum_seekers_origin_2010_23_total',
@@ -192,6 +193,36 @@ def main():
         agg['hyperinflation_event'] = (agg['max_inflation_2010_23'] >= 50).astype(int)
         df = df.merge(agg, on='country_code', how='left')
         print(f"  + Inflation (2023 + 2010-23 aggregates): now {df.shape[1]} cols")
+
+    # ---------- 8b. WDI terms of trade ----------
+    # Construct level (2023) + cumulative change (2010-2023) + a binary
+    # "terms-of-trade shock" = any year-over-year drop > 15%.
+    if os.path.exists(os.path.join(RAW_DATA, 'wdi_terms_of_trade.csv')):
+        tot = pd.read_csv(os.path.join(RAW_DATA, 'wdi_terms_of_trade.csv'))
+        tot_2023 = (tot[tot['year'] == 2023][['country_code', 'terms_of_trade_index']]
+                    .rename(columns={'terms_of_trade_index': 'tot_2023'}))
+        df = df.merge(tot_2023, on='country_code', how='left')
+        # Cumulative change 2010 -> 2023
+        tot_wide = (tot[tot['year'].isin([2010, 2023])]
+                       .pivot(index='country_code', columns='year',
+                              values='terms_of_trade_index')
+                       .reset_index())
+        if 2010 in tot_wide.columns and 2023 in tot_wide.columns:
+            tot_wide['tot_change_2010_23'] = (tot_wide[2023] - tot_wide[2010]) / tot_wide[2010]
+            df = df.merge(tot_wide[['country_code', 'tot_change_2010_23']],
+                          on='country_code', how='left')
+        # YoY changes -> count shocks (>15% drop)
+        tot_sorted = tot.sort_values(['country_code', 'year'])
+        tot_sorted['yoy_change'] = (tot_sorted.groupby('country_code')
+                                              ['terms_of_trade_index']
+                                              .pct_change())
+        shocks = (tot_sorted[(tot_sorted['year'] >= 2010) & (tot_sorted['year'] <= 2023)]
+                    .assign(is_tot_shock=lambda d: (d['yoy_change'] < -0.15).astype(int))
+                    .groupby('country_code')['is_tot_shock']
+                    .sum().reset_index()
+                    .rename(columns={'is_tot_shock': 'tot_shocks_2010_23'}))
+        df = df.merge(shocks, on='country_code', how='left')
+        print(f"  + Terms of trade (2023 + 2010-23 change + shock count): now {df.shape[1]} cols")
 
     # ---------- 9. UNHCR refugees + asylum seekers (origin) ----------
     if os.path.exists(os.path.join(RAW_DATA, 'unhcr_refugees.csv')):

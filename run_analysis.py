@@ -47,7 +47,10 @@ def country_panel(df: pd.DataFrame) -> pd.DataFrame:
                      mean_inflation_2010_23=('mean_inflation_2010_23', 'first'),
                      hyperinflation_event=('hyperinflation_event', 'first'),
                      refugees_origin_2023=('refugees_origin_2023', 'first'),
-                     refugees_plus_asylum_2010_23_total=('refugees_plus_asylum_2010_23_total', 'first'))
+                     refugees_plus_asylum_2010_23_total=('refugees_plus_asylum_2010_23_total', 'first'),
+                     tot_2023=('tot_2023', 'first'),
+                     tot_change_2010_23=('tot_change_2010_23', 'first'),
+                     tot_shocks_2010_23=('tot_shocks_2010_23', 'first'))
                 .reset_index())
     return agg
 
@@ -162,6 +165,19 @@ def main():
                  'Spec 7: cohort rate + inflation + refugees + conflict + disasters',
                  fh)
 
+    # Spec 8: + terms of trade (level + cumulative change + shock count)
+    panel_tot = panel.dropna(subset=['log_athletes_per_million_15_24',
+                                      'log_gdp_pc', 'political_stability',
+                                      'tot_change_2010_23']).copy()
+    Xt = panel_tot[['log_gdp_pc', 'political_stability',
+                    'log_mean_inflation_2010_23',
+                    'log_refugees_per_cohort',
+                    'tot_change_2010_23', 'tot_shocks_2010_23',
+                    'log_disaster_deaths_2010_23']]
+    m8 = run_ols(panel_tot['log_athletes_per_million_15_24'], Xt,
+                 'Spec 8: cohort rate + ToT change + ToT shocks (full)',
+                 fh)
+
     fh.close()
     print(f"\nWrote {out_path}")
 
@@ -174,7 +190,8 @@ def main():
                     ('Spec 4b (rate / 15-24 cohort)', m4b),
                     ('Spec 5 (track only)', m5),
                     ('Spec 6 (+conflict)', m6),
-                    ('Spec 7 (extended w/ inflation + refugees)', m7)]:
+                    ('Spec 7 (extended w/ inflation + refugees)', m7),
+                    ('Spec 8 (+ ToT change + ToT shocks)', m8)]:
         print(f"\n{name}:  R^2 = {m.rsquared:.3f}, n = {int(m.nobs)}")
         for k, v in m.params.items():
             se = m.bse[k]
