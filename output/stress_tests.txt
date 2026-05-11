@@ -1,0 +1,257 @@
+STRESS TESTS in response to May 2026 referee comments
+  Senders panel:   n = 108
+  Full universe:   n = 214
+  Senders / universe = 107/214
+
+======================================================================
+(1a) Disaster deaths, full sample
+======================================================================
+                                  OLS Regression Results                                  
+==========================================================================================
+Dep. Variable:     log_athletes_per_million_15_24   R-squared:                       0.478
+Model:                                        OLS   Adj. R-squared:                  0.456
+Method:                             Least Squares   F-statistic:                     19.14
+Date:                            Mon, 11 May 2026   Prob (F-statistic):           1.42e-11
+Time:                                    16:21:32   Log-Likelihood:                -189.37
+No. Observations:                             100   AIC:                             388.7
+Df Residuals:                                  95   BIC:                             401.8
+Df Model:                                       4                                         
+Covariance Type:                              HC1                                         
+===============================================================================================
+                                  coef    std err          z      P>|z|      [0.025      0.975]
+-----------------------------------------------------------------------------------------------
+const                          -1.4384      2.302     -0.625      0.532      -5.949       3.073
+log_gdp_pc                      0.3932      0.236      1.668      0.095      -0.069       0.855
+political_stability             1.1924      0.297      4.010      0.000       0.610       1.775
+econ_shocks_2010_23             0.0449      0.117      0.384      0.701      -0.184       0.274
+log_disaster_deaths_2010_23    -0.2330      0.062     -3.748      0.000      -0.355      -0.111
+==============================================================================
+Omnibus:                        1.085   Durbin-Watson:                   2.240
+Prob(Omnibus):                  0.581   Jarque-Bera (JB):                0.887
+Skew:                          -0.231   Prob(JB):                        0.642
+Kurtosis:                       2.998   Cond. No.                         162.
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC1)
+
+======================================================================
+(1b) Disaster deaths, drop top-5: ['RUS', 'TUR', 'ITA', 'IND', 'JPN']
+======================================================================
+                                  OLS Regression Results                                  
+==========================================================================================
+Dep. Variable:     log_athletes_per_million_15_24   R-squared:                       0.452
+Model:                                        OLS   Adj. R-squared:                  0.427
+Method:                             Least Squares   F-statistic:                     17.68
+Date:                            Mon, 11 May 2026   Prob (F-statistic):           9.64e-11
+Time:                                    16:21:32   Log-Likelihood:                -180.41
+No. Observations:                              95   AIC:                             370.8
+Df Residuals:                                  90   BIC:                             383.6
+Df Model:                                       4                                         
+Covariance Type:                              HC1                                         
+===============================================================================================
+                                  coef    std err          z      P>|z|      [0.025      0.975]
+-----------------------------------------------------------------------------------------------
+const                          -1.3574      2.492     -0.545      0.586      -6.242       3.527
+log_gdp_pc                      0.3739      0.250      1.498      0.134      -0.115       0.863
+political_stability             1.2189      0.317      3.845      0.000       0.598       1.840
+econ_shocks_2010_23             0.0454      0.129      0.352      0.725      -0.208       0.298
+log_disaster_deaths_2010_23    -0.2032      0.067     -3.047      0.002      -0.334      -0.073
+==============================================================================
+Omnibus:                        1.117   Durbin-Watson:                   2.227
+Prob(Omnibus):                  0.572   Jarque-Bera (JB):                0.940
+Skew:                          -0.243   Prob(JB):                        0.625
+Kurtosis:                       2.974   Cond. No.                         164.
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC1)
+
+======================================================================
+(1c) Disaster events instead of deaths, full sample
+======================================================================
+                                  OLS Regression Results                                  
+==========================================================================================
+Dep. Variable:     log_athletes_per_million_15_24   R-squared:                       0.530
+Model:                                        OLS   Adj. R-squared:                  0.510
+Method:                             Least Squares   F-statistic:                     21.82
+Date:                            Mon, 11 May 2026   Prob (F-statistic):           8.57e-13
+Time:                                    16:21:32   Log-Likelihood:                -184.11
+No. Observations:                             100   AIC:                             378.2
+Df Residuals:                                  95   BIC:                             391.3
+Df Model:                                       4                                         
+Covariance Type:                              HC1                                         
+===============================================================================================
+                                  coef    std err          z      P>|z|      [0.025      0.975]
+-----------------------------------------------------------------------------------------------
+const                           0.8021      2.245      0.357      0.721      -3.599       5.203
+log_gdp_pc                      0.2518      0.226      1.114      0.265      -0.191       0.695
+political_stability             1.1336      0.288      3.939      0.000       0.570       1.698
+econ_shocks_2010_23             0.0183      0.094      0.196      0.845      -0.165       0.202
+log_disaster_events_2010_23    -0.7450      0.157     -4.744      0.000      -1.053      -0.437
+==============================================================================
+Omnibus:                        0.547   Durbin-Watson:                   2.269
+Prob(Omnibus):                  0.761   Jarque-Bera (JB):                0.294
+Skew:                          -0.126   Prob(JB):                        0.864
+Kurtosis:                       3.083   Cond. No.                         150.
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC1)
+
+======================================================================
+(1d) Disaster events, drop top-5 by events: ['IND', 'PHL', 'JPN', 'VNM', 'MEX']
+======================================================================
+                                  OLS Regression Results                                  
+==========================================================================================
+Dep. Variable:     log_athletes_per_million_15_24   R-squared:                       0.488
+Model:                                        OLS   Adj. R-squared:                  0.465
+Method:                             Least Squares   F-statistic:                     18.18
+Date:                            Mon, 11 May 2026   Prob (F-statistic):           5.64e-11
+Time:                                    16:21:32   Log-Likelihood:                -173.89
+No. Observations:                              95   AIC:                             357.8
+Df Residuals:                                  90   BIC:                             370.6
+Df Model:                                       4                                         
+Covariance Type:                              HC1                                         
+===============================================================================================
+                                  coef    std err          z      P>|z|      [0.025      0.975]
+-----------------------------------------------------------------------------------------------
+const                           1.1712      2.221      0.527      0.598      -3.183       5.525
+log_gdp_pc                      0.1941      0.224      0.867      0.386      -0.245       0.633
+political_stability             1.1716      0.287      4.084      0.000       0.609       1.734
+econ_shocks_2010_23            -0.0531      0.090     -0.591      0.554      -0.229       0.123
+log_disaster_events_2010_23    -0.5667      0.171     -3.310      0.001      -0.902      -0.231
+==============================================================================
+Omnibus:                        0.755   Durbin-Watson:                   2.318
+Prob(Omnibus):                  0.686   Jarque-Bera (JB):                0.546
+Skew:                          -0.185   Prob(JB):                        0.761
+Kurtosis:                       3.024   Cond. No.                         147.
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC1)
+
+======================================================================
+(2a) Rate outcome, refugees per cohort (original)
+======================================================================
+                                  OLS Regression Results                                  
+==========================================================================================
+Dep. Variable:     log_athletes_per_million_15_24   R-squared:                       0.482
+Model:                                        OLS   Adj. R-squared:                  0.461
+Method:                             Least Squares   F-statistic:                     18.53
+Date:                            Mon, 11 May 2026   Prob (F-statistic):           2.75e-11
+Time:                                    16:21:32   Log-Likelihood:                -188.93
+No. Observations:                             100   AIC:                             387.9
+Df Residuals:                                  95   BIC:                             400.9
+Df Model:                                       4                                         
+Covariance Type:                              HC1                                         
+===============================================================================================
+                                  coef    std err          z      P>|z|      [0.025      0.975]
+-----------------------------------------------------------------------------------------------
+const                          -1.5713      2.246     -0.700      0.484      -5.974       2.831
+log_gdp_pc                      0.4028      0.231      1.746      0.081      -0.049       0.855
+political_stability             1.2056      0.288      4.187      0.000       0.641       1.770
+log_disaster_deaths_2010_23    -0.2229      0.061     -3.630      0.000      -0.343      -0.103
+log_refugees_per_cohort         0.7414      0.455      1.629      0.103      -0.151       1.634
+==============================================================================
+Omnibus:                        0.979   Durbin-Watson:                   2.197
+Prob(Omnibus):                  0.613   Jarque-Bera (JB):                0.778
+Skew:                          -0.216   Prob(JB):                        0.678
+Kurtosis:                       3.007   Cond. No.                         159.
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC1)
+
+======================================================================
+(2b) Count outcome (log_athletes), raw log(refugees) + log_pop
+======================================================================
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:           log_athletes   R-squared:                       0.236
+Model:                            OLS   Adj. R-squared:                  0.196
+Method:                 Least Squares   F-statistic:                     6.722
+Date:                Mon, 11 May 2026   Prob (F-statistic):           2.14e-05
+Time:                        16:21:32   Log-Likelihood:                -168.52
+No. Observations:                 100   AIC:                             349.0
+Df Residuals:                      94   BIC:                             364.7
+Df Model:                           5                                         
+Covariance Type:                  HC1                                         
+===============================================================================================
+                                  coef    std err          z      P>|z|      [0.025      0.975]
+-----------------------------------------------------------------------------------------------
+const                          -3.7350      2.428     -1.538      0.124      -8.493       1.023
+log_gdp_pc                      0.1702      0.182      0.938      0.348      -0.186       0.526
+log_pop                         0.2793      0.108      2.585      0.010       0.068       0.491
+political_stability             0.1223      0.289      0.423      0.672      -0.444       0.689
+log_disaster_deaths_2010_23     0.0884      0.065      1.363      0.173      -0.039       0.215
+log_refugees_2010_23           -0.1255      0.075     -1.670      0.095      -0.273       0.022
+==============================================================================
+Omnibus:                        4.960   Durbin-Watson:                   2.154
+Prob(Omnibus):                  0.084   Jarque-Bera (JB):                4.733
+Skew:                           0.533   Prob(JB):                       0.0938
+Kurtosis:                       3.013   Cond. No.                         437.
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC1)
+
+======================================================================
+(3a) Selection probit: Pr(sends athletes) on log_gdp_pc + log_pop + polstab
+======================================================================
+                          Probit Regression Results                           
+==============================================================================
+Dep. Variable:         sends_athletes   No. Observations:                  191
+Model:                         Probit   Df Residuals:                      187
+Method:                           MLE   Df Model:                            3
+Date:                Mon, 11 May 2026   Pseudo R-squ.:                  0.1940
+Time:                        16:21:32   Log-Likelihood:                -106.54
+converged:                       True   LL-Null:                       -132.18
+Covariance Type:            nonrobust   LLR p-value:                 4.258e-11
+=======================================================================================
+                          coef    std err          z      P>|z|      [0.025      0.975]
+---------------------------------------------------------------------------------------
+const                  -7.8431      1.279     -6.130      0.000     -10.351      -5.335
+log_gdp_pc              0.5224      0.114      4.574      0.000       0.299       0.746
+log_pop                 0.1842      0.058      3.177      0.001       0.071       0.298
+political_stability     0.1927      0.171      1.130      0.258      -0.142       0.527
+=======================================================================================
+
+======================================================================
+(3b) Intensity OLS: log(athletes/cohort) on log_gdp_pc + polstab (senders only)
+======================================================================
+                                  OLS Regression Results                                  
+==========================================================================================
+Dep. Variable:     log_athletes_per_million_15_24   R-squared:                       0.395
+Model:                                        OLS   Adj. R-squared:                  0.383
+Method:                             Least Squares   F-statistic:                     33.55
+Date:                            Mon, 11 May 2026   Prob (F-statistic):           8.43e-12
+Time:                                    16:21:32   Log-Likelihood:                -196.71
+No. Observations:                             100   AIC:                             399.4
+Df Residuals:                                  97   BIC:                             407.2
+Df Model:                                       2                                         
+Covariance Type:                              HC1                                         
+=======================================================================================
+                          coef    std err          z      P>|z|      [0.025      0.975]
+---------------------------------------------------------------------------------------
+const                  -1.0569      2.401     -0.440      0.660      -5.763       3.649
+log_gdp_pc              0.2390      0.237      1.006      0.314      -0.226       0.704
+political_stability     1.5125      0.325      4.648      0.000       0.875       2.150
+==============================================================================
+Omnibus:                        0.358   Durbin-Watson:                   2.318
+Prob(Omnibus):                  0.836   Jarque-Bera (JB):                0.526
+Skew:                          -0.054   Prob(JB):                        0.769
+Kurtosis:                       2.662   Cond. No.                         139.
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC1)
+
+=== Probit average marginal effects ===
+                        dy/dx  Std. Err.         z      Pr(>|z|)  Conf. Int. Low  Cont. Int. Hi.
+log_gdp_pc           0.165355   0.030138  5.486674  4.095717e-08        0.106287        0.224424
+log_pop              0.058301   0.016995  3.430499  6.024725e-04        0.024992        0.091611
+political_stability  0.061008   0.053485  1.140666  2.540088e-01       -0.043820        0.165836
+
+=== (4) Cohort 18-22 vs 15-24 ===
+A uniform-rescaling of pop_15_24 by a constant fraction does not change any coefficient in the log-rate model (the intercept absorbs the rescaling). To get genuine variation one would re-pull the 5-year age bands. Documented in §5.
