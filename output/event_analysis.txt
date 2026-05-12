@@ -1,0 +1,249 @@
+=== (a) Composition by event group ===
+
+Total intl track athletes with event group: 1089
+
+Event group counts:
+  Distance       409  (37.6%)
+  Sprints        211  (19.4%)
+  Throws         136  (12.5%)
+  Jumps          120  (11.0%)
+  MidDistance     73  (6.7%)
+  Hurdles         61  (5.6%)
+  Multi           55  (5.1%)
+  PoleVault       24  (2.2%)
+
+Top-5 source countries per event:
+  Distance      KEN (101, 25%), GBR (62, 15%), CAN (45, 11%), AUS (33, 8%), ESP (22, 5%)
+  Sprints       NGA (37, 18%), JAM (32, 15%), CAN (15, 7%), BHS (13, 6%), GBR (11, 5%)
+  Throws        JAM (22, 16%), CAN (12, 9%), GBR (9, 7%), ZAF (8, 6%), NZL (7, 5%)
+  Jumps         NGA (11, 9%), CAN (10, 8%), JAM (8, 7%), FRA (6, 5%), GBR (6, 5%)
+  MidDistance   GBR (13, 18%), CAN (13, 18%), NZL (6, 8%), AUS (6, 8%), ESP (6, 8%)
+  Hurdles       JAM (9, 15%), GBR (4, 7%), DEU (4, 7%), BHS (4, 7%), BRB (3, 5%)
+  Multi         GBR (9, 16%), NLD (7, 13%), CZE (4, 7%), IRL (4, 7%), ESP (3, 5%)
+  PoleVault     RUS (2, 8%), GRC (2, 8%), ITA (2, 8%), SWE (2, 8%), CAN (2, 8%)
+
+
+=== (b) Regional concentration ===
+
+Herfindahl index across regions for each event (0 = perfectly diffuse, 1 = single region).
+
+  Event        HHI    Top region (share)
+  Distance     0.253  WEU   (39%)
+  Sprints      0.251  LAC   (34%)
+  Throws       0.218  WEU   (32%)
+  Jumps        0.177  WEU   (28%)
+  MidDistance  0.252  WEU   (42%)
+  Hurdles      0.217  LAC   (33%)
+  Multi        0.559  WEU   (73%)
+  PoleVault    0.302  WEU   (50%)
+
+Country-level concentration:
+  Event        HHI    Top-3 share
+  Distance     0.113  51%
+  Sprints      0.075  40%
+  Throws       0.057  32%
+  Jumps        0.040  24%
+  MidDistance  0.093  44%
+  Hurdles      0.054  28%
+  Multi        0.075  36%
+  PoleVault    0.059  25%
+
+
+=== (c) Region x event matrix (athlete counts) ===
+event_group  Distance  Hurdles  Jumps  MidDistance  Multi  PoleVault  Sprints  Throws
+region                                                                               
+EAP                50        5      7           12      2          2        5       8
+EEU                19        1     16            6      9          4        6      11
+LAC                10       20     16            3      1          2       71      38
+MENA               16        5      8            4      1          1        5       5
+NA                 45        3     10           13      2          2       15      12
+OTHER               1        0      0            0      0          0        2       1
+SA                  0        1      3            1      0          0        2       0
+SSA               109       11     27            3      0          1       65      17
+WEU               159       15     33           31     40         12       40      44
+
+Column shares (% of each event from each region):
+event_group  Distance  Hurdles  Jumps  MidDistance  Multi  PoleVault  Sprints  Throws
+region                                                                               
+EAP              12.2      8.2    5.8         16.4    3.6        8.3      2.4     5.9
+EEU               4.6      1.6   13.3          8.2   16.4       16.7      2.8     8.1
+LAC               2.4     32.8   13.3          4.1    1.8        8.3     33.6    27.9
+MENA              3.9      8.2    6.7          5.5    1.8        4.2      2.4     3.7
+NA               11.0      4.9    8.3         17.8    3.6        8.3      7.1     8.8
+OTHER             0.2      0.0    0.0          0.0    0.0        0.0      0.9     0.7
+SA                0.0      1.6    2.5          1.4    0.0        0.0      0.9     0.0
+SSA              26.7     18.0   22.5          4.1    0.0        4.2     30.8    12.5
+WEU              38.9     24.6   27.5         42.5   72.7       50.0     19.0    32.4
+
+
+=== (d) Within-event count regressions ===
+
+--- Distance  n=40 ---
+OLS log-count:
+  log_pop_15_24             +0.395 (SE 0.134) ***
+  log_gdp_pc                -0.461 (SE 0.442) 
+  political_stability       +0.933 (SE 0.400) **
+  R^2 = 0.226
+NegBin:
+  log_pop_15_24             +0.635 (SE 0.147) ***
+  log_gdp_pc                -0.740 (SE 0.318) **
+  political_stability       +1.129 (SE 0.371) ***
+
+--- Sprints  n=43 ---
+OLS log-count:
+  log_pop_15_24             +0.133 (SE 0.061) **
+  log_gdp_pc                +0.053 (SE 0.172) 
+  political_stability       +0.128 (SE 0.290) 
+  R^2 = 0.071
+NegBin:
+  log_pop_15_24             +0.129 (SE 0.097) 
+  log_gdp_pc                -0.213 (SE 0.243) 
+  political_stability       +0.115 (SE 0.313) 
+
+--- Throws  n=45 ---
+OLS log-count:
+  log_pop_15_24             +0.177 (SE 0.080) **
+  log_gdp_pc                -0.109 (SE 0.303) 
+  political_stability       +0.305 (SE 0.305) 
+  R^2 = 0.095
+NegBin:
+  log_pop_15_24             +0.252 (SE 0.100) **
+  log_gdp_pc                -0.573 (SE 0.259) **
+  political_stability       +0.687 (SE 0.300) **
+
+--- Jumps  n=42 ---
+OLS log-count:
+  log_pop_15_24             +0.097 (SE 0.071) 
+  log_gdp_pc                -0.054 (SE 0.204) 
+  political_stability       +0.056 (SE 0.279) 
+  R^2 = 0.059
+NegBin:
+  log_pop_15_24             +0.113 (SE 0.076) 
+  log_gdp_pc                -0.022 (SE 0.187) 
+  political_stability       +0.016 (SE 0.221) 
+
+--- MidDistance  n=24 ---
+OLS log-count:
+  log_pop_15_24             +0.296 (SE 0.120) **
+  log_gdp_pc                +0.098 (SE 0.195) 
+  political_stability       +0.573 (SE 0.228) **
+  R^2 = 0.328
+NegBin:
+  log_pop_15_24             +0.455 (SE 0.149) ***
+  log_gdp_pc                +0.074 (SE 0.319) 
+  political_stability       +0.919 (SE 0.461) **
+
+--- Hurdles  n=31 ---
+OLS log-count:
+  log_pop_15_24             -0.059 (SE 0.046) 
+  log_gdp_pc                -0.089 (SE 0.210) 
+  political_stability       +0.275 (SE 0.214) 
+  R^2 = 0.173
+NegBin:
+  log_pop_15_24             -0.061 (SE 0.092) 
+  log_gdp_pc                -0.235 (SE 0.250) 
+  political_stability       +0.432 (SE 0.318) 
+
+--- Multi  n=22 ---
+OLS log-count:
+  log_pop_15_24             +0.189 (SE 0.104) *
+  log_gdp_pc                +0.454 (SE 0.178) **
+  political_stability       +0.381 (SE 0.303) 
+  R^2 = 0.330
+NegBin:
+  log_pop_15_24             +0.264 (SE 0.142) *
+  log_gdp_pc                +0.546 (SE 0.399) 
+  political_stability       +0.439 (SE 0.458) 
+
+--- PoleVault  n=19 ---
+OLS log-count:
+  log_pop_15_24             -0.028 (SE 0.062) 
+  log_gdp_pc                +0.340 (SE 0.165) **
+  political_stability       -0.264 (SE 0.141) *
+  R^2 = 0.128
+NegBin:
+  log_pop_15_24             -0.033 (SE 0.189) 
+  log_gdp_pc                +0.368 (SE 0.663) 
+  political_stability       -0.277 (SE 0.520) 
+
+
+=== Headline table: OLS and NegBin coefficients by event ===
+      event  n  ols_pop ols_gdp ols_polstab  ols_R2   nb_pop  nb_gdp nb_polstab
+   Distance 40 +0.39***   -0.46     +0.93**    0.23 +0.64*** -0.74**   +1.13***
+    Sprints 43  +0.13**   +0.05       +0.13    0.07    +0.13   -0.21      +0.11
+     Throws 45  +0.18**   -0.11       +0.30    0.10  +0.25** -0.57**    +0.69**
+      Jumps 42    +0.10   -0.05       +0.06    0.06    +0.11   -0.02      +0.02
+MidDistance 24  +0.30**   +0.10     +0.57**    0.33 +0.45***   +0.07    +0.92**
+    Hurdles 31    -0.06   -0.09       +0.28    0.17    -0.06   -0.24      +0.43
+      Multi 22   +0.19* +0.45**       +0.38    0.33   +0.26*   +0.55      +0.44
+  PoleVault 19    -0.03 +0.34**      -0.26*    0.13    -0.03   +0.37      -0.28
+
+
+=== (e) Country-event specialization (residuals) ===
+Residual = actual log(athletes in event) minus predicted from country panel ~ log_pop_15_24 + log_gdp_pc + polstab.
+Top 10 positive residuals per event (countries supplying more than macro covariates predict):
+
+--- Sprints ---
+country_code region  athletes_evt    resid
+         JAM    LAC          32.0 2.617100
+         NGA    SSA          37.0 2.466844
+         BHS    LAC          13.0 1.861615
+         BRB    LAC           8.0 1.441982
+         CAN     NA          15.0 1.421962
+         ZAF    SSA          10.0 1.175679
+         GBR    WEU          11.0 1.083410
+         ZWE    SSA           5.0 0.728819
+         GHA    SSA           6.0 0.689665
+         GRD    LAC           3.0 0.593758
+
+--- Distance ---
+country_code region  athletes_evt    resid
+         KEN    SSA         101.0 2.822569
+         GBR    WEU          62.0 2.127106
+         CAN     NA          45.0 1.775953
+         ISR   MENA           3.0 1.581182
+         AUS    EAP          33.0 1.544223
+         ESP    WEU          22.0 1.454225
+         DEU    WEU          21.0 1.032416
+         IRL    WEU           7.0 0.947190
+         SWE    WEU           9.0 0.805745
+         NZL    EAP          13.0 0.734671
+
+--- Throws ---
+country_code region  athletes_evt    resid
+         JAM    LAC          22.0 2.438319
+         CAN     NA          12.0 1.483317
+         BHS    LAC           5.0 1.267568
+         ZAF    SSA           8.0 1.232095
+         GBR    WEU           9.0 1.183347
+         NGA    SSA           7.0 1.124416
+         NZL    EAP           7.0 1.109377
+         ISR   MENA           3.0 0.982973
+         FIN    WEU           4.0 0.770903
+         GRC    WEU           4.0 0.767095
+
+--- Jumps ---
+country_code region  athletes_evt    resid
+         CAN     NA          10.0 1.488346
+         JAM    LAC           8.0 1.417136
+         NGA    SSA          11.0 1.405606
+         ISR   MENA           5.0 1.026553
+         BHS    LAC           4.0 0.956871
+         FRA    WEU           6.0 0.944853
+         GBR    WEU           6.0 0.937079
+         EST    EEU           4.0 0.909137
+         ESP    WEU           5.0 0.810666
+         AUS    EAP           4.0 0.604513
+
+--- MidDistance ---
+country_code region  athletes_evt    resid
+         GBR    WEU          13.0 1.311491
+         CAN     NA          13.0 1.287516
+         ESP    WEU           6.0 0.828621
+         NZL    EAP           6.0 0.798358
+         AUS    EAP           6.0 0.561254
+         JAM    LAC           2.0 0.479703
+         ISR   MENA           1.0 0.402774
+         KEN    SSA           2.0 0.397428
+         DZA   MENA           2.0 0.266155
+         POL    EEU           3.0 0.053614

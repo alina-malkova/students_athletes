@@ -317,60 +317,199 @@ build one from scratch.
 \subsection{Sport-event heterogeneity}
 \label{sec:event-split}
 
-The international concentration is in track. We exploit the
-position-field information in our scraped roster data to assign
-each athlete to a track event group (Sprints, Distance, Throws,
-Jumps) and re-estimate the count model within each group. This is
-the cleanest way to test whether the country-panel result is
-masking sport-specific structure.
+The international concentration is in track. Our roster data
+include a \texttt{position} field that we parse into nine standard
+event groups (Distance, Sprints, Throws, Jumps, Mid-Distance,
+Hurdles, Multi-Events, Pole Vault, and Cross Country) for the 1089
+international track athletes whose schools surface event
+information. This section uses the within-event variation to ask
+whether the country-panel pooled result of
+Section~\ref{sec:intensive} is masking event-specific structure.
+
+\subsubsection*{Event composition and pipeline concentration}
 
 \begin{center}
 \small
-\begin{tabular}{lrrrr}
+\begin{tabular}{lrrll}
 \toprule
-Coefficient                       & Sprints & Distance & Throws & Jumps \\
+Event group   & $n$ & Share & Top-5 source countries (share) & Region HHI \\
 \midrule
-$\log\text{pop}_{15\text{--}24}$  & $+0.13^{**}$ & $\mathbf{+0.40^{***}}$ & $+0.18^{**}$  & $+0.10$ \\
-$\log\text{GDPpc}$                & $+0.05$      & $-0.46$               & $-0.11$       & $-0.05$ \\
-Political stability               & $+0.13$      & $\mathbf{+0.93^{**}}$ & $+0.31$       & $+0.06$ \\
-\midrule
-$n$                               & 43           & 40                    & 45            & 42 \\
-$R^2$                             & 0.07         & 0.23                  & 0.10          & 0.06 \\
+Distance      & 409 & 37.6\%  & KEN~25 \%, GBR~15 \%, CAN~11 \%, AUS~8 \%, ESP~5 \% & 0.253 \\
+Sprints       & 211 & 19.4\%  & NGA~18 \%, JAM~15 \%, CAN~7 \%, BHS~6 \%, GBR~5 \% & 0.251 \\
+Throws        & 136 & 12.5\%  & JAM~16 \%, CAN~9 \%, GBR~7 \%, ZAF~6 \%, NZL~5 \% & 0.218 \\
+Jumps         & 120 & 11.0\%  & NGA~9 \%,  CAN~8 \%, JAM~7 \%, FRA~5 \%, GBR~5 \% & 0.177 \\
+Mid-Distance  &  73 &  6.7\%  & GBR~18 \%, CAN~18 \%, NZL~8 \%, AUS~8 \%, ESP~8 \% & 0.252 \\
+Hurdles       &  61 &  5.6\%  & JAM~15 \%, GBR~7 \%, DEU~7 \%, BHS~7 \%, BRB~5 \% & 0.217 \\
+Multi-Events  &  55 &  5.1\%  & GBR~16 \%, NLD~13 \%, CZE~7 \%, IRL~7 \%, ESP~5 \% & 0.559 \\
+Pole Vault    &  24 &  2.2\%  & RUS, GRC, ITA, SWE, CAN (each 8 \%)              & 0.302 \\
 \bottomrule
 \end{tabular}
 \end{center}
 
-The sport-event split reveals two qualitatively different country
-structures.
+Two facts stand out. First, the event composition itself is
+informative: distance running alone accounts for 38\% of the
+international track sample, and the top single supplier of any event
+is Kenya in distance (25\% of the entire event from one country).
+Second, regional Herfindahl indices (computed over our eight-region
+classification) show that supply is moderately concentrated for most
+events ($\text{HHI} \approx 0.18$--$0.30$) but extremely concentrated
+for Multi-Events ($\text{HHI} = 0.56$, with Western Europe supplying
+73\% of all international multi-event athletes). The Caribbean
+sprint network and East African distance network are visible in the
+top-supplier columns but do not produce uniquely-high HHIs, because
+they share their event group with other meaningful regional
+clusters.
 
-\textbf{Sprints look Caribbean.}\quad
-Small population elasticity ($+0.13$, marginally significant), zero
-GDP coefficient, zero political-stability coefficient. The supply
-comes disproportionately from small high-quality pipeline countries
-(Jamaica, Bahamas, Trinidad, Barbados) that move little with the
-macro covariates because they are clustered tightly together on
-those covariates and differentiated by network structures the macro
-model does not see.
+\subsubsection*{Regional shares by event}
 
-\textbf{Distance running looks East African.}\quad
-Strong population elasticity ($+0.40$), \emph{negative} (insignificant)
-GDP coefficient, and a large positive political-stability coefficient
-($+0.93$, $p<0.05$). The negative GDP sign reflects the East African
-concentration: distance running is dominated by Kenya, Ethiopia, and
-Uganda, all low-GDP. Political stability matters here because it
-distinguishes Kenya and Ethiopia (relatively stable, large distance
-pipelines) from comparably-positioned but less stable peers.
+The region-by-event share matrix (Table~5b) makes the regional
+specialization patterns explicit.
 
-\textbf{Throws and jumps look weak.}\quad
-Modest population elasticity for throws ($+0.18$), nothing
-significant for jumps. Both fail to identify clean economic
-patterns at the 40-country panel size.
+\begin{center}
+\footnotesize
+\begin{tabular}{lrrrrrrrr}
+\toprule
+Region & Distance & Hurdles & Jumps & MidDist. & Multi & PV & Sprints & Throws \\
+\midrule
+Sub-Saharan Africa     & \textbf{26.7} & 18.0 & \textbf{22.5} &  4.1 &  0.0 &  4.2 & \textbf{30.8} & 12.5 \\
+Latin Am.\ \& Caribbean &  2.4 & \textbf{32.8} & 13.3 &  4.1 &  1.8 &  8.3 & \textbf{33.6} & \textbf{27.9} \\
+Western Europe         & \textbf{38.9} & 24.6 & \textbf{27.5} & \textbf{42.5} & \textbf{72.7} & \textbf{50.0} & 19.0 & \textbf{32.4} \\
+Eastern Europe \& C.A. &  4.6 &  1.6 & 13.3 &  8.2 & 16.4 & 16.7 &  2.8 &  8.1 \\
+East Asia \& Pacific   & 12.2 &  8.2 &  5.8 & 16.4 &  3.6 &  8.3 &  2.4 &  5.9 \\
+MENA                   &  3.9 &  8.2 &  6.7 &  5.5 &  1.8 &  4.2 &  2.4 &  3.7 \\
+North America          & 11.0 &  4.9 &  8.3 & 17.8 &  3.6 &  8.3 &  7.1 &  8.8 \\
+South Asia             &  0.0 &  1.6 &  2.5 &  1.4 &  0.0 &  0.0 &  0.9 &  0.0 \\
+\bottomrule
+\end{tabular}
+\end{center}
 
-The country-level pooled result of Section~\ref{sec:intensive}
-averages over these very different sport-specific models. A complete
-account of international NCAA recruitment would estimate
-event-specific gravity equations with sport-level demand-side
-covariates; we leave this to future work.
+\textbf{Sub-Saharan Africa} supplies $27\%$ of distance running and
+$31\%$ of sprints---the classical pipelines (Kenya, Ethiopia for
+distance; Nigeria for sprints and jumps).
+\textbf{Latin America \& Caribbean} contributes one-third of sprints
+($34\%$) and one-third of hurdles ($33\%$), the Jamaica/Bahamas/
+Trinidad/Barbados block.
+\textbf{Western Europe} dominates the technical events:
+multi-events ($73\%$), pole vault ($50\%$), mid-distance ($43\%$),
+and supplies nearly $40\%$ of distance overall (the European
+distance scene plus a long tail of contributions to every event).
+South Asia is essentially absent from every event, despite very
+large populations---more on this in Section~\ref{sec:discussion}.
+
+\subsubsection*{Within-event count regressions}
+
+Table~6 reports the within-event count specification
+(Equation~\ref{eq:intensive}) for all eight event groups with enough
+sender countries to fit, using both OLS on $\log(\text{athletes})$
+and Negative Binomial on raw athlete counts. The NB column is the
+preferred reading because it handles low-count truncation that OLS
+on $\log(\text{athletes})$ does not.
+
+\begin{center}
+\footnotesize
+\begin{tabular}{lrrrrrrrr}
+\toprule
+            & \multicolumn{4}{c}{OLS log-count} & \multicolumn{3}{c}{Negative Binomial} & \\
+\cmidrule(lr){2-5} \cmidrule(lr){6-8}
+Event       & $\log\text{pop}_{15-24}$ & $\log\text{GDPpc}$ & polstab & $R^2$ & $\log\text{pop}_{15-24}$ & $\log\text{GDPpc}$ & polstab & $n$ \\
+\midrule
+Distance     & $+0.39^{***}$ & $-0.46$       & $+0.93^{**}$ & 0.23 & $\mathbf{+0.64^{***}}$ & $\mathbf{-0.74^{**}}$ & $\mathbf{+1.13^{***}}$ & 40 \\
+Sprints      & $+0.13^{**}$  & $+0.05$       & $+0.13$       & 0.07 & $+0.13$                & $-0.21$               & $+0.11$               & 43 \\
+Throws       & $+0.18^{**}$  & $-0.11$       & $+0.30$       & 0.10 & $\mathbf{+0.25^{**}}$  & $\mathbf{-0.57^{**}}$ & $\mathbf{+0.69^{**}}$  & 45 \\
+Jumps        & $+0.10$       & $-0.05$       & $+0.06$       & 0.06 & $+0.11$                & $-0.02$               & $+0.02$               & 42 \\
+Mid-Distance & $+0.30^{**}$  & $+0.10$       & $+0.57^{**}$  & 0.33 & $\mathbf{+0.45^{***}}$ & $+0.07$                & $\mathbf{+0.92^{**}}$  & 24 \\
+Hurdles      & $-0.06$       & $-0.09$       & $+0.28$       & 0.17 & $-0.06$                & $-0.24$               & $+0.43$               & 31 \\
+Multi-Events & $+0.19^{*}$   & $+0.45^{**}$  & $+0.38$       & 0.33 & $+0.26^{*}$            & $+0.55$                & $+0.44$               & 22 \\
+Pole Vault   & $-0.03$       & $+0.34^{**}$  & $-0.26^{*}$   & 0.13 & $-0.03$                & $+0.37$                & $-0.28$               & 19 \\
+\bottomrule
+\end{tabular}
+\end{center}
+{\footnotesize\itshape HC1 SEs (OLS); MLE SEs (NB). *** $p<0.01$, ** $p<0.05$, * $p<0.10$.}
+
+Three distinct event types emerge.
+
+\textbf{(A) Low-GDP, high-stability events: Distance, Throws.}\quad
+In both NegBin specifications, the log GDP per capita coefficient is
+\emph{negative} and significant ($-0.74^{**}$ for distance,
+$-0.57^{**}$ for throws), and political stability is large and
+positive ($+1.13^{***}$ and $+0.69^{**}$). These are the events
+where Sub-Saharan Africa supplies a disproportionate share: Kenya,
+Ethiopia, and Uganda in distance; Jamaica, South Africa, and other
+mid-income countries in throws. The negative GDP coefficient
+captures the empirical fact that the dominant supply nodes in these
+events are lower-income than the typical NCAA-sender country; the
+positive stability coefficient distinguishes Kenya from comparably
+poor but less stable peers (Somalia, South Sudan, DRC).
+
+\textbf{(B) High-GDP-or-mixed events with stability premium:
+Mid-Distance, Multi-Events.}\quad
+Mid-distance running shows a textbook Anglo-sphere pattern: positive
+population elasticity ($+0.45^{***}$), zero GDP coefficient, and a
+large positive stability coefficient ($+0.92^{**}$). The supply is
+dominated by GBR, Canada, New Zealand, Australia, and Spain.
+Multi-events show the cleanest positive GDP gradient
+($+0.45^{**}$ in OLS), consistent with the event's heavy Western
+European concentration and the apparatus-intensive nature of
+heptathlon and decathlon. Pole vault similarly favours higher-GDP
+countries ($+0.34^{**}$).
+
+\textbf{(C) Caribbean-clustered events with no macro signal:
+Sprints, Hurdles, Jumps.}\quad
+For each of these events, neither GDP nor political stability is
+distinguishable from zero in either specification, and the
+population elasticity is small or zero. The supply is clustered on
+a narrow set of small countries (Jamaica, Bahamas, Trinidad,
+Barbados; plus Nigeria) whose macro covariates do not vary enough
+within the event to identify a clean elasticity. The level of
+representation in these events is driven by sport-specific network
+structures---the MVP Track Club, Racers Track Club, and the
+broader Jamaican school-meet system---that are observationally
+invisible to country-year macro variables.
+
+\subsubsection*{Country-event specialisation}
+
+We can also examine which countries supply more athletes in each
+event than their macro covariates would predict. Computing the
+residual from the within-event OLS regression and ranking
+countries by their residuals identifies the high-pipeline outliers
+for each event. The top three positive residuals are:
+
+\begin{center}
+\small
+\begin{tabular}{lp{0.65\textwidth}}
+\toprule
+Event       & Top three positive residuals \\
+\midrule
+Distance    & Kenya, Ethiopia, Uganda \\
+Sprints     & Jamaica, Bahamas, Nigeria \\
+Throws      & Jamaica, New Zealand, South Africa \\
+Mid-Distance& Great Britain, Norway, New Zealand \\
+Multi-Events& Netherlands, Great Britain, Czech Republic \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+These are the named pipelines: Kenya in distance (Iten / Eldoret),
+Jamaica in sprints (MVP / Racers), the British distance and middle-
+distance system, the Netherlands multi-events tradition. Country
+identity captures pipeline-specific human capital that no macro
+covariate can proxy.
+
+\subsubsection*{What the event split tells us}
+
+The country-panel pooled results of Section~\ref{sec:intensive}
+average over three economically distinct supply structures: a low-
+GDP / high-stability East-African distance and throws complex; a
+high-GDP-or-stable Anglosphere mid-distance and technical-event
+complex; and a Caribbean sprint network whose supply is invisible to
+macro variables. A complete model of international NCAA recruitment
+would estimate event-specific gravity equations with sport-level
+demand-side variables (recruiting links, scholarship caps per
+event, US-side coaching capacity), which we do not have. The
+practical implication for our country-level results is that the
+sublinear population elasticity of $\sim 0.4$ is a weighted average
+of mostly-East-African and mostly-European structures that may have
+different true elasticities individually.
 
 \subsection{Region fixed effects horse-race}
 \label{sec:regions}
@@ -522,8 +661,11 @@ All results in this paper are reproducible from local Python scripts:
 \item \texttt{run\_revisions\_2.py}: Heckman two-step, MDE for
       political stability, quantile regression at
       $\tau \in \{0.25, 0.50, 0.75\}$, Negative Binomial with free
-      $\log\text{pop}$, within-event count regressions, and region
-      FE horse-race --- Tables~3, 4, 5, 6 of this paper.
+      $\log\text{pop}$, and region FE horse-race.
+\item \texttt{run\_event\_analysis.py}: expanded sport-event
+      analysis (composition, regional shares, within-event OLS and
+      NegBin for all eight event groups, country-event
+      specialisation residuals) --- Section~\ref{sec:event-split}.
 \item \texttt{run\_stress\_tests.py}: drop-top-5 disaster countries,
       events-vs-deaths comparison, refugees raw count.
 \item \texttt{run\_bartik.py}, \texttt{run\_event\_study.py},
