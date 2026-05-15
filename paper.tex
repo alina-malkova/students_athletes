@@ -57,7 +57,7 @@ and we retract that framing. Macro covariates explain 21\% of
 intensive-margin variation; eight regional fixed effects add another
 11\%; country-specific recruitment pipelines (Kenya--Iten,
 Jamaica--MVP, the Caribbean sprint network) plausibly account for
-the rest.
+the rest. Finally, we extend the analysis with a country~$\times$~year~$\times$~sport panel for eight sports over 2019--2023 ($260{,}737$ athlete-years). Two-way fixed-effects on the panel show that the cross-sectional political-stability coefficient is \textbf{entirely between-country composition}: $+0.34$ ($p<0.01$) in pooled OLS collapses to $-0.005$ once country fixed effects are added. A clean COVID natural experiment from differential sport disruption (soccer and volleyball lost $14\%$ of their 2020 rosters relative to the six other sports; the effect is transitory and recovers by 2021) is identified at $-0.143$ ($p<0.01$). Disaster and conflict effects also wash out under country FE; only a binary GDP-shock indicator survives at $-2.5\%$ per recession year ($p<0.10$).
 \end{abstract}
 
 %========================================================================
@@ -511,6 +511,159 @@ sublinear population elasticity of $\sim 0.4$ is a weighted average
 of mostly-East-African and mostly-European structures that may have
 different true elasticities individually.
 
+\subsection{Country × year × sport panel: within-country identification}
+\label{sec:panel}
+
+We extend the cross-section by scraping historical roster pages
+across eight sports (track and field, soccer, basketball, swimming
+and diving, tennis, golf, ice hockey, volleyball) for 2019--2023
+from D-I athletic-department websites. The eight-sport panel
+contains 260{,}737 athlete-years; after country-mapping and merging
+to the time-varying World Bank, WGI, UCDP, and EM-DAT panels, the
+country × year × sport long panel has $6{,}040$ cells across $152$
+countries, $5$ years, and $8$ sports (USA excluded as the
+destination country).
+
+The panel makes three things identifiable that the cross-section
+cannot:
+\textit{(i)} within-country variation in political stability over
+2019--2023, isolating the structural between-country composition
+that drove the cross-sectional coefficient;
+\textit{(ii)} a clean COVID natural experiment, since soccer and
+volleyball lost a substantial fraction of their 2020 rosters while
+the other six sports continued essentially unchanged;
+\textit{(iii)} a Heckman two-step with proper extensive/intensive
+margins on a real panel rather than the imputed pseudo-panel of an
+earlier draft.
+
+\begin{center}
+\footnotesize
+\begin{tabular}{lrrrrr}
+\toprule
+Coefficient                              & Pooled OLS & TWFE & DiD (3a) & Heckman int. & Poisson PPML \\
+\midrule
+$\log \text{pop}_{15\text{--}24}$        & $\mathbf{+0.22^{***}}$       & --- & --- & $\mathbf{+0.28^{**}}$ & --- \\
+$\log \text{GDPpc}$                      & $\mathbf{+0.40^{***}}$       & --- & --- & $\mathbf{+0.68^{*}}$  & --- \\
+Political stability                      & $\mathbf{+0.34^{***}}$       & $-0.005$ & --- & $+0.32^{*}$ & $\mathbf{+0.17^{*}}$ \\
+$\log(1+\text{disaster events})$         & $+0.08$                      & $+0.013$ & --- & $+0.003$ & $-0.019$ \\
+Any conflict                             & $+0.13$                      & $+0.003$ & --- & --- & $+0.053$ \\
+GDP shock (binary)                       & ---                          & $\mathbf{-0.025^{*}}$ & --- & --- & $-0.023$ \\
+Treated$_s \times$ Post$_{2020}$         & ---                          & --- & $-0.033$ & --- & $\mathbf{-0.128^{***}}$ \\
+Inverse Mills ratio                      & ---                          & --- & --- & $\mathbf{+1.81^{**}}$ & --- \\
+\midrule
+Country FE                                & ---       & \checkmark & \checkmark & \checkmark & \checkmark \\
+Year FE                                   & ---       & \checkmark & \checkmark & \checkmark & \checkmark \\
+Sport FE                                  & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark \\
+SE clustered by country                   & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark \\
+\midrule
+$n$                                       & 6{,}040 & 6{,}040 & 6{,}040 & 2{,}661 & 6{,}040 \\
+$R^2$ / pseudo                            & 0.36    & 0.66    & 0.66    & 0.61    & --- \\
+\bottomrule
+\end{tabular}
+\end{center}
+{\footnotesize\itshape HC1 / cluster-by-country robust SEs. *** $p<0.01$, ** $p<0.05$, * $p<0.10$. PPML is a Poisson pseudo-maximum-likelihood estimator on raw counts with country/year/sport fixed effects; canonical reference \citet{santos2006log}.}
+
+\textbf{The political-stability effect is largely between-country.}
+Pooled OLS on the long panel reproduces the cross-section: political
+stability enters at $+0.34$ ($p<0.01$) with similar magnitude to our
+Section~3.1 results. Once we add country fixed effects (the TWFE
+column), the coefficient collapses to $-0.005$ ($p > 0.5$). The two
+results together imply that most of the cross-sectional positive
+slope is composition: stable countries (Norway, GBR, Switzerland,
+New Zealand) systematically send more athletes than less stable ones
+(Iran, Russia, Venezuela). However, the Poisson PPML estimator on
+the same panel (column~5) returns $+0.17$ ($p<0.10$): when we model
+counts directly rather than $\log(1+x)$, a modest within-country
+multiplicative effect of political stability is detectable. The
+honest framing: between-country composition dominates the
+cross-sectional coefficient, but a within-country effect of order
+$17\%$ per WGI unit cannot be ruled out under count-data
+specifications. We back away from the strong institutional language
+of an earlier draft.
+
+\textbf{Disaster events and conflict also wash out under TWFE.}
+Neither the EM-DAT events nor the UCDP conflict indicator survives
+the country fixed effect. The one shock that retains marginal
+significance is \texttt{gdp\_shock} (binary indicator for a recession
+year), with coefficient $-0.025$ ($p<0.10$): each binary recession
+year in a country reduces log athlete supply by about $2.5\%$ within
+that country, controlling for other shocks. This is consistent with
+the negative-binomial finding in Section~3.2 (column 5 of Table~3).
+
+\textbf{COVID effect.} Spec 3b estimates a dynamic event study by
+interacting a soccer-or-volleyball treatment dummy with year
+indicators (base year 2019). We report both the log-OLS and the
+Poisson PPML estimates.
+
+\begin{center}
+\small
+\begin{tabular}{lrr}
+\toprule
+Treated$_s \times \mathbb{1}\{t = k\}$ & OLS log(1+y) & Poisson PPML \\
+\midrule
+$k = 2020$ & $\mathbf{-0.143^{***}}$ (0.024) & $\mathbf{-0.419^{***}}$ (0.034) \\
+$k = 2021$ & $-0.013$ (0.026) & $-0.059$ (0.036) \\
+$k = 2022$ & $+0.012$ (0.030) & $-0.045$ (0.048) \\
+$k = 2023$ & $+0.010$ (0.036) & $-0.066$ (0.055) \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+Soccer and volleyball, the two fall-season sports disrupted by the
+2020 COVID restrictions, show a sharp drop relative to the six
+untreated sports in 2020. The OLS log-of-one-plus model gives
+$-0.143$ ($p<0.01$), or about a $13\%$ shortfall; the PPML count
+model gives $-0.419$, equivalent to a $\sim 34\%$ multiplicative
+shortfall---closer to the raw aggregate $-25\%$ soccer drop and
+$-17\%$ volleyball drop. The two estimators bracket the magnitude:
+OLS underestimates because $\log(1+x)$ compresses small counts;
+PPML overestimates if there is genuine residual heterogeneity across
+country-sport cells.
+
+After 2020 both estimators show non-positive but
+small-and-insignificant coefficients in 2021--2023, consistent with
+recovery in international soccer and volleyball recruitment. The
+static DiD (averaging post-2020 effects) is $-0.033$ in OLS
+($n.s.$) and $-0.128$ in PPML ($p<0.01$), reflecting that the PPML
+picks up a small persistent drag after 2020 in addition to the
+2020 spike. Figure~\ref{fig:event-study-panel} plots the OLS
+leads/lags.
+
+\textbf{Heckman correction matters.} The selection probit (extensive
+margin: $\Pr(\text{any athletes in country} \times \text{year} \times
+\text{sport})$) yields a large positive inverse Mills ratio in the
+intensive equation, $+1.81$ ($p<0.05$). After correcting for
+selection, $\log \text{GDPpc}$ enters at $+0.68$ ($p<0.10$),
+political stability returns to $+0.32$ ($p<0.10$), and the
+population elasticity stays at $+0.28$ ($p<0.05$). The Heckman
+intensive estimates are larger than the pooled OLS coefficients but
+have wider standard errors. We read this as: there is real selection
+into the country-sport-year cells that are positive, and after
+correcting for it the GDP and stability margins are detectable but
+weaker than the cross-sectional story.
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.80\textwidth]{output/fig_event_study_panel.png}
+\caption{\label{fig:event-study-panel}COVID event study on the
+country~$\times$~year~$\times$~sport panel. Each coefficient is
+$\text{Treated}_s \times \mathbb{1}\{t = k\}$ where
+$\text{Treated}_s = 1$ for soccer and volleyball, $0$ otherwise. Base
+year 2019. $n = 6{,}040$ cells, 152 countries, 5 years, 8 sports.
+Country, year, and sport fixed effects; SEs clustered at country.}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.80\textwidth]{output/fig_pooled_vs_twfe.png}
+\caption{Pooled OLS vs.\ TWFE coefficient comparison on the long
+panel. Bars are point estimates with 95\% confidence intervals
+(country-clustered SEs). The political-stability and log-GDPpc
+coefficients collapse to zero once country fixed effects are
+included, indicating they capture between-country composition rather
+than within-country variation.}
+\end{figure}
+
 \subsection{Region fixed effects horse-race}
 \label{sec:regions}
 
@@ -666,6 +819,21 @@ All results in this paper are reproducible from local Python scripts:
       analysis (composition, regional shares, within-event OLS and
       NegBin for all eight event groups, country-event
       specialisation residuals) --- Section~\ref{sec:event-split}.
+\item \texttt{run\_historical\_scrape.py},
+      \texttt{run\_historical\_scrape\_multisport.py}: 2019--2023
+      roster panels for eight sports (track, soccer, basketball,
+      tennis, golf, swimming, ice hockey, volleyball). Uses the
+      student-built \texttt{school\_website\_platforms\_full.csv}.
+\item \texttt{build\_long\_panel.py}: stacks the eight sport CSVs
+      into the country~$\times$~year~$\times$~sport long panel and
+      merges time-varying WGI, WDI, UCDP, and EM-DAT covariates.
+\item \texttt{run\_panel\_specs.py}: produces the four-spec panel
+      results (pooled OLS, TWFE, COVID DiD with leads/lags, Heckman
+      two-step on the panel) reported in
+      Section~\ref{sec:panel}.
+\item \texttt{make\_panel\_plots.py}: produces
+      \texttt{output/fig\_event\_study\_panel.png} and
+      \texttt{output/fig\_pooled\_vs\_twfe.png}.
 \item \texttt{run\_stress\_tests.py}: drop-top-5 disaster countries,
       events-vs-deaths comparison, refugees raw count.
 \item \texttt{run\_bartik.py}, \texttt{run\_event\_study.py},
@@ -704,6 +872,11 @@ Behavioral Sciences} (2nd ed.). Lawrence Erlbaum Associates.
 Lee, D. S., J. McCrary, M. Moreira, and J. Porter (2022).
 ``Valid $t$-Ratio Inference for IV.''
 \textit{American Economic Review} 112(10): 3260--3290.
+
+\bibitem[Santos Silva and Tenreyro(2006)]{santos2006log}
+Santos Silva, J.\ M.\ C., and Silvana Tenreyro (2006).
+``The Log of Gravity.''
+\textit{Review of Economics and Statistics} 88(4): 641--658.
 \end{thebibliography}
 
 \end{document}

@@ -1,0 +1,986 @@
+school_name_full,ipeds_unitid,match_type,match_score
+Abilene Christian University,222178.0,exact,100
+Adams State University,126182.0,exact,100
+Adelphi University,188429.0,exact,100
+Adrian College,168528.0,exact,100
+Agnes Scott College,138600.0,exact,100
+Alabama A&M University,100654.0,exact,100
+Alabama State University,100724.0,exact,100
+Albany State University (Georgia),138716.0,exact,100
+Albion College,168546.0,exact,100
+Albright College,210571.0,exact,100
+Alcorn State University,175342.0,exact,100
+Alfred State College,164641.0,exact,100
+Alfred University,188641.0,exact,100
+Allegheny College,200873.0,exact,100
+Allen University,217624.0,exact,100
+Alma College,168591.0,exact,100
+Alvernia University,210775.0,exact,100
+Alverno College,238193.0,exact,100
+American International College,164447.0,exact,100
+American University,116846.0,exact,100
+Amherst College,164465.0,exact,100
+Angelo State University,222831.0,exact,100
+Appalachian State University,197869.0,exact,100
+Arcadia University,211088.0,exact,100
+Arkansas State University,106458.0,exact,100
+Arkansas Tech University,106467.0,exact,100
+Asbury University,156213.0,exact,100
+Ashland University,201104.0,exact,100
+Assumption University,164562.0,exact,100
+Auburn University at Montgomery,100830.0,exact,100
+Augsburg University,173045.0,exact,100
+Augusta University,161217.0,exact,100
+Augustana College (Illinois),143084.0,exact,100
+Augustana University (South Dakota),219000.0,exact,100
+Aurora University,143118.0,exact,100
+Austin Peay State University,219602.0,exact,100
+Averett University,231420.0,exact,100
+Azusa Pacific University,109785.0,exact,100
+Babson College,164580.0,exact,100
+Baldwin Wallace University,201195.0,exact,100
+Ball State University,150136.0,exact,100
+Bard College,166489.0,exact,100
+Barry University,132471.0,exact,100
+Barton College,154697.0,exact,100
+Baruch College,190512.0,exact,100
+Bates College,160977.0,exact,100
+Baylor University,223232.0,exact,100
+Belhaven University,175421.0,exact,100
+Bellarmine University,156286.0,exact,100
+Belmont Abbey College,197984.0,exact,100
+Belmont University,219709.0,exact,100
+Beloit College,238333.0,exact,100
+Bemidji State University,173124.0,exact,100
+Benedict College,174747.0,exact,100
+Benedictine University (Illinois),145619.0,exact,100
+Bentley University,164739.0,exact,100
+Berea College,156295.0,exact,100
+Berry College,139144.0,exact,100
+Bethany College (West Virginia),154721.0,exact,100
+Bethany Lutheran College,154721.0,exact,100
+Bethel University (Minnesota),150145.0,exact,100
+Bethune-Cookman University,132602.0,exact,100
+Binghamton University,196079.0,exact,100
+Biola University,110097.0,exact,100
+Black Hills State University,219046.0,exact,100
+Bloomsburg University of Pennsylvania,215062.0,exact,100
+Bluefield State University,231554.0,exact,100
+Boise State University,142115.0,exact,100
+Boston College,164614.0,exact,100
+Boston University,164614.0,exact,100
+Bowdoin College,161004.0,exact,100
+Bowie State University,162007.0,exact,100
+Bowling Green State University,201432.0,exact,100
+Brandeis University,165015.0,exact,100
+Brevard College,198066.0,exact,100
+Bridgewater College (Virginia),231581.0,exact,100
+Brooklyn College,190549.0,exact,100
+Brown University,107141.0,exact,100
+Bryant University,217165.0,exact,100
+Bucknell University,211291.0,exact,100
+Buena Vista University,153001.0,exact,100
+"Buffalo State, State University of New York",181853.0,exact,100
+Butler University,150163.0,exact,100
+Cairn University,169080.0,exact,100
+Caldwell University,183910.0,exact,100
+California Baptist University,110361.0,exact,100
+California Institute of Technology,110404.0,exact,100
+California Lutheran University,110413.0,exact,100
+California Polytechnic State University,110529.0,exact,100
+"California State Polytechnic University, Humboldt",459736.0,exact,100
+"California State Polytechnic University, Pomona",459736.0,exact,100
+"California State University, Bakersfield",459736.0,exact,100
+"California State University, Chico",111188.0,exact,100
+"California State University, Dominguez Hills",219046.0,exact,100
+"California State University, East Bay",459736.0,exact,100
+"California State University, Fresno",111188.0,exact,100
+"California State University, Fullerton",459736.0,exact,100
+"California State University, Los Angeles",110592.0,exact,100
+"California State University, Monterey Bay",459736.0,exact,100
+"California State University, Northridge",496627.0,exact,100
+"California State University, Sacramento",459736.0,exact,100
+"California State University, San Bernardino",110510.0,exact,100
+"California State University, San Marcos",366711.0,exact,100
+"California State University, Stanislaus",459736.0,exact,100
+Calvin University,169080.0,exact,100
+Cameron University,206914.0,exact,100
+Campbell University,198136.0,exact,100
+Canisius University,189705.0,exact,100
+Capital University,201548.0,exact,100
+Carleton College,173258.0,exact,100
+Carroll University (Wisconsin),238458.0,exact,100
+Carthage College,238476.0,exact,100
+Case Western Reserve University,201645.0,exact,100
+Catawba College,198215.0,exact,100
+Catholic University,131283.0,exact,100
+Cedar Crest College,211468.0,exact,100
+Cedarville University,201654.0,exact,100
+Centenary University (New Jersey),183974.0,exact,100
+Central College (Iowa),153108.0,exact,100
+Central Michigan University,169248.0,exact,100
+Central State University,128771.0,exact,100
+Central Washington University,234827.0,exact,100
+Centre College,156408.0,exact,100
+Chadron State College,180948.0,exact,100
+Chaminade University,141486.0,exact,100
+Chapman University,111948.0,exact,100
+Charleston Southern University,217688.0,exact,100
+Chatham University,211556.0,exact,100
+Chestnut Hill College,211583.0,exact,100
+Chicago State University,144005.0,exact,100
+Chowan University,198303.0,exact,100
+Christian Brothers University,219833.0,exact,100
+Christopher Newport University,231712.0,exact,100
+Claflin University,217873.0,exact,100
+Claremont McKenna-Harvey Mudd-Scripps Colleges,112260.0,exact,100
+Clark Atlanta University,138947.0,exact,100
+Clark University (Massachusetts),165334.0,exact,100
+Clarkson University,190044.0,exact,100
+Clayton State University,139311.0,exact,100
+Cleveland State University,202134.0,exact,100
+Coastal Carolina University,218724.0,exact,100
+Coe College,153144.0,exact,100
+Colby College,154934.0,exact,100
+Colby-Sawyer College,182634.0,exact,100
+Colgate University,190099.0,exact,100
+College of Charleston (South Carolina),217819.0,exact,100
+College of Saint Benedict,174747.0,exact,100
+College of Staten Island,190558.0,exact,100
+College of the Holy Cross,150774.0,exact,100
+Colorado Christian University,126669.0,exact,100
+Colorado College,126678.0,exact,100
+Colorado Mesa University,127556.0,exact,100
+Colorado School of Mines,126775.0,exact,100
+Colorado State University,128106.0,exact,100
+Colorado State University Pueblo,128106.0,exact,100
+Columbia University-Barnard College,112561.0,exact,100
+Columbus State University,139366.0,exact,100
+Concord University,237330.0,exact,100
+Concordia University Chicago,144050.0,exact,100
+Concordia University Irvine,224004.0,exact,100
+Concordia University Texas,224004.0,exact,100
+Concordia University Wisconsin,238616.0,exact,100
+"Concordia University, St. Paul",224004.0,exact,100
+Connecticut College,129020.0,exact,100
+Converse University,217961.0,exact,100
+Coppin State University,162283.0,exact,100
+Cornell College,153162.0,exact,100
+Cornell University,153162.0,exact,100
+Covenant College,139393.0,exact,100
+Creighton University,181002.0,exact,100
+Crown College (Minnesota),174862.0,exact,100
+D'Youville University,190716.0,exact,100
+Daemen University,190725.0,exact,100
+Dartmouth College,182670.0,exact,100
+Davenport University,169479.0,exact,100
+Davidson College,198385.0,exact,100
+Davis & Elkins College,194569.0,exact,100
+DePaul University,144740.0,exact,100
+DePauw University,150400.0,exact,100
+DeSales University,210739.0,exact,100
+Dean College,165574.0,exact,100
+Delaware State University,130934.0,exact,100
+Delaware Valley University,211981.0,exact,100
+Delta State University,175616.0,exact,100
+Denison University,202523.0,exact,100
+Dickinson College,212009.0,exact,100
+Dominican University (Illinois),148496.0,exact,100
+Dominican University of California,113698.0,exact,100
+Drake University,153269.0,exact,100
+Drew University,111966.0,exact,100
+Drexel University,212054.0,exact,100
+Drury University,177214.0,exact,100
+Duke University,198419.0,exact,100
+Duquesne University,212106.0,exact,100
+EC University,248934.0,exact,100
+Earlham College,150455.0,exact,100
+East Carolina University,198464.0,exact,100
+East Central University,207041.0,exact,100
+East Stroudsburg University of Pennsylvania,212115.0,exact,100
+East Tennessee State University,220075.0,exact,100
+East Texas A&M University,229814.0,exact,100
+East Texas Baptist University,224527.0,exact,100
+Eastern Connecticut State University,129215.0,exact,100
+Eastern Illinois University,144892.0,exact,100
+Eastern Kentucky University,156620.0,exact,100
+Eastern Mennonite University,212133.0,exact,100
+Eastern Michigan University,169798.0,exact,100
+Eastern New Mexico University,212133.0,exact,100
+Eastern University,129215.0,exact,100
+Eastern Washington University,212133.0,exact,100
+Eckerd College,133492.0,exact,100
+Edgewood University,177968.0,exact,100
+Edward Waters University,133526.0,exact,100
+Elizabeth City State University,198507.0,exact,100
+Elizabethtown College,156648.0,exact,100
+Elmhurst University,144962.0,exact,100
+Elmira College,190983.0,exact,100
+Elon University,198516.0,exact,100
+Embry-Riddle Aeronautical University (Florida),134130.0,exact,100
+Emerson College,165662.0,exact,100
+Emmanuel College (Massachusetts),165671.0,exact,100
+Emmanuel University (Georgia),139630.0,exact,100
+Emory University,139658.0,exact,100
+Emporia State University,155025.0,exact,100
+Erskine College,217998.0,exact,100
+Fairfield University,129242.0,exact,100
+"Fairleigh Dickinson University, Florham",200059.0,exact,100
+"Fairleigh Dickinson University, Metropolitan Campus",174020.0,exact,100
+Fairmont State University,237367.0,exact,100
+Farmingdale State College,196042.0,exact,100
+Fayetteville State University,198543.0,exact,100
+Felician University,184612.0,exact,100
+Ferrum College,232089.0,exact,100
+Flagler College,133711.0,exact,100
+Florida A&M University,132408.0,exact,100
+Florida Atlantic University,133669.0,exact,100
+Florida Gulf Coast University,433660.0,exact,100
+Florida Institute of Technology,133881.0,exact,100
+Florida International University,133951.0,exact,100
+Florida Southern College,133809.0,exact,100
+Florida State University,134097.0,exact,100
+Fordham University,191241.0,exact,100
+Fort Hays State University,155061.0,exact,100
+Fort Lewis College,127185.0,exact,100
+Fort Valley State University,139719.0,exact,100
+Francis Marion University,218061.0,exact,100
+Franciscan University of Steubenville,205957.0,exact,100
+Franklin & Marshall College,150604.0,exact,100
+Franklin College,150604.0,exact,100
+Franklin Pierce University,182795.0,exact,100
+Fresno Pacific University,114813.0,exact,100
+Frostburg State University,162584.0,exact,100
+Furman University,218070.0,exact,100
+Gallaudet University,131450.0,exact,100
+Gannon University,212601.0,exact,100
+Gardner-Webb University,198561.0,exact,100
+Geneva College,212656.0,exact,100
+George Fox University,208822.0,exact,100
+George Washington University,131469.0,exact,100
+Georgetown University,131496.0,exact,100
+Georgia College,139959.0,exact,100
+Georgia Southern University,139931.0,exact,100
+Georgia Southwestern State University,139764.0,exact,100
+Georgia State University,139764.0,exact,100
+Georgian Court University,184773.0,exact,100
+Gettysburg College,212674.0,exact,100
+Glenville State University,237385.0,exact,100
+Goldey-Beacom College,130989.0,exact,100
+Gonzaga University,235316.0,exact,100
+Gordon College,139968.0,exact,100
+Grambling State University,159009.0,exact,100
+Grand Canyon University,104717.0,exact,100
+Grand Valley State University,170082.0,exact,100
+Greensboro College,198598.0,exact,100
+Greenville University,145372.0,exact,100
+Grinnell College,153384.0,exact,100
+Grove City College,212805.0,exact,100
+Guilford College,198613.0,exact,100
+Gustavus Adolphus College,173647.0,exact,100
+Gwynedd Mercy University,193016.0,exact,100
+Hamilton College,191515.0,exact,100
+Hamline University,173665.0,exact,100
+Hampden-Sydney College,232256.0,exact,100
+Hampton University,232265.0,exact,100
+Hanover College,150756.0,exact,100
+Hardin-Simmons University,225247.0,exact,100
+Harding University,107044.0,exact,100
+Hartwick College,191533.0,exact,100
+Harvard University,166027.0,exact,100
+Haverford College,212911.0,exact,100
+Hawaii Pacific University,141644.0,exact,100
+Heidelberg University,203085.0,exact,100
+Henderson State University,107071.0,exact,100
+Hendrix College,107080.0,exact,100
+High Point University,138868.0,exact,100
+Hilbert College,191621.0,exact,100
+Hillsdale College,168555.0,exact,100
+Hiram College,203128.0,exact,100
+Hobart and William Smith Colleges,191630.0,exact,100
+Hofstra University,191649.0,exact,100
+Hollins University,232308.0,exact,100
+Holy Family University,212984.0,exact,100
+Hood College,162760.0,exact,100
+Hope College,170301.0,exact,100
+Houghton University,191676.0,exact,100
+Houston Christian University,225399.0,exact,100
+Howard Payne University,131520.0,exact,100
+Howard University,131520.0,exact,100
+Hunter College,190594.0,exact,100
+Husson University,487524.0,exact,100
+Idaho State University,142276.0,exact,100
+Illinois College,143215.0,exact,100
+Illinois Institute of Technology,145725.0,exact,100
+Illinois State University,145813.0,exact,100
+Illinois Wesleyan University,130697.0,exact,100
+Immaculata University,213011.0,exact,100
+Indiana State University,151324.0,exact,100
+Indiana University Indianapolis,151263.0,exact,100
+Indiana University of Pennsylvania,215062.0,exact,100
+"Indiana University, Bloomington",151324.0,exact,100
+Iona University,191931.0,exact,100
+Iowa State University,153603.0,exact,100
+Ithaca College,191968.0,exact,100
+Jackson State University,175856.0,exact,100
+Jacksonville State University,101480.0,exact,100
+Jacksonville University,101480.0,exact,100
+James Madison University,232423.0,exact,100
+Jessup University,122728.0,exact,100
+John Carroll University,203368.0,exact,100
+John Jay College of Criminal Justice,190600.0,exact,100
+Johns Hopkins University,162928.0,exact,100
+Johnson & Wales University (Providence),220473.0,exact,100
+Johnson C. Smith University,198756.0,exact,100
+Kalamazoo College,170532.0,exact,100
+Kansas State University,155399.0,exact,100
+Kean University,185262.0,exact,100
+Keene State College,183062.0,exact,100
+Kennesaw State University,486840.0,exact,100
+Kent State University,203447.0,exact,100
+Kentucky State University,157058.0,exact,100
+Kentucky Wesleyan College,141325.0,exact,100
+Kenyon College,203535.0,exact,100
+Keuka College,192192.0,exact,100
+Keystone College,213303.0,exact,100
+King University,220516.0,exact,100
+King's College (Pennsylvania),213321.0,exact,100
+Knox College,146427.0,exact,100
+Kutztown University of Pennsylvania,213349.0,exact,100
+La Salle University,213367.0,exact,100
+LaGrange College,140234.0,exact,100
+Lafayette College,213385.0,exact,100
+Lake Erie College,203580.0,exact,100
+Lake Forest College,146481.0,exact,100
+Lake Superior State University,170639.0,exact,100
+Lakeland University,238980.0,exact,100
+Lamar University,226091.0,exact,100
+Lancaster Bible College,213400.0,exact,100
+Lander University,218229.0,exact,100
+Lane College,209038.0,exact,100
+Lawrence University,170675.0,exact,100
+Le Moyne College,192323.0,exact,100
+LeMoyne-Owen College,220604.0,exact,100
+LeTourneau University,226231.0,exact,100
+Lebanon Valley College,213507.0,exact,100
+Lee University,220613.0,exact,100
+Lees-McRae College,198808.0,exact,100
+Lehigh University,213543.0,exact,100
+Lehman College,190637.0,exact,100
+Lenoir-Rhyne University,198835.0,exact,100
+Lewis & Clark College,146603.0,exact,100
+Lewis University,146612.0,exact,100
+Liberty University,232557.0,exact,100
+Lincoln Memorial University,117557.0,exact,100
+Lincoln University (Missouri),117557.0,exact,100
+Lincoln University (Pennsylvania),117557.0,exact,100
+Lindenwood University,177968.0,exact,100
+Linfield University,209065.0,exact,100
+Lipscomb University,219976.0,exact,100
+Livingstone College,198862.0,exact,100
+Lock Haven University of Pennsylvania,111045.0,exact,100
+Long Beach State University,150136.0,exact,100
+Long Island University,192448.0,exact,100
+Longwood University,232566.0,exact,100
+Loras College,153825.0,exact,100
+Louisiana Tech University,159647.0,exact,100
+Loyola Marymount University,117946.0,exact,100
+Loyola University Chicago,146719.0,exact,100
+Loyola University Maryland,163046.0,exact,100
+Lubbock Christian University,226383.0,exact,100
+Luther College,135364.0,exact,100
+Lycoming College,213668.0,exact,100
+Lynn University,132657.0,exact,100
+Lyon College,106342.0,exact,100
+Macalester College,173902.0,exact,100
+Maine Maritime Academy,161299.0,exact,100
+Malone University,203775.0,exact,100
+Manchester University,151777.0,exact,100
+Manhattan University,192703.0,exact,100
+Manhattanville University,192749.0,exact,100
+Mansfield University of Pennsylvania,215062.0,exact,100
+Maranatha Baptist University,239071.0,exact,100
+Marian University (Wisconsin),151786.0,exact,100
+Marietta College,203845.0,exact,100
+Marist University,228149.0,exact,100
+Marquette University,239105.0,exact,100
+Marshall University,123943.0,exact,100
+Martin Luther College,153834.0,exact,100
+Mary Baldwin University,232672.0,exact,100
+Marymount University (Virginia),232706.0,exact,100
+Maryville College (Tennessee),220710.0,exact,100
+Maryville University of Saint Louis,178059.0,exact,100
+Marywood University,213826.0,exact,100
+Massachusetts Institute of Technology,166683.0,exact,100
+McDaniel College,164270.0,exact,100
+McKendree University,147013.0,exact,100
+McMurry University,226587.0,exact,100
+McNeese State University,159717.0,fuzzy,100
+Medgar Evers College,190646.0,exact,100
+Mercer University,140447.0,exact,100
+Mercy University,154013.0,exact,100
+Mercyhurst University,213987.0,exact,100
+Meredith College,198950.0,exact,100
+Merrimack College,166850.0,exact,100
+Messiah University,213996.0,exact,100
+Methodist University,198969.0,exact,100
+Metropolitan State University of Denver,127060.0,exact,100
+Miami University (Ohio),,no_match,67
+Michigan State University,171100.0,exact,100
+Michigan Technological University,171128.0,exact,100
+Middle Tennessee State University,220978.0,exact,100
+Middlebury College,230959.0,exact,100
+Midwestern State University,226833.0,exact,100
+Miles College,101675.0,exact,100
+Millersville University of Pennsylvania,214041.0,exact,100
+Millikin University,147244.0,exact,100
+Millsaps College,175980.0,exact,100
+Milwaukee School of Engineering,239318.0,exact,100
+Minnesota State University Moorhead,174358.0,exact,100
+"Minnesota State University, Mankato",174358.0,exact,100
+Minot State University,200253.0,exact,100
+Misericordia University,214069.0,exact,100
+Mississippi College,176017.0,exact,100
+Mississippi State University,176044.0,exact,100
+Mississippi University for Women,176035.0,exact,100
+Mississippi Valley State University,176044.0,exact,100
+Missouri Southern State University,178341.0,exact,100
+Missouri State University,178341.0,exact,100
+Missouri University of Science and Technology,178411.0,exact,100
+Missouri Western State University,178387.0,exact,100
+Molloy University,139658.0,exact,100
+Monmouth College (Illinois),145691.0,exact,100
+Monmouth University,185572.0,exact,100
+Montana State University Billings,180179.0,exact,100
+Montana State University-Bozeman,180461.0,exact,100
+Montclair State University,185590.0,exact,100
+Morehead State University,157386.0,exact,100
+Morehouse College,140553.0,exact,100
+Morgan State University,163453.0,exact,100
+Mount Aloysius College,214166.0,exact,100
+Mount Saint Mary College (New York),193353.0,exact,100
+Mount St. Joseph University,204200.0,exact,100
+Mount St. Mary's University,163462.0,exact,100
+Muhlenberg College,214175.0,exact,100
+Murray State University,157401.0,exact,100
+Nazareth University,193584.0,exact,100
+Nebraska Wesleyan University,130697.0,exact,100
+Neumann University,214272.0,exact,100
+New England College,161457.0,exact,100
+New Jersey City University,185129.0,exact,100
+New Jersey Institute of Technology,185828.0,exact,100
+New Mexico Highlands University,187897.0,exact,100
+New Mexico State University,188021.0,exact,100
+New York University,181853.0,exact,100
+Newberry College,218414.0,exact,100
+Newman University,155335.0,exact,100
+Niagara University,193973.0,exact,100
+Nicholls State University,159966.0,exact,100
+Nichols College,167260.0,exact,100
+Norfolk State University,232937.0,exact,100
+North Carolina A&T State University,199193.0,exact,100
+North Carolina Central University,174437.0,exact,100
+North Carolina State University,199102.0,exact,100
+North Carolina Wesleyan University,130697.0,exact,100
+North Central College,147660.0,exact,100
+North Central University,147660.0,exact,100
+North Dakota State University,219082.0,exact,100
+North Greenville University,145372.0,exact,100
+North Park University,147679.0,exact,100
+Northeastern State University,167358.0,exact,100
+Northeastern University,118888.0,exact,100
+Northern Arizona University,105330.0,exact,100
+Northern Illinois University,147703.0,exact,100
+Northern Kentucky University,157447.0,exact,100
+Northern Michigan University,171456.0,exact,100
+Northern State University,219259.0,exact,100
+Northwest Missouri State University,178624.0,exact,100
+Northwest Nazarene University,142461.0,exact,100
+Northwestern Oklahoma State University,147767.0,exact,100
+Northwestern State University,147767.0,exact,100
+Northwestern University,147767.0,exact,100
+Norwich University,230995.0,exact,100
+Notre Dame of Maryland University,152080.0,exact,100
+Nova Southeastern University,136215.0,exact,100
+Oakland University,118888.0,exact,100
+Oberlin College,204501.0,exact,100
+Occidental College,120254.0,exact,100
+Oglethorpe University,140696.0,exact,100
+Ohio Dominican University,148496.0,exact,100
+Ohio University,201964.0,exact,100
+Ohio Wesleyan University,130697.0,exact,100
+Oklahoma Baptist University,207403.0,exact,100
+Oklahoma Christian University,207324.0,exact,100
+Oklahoma State University,207306.0,exact,100
+Oral Roberts University,207582.0,exact,100
+Oregon State University,209542.0,exact,100
+Otterbein University,204936.0,exact,100
+Ouachita Baptist University,107512.0,exact,100
+Pace University,194310.0,exact,100
+Pacific Lutheran University,209612.0,exact,100
+Pacific University (Oregon),209612.0,exact,100
+Palm Beach Atlantic University,136330.0,exact,100
+Penn State Berks College,164641.0,exact,100
+Penn State Harrisburg,214713.0,exact,100
+"Penn State University, Abington",150136.0,exact,100
+Pennsylvania College of Technology,366252.0,exact,100
+"Pennsylvania Western University, California",498571.0,exact,100
+"Pennsylvania Western University, Clarion",498571.0,exact,100
+"Pennsylvania Western University, Edinboro",498571.0,exact,100
+Pepperdine University,121150.0,exact,100
+Pfeiffer University,199306.0,exact,100
+Piedmont University,140818.0,exact,100
+Pittsburg State University,155681.0,exact,100
+Plattsburgh State University of New York,181853.0,exact,100
+Plymouth State University,183080.0,exact,100
+Point Loma Nazarene University,121309.0,exact,100
+Pomona-Pitzer Colleges,121345.0,exact,100
+Portland State University,209807.0,exact,100
+Post University,130183.0,exact,100
+Prairie View A&M University,227526.0,exact,100
+Pratt Institute,194578.0,exact,100
+Presbyterian College,218539.0,exact,100
+Princeton University,186131.0,exact,100
+Principia College,148016.0,exact,100
+Providence College,217402.0,exact,100
+"Purchase College, State University of New York",181853.0,exact,100
+Purdue University Fort Wayne,151102.0,exact,100
+Purdue University Northwest,236133.0,exact,100
+Queens College (New York),190664.0,exact,100
+Queens University of Charlotte,199412.0,exact,100
+Quincy University,148131.0,exact,100
+Quinnipiac University,130226.0,exact,100
+Radford University,233277.0,exact,100
+Ramapo College,186201.0,exact,100
+Randolph College,199421.0,exact,100
+Randolph-Macon College,233295.0,exact,100
+Regis University (Colorado),127918.0,exact,100
+Rensselaer Polytechnic Institute,194824.0,exact,100
+Rhode Island College,217484.0,exact,100
+Rhodes College,203678.0,exact,100
+Rice University,227757.0,exact,100
+Rider University,186283.0,exact,100
+Ripon College,239628.0,exact,100
+Rivier University,183211.0,exact,100
+Roanoke College,233426.0,exact,100
+Robert Morris University,215655.0,exact,100
+Roberts Wesleyan University,130697.0,exact,100
+Rochester Institute of Technology,195003.0,exact,100
+Rockford University,148405.0,exact,100
+Rockhurst University,179043.0,exact,100
+Roger Williams University,217518.0,exact,100
+Rogers State University,207661.0,exact,100
+Rollins College,136950.0,exact,100
+Rose-Hulman Institute of Technology,152318.0,exact,100
+Rosemont College,215691.0,exact,100
+Rowan University,184782.0,exact,100
+"Rutgers, The State Univ. of New Jersey, Camden",187134.0,exact,100
+"Rutgers, The State Univ. of New Jersey, Newark",186399.0,exact,100
+"Rutgers, The State University of New Jersey, New Brunswick",185129.0,exact,100
+Sacred Heart University,130253.0,exact,100
+Saint Anselm College,183239.0,exact,100
+Saint Elizabeth University,186618.0,exact,100
+Saint Francis University,215743.0,fuzzy,100
+Saint John's University (Minnesota),174792.0,exact,100
+Saint Joseph's College (Maine),161518.0,exact,100
+Saint Joseph's University,215770.0,exact,100
+Saint Leo University,137032.0,exact,100
+Saint Louis University,178059.0,exact,100
+Saint Martin's University,236452.0,exact,100
+Saint Mary's College (Indiana),152390.0,exact,100
+Saint Mary's College of California,123554.0,exact,100
+Saint Mary's University of Minnesota,174817.0,exact,100
+Saint Michael's College,231059.0,exact,100
+Saint Peter's University,186432.0,exact,100
+Saint Vincent College,215798.0,exact,100
+Salem College (North Carolina),199607.0,exact,100
+Salem University (West Virginia),237783.0,exact,100
+Salisbury University,163851.0,exact,100
+Salve Regina University,217536.0,exact,100
+Sam Houston State University,227881.0,exact,100
+Samford University,102049.0,exact,100
+San Francisco State University,122597.0,exact,100
+Santa Clara University,122931.0,exact,100
+Sarah Lawrence College,195304.0,exact,100
+Savannah State University,140960.0,exact,100
+Seattle Pacific University,209612.0,exact,100
+Seton Hall University,186584.0,exact,100
+Seton Hill University,215947.0,exact,100
+Shaw University,199643.0,exact,100
+Shawnee State University,,no_match,75
+Shenandoah University,233541.0,exact,100
+Shepherd University,237792.0,exact,100
+Shippensburg University of Pennsylvania,215062.0,exact,100
+Shorter University,140988.0,exact,100
+Siena University,172264.0,exact,100
+Simmons University,167783.0,exact,100
+Simon Fraser University,,no_match,64
+Skidmore College,195526.0,exact,100
+Slippery Rock University of Pennsylvania,215062.0,exact,100
+Smith College,167835.0,exact,100
+Sonoma State University,123572.0,exact,100
+South Carolina State University,218733.0,exact,100
+South Dakota School of Mines & Technology,219347.0,exact,100
+South Dakota State University,219082.0,exact,100
+Southeast Missouri State University,179557.0,exact,100
+Southeastern Louisiana University,137564.0,exact,100
+Southeastern Oklahoma State University,137564.0,exact,100
+Southern Arkansas University,107983.0,exact,100
+Southern Connecticut State University,130493.0,exact,100
+Southern Illinois University Edwardsville,230603.0,exact,100
+Southern Illinois University at Carbondale,230603.0,exact,100
+Southern Methodist University,198969.0,exact,100
+Southern Nazarene University,206862.0,exact,100
+Southern New Hampshire University,183026.0,exact,100
+"Southern University, Baton Rouge",230603.0,exact,100
+Southern Utah University,230603.0,exact,100
+Southern Virginia University,233611.0,exact,100
+Southern Wesleyan University,130697.0,exact,100
+Southwest Baptist University,179326.0,exact,100
+Southwest Minnesota State University,175078.0,exact,100
+Southwestern Oklahoma State University,207865.0,exact,100
+Southwestern University (Texas),228343.0,exact,100
+Spalding University,157757.0,exact,100
+Spring Hill College,102234.0,exact,100
+Springfield College,167899.0,exact,100
+St. Bonaventure University,195164.0,exact,100
+St. Catherine University,175005.0,exact,100
+St. Cloud State University,174783.0,exact,100
+St. Edward's University,227845.0,exact,100
+St. John Fisher University,195720.0,exact,100
+St. John's University (New York),181853.0,exact,100
+St. Joseph's University NY (Brooklyn),215770.0,exact,100
+"St. Joseph's University, New York L.I.",181853.0,exact,100
+St. Lawrence University,195216.0,exact,100
+St. Mary's College of Maryland,163912.0,exact,100
+St. Mary's University (Texas),228149.0,exact,100
+St. Norbert College,239716.0,exact,100
+St. Olaf College,174844.0,exact,100
+State University of New York Maritime College,181853.0,exact,100
+State University of New York Polytechnic Institute,181853.0,exact,100
+State University of New York at Brockport,181853.0,exact,100
+State University of New York at Canton,181853.0,exact,100
+State University of New York at Cobleskill,181853.0,exact,100
+State University of New York at Cortland,181853.0,exact,100
+State University of New York at Geneseo,181853.0,exact,100
+State University of New York at Morrisville,181853.0,exact,100
+State University of New York at New Paltz,181853.0,exact,100
+State University of New York at Old Westbury,181853.0,exact,100
+State University of New York at Oneonta,181853.0,exact,100
+State University of New York at Oswego,181853.0,exact,100
+State University of New York at Potsdam,181853.0,exact,100
+Stephen F. Austin State University,228431.0,exact,100
+Stetson University,137546.0,exact,100
+Stevens Institute of Technology,186867.0,exact,100
+Stevenson University,164173.0,exact,100
+Stockton University,186876.0,exact,100
+Stonehill College,167996.0,exact,100
+Stony Brook University,196097.0,exact,100
+Sul Ross State University,228501.0,exact,100
+Susquehanna University,216278.0,exact,100
+Swarthmore College,216287.0,exact,100
+Sweet Briar College,233718.0,exact,100
+Syracuse University,196413.0,exact,100
+Tarleton State University,228529.0,exact,100
+Temple University,216339.0,exact,100
+Tennessee State University,220075.0,exact,100
+Texas A&M International University,226152.0,exact,100
+"Texas A&M University, College Station",228884.0,exact,100
+Texas A&M University-Corpus Christi,224147.0,exact,100
+Texas A&M University-Kingsville,228705.0,exact,100
+Texas Christian University,228875.0,exact,100
+Texas Lutheran University,228981.0,exact,100
+Texas Southern University,229063.0,exact,100
+Texas State University,228459.0,exact,100
+Texas Tech University,229115.0,exact,100
+Texas Woman's University,229179.0,exact,100
+The Citadel,217864.0,exact,100
+The City College of New York,190655.0,exact,100
+The College of New Jersey,187134.0,exact,100
+The College of St. Scholastica,174899.0,exact,100
+The College of Wooster,206589.0,exact,100
+The Ohio State University,204662.0,exact,100
+The State University of New York at Fredonia,181853.0,exact,100
+The University of North Carolina at Charlotte,199139.0,exact,100
+The University of North Carolina at Greensboro,199148.0,exact,100
+The University of Southern Mississippi,176017.0,exact,100
+The University of Texas Permian Basin,229018.0,exact,100
+The University of Texas Rio Grande Valley,205203.0,exact,100
+The University of Texas at Tyler,228802.0,exact,100
+The University of Tulsa,207971.0,exact,100
+The University of Virginia's College at Wise,233897.0,exact,100
+Thiel College,216357.0,exact,100
+Thomas College,124292.0,exact,100
+Thomas Jefferson University,141167.0,exact,100
+Thomas More University,141167.0,exact,100
+Tiffin University,206048.0,exact,100
+Towson University,164076.0,exact,100
+Transylvania University,157818.0,exact,100
+Trevecca Nazarene University,221892.0,exact,100
+Trine University,152567.0,exact,100
+Trinity College (Connecticut),128902.0,exact,100
+Trinity University (Texas),229267.0,exact,100
+Trinity Washington University,131876.0,exact,100
+Troy University,102368.0,exact,100
+Truman State University,178615.0,exact,100
+Tufts University,168148.0,exact,100
+Tulane University,160755.0,exact,100
+Tuskegee University,102377.0,exact,100
+U.S. Air Force Academy,128328.0,exact,100
+U.S. Coast Guard Academy,130624.0,exact,100
+U.S. Merchant Marine Academy,197027.0,exact,100
+U.S. Military Academy,197036.0,exact,100
+U.S. Naval Academy,164155.0,exact,100
+Union College (New York),157863.0,exact,100
+Union University,181738.0,exact,100
+University at Albany,196060.0,exact,100
+"University at Buffalo, the State University of New York",181853.0,exact,100
+University of Akron,200800.0,exact,100
+University of Alabama,100663.0,exact,100
+University of Alabama at Birmingham,100663.0,exact,100
+University of Alabama in Huntsville,100706.0,exact,100
+University of Alaska Anchorage,102553.0,exact,100
+University of Alaska Fairbanks,102614.0,exact,100
+University of Arizona,104179.0,exact,100
+University of Arkansas at Little Rock,106245.0,exact,100
+"University of Arkansas, Fort Smith",106397.0,exact,100
+"University of Arkansas, Monticello",106397.0,exact,100
+"University of Arkansas, Pine Bluff",106397.0,exact,100
+"University of California, Berkeley",459736.0,exact,100
+"University of California, Davis",110644.0,exact,100
+"University of California, Irvine",110653.0,exact,100
+"University of California, Los Angeles",110662.0,exact,100
+"University of California, Merced",445188.0,exact,100
+"University of California, Riverside",110671.0,exact,100
+"University of California, San Diego",122436.0,exact,100
+"University of California, Santa Barbara",110705.0,exact,100
+"University of California, Santa Cruz",110714.0,exact,100
+University of Central Arkansas,106397.0,exact,100
+University of Central Missouri,176965.0,exact,100
+University of Central Oklahoma,206941.0,exact,100
+University of Charleston (West Virginia),237312.0,exact,100
+University of Chicago,144050.0,exact,100
+University of Colorado Boulder,126614.0,exact,100
+University of Colorado Colorado Springs,126580.0,exact,100
+University of Connecticut,129020.0,exact,100
+University of Dallas,224323.0,exact,100
+University of Dayton,202480.0,exact,100
+University of Delaware,130943.0,exact,100
+University of Denver,127060.0,exact,100
+University of Detroit Mercy,169716.0,exact,100
+University of Dubuque,153278.0,exact,100
+University of Evansville,150534.0,exact,100
+University of Findlay,202763.0,exact,100
+University of Florida,132408.0,exact,100
+University of Georgia,139959.0,exact,100
+University of Hartford,129525.0,exact,100
+"University of Hawaii, Manoa",141574.0,exact,100
+University of Houston,225511.0,exact,100
+University of Idaho,142285.0,exact,100
+University of Illinois Chicago,144050.0,exact,100
+University of Illinois Springfield,148654.0,exact,100
+University of Illinois Urbana-Champaign,145637.0,exact,100
+University of Indianapolis,151263.0,exact,100
+University of Jamestown,200156.0,exact,100
+University of Kansas,155317.0,exact,100
+University of La Verne,117140.0,exact,100
+University of Louisiana Monroe,159993.0,exact,100
+University of Louisiana at Lafayette,160658.0,exact,100
+University of Louisville,157289.0,exact,100
+University of Lynchburg,232609.0,exact,100
+University of Maine,161217.0,exact,100
+University of Maine at Presque Isle,161253.0,exact,100
+"University of Maine, Farmington",161226.0,exact,100
+University of Mary,148885.0,exact,100
+University of Mary Hardin-Baylor,200217.0,exact,100
+University of Mary Washington,200217.0,exact,100
+University of Maryland Eastern Shore,163338.0,exact,100
+"University of Maryland, Baltimore County",161873.0,exact,100
+"University of Maryland, College Park",178721.0,exact,100
+University of Massachusetts Boston,164988.0,exact,100
+University of Massachusetts Lowell,262086.0,exact,100
+"University of Massachusetts, Amherst",262086.0,exact,100
+"University of Massachusetts, Dartmouth",262086.0,exact,100
+University of Memphis,220862.0,exact,100
+University of Michigan,490373.0,exact,100
+University of Minnesota Duluth,174817.0,exact,100
+"University of Minnesota, Crookston",174075.0,exact,100
+"University of Minnesota, Morris",174251.0,exact,100
+"University of Minnesota, Twin Cities",174066.0,exact,100
+University of Mississippi,176017.0,exact,100
+"University of Missouri, Columbia",176965.0,exact,100
+University of Missouri-Kansas City,178402.0,exact,100
+University of Missouri-St. Louis,178420.0,exact,100
+University of Montana,180276.0,exact,100
+University of Montevallo,101709.0,exact,100
+University of Mount Olive,199069.0,exact,100
+University of Mount Saint Vincent,193399.0,exact,100
+University of Mount Union,204185.0,exact,100
+University of Nebraska at Kearney,181215.0,exact,100
+University of Nebraska at Omaha,181394.0,exact,100
+"University of Nevada, Las Vegas",182281.0,exact,100
+"University of Nevada, Reno",182290.0,exact,100
+University of New England,161457.0,exact,100
+University of New Hampshire,183071.0,exact,100
+University of New Haven,111045.0,exact,100
+University of New Orleans,159939.0,exact,100
+University of North Alabama,101879.0,exact,100
+University of North Carolina Asheville,199111.0,exact,100
+University of North Carolina Wilmington,131113.0,exact,100
+University of North Carolina at Pembroke,199281.0,exact,100
+"University of North Carolina, Chapel Hill",199120.0,exact,100
+University of North Dakota,200280.0,exact,100
+University of North Florida,134130.0,exact,100
+University of North Georgia,139959.0,exact,100
+University of North Texas,227216.0,exact,100
+University of Northern Colorado,127741.0,exact,100
+University of Northern Iowa,153658.0,exact,100
+University of Northwestern-St. Paul,174491.0,exact,100
+University of Oklahoma,206941.0,exact,100
+University of Oregon,209551.0,exact,100
+University of Pennsylvania,211608.0,exact,100
+University of Pittsburgh,215266.0,exact,100
+"University of Pittsburgh, Greensburg",215275.0,exact,100
+"University of Pittsburgh, Johnstown",215284.0,exact,100
+University of Portland,209825.0,exact,100
+University of Puget Sound,236328.0,exact,100
+University of Redlands,121691.0,exact,100
+University of Rhode Island,217484.0,exact,100
+University of Richmond,233374.0,exact,100
+University of Rochester,170967.0,exact,100
+University of San Diego,122436.0,exact,100
+University of San Francisco,122612.0,exact,100
+University of Scranton,215929.0,exact,100
+University of Sioux Falls,219383.0,exact,100
+University of South Alabama,102094.0,exact,100
+University of South Carolina Aiken,218645.0,exact,100
+University of South Carolina Beaufort,218654.0,exact,100
+University of South Carolina Upstate,489937.0,exact,100
+University of South Dakota,219471.0,exact,100
+University of South Florida,134130.0,exact,100
+University of Southern California,117672.0,exact,100
+University of Southern Indiana,151306.0,exact,100
+University of Southern Maine,161253.0,exact,100
+University of St. Thomas (Minnesota),137476.0,exact,100
+University of St. Thomas (Texas),137476.0,exact,100
+University of Tennessee at Chattanooga,221838.0,exact,100
+University of Tennessee at Martin,151810.0,exact,100
+"University of Tennessee, Knoxville",221838.0,exact,100
+University of Texas at Arlington,228769.0,exact,100
+University of Texas at Austin,228778.0,exact,100
+University of Texas at Dallas,224323.0,exact,100
+University of Texas at El Paso,228796.0,exact,100
+University of Toledo,206084.0,exact,100
+University of Utah,230764.0,exact,100
+University of Valley Forge,216542.0,exact,100
+University of Vermont,231174.0,exact,100
+University of Washington,232681.0,exact,100
+University of West Alabama,101587.0,exact,100
+University of West Florida,134130.0,exact,100
+University of West Georgia,139959.0,exact,100
+University of Wisconsin-Eau Claire,240268.0,exact,100
+University of Wisconsin-Green Bay,240277.0,exact,100
+University of Wisconsin-La Crosse,240329.0,exact,100
+University of Wisconsin-Madison,240444.0,exact,100
+University of Wisconsin-Milwaukee,240453.0,exact,100
+University of Wisconsin-Oshkosh,240365.0,exact,100
+University of Wisconsin-Parkside,240374.0,exact,100
+University of Wisconsin-Platteville,240462.0,exact,100
+University of Wisconsin-River Falls,240471.0,exact,100
+University of Wisconsin-Stevens Point,138868.0,exact,100
+University of Wisconsin-Stout,240417.0,exact,100
+University of Wisconsin-Superior,240426.0,exact,100
+University of Wisconsin-Whitewater,240189.0,exact,100
+University of the Incarnate Word,225627.0,exact,100
+University of the Ozarks (Arkansas),106397.0,exact,100
+University of the Pacific,120883.0,exact,100
+University of the South,221519.0,exact,100
+Upper Iowa University,154493.0,exact,100
+Ursinus College,216524.0,exact,100
+Ursuline College,206349.0,exact,100
+Utah Tech University,230171.0,exact,100
+Utah Valley University,230737.0,exact,100
+Utica University,197045.0,exact,100
+Valdosta State University,141264.0,exact,100
+Valparaiso University,152600.0,exact,100
+Vanguard University,123651.0,exact,100
+Vassar College,197133.0,exact,100
+Vermont State University Castleton,230834.0,exact,100
+Vermont State University Lyndon,231165.0,exact,100
+Villanova University,216597.0,exact,100
+Virginia Commonwealth University,234030.0,exact,100
+Virginia Military Institute,234085.0,exact,100
+Virginia State University,233921.0,exact,100
+Virginia Union University,221971.0,exact,100
+Virginia Wesleyan University,130697.0,exact,100
+Wabash College,152673.0,exact,100
+Wagner College,197197.0,exact,100
+Wake Forest University,199847.0,exact,100
+Walsh University,206437.0,exact,100
+Warren Wilson College,199865.0,exact,100
+Wartburg College,154527.0,exact,100
+Washburn University,156082.0,exact,100
+Washington College (Maryland),164216.0,exact,100
+Washington State University,236939.0,exact,100
+Washington University in St. Louis,179867.0,exact,100
+Washington and Jefferson College,164216.0,exact,100
+Washington and Lee University,220613.0,exact,100
+Wayne State College (Nebraska),181783.0,exact,100
+Wayne State University (Michigan),171100.0,exact,100
+Waynesburg University,216694.0,exact,100
+Weber State University,230782.0,exact,100
+Webster University,179894.0,exact,100
+Wellesley College,168218.0,exact,100
+Wesleyan College (Georgia),141325.0,exact,100
+Wesleyan University (Connecticut),130697.0,exact,100
+West Chester University of Pennsylvania,215062.0,exact,100
+West Liberty University,232557.0,exact,100
+West Texas A&M University,229814.0,exact,100
+West Virginia State University,234155.0,exact,100
+West Virginia University,237686.0,exact,100
+West Virginia Wesleyan College,141325.0,exact,100
+Western Carolina University,200004.0,exact,100
+Western Colorado University,128391.0,exact,100
+Western Connecticut State University,130776.0,exact,100
+Western Illinois University,149772.0,exact,100
+Western Kentucky University,157951.0,exact,100
+Western Michigan University,172699.0,exact,100
+Western New England University,168254.0,exact,100
+Western New Mexico University,188304.0,exact,100
+Western Oregon University,210429.0,exact,100
+Western Washington University,237011.0,exact,100
+Westminster College (Missouri),179946.0,exact,100
+Westminster College (Pennsylvania),179946.0,exact,100
+Westminster University (Utah),230807.0,exact,100
+Westmont College,125727.0,exact,100
+Wheaton College (Illinois),145691.0,exact,100
+Wheaton College (Massachusetts),149781.0,exact,100
+Wheeling University,238078.0,exact,100
+Whitman College,237057.0,exact,100
+Whittier College,125763.0,exact,100
+Whitworth University,237066.0,exact,100
+Wichita State University,156125.0,exact,100
+Widener University,216852.0,exact,100
+Wilkes University,216931.0,exact,100
+William & Mary,231624.0,exact,100
+William Jewell College,179955.0,exact,100
+William Paterson University of New Jersey,187444.0,exact,100
+William Peace University,199272.0,exact,100
+Williams College,168342.0,exact,100
+Wilmington College (Ohio),206507.0,exact,100
+Wilson College,157216.0,exact,100
+Wingate University,199962.0,exact,100
+Winona State University,175272.0,exact,100
+Winston-Salem State University,199999.0,exact,100
+Winthrop University,218964.0,exact,100
+Wisconsin Lutheran College,240338.0,exact,100
+Wofford College,218973.0,exact,100
+Worcester Polytechnic Institute,168421.0,exact,100
+Wright State University,156125.0,exact,100
+Xavier University,148627.0,exact,100
+Yale University,130794.0,exact,100
+Yeshiva University,197708.0,exact,100
+York College (New York),190114.0,exact,100
+York College (Pennsylvania),217059.0,exact,100
+Young Harris College,141361.0,exact,100
+Youngstown State University,206695.0,exact,100

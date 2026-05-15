@@ -25,6 +25,20 @@ raw_data/*
 !raw_data/unhcr_refugees.csv
 !raw_data/wdi_terms_of_trade.csv
 
+# Sport-specific historical panels and student-shared platform data
+!raw_data/track_rosters_panel.csv
+!raw_data/soccer_rosters_panel.csv
+!raw_data/basketball_rosters_panel.csv
+!raw_data/tennis_rosters_panel.csv
+!raw_data/golf_rosters_panel.csv
+!raw_data/swimming_rosters_panel.csv
+!raw_data/icehockey_rosters_panel.csv
+!raw_data/volleyball_rosters_panel.csv
+!raw_data/country_year_sport_panel.csv
+!raw_data/school_website_platforms_full.csv
+!raw_data/student_rosters_processed.csv
+!raw_data/school_name_crosswalk.csv
+
 # Zip archives
 *.zip
 
