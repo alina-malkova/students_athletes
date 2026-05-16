@@ -1,0 +1,67 @@
+Position-level analyses by sport
+  All-sport sample: 375,634
+  D-I + D-II + D-III, 2024-25 cross-section.
+
+
+=== Soccer ===
+position  n_total  n_intl  intl_pct             top_countries top_region  reg_HHI
+       M    14875    2146      14.4 GBR 272, CAN 214, ESP 193  WEU (52%)    0.332
+       D    12244    1751      14.3 GBR 234, CAN 229, DEU 137  WEU (55%)    0.349
+       F    11523    1487      12.9  CAN 211, GBR 165, ESP 97  WEU (45%)    0.274
+      GK     4723     563      11.9    CAN 81, GBR 68, DEU 54  WEU (56%)    0.369
+
+
+=== Basketball ===
+position  n_total  n_intl  intl_pct             top_countries top_region  reg_HHI
+       G    16425    1035       6.3 CAN 165, AUS 136, ESP 127  WEU (37%)    0.220
+       F     8057    1028      12.8  CAN 149, AUS 113, ESP 76  WEU (34%)    0.198
+     G/F     1248     102       8.2     CAN 19, AUS 12, ESP 9  WEU (36%)    0.220
+       C     1033     245      23.7    NGA 33, CAN 22, DEU 13  SSA (29%)    0.197
+     F/C      227      41      18.1       AUS 5, GBR 3, ESP 3  WEU (46%)    0.281
+
+
+=== Football ===
+position  n_total  n_intl  intl_pct          top_countries top_region  reg_HHI
+      OL     9459     149       1.6 CAN 52, DEU 20, GBR 11   NA (35%)    0.253
+      DB     9424      38       0.4   CAN 14, GBR 5, ASM 5   NA (37%)    0.258
+      DL     8496     118       1.4 CAN 30, DEU 16, ASM 16  WEU (29%)    0.194
+      WR     7695      42       0.5   CAN 17, DEU 4, JPN 3   NA (40%)    0.282
+      LB     6266      39       0.6   CAN 15, ASM 7, GBR 3   NA (38%)    0.248
+      RB     4460      25       0.6   CAN 11, MEX 2, ASM 2   NA (44%)    0.306
+      TE     3025      36       1.2   CAN 12, DEU 7, GBR 3  WEU (42%)    0.315
+      QB     2886      13       0.5    CAN 9, DEU 2, FRA 1   NA (69%)    0.574
+      ST     2470     127       5.1 AUS 79, IRL 10, GBR 10  EAP (64%)    0.470
+
+
+=== Volleyball ===
+position  n_total  n_intl  intl_pct          top_countries top_region  reg_HHI
+      OH     5513     360       6.5 CAN 48, BRA 38, ITA 29  WEU (26%)    0.190
+    L/DS     3445     107       3.1 CAN 17, TUR 15, BRA 12  LAC (33%)    0.200
+      MB     3183     160       5.0 CAN 29, TUR 17, ITA 12  EEU (23%)    0.180
+       S     2787     143       5.1 TUR 22, CAN 20, BRA 10  EEU (24%)    0.190
+     OPP     1656      85       5.1   CAN 14, ITA 7, POL 7  WEU (31%)    0.206
+
+
+=== Baseball ===
+position  n_total  n_intl  intl_pct           top_countries top_region  reg_HHI
+       P    17018     335       2.0 CAN 201, JPN 21, AUS 16   NA (60%)    0.412
+     INF     5647     122       2.2    CAN 69, VEN 8, JPN 7   NA (57%)    0.385
+      OF     5008      98       2.0    CAN 69, DOM 6, JPN 4   NA (70%)    0.526
+       C     3569      86       2.4   CAN 52, VEN 10, AUS 6   NA (60%)    0.429
+    UTIL      184       2       1.1            MEX 1, CAN 1  LAC (50%)    0.500
+
+
+=== Softball ===
+position  n_total  n_intl  intl_pct        top_countries top_region  reg_HHI
+       P     4708      72       1.5 CAN 57, AUS 7, PER 1   NA (79%)    0.640
+      OF     4060      32       0.8 CAN 27, GBR 2, AUS 1   NA (84%)    0.723
+     INF     3900      39       1.0 CAN 26, AUS 3, BHS 2   NA (67%)    0.473
+       C     2969      32       1.1 CAN 28, FRA 2, GEO 1   NA (88%)    0.775
+    UTIL      313       0       0.0                               -      NaN
+
+
+=== Ice Hockey ===
+position  n_total  n_intl  intl_pct           top_countries top_region  reg_HHI
+       F     3927     841      21.4 CAN 690, SWE 28, FIN 26   NA (82%)    0.688
+       D     2224     431      19.4  CAN 363, SWE 27, FIN 8   NA (84%)    0.724
+       G      832     184      22.1   CAN 146, SWE 8, CZE 5   NA (79%)    0.648

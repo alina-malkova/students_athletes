@@ -1,0 +1,6 @@
+position,n_total,n_intl,intl_pct,top_countries,top_region,reg_HHI
+G,16425,1035,6.3,"CAN 165, AUS 136, ESP 127",WEU (37%),0.22
+F,8057,1028,12.8,"CAN 149, AUS 113, ESP 76",WEU (34%),0.198
+G/F,1248,102,8.2,"CAN 19, AUS 12, ESP 9",WEU (36%),0.22
+C,1033,245,23.7,"NGA 33, CAN 22, DEU 13",SSA (29%),0.197
+F/C,227,41,18.1,"AUS 5, GBR 3, ESP 3",WEU (46%),0.281

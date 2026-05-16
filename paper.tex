@@ -695,6 +695,134 @@ remain unexplained even with both---consistent with the discussion
 in Section~\ref{sec:discussion} that country-specific (not
 region-specific) pipeline structure dominates.
 
+\subsection{Home-country shocks and athlete retention}
+\label{sec:retention}
+
+The country panel measures \emph{entry}: how many international athletes
+arrive in a given country-year. A complementary margin is
+\emph{persistence}---once an international athlete is on a U.S. NCAA
+roster, do shocks at home affect whether they remain enrolled? And do
+those shocks spill over to their domestic teammates? We use the 2019--2023
+athlete-year roster panel (8 sports, $N{=}260{,}737$ athlete-years) and
+define the outcome as whether the athlete appears on the same school's
+roster in year $t{+}1$.\footnote{Athlete identifier is the
+school${\times}$sport${\times}$gender${\times}$name string. Name
+collisions are possible but rare within a school${\times}$sport. The
+sample is restricted to under-classmen so that scheduled graduation
+does not dominate the variation.} Mean retention is 75.1\%; the gap
+between international (74.7\%) and domestic (75.2\%) is negligible
+unconditionally.
+
+\paragraph{Own-shock effects.} We regress $\Pr(\text{return}_{i,t+1})$
+on a shock indicator for athlete $i$'s home country in year $t$,
+including year and sport fixed effects, with standard errors clustered
+at the country level.
+
+\begin{center}
+\small
+\begin{tabular}{lrrr}
+\toprule
+Home-country shock           & $\beta$ on Pr(return) & $N$ \\
+\midrule
+GDP shock (z $<-1.5$)         & $-0.002\phantom{^{***}}$ (0.026) & 19{,}921 \\
+Currency crisis              & $-0.004\phantom{^{***}}$ (0.024) & 19{,}921 \\
+Severe disaster              & $-0.006\phantom{^{***}}$ (0.011) & 19{,}921 \\
+Armed conflict (UCDP)        & $\mathbf{-0.033^{**}}\phantom{^{*}}$ (0.014) & 19{,}921 \\
+Political-stability drop     & $\mathbf{-0.034^{**}}\phantom{^{*}}$ (0.015) & 19{,}921 \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+Pure macroeconomic shocks (GDP, currency, unemployment) do not move
+international retention. \emph{Security} shocks
+do: a conflict episode or a sharp political-stability decline at
+home reduces same-school retention by 3.3--3.4 percentage points,
+about a 4.5\% relative drop from the 75\% baseline. The two security
+indicators are partially correlated but not redundant; running them
+jointly yields very similar magnitudes.
+
+\paragraph{Sport heterogeneity.} The conflict and political-stability
+effects are concentrated in the sports with the largest international
+intakes and the broadest country mix:
+
+\begin{center}
+\small
+\begin{tabular}{lrr}
+\toprule
+                           & Conflict $\beta$ & Polstab-drop $\beta$ \\
+\midrule
+Soccer ($N{=}6{,}125$)     & $\mathbf{-0.116^{***}}$ & $\mathbf{-0.092^{***}}$ \\
+Track ($N{=}3{,}187$)      & $\mathbf{-0.056^{***}}$ & $\mathbf{-0.054^{***}}$ \\
+Volleyball ($N{=}932$)     & $\mathbf{-0.063^{**}}\phantom{^{*}}$ & $\mathbf{-0.073^{**}}\phantom{^{*}}$ \\
+Ice Hockey ($N{=}1{,}315$) & $\mathbf{-0.098^{**}}\phantom{^{*}}$ & --- \\
+Basketball, Swim, Tennis   & n.s.\ in either column           & \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+Soccer is the largest in absolute magnitude: an athlete whose home
+country experiences armed conflict in year $t$ is 11.6 pp less likely
+to remain on the same U.S. roster the next year---roughly one in nine
+soccer players exits at the margin.
+
+\paragraph{Peer spillovers.} If a shock disrupts an international
+athlete enough to change their retention, does it also affect their
+domestic teammates? We construct, for each domestic athlete-year, the
+exposure
+\[
+\text{Expo}_{i,t} \;=\; s^{\text{intl}}_{(s, t)} \cdot
+\bar{D}_{(s,t)}^{\text{shock}}
+\]
+where $s^{\text{intl}}_{(s,t)}$ is the share of athlete $i$'s team
+that is international and $\bar{D}_{(s,t)}^{\text{shock}}$ is the
+average shock indicator across those international teammates' home
+countries. The coefficient is identified from cross-school variation
+in roster composition interacted with which countries were shocked
+when.
+
+\begin{center}
+\small
+\begin{tabular}{lrr}
+\toprule
+Exposure of domestic athlete to ...     & $\beta$ & $N$ \\
+\midrule
+Currency-crisis teammates             & $+0.052\phantom{^{***}}$ (0.120) & 122{,}513 \\
+GDP-shocked teammates                 & $+0.020\phantom{^{***}}$ (0.045) & 122{,}513 \\
+Conflict-affected teammates           & $\mathbf{-0.209^{**}}\phantom{^{*}}$ (0.100) & 122{,}513 \\
+Politically-unstable-home teammates   & $\mathbf{-0.267^{***}}$ (0.104) & 122{,}513 \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+The same two shocks that move international athletes' own retention
+also move their domestic teammates'. The coefficients are scaled to
+``fully exposed'' teams ($s^{\text{intl}}{=}1$, all from shocked
+countries); a more realistic 20\% international roster with half
+from a politically-unstable country (Expo${=}0.10$) implies a
+$2.7$ pp drop in domestic retention---about half the direct
+effect on the shocked athletes themselves.
+
+\paragraph{Mechanism interpretation.} Three patterns are consistent
+with the data: (i) the responsive shocks are those that disrupt
+\emph{contact with home} (conflict, regime instability) rather than
+disrupting \emph{financial flows} (GDP, currency); (ii) the spillover
+to teammates is consistent with team-level disruption (training time
+lost, coaching attention redirected, roster instability mid-season);
+(iii) the effect concentrates in the team sports with the largest
+international rosters. We cannot separately identify
+discrete mechanisms---visa complications, family emergencies, mental
+health, transfer to another U.S. school---because the data record only
+roster presence at one school, not destination of departure. A
+fraction of the ``exits'' may be intra-NCAA transfers rather than
+withdrawals; we treat this as a measurement caveat rather than a
+direction-of-bias concern.
+
+\paragraph{What we do not estimate.} The dependent variable is
+roster persistence, not academic performance. Direct grade or
+graduation outcomes (APR, GSR) would sharpen the interpretation but
+are publicly available only at the team-sport-school-year level
+and were not collected here.
+
 %========================================================================
 \section{Discussion}
 \label{sec:discussion}

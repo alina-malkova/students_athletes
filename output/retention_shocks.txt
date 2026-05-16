@@ -1,0 +1,68 @@
+Retention vs home-country shocks
+================================================================
+Athlete-year panel 2019-2022 (non-senior).
+N = 142,641  athletes = 82,953
+8 sports stacked.
+
+(1) Own-shock retention — international athletes
+    N = 19,921
+
+--- Own-shock effect on intl athletes (Pr(return)) ---
+           spec           shock    beta     se      p stars     N
+  year+sport FE       gdp_shock -0.0021 0.0257 0.9355       19921
+  year+sport FE currency_crisis -0.0042 0.0240 0.8619       19921
+  year+sport FE    any_conflict -0.0330 0.0136 0.0152    ** 19921
+  year+sport FE    polstab_drop -0.0337 0.0150 0.0245    ** 19921
+  year+sport FE severe_disaster -0.0060 0.0112 0.5905       19921
+  year+sport FE       any_shock -0.0092 0.0118 0.4336       19921
+athlete+year FE       gdp_shock  0.2314 0.0362 0.0000   *** 13680
+athlete+year FE currency_crisis -0.0776 0.0480 0.1055       13680
+athlete+year FE    any_conflict  0.0331 0.0696 0.6340       13680
+athlete+year FE    polstab_drop -0.0515 0.0521 0.3223       13680
+athlete+year FE severe_disaster  0.0193 0.0374 0.6056       13680
+athlete+year FE       any_shock  0.1118 0.0247 0.0000   *** 13680
+
+
+--- Own-shock effect by sport ---
+     sport        shock    beta     se      p stars    N
+     Track any_conflict -0.0560 0.0157 0.0004   *** 3187
+     Track polstab_drop -0.0537 0.0177 0.0024   *** 3187
+     Track    any_shock -0.0415 0.0264 0.1156       3187
+basketball any_conflict -0.0053 0.0200 0.7911       2399
+basketball polstab_drop -0.0053 0.0222 0.8100       2399
+basketball    any_shock  0.0055 0.0235 0.8142       2399
+      golf any_conflict -0.1008 0.0805 0.2107        929
+      golf polstab_drop  0.0792 0.0464 0.0878     *  929
+      golf    any_shock -0.0634 0.0477 0.1836        929
+ icehockey any_conflict -0.0980 0.0468 0.0364    ** 1315
+ icehockey polstab_drop  0.2244 0.0169 0.0000   *** 1315
+ icehockey    any_shock -0.0325 0.0412 0.4303       1315
+    soccer any_conflict -0.1156 0.0259 0.0000   *** 6125
+    soccer polstab_drop -0.0925 0.0339 0.0063   *** 6125
+    soccer    any_shock -0.0189 0.0206 0.3599       6125
+  swimming any_conflict  0.0096 0.0366 0.7922       3205
+  swimming polstab_drop -0.0145 0.0422 0.7308       3205
+  swimming    any_shock -0.0148 0.0234 0.5257       3205
+    tennis any_conflict  0.0260 0.0340 0.4437       1829
+    tennis polstab_drop -0.0121 0.0412 0.7692       1829
+    tennis    any_shock  0.0636 0.0289 0.0278    ** 1829
+volleyball any_conflict -0.0630 0.0320 0.0491    **  932
+volleyball polstab_drop -0.0726 0.0322 0.0241    **  932
+volleyball    any_shock -0.0285 0.0444 0.5203        932
+(2) Peer-spillover retention — domestic athletes
+    N = 122,513
+    Treatment: intl_share × team-average shock indicator
+
+--- Peer-spillover effect on domestic athletes (Pr(return)) ---
+     exposure    beta     se      p stars      N
+     expo_any -0.0619 0.0458 0.1769       122513
+expo_currency  0.0515 0.1199 0.6674       122513
+expo_conflict -0.2093 0.0996 0.0357    ** 122513
+ expo_polstab -0.2673 0.1036 0.0099   *** 122513
+     expo_gdp  0.0201 0.0453 0.6575       122513
+
+--- Mean retention for intl, by any_shock ---
+               mean   size
+any_shock                 
+0.0        0.731747  12313
+1.0        0.773002   7608
