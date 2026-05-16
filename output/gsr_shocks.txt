@@ -1,0 +1,20 @@
+NCAA GSR vs home-country shock exposure
+================================================================
+N = 8,264  team-sport-cohort
+Exposure is team-sport-mean across roster years 2019-2023.
+
+--- GSR / FGR on team-sport-mean exposure ---
+                       var    beta     se      p stars    N
+           mean_share_intl   0.453  1.584 0.7752       8264
+     mean_share_intl (FGR) -19.800  3.238 0.0000   *** 7941
+         expo_any_conflict  -1.300  5.290 0.8058       8264
+   expo_any_conflict (FGR) -24.881 12.225 0.0418    ** 7941
+         expo_polstab_drop  -3.611  8.096 0.6556       8264
+   expo_polstab_drop (FGR) -43.831 17.904 0.0144    ** 7941
+            expo_gdp_shock   6.768  5.236 0.1962       8264
+      expo_gdp_shock (FGR) -48.994 14.279 0.0006   *** 7941
+      expo_currency_crisis   3.765  9.730 0.6988       8264
+expo_currency_crisis (FGR) -64.078 21.403 0.0028   *** 7941
+
+GSR pooled mean = 92.4  SD = 10.0
+Within-team-sport GSR SD = 4.3

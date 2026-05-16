@@ -1,0 +1,39 @@
+NCAA APR vs home-country shock exposure
+================================================================
+Team-sport-year obs: 6,440
+Unique team-sport panels: 1,518
+
+--- APR on shock exposure (β scales APR 0-1 rate) ---
+                spec                  var     beta      se      p stars    N
+     year + sport FE    expo_any_conflict -0.00027 0.00600 0.9641       6433
+team-sport + year FE    expo_any_conflict  0.00277 0.00566 0.6241       6433
+     year + sport FE    expo_polstab_drop  0.00220 0.00776 0.7766       6433
+team-sport + year FE    expo_polstab_drop -0.00621 0.00764 0.4162       6433
+     year + sport FE       expo_gdp_shock  0.03074 0.01504 0.0409    ** 6433
+team-sport + year FE       expo_gdp_shock  0.00403 0.01342 0.7638       6433
+     year + sport FE expo_currency_crisis -0.00856 0.00563 0.1287       6433
+team-sport + year FE expo_currency_crisis -0.00329 0.00548 0.5485       6433
+     year + sport FE expo_severe_disaster -0.00273 0.00452 0.5458       6433
+team-sport + year FE expo_severe_disaster  0.00197 0.00339 0.5604       6433
+     year + sport FE expo_any_conflict_3y  0.00137 0.00706 0.8462       6433
+team-sport + year FE expo_any_conflict_3y  0.00251 0.00983 0.7981       6433
+     year + sport FE expo_polstab_drop_3y  0.00611 0.00959 0.5245       6433
+team-sport + year FE expo_polstab_drop_3y -0.00771 0.01368 0.5732       6433
+     year + sport FE           share_intl -0.00589 0.00186 0.0016   *** 6433
+team-sport + year FE           share_intl -0.00239 0.00263 0.3630       6433
+     year + sport FE        share_intl_3y -0.00603 0.00204 0.0032   *** 6433
+team-sport + year FE        share_intl_3y -0.00341 0.00466 0.4647       6433
+
+--- By sport (expo_any_conflict, team-sport + year FE) ---
+sport_code     beta      se      p stars    N
+       MBB  0.02096 0.02133 0.3257        846
+       MGO      NaN     NaN    NaN        273
+       MSO -0.05142 0.03674 0.1617        643
+       MSW -0.03647 0.03036 0.2296        354
+       MTE  0.03653 0.01484 0.0138    **  220
+       WBB -0.03829 0.02020 0.0580     *  748
+       WGO  0.01788 0.01642 0.2761        204
+       WSO -0.02226 0.03434 0.5168       1090
+       WSW  0.00202 0.02048 0.9213        544
+       WTE      NaN     NaN    NaN        288
+       WVB      NaN     NaN    NaN        972

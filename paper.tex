@@ -920,6 +920,30 @@ would improve identification.
 intensive-margin variance; the residual is most plausibly driven by
 country- and sport-specific recruitment pipelines that we cannot
 proxy.
+
+\item \textbf{What NCAA APR and GSR cannot see.} A natural team-level
+counterpart to the athlete-level retention finding in
+Section~\ref{sec:retention} would be the NCAA's Academic Progress
+Rate (APR) or Graduation Success Rate (GSR). We scraped the full
+APR/GSR record (121K and 116K observations) and merged it to our
+roster panel. Within-team-sport regressions of APR or GSR on team
+exposure to home-country shocks return null effects across all
+shock indicators (all $|t|<1$). Three reasons: (i) APR is censored
+near $1.0$---16\% of team-years sit at the ceiling and the
+within-team-sport SD is only $0.013$, so a 3 pp athlete-level
+retention movement applied to a fraction of a roster falls below
+the detection threshold; (ii) APR is a four-year rolling average,
+mechanically smoothing year-to-year shocks; (iii) GSR is
+transfer-adjusted: an international athlete who leaves in good
+standing does not count against the team. The Federal Graduation
+Rate (FGR), which does not transfer-adjust, shows large negative
+coefficients on intl-share-shock exposure
+($-25$ to $-64$ percentage points), but those coefficients are
+mechanically conflated with the baseline intl-share gradient
+($-19.8$ pp) since international athletes transfer more often by
+construction. The athlete-year retention design in
+Section~\ref{sec:retention} therefore remains our cleanest
+available outcome for the shock-response question.
 \end{itemize}
 
 %========================================================================

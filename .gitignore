@@ -38,6 +38,8 @@ raw_data/*
 !raw_data/school_website_platforms_full.csv
 !raw_data/student_rosters_processed.csv
 !raw_data/school_name_crosswalk.csv
+!raw_data/ncaa_apr.csv
+!raw_data/ncaa_gsr.csv
 
 # Zip archives
 *.zip
