@@ -1,0 +1,7 @@
+shock,outcome,beta,se,p,stars,N
+any_conflict,return_same,-0.033,0.0136,0.0152,**,19921
+any_conflict,return_anywhere,-0.027,0.0147,0.0665,*,19921
+any_conflict,transferred,0.006,0.0036,0.0962,*,19921
+polstab_drop,return_same,-0.0337,0.015,0.0245,**,19921
+polstab_drop,return_anywhere,-0.0214,0.0168,0.2028,,19921
+polstab_drop,transferred,0.0123,0.0042,0.0037,***,19921

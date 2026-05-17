@@ -1,0 +1,5 @@
+shock,beta,se,p,stars,N
+any_conflict_lag1,-0.0515,0.0158,0.0011,***,15145
+polstab_drop_lag1,-0.0363,0.0195,0.0626,*,15145
+any_conflict (joint),0.0451,0.0491,0.3582,,15145
+any_conflict_lag1 (joint),-0.0935,0.0498,0.0606,*,15145

@@ -40,6 +40,8 @@ raw_data/*
 !raw_data/school_name_crosswalk.csv
 !raw_data/ncaa_apr.csv
 !raw_data/ncaa_gsr.csv
+!raw_data/tfrrs_intl_to_scrape.csv
+!raw_data/tfrrs_performance.csv
 
 # Zip archives
 *.zip

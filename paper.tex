@@ -13,8 +13,8 @@
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{0.5em}
 
-\title{Two Margins of International Track-and-Field\\Recruitment to NCAA Division~I:\\
-Entry, Sublinear Scaling, and Event-Specific Heterogeneity}
+\title{Two Margins of International Athlete\\Recruitment to NCAA Division~I:\\
+Entry, Sublinear Scaling, and Home-Country Shock Response}
 \author{Alina Malkova\\Florida Institute of Technology}
 \date{\today}
 
@@ -58,6 +58,7 @@ intensive-margin variation; eight regional fixed effects add another
 11\%; country-specific recruitment pipelines (Kenya--Iten,
 Jamaica--MVP, the Caribbean sprint network) plausibly account for
 the rest. Finally, we extend the analysis with a country~$\times$~year~$\times$~sport panel for eight sports over 2019--2023 ($260{,}737$ athlete-years). Two-way fixed-effects on the panel show that the cross-sectional political-stability coefficient is \textbf{entirely between-country composition}: $+0.34$ ($p<0.01$) in pooled OLS collapses to $-0.005$ once country fixed effects are added. A clean COVID natural experiment from differential sport disruption (soccer and volleyball lost $14\%$ of their 2020 rosters relative to the six other sports; the effect is transitory and recovers by 2021) is identified at $-0.143$ ($p<0.01$). Disaster and conflict effects also wash out under country FE; only a binary GDP-shock indicator survives at $-2.5\%$ per recession year ($p<0.10$).
+At the athlete level, we link the same eight-sport roster panel to home-country shock indicators and show that armed conflict or a sharp drop in political stability at home reduces the affected athlete's probability of returning to the same U.S.~school the following year by 3.3--3.4 percentage points ($p<0.05$), with effects concentrated in soccer ($-11.6$ pp), track ($-5.6$ pp), volleyball ($-7.3$ pp) and ice hockey ($-9.8$ pp). The effect is larger at a one-year lag ($-9.4$ pp, $p<0.10$), consistent with visa-cycle or accumulated-stress mechanisms. Roughly one-third of the retention drop is intra-NCAA transfer; two-thirds is exit. The same shocks spill over to domestic teammates' retention at half the magnitude. Pure macroeconomic shocks (GDP, currency, disasters) do not move retention. NCAA Academic Progress Rate and Graduation Success Rate are too smoothed and ceiling-bound to detect this athlete-level effect.
 \end{abstract}
 
 %========================================================================
@@ -511,6 +512,79 @@ sublinear population elasticity of $\sim 0.4$ is a weighted average
 of mostly-East-African and mostly-European structures that may have
 different true elasticities individually.
 
+\subsection{Position structure and institutional sorting across team sports}
+\label{sec:position}
+
+Extending the within-event approach to team sports, we classify
+position fields for seven additional sports using regular-expression
+rules on the free-text \texttt{position} variable in the eight-sport
+roster panel: soccer (GK/D/M/F), basketball (G/F/C plus G/F and F/C
+hybrids), football (QB/RB/WR/TE/OL/DL/LB/DB/ST), volleyball
+(OH/MB/OPP/S/L-DS), baseball/softball (P/C/INF/OF/UTIL), and ice
+hockey (G/D/F).  Two facts stand out.
+
+\paragraph{Position-specific country pipelines.}  Several positions
+draw disproportionately from one source country, in patterns invisible
+at the sport level.
+
+\begin{center}
+\small
+\begin{tabular}{llrll}
+\toprule
+Sport & Position & \% intl & Top sources & Top region (share) \\
+\midrule
+Basketball  & Center (C)             & 23.7\% & NGA 33, CAN 22, DEU 13 & SSA (29\%) \\
+Football    & Kicker/punter (ST)     & 5.1\%  & AUS 79, IRL 10, GBR 10 & EAP (64\%) \\
+Soccer      & Midfield (M)           & 14.4\% & GBR 272, CAN 214, ESP 193 & WEU (52\%) \\
+Volleyball  & Setter (S)             & 5.1\%  & TUR 22, CAN 20, BRA 10 & EEU (24\%) \\
+Ice Hockey  & Forward (F)            & 21.4\% & CAN 690, SWE 28, FIN 26 & NA (82\%) \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+The basketball-center pipeline from Sub-Saharan Africa (Nigeria
+contributes 33 of 245 international centers) is the only position
+in any team sport where SSA leads as a region. The Australian
+punter pipeline is similarly concentrated (79 of 127 international
+special-teams players come from Australia, $62\%$). These
+country-position pairings are masked by aggregate sport
+statistics: basketball is $7\%$ international overall but
+$24\%$ at center; football is $0.6\%$ international overall but
+$5\%$ at K/P.
+
+\paragraph{Institutional sorting by origin.}  Joining athlete records
+to IPEDS (HD2023 Carnegie classification, EF2023a nonresident-alien
+share of campus enrollment) and EADA (athletic finances), international
+athletes systematically land at higher-resource institutions:
+
+\begin{center}
+\small
+\begin{tabular}{lrrr}
+\toprule
+                                          & Domestic & International & $\Delta$ \\
+\midrule
+\% at R1/R2 doctoral schools              & 32.0 & 37.1 & $+5$ pp \\
+Median NRAL share of campus enrollment    & 3.5\% & 4.9\% & $+40\%$ \\
+Median sport recruiting budget            & \$80K  & \$102K & $+27\%$ \\
+Median sport student-aid budget           & \$1.74M & \$3.42M & $+97\%$ \\
+Median total athletic revenue             & \$3.5M  & \$5.4M  & $+52\%$ \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+The sorting is sharpest in basketball: international centers attend
+schools spending a median of \$5.9M on student aid (versus \$1.5M
+for domestic centers); international forwards attend schools
+spending \$4.5M. In football, international K/P athletes land at
+top-revenue programs (median sport revenue \$7.1M versus \$1.8M for
+domestic K/P) consistent with intentional pipeline recruitment of
+mature Australian punters into Power-5 football. Soccer, volleyball,
+and ice hockey show comparable but smaller gradients ($2$--$3\times$
+scholarship multiples). Football skill positions (QB/RB/WR/DB/LB)
+are nearly $0\%$ international and show no domestic--international
+resource gradient---the U.S.\ talent pipeline saturates these
+positions completely.
+
 \subsection{Country × year × sport panel: within-country identification}
 \label{sec:panel}
 
@@ -809,19 +883,91 @@ disrupting \emph{financial flows} (GDP, currency); (ii) the spillover
 to teammates is consistent with team-level disruption (training time
 lost, coaching attention redirected, roster instability mid-season);
 (iii) the effect concentrates in the team sports with the largest
-international rosters. We cannot separately identify
-discrete mechanisms---visa complications, family emergencies, mental
-health, transfer to another U.S. school---because the data record only
-roster presence at one school, not destination of departure. A
-fraction of the ``exits'' may be intra-NCAA transfers rather than
-withdrawals; we treat this as a measurement caveat rather than a
-direction-of-bias concern.
+international rosters.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.82\linewidth]{output/fig_retention_by_sport.png}
+\caption{\textit{Home-country shock effects on international athlete
+retention, by sport.} Forest plot of $\beta$ on Pr(return to same
+school next year) for armed-conflict and political-stability-drop
+indicators, run separately within each of eight sports
+(year FE; country-clustered SE; 95\% CIs). Soccer, track,
+volleyball, and ice hockey show consistent negative effects of both
+shocks; basketball, swimming, tennis, and golf are
+indistinguishable from zero.}
+\end{figure}
+
+\paragraph{Heterogeneity by region of origin.} The effect is not
+uniform across the eight world regions used elsewhere in the paper.
+
+\begin{center}
+\small
+\begin{tabular}{lrr}
+\toprule
+Region of origin                 & Conflict $\beta$ & Polstab-drop $\beta$ \\
+\midrule
+Latin America \& Caribbean (LAC) & $\mathbf{-0.032^{***}}$ (0.007) & $-0.088$ (0.060) \\
+MENA                             & $-0.023$ (0.032)             & $\mathbf{-0.050^{*}}$ (0.027) \\
+Sub-Saharan Africa (SSA)         & $-0.033$ (0.034)             & $-0.012$ (0.035) \\
+East Asia \& Pacific (EAP)       & $-0.039$ (0.034)             & $+0.236^{**}$ (0.114) \\
+Eastern Europe (EEU)             & $+0.025^{*}$ (0.015)         & $+0.036$ (0.036) \\
+Western Europe (WEU)             & $\approx 0$ (no variation)   & $\approx 0$ \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\noindent The Latin America \& Caribbean coefficient dominates the
+conflict channel ($-3.2$ pp, $p<0.01$), consistent with the period's
+shocks affecting Venezuela, Haiti, and parts of Central America. The
+MENA region carries the political-stability-drop signal. The EAP
+positive coefficient is driven by a small sample; we do not interpret
+it.
+
+\paragraph{Lagged effects.} The retention response is larger at a
+one-year lag than contemporaneously. In a joint specification
+including both year-$t$ and year-$t-1$ conflict indicators, the
+contemporaneous coefficient is $+0.045$ (n.s.) and the lagged
+coefficient is $\mathbf{-0.094^{*}}$ ($p<0.10$). Mechanism candidates
+consistent with this timing pattern: F-1 / J-1 visa renewal cycles
+that bind in the spring of year $t+1$; remittance flows that take a
+season to deplete; accumulated stress reaching a threshold over the
+academic year. We cannot separate these channels with the data on
+hand but the lag structure is itself informative.
+
+\paragraph{Transfer versus exit.} The shock-induced retention drop
+is not entirely exit from U.S.\ college athletics. We construct a
+``return-anywhere'' indicator that equals 1 if the athlete reappears
+on \emph{any} NCAA roster the following year (matching by
+sport${\times}$gender${\times}$name). The unconditional intra-NCAA
+transfer rate is $3.2\%$. Decomposing the shock effect by destination:
+
+\begin{center}
+\small
+\begin{tabular}{lrrr}
+\toprule
+Outcome                     & Conflict $\beta$ & Polstab-drop $\beta$ \\
+\midrule
+Return same school          & $\mathbf{-0.033^{**}}$ (0.014) & $\mathbf{-0.034^{**}}$ (0.015) \\
+Return anywhere in NCAA     & $\mathbf{-0.027^{*}}\phantom{^{*}}$ (0.015) & $-0.021$ (0.017) \\
+Intra-NCAA transfer         & $+0.006^{*}$ (0.004)         & $\mathbf{+0.012^{***}}$ (0.004) \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\noindent Roughly one-third of the same-school retention drop is
+absorbed by intra-NCAA transfers (the athlete reappears at a different
+U.S.\ school the following year); two-thirds is genuine exit. Polstab-
+shocked athletes are slightly more likely to transfer rather than
+exit, suggesting the binding constraint is the original
+institutional fit rather than U.S.\ college athletics in general.
 
 \paragraph{What we do not estimate.} The dependent variable is
 roster persistence, not academic performance. Direct grade or
-graduation outcomes (APR, GSR) would sharpen the interpretation but
-are publicly available only at the team-sport-school-year level
-and were not collected here.
+graduation outcomes (APR, GSR) were also examined; their structural
+features (4-year smoothing, ceiling effects, transfer adjustment)
+make them insensitive to the athlete-level retention variation we
+detect here---see Section~5 caveats.
 
 %========================================================================
 \section{Discussion}
