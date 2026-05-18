@@ -1006,7 +1006,11 @@ variation we detect here---see Section~5 caveats.
 \label{sec:discussion}
 %========================================================================
 
-Four substantive conclusions emerge.
+Seven conclusions emerge, organised around the two analytical
+margins of the paper: entry into the pipeline, and shock response
+once in.
+
+\textbf{Entry margins.}
 
 First, \textbf{wealth and population scale govern entry into the
 international NCAA pipeline}. Both $\log\text{GDPpc}$ and
@@ -1017,45 +1021,91 @@ requires some minimum infrastructure and discovery-cost expenditure
 that scales with national resource flow.
 
 Second, \textbf{conditional on entry, athletes scale sublinearly
-with cohort population}. The estimated elasticity is between $0.33$
-(OLS) and $0.61$ (Heckman two-step), with the selection-corrected
-estimate being our preferred reading. Doubling a source-country's
-15--24 cohort raises NCAA supply by roughly $1.5\times$, not $2\times$.
-The most plausible mechanism is finite US-side recruitment capacity:
-the marginal NCAA program does not scale its international intake
-one-for-one with any single source country. Small wealthy countries
-are therefore over-represented per capita relative to populous ones.
-Quantile regression refines this: the elasticity is $0.24$ at the
-low end of supply and $0.51$ at the high end, so the diminishing-
-returns story is strongest for small-supply countries.
+with cohort population}, with an elasticity between $0.33$ (OLS) and
+$0.61$ (Heckman). Doubling a source country's 15--24 cohort raises
+NCAA supply by roughly $1.5\times$, not $2\times$. The most plausible
+mechanism is finite US-side recruitment capacity: the marginal NCAA
+program does not scale its international intake one-for-one with any
+single source country, so small wealthy countries are
+over-represented per capita.
 
-Third, \textbf{political stability has an intensive-margin effect of
-uncertain magnitude}. OLS gives a statistically zero estimate of
-$+0.37$ (SE $0.24$), but with $n = 100$ the minimum detectable effect
-at 80\% power is $0.68$, so the data do not strongly reject
-moderately positive effects. The Negative Binomial estimate is
-$+0.79$ ($p<0.01$); the Heckman estimate is $+0.60$ ($p<0.10$). We
-cannot pin down whether stability matters at the country-pool level,
-because the country pool averages over very heterogeneous sport
-structures. \textit{Within} distance running, however, political
-stability is large and significant ($+0.93$, $p<0.05$): the East
-African pipeline depends on it. Within sprints, it does not.
-Within throws and jumps, sample sizes preclude a strong claim.
+Third, \textbf{cross-sectional governance effects are
+between-country composition}. Pooled OLS yields a positive
+political-stability coefficient ($+0.34$, $p<0.01$); the eight-sport
+country${\times}$year${\times}$sport panel under two-way fixed effects
+collapses it to $-0.005$ (n.s.). Whatever ``political stability
+predicts more athletes'' picks up is the level difference between
+politically stable and unstable countries, not how supply moves when
+the same country's stability changes.
 
-Fourth, \textbf{the relevant unit of analysis may not be the
-country}. Adding eight region fixed effects raises $R^2$ from $0.21$
-to $0.32$ in the count specification; the macro covariates' point
-estimates barely move. Region absorbs some but not most of the
-unexplained variance. The sport-event split is more informative
-than the regional split. Both point to the same conclusion: the
-country-panel pooled regression is averaging over qualitatively
-different supply curves (Caribbean sprint network, East African
-distance network, European throwing pipelines, etc.) that share
-little structure beyond GDP and population. A complete model would
-estimate gravity equations at the sport-event level with
-bilateral US-source-country variables (recruiting links, scholarship
-agreements, language commonality, alumni networks) that we do not
-have in our data.
+Fourth, \textbf{the relevant unit of analysis is the
+country${\times}$sport-event, not the country}. Adding region fixed
+effects to the country-pool specification raises $R^2$ only from
+$0.21$ to $0.32$; the sport-event split is more informative. The
+country-pool result averages over qualitatively different supply
+curves (Caribbean sprint network, East African distance network,
+European throwing pipelines) that share little structure beyond GDP
+and population.
+
+\textbf{Within-pipeline margins (sorting and shock response).}
+
+Fifth, \textbf{international athletes sort to high-resource
+institutions, and the sort is position-specific}. International
+athletes attend institutions with $\approx 2\times$ the sport
+student-aid budget of domestic athletes. The sort is sharpest at
+positions that NCAA programs have built deliberate pipelines into:
+basketball centers (50\% at R1/R2 schools, \$5.9M aid; Nigeria-led),
+football kickers/punters (\$7.1M revenue, 62\% Australian).
+Football skill positions, where the U.S.\ talent pipeline
+saturates, show zero international representation and zero
+resource gradient. Whatever recruitment intensity drives
+international entry, it operates at the position level, not the
+program level.
+
+Sixth, \textbf{security shocks at home reduce both retention and
+performance; macroeconomic shocks do not}. Armed conflict and
+sharp drops in political stability cut the affected athlete's
+same-school retention by $3$--$3.4$ pp and within-athlete
+performance (on TFRRS marks) by $0.4$--$0.6$ SD. GDP shocks,
+currency crises, and severe natural disasters do not move either
+outcome. The pattern is consistent across both margins: the
+binding constraint on staying and on competing is
+\emph{disruption of contact with home}, not financial disruption
+of the household. The retention effect is larger one year after
+the shock than contemporaneously ($-9.4$ pp at $t{-}1$ vs.
+$+4.5$ pp at $t$), and the performance effect shows the same lag
+structure, consistent with mechanisms that bind on a renewal
+cycle (F-1/J-1 visa) or accumulate over an academic year
+(remittance depletion, family-emergency stress).
+
+Seventh, \textbf{shocks travel through team rosters}. Domestic
+teammates of internationally shocked athletes also reduce their
+retention by roughly half the direct effect. Pure
+team-composition effects (intl share alone) do not produce this
+spillover under team-sport fixed effects; the spillover is
+\emph{specifically driven by which countries are shocked when},
+consistent with team-level disruption channels (training-time
+loss, coaching attention redirected, mid-season roster
+instability) rather than student-body-level confounders.
+
+\textbf{Synthesis.} The paper documents two distinct empirical
+patterns about the same population. \textit{Entry} into NCAA
+international recruitment is governed by source-country wealth and
+population scale; political stability does not select countries
+into the pipeline. \textit{Retention and performance} once in are
+governed by security at home; macroeconomic conditions do not move
+either margin. These are not in tension---wealth determines whether
+a country produces recruitable athletes at all, while
+contact-with-home determines whether enrolled athletes can keep
+performing---but they do imply that policy-relevant
+``vulnerability'' measures need to distinguish the entry question
+from the retention question. A country that is poor and stable
+produces few athletes but loses few; a country that is wealthier
+but newly unstable can have a large pipeline that suddenly
+under-performs and partially exits. NCAA APR and GSR aggregates
+are insensitive to this latter movement by construction; an
+athlete-year design like the one used in Section~\ref{sec:retention}
+is required to see it.
 
 %========================================================================
 \section{Caveats and limitations}
