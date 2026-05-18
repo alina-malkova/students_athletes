@@ -1,5 +1,5 @@
 case,cc,onset,retention_DID,retention_p,retention_stars,n_treated_athyears,arrivals_log_DID,arrivals_p,arrivals_stars
 Russia,RUS,2022,0.1624,0.0,***,195,-0.1146,0.6044,
 Ukraine,UKR,2022,0.0805,0.0012,***,83,-0.0714,0.7254,
-Iran,IRN,2022,-0.0,0.0,***,2,0.0339,0.9159,
-Lebanon,LBN,2020,0.3351,0.2029,,8,-1.2179,0.0037,***
+Iran,IRN,2022,-0.0,0.0,***,2,0.0717,0.8367,
+Lebanon,LBN,2020,0.3351,0.2029,,8,-1.1934,0.009,***

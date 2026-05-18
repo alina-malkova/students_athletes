@@ -121,6 +121,9 @@ def build_donor_pool(panel, shocks, case, sports_used):
     bad = set()
     for cc in candidates:
         sub = shocks_period[shocks_period['country_code'] == cc]
+        # exclude if no shock data at all (cannot certify unshocked)
+        if sub.empty:
+            bad.add(cc); continue
         if ((sub['any_conflict'].fillna(0).max() > 0) or
             (sub['polstab_drop'].fillna(0).max() > 0)):
             bad.add(cc)

@@ -47,7 +47,7 @@ year
 2023          11   11.272727
 
 === Iran (IRN, onset 2022) ===
-  Donors (8): ARE, BHR, JOR, KWT, MAR, QAT, SAU, YEM
+  Donors (7): ARE, BHR, JOR, KWT, MAR, QAT, SAU
 
   Retention DID: β = -0.0000 (SE 0.0000) ***
   Mean retention by year:
@@ -58,18 +58,18 @@ year
 2021     0.840000      0.0
 2022     0.629630      NaN
 
-  New-arrivals DID: log β = +0.0339 (SE 0.3207) 
+  New-arrivals DID: log β = +0.0717 (SE 0.3480) 
   Raw new-arrival counts:
 treated  treated  donor_mean
 year                        
-2019           1       1.750
-2020           0       1.750
-2021           0       2.125
-2022           1       2.000
-2023           0       2.375
+2019           1    2.000000
+2020           0    2.000000
+2021           0    2.428571
+2022           1    2.142857
+2023           0    2.714286
 
 === Lebanon (LBN, onset 2020) ===
-  Donors (8): ARE, BHR, JOR, KWT, MAR, QAT, SAU, YEM
+  Donors (7): ARE, BHR, JOR, KWT, MAR, QAT, SAU
 
   Retention DID: β = +0.3351 (SE 0.2631) 
   Mean retention by year:
@@ -80,15 +80,15 @@ year
 2021     0.840000      NaN
 2022     0.629630     0.75
 
-  New-arrivals DID: log β = -1.2179 (SE 0.4194) ***
+  New-arrivals DID: log β = -1.1934 (SE 0.4570) ***
   Raw new-arrival counts:
 treated  treated  donor_mean
 year                        
-2019           5       1.750
-2020           0       1.750
-2021           0       2.125
-2022           4       2.000
-2023           1       2.375
+2019           5    2.000000
+2020           0    2.000000
+2021           0    2.428571
+2022           4    2.142857
+2023           1    2.714286
 
 === Venezuela (VEN, onset None) ===
 Annual trajectory:
@@ -105,5 +105,5 @@ Summary across cases
    case  cc  onset  retention_DID  retention_p retention_stars  n_treated_athyears  arrivals_log_DID  arrivals_p arrivals_stars
  Russia RUS   2022         0.1624       0.0000             ***                 195           -0.1146      0.6044               
 Ukraine UKR   2022         0.0805       0.0012             ***                  83           -0.0714      0.7254               
-   Iran IRN   2022        -0.0000       0.0000             ***                   2            0.0339      0.9159               
-Lebanon LBN   2020         0.3351       0.2029                                   8           -1.2179      0.0037            ***
+   Iran IRN   2022        -0.0000       0.0000             ***                   2            0.0717      0.8367               
+Lebanon LBN   2020         0.3351       0.2029                                   8           -1.1934      0.0090            ***

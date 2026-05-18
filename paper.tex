@@ -39,18 +39,19 @@ are added---\emph{the cross-country result is entirely
 between-country composition}. A COVID natural experiment from
 differential sport disruption yields a $-0.143$ ($p<0.01$) transitory
 effect for soccer and volleyball relative to other sports.
-\textbf{Four shock case studies} examine named events. Russian
-($N{=}195$, $p<0.001$) and Ukrainian ($N{=}83$, $p<0.01$)
-under-classman athletes are 16 and 8 percentage points
+\textbf{Four shock case studies} establish that
+\emph{shock type predicts margin of response}. War and sanctions
+bind intensively: Russian and Ukrainian under-classman athletes are
+$+16$ pp ($N{=}195$, $p<0.001$) and $+8$ pp ($N{=}83$, $p<0.01$)
 \emph{more} likely to return to their U.S.\ school after the 2022
-invasions, relative to a same-region donor pool---consistent with
-a destination-substitution channel where home exit options
-vanish. The 2020 Lebanese financial collapse instead cuts new
-arrivals by $\sim 70\%$ ($\log\beta = -1.22$, $p<0.01$) without a
-detectable change in retention---an extensive-margin channel
-operating through household funding capacity. Chronic Venezuelan
-instability shows neither a sharp inflow change nor a retention
-boost but a slow retention erosion (0.60 to 0.41 over four years).
+invasions than donor-pool peers, consistent with closed home exit
+options. Financial collapse binds extensively: the 2020 Lebanese
+crisis cuts new arrivals by $\sim 70\%$ ($\log\beta = -1.19$,
+$p<0.01$) without a detectable retention change, operating through
+household funding capacity. Chronic instability (Venezuela) shows
+neither effect but slow retention erosion ($0.60 \to 0.41$ over
+four years). Security shocks bind intensively, financial shocks
+extensively.
 \end{abstract}
 
 %========================================================================
@@ -889,10 +890,11 @@ finding was country composition rather than within-country shock
 response, and a within-country specification with country fixed
 effects flipped the sign on the security-shock indicators. A
 within-athlete TFRRS performance specification yielded a similar
-point estimate but failed a cluster bootstrap on country (the
-effective number of clusters carrying shock variation is roughly
-three, so the country-clustered SE was $2.7$--$3.9 \times$
-over-precise).\footnote{Diagnostics are in
+point estimate but failed a cluster bootstrap on country---the
+country-clustered SE was $2.7$--$3.9 \times$ over-precise because
+the effective number of clusters carrying shock variation in the
+TFRRS panel is roughly three (Nigeria, Israel, and Uganda; Kenya
+and Togo contribute marginally).\footnote{Diagnostics are in
 \texttt{run\_retention\_country\_fe.py},
 \texttt{run\_peer\_school\_fe.py}, and
 \texttt{run\_tfrrs\_robustness.py}. The 95\% cluster-bootstrap CIs on
@@ -914,12 +916,30 @@ country-year arrivals DID.
 \paragraph{Russia 2022 (invasion / sanctions / sport bans).}
 The treated sample is 195 Russian under-classman athlete-years
 between 2019 and 2022, drawn from swimming (31\%), tennis (28\%),
-basketball (16\%), and ice hockey (8\%). The donor pool is 22
-Eastern-European countries with no shock indicator in the panel
-period. The retention DID is $\mathbf{+0.162^{***}}$ (SE 0.027):
-Russian athletes are 16 pp \emph{more} likely to return to their
-U.S.\ school after the 2022 invasion than they were before, relative
-to the donor pool. Raw retention rates by year:
+basketball (16\%), and ice hockey (8\%). The
+\textbf{sport mix matters}: these are the four sports where
+post-2022 international federation bans on Russian athletes
+(FINA in swimming, ATP/WTA in tennis, FIBA in basketball, IIHF
+in ice hockey) made competing for a U.S.\ college program one of
+the few remaining pathways to high-level competition. The
+``destination-substitution'' channel therefore has two
+complementary components in the Russian case: invasion-driven
+exit-option closure (shared with Ukraine) and sport-specific
+international competition bans. The Ukraine vs.\ Russia magnitude
+contrast below ($+8$ vs.\ $+16$ pp) is consistent with this
+decomposition. The donor pool is 22 Eastern-European countries
+with no shock indicator in the panel period:%
+\footnote{Donor pool (EEU, used for both Russia and Ukraine):
+ALB, ARM, BGR, BIH, CZE, EST, GEO, HRV, HUN, KAZ, LTU, LVA, MDA,
+MKD, MNE, POL, ROU, SRB, SVK, SVN, UZB, XKX. \textbf{Belarus is
+excluded} because the WGI political-stability indicator drops in
+2020 (the post-election crackdown), so Belarus is shock-affected
+in the panel period. Other candidates are excluded by the same
+filter or by missing covariate data.} the retention DID is
+$\mathbf{+0.162^{***}}$ (SE 0.027): Russian athletes are 16 pp
+\emph{more} likely to return to their U.S.\ school after the 2022
+invasion than they were before, relative to the donor pool. Raw
+retention rates by year:
 
 \begin{center}
 \small
@@ -940,40 +960,44 @@ extensive-margin recruitment continues at a slightly lower rate but
 the change is not distinguishable from the COVID-era baseline. The
 clean fact is the retention jump.
 
-\paragraph{Ukraine 2022 (invasion / displacement).}
+\paragraph{Ukraine 2022 (invasion / displacement, no sport bans).}
 The treated sample is 83 Ukrainian under-classman athlete-years,
-also 22-country EEU donor pool. Retention DID is
+same 22-country EEU donor pool as Russia. Retention DID is
 $\mathbf{+0.081^{***}}$ (SE 0.025). Raw retention 2019--2022:
 0.78, 0.71, 0.89, 0.86. The 2021 figure already moves before the
 February-2022 invasion, consistent with on-the-ground tension
 preceding the formal invasion date. New-arrivals DID is $-0.07$ log
-(n.s.). The Ukrainian and Russian patterns are similar in
-direction, with Russia roughly twice the magnitude.
+(n.s.). Ukrainian athletes face the same displacement / closed-home
+channel as Russians but no analogous international sport bans
+(Ukraine remained eligible in all federations). The roughly
+half-magnitude effect ($+8$ vs.\ $+16$ pp) is therefore consistent
+with displacement alone, with the additional $+8$ pp in the Russian
+case attributable to the sport-ban-specific premium on staying.
 
 \paragraph{Lebanon 2020 (financial collapse).}
 The Lebanese financial crisis (October 2019) and the 2020 currency
 collapse are an \emph{economic} shock rather than a security shock.
 The retention sample is only 8 under-classman athlete-years (too
-small to interpret a DID), but new arrivals are observable. Raw
-counts of new Lebanese athletes by year: 5 (2019), 0, 0, 4, 1
-(2020--2023, $n = 8$ MENA donors). The new-arrivals DID is
-$\mathbf{-1.22^{***}}$ log points (SE 0.42), implying roughly a
-$70\%$ drop in inflow. The recovery in 2022 is partial. This is
-the \emph{extensive-margin} story: the affected channel is who
-arrives, not whether enrolled athletes stay.
+small to interpret a DID), but new arrivals are observable. The
+MENA donor pool is 7 countries (UAE, Bahrain, Jordan, Kuwait,
+Morocco, Qatar, Saudi Arabia); Yemen, Syria, Iraq, and Libya are
+all excluded by the no-shock filter or by absence from the panel.
+Raw counts of new Lebanese athletes by year: 5 (2019), 0, 0, 4, 1
+(2020--2023). The new-arrivals DID is $\mathbf{-1.19^{***}}$ log
+points (SE 0.42), implying roughly a $70\%$ drop in inflow. The
+recovery in 2022 is partial. This is the \emph{extensive-margin}
+story: the affected channel is who arrives, not whether enrolled
+athletes stay.
 
-\paragraph{Venezuela (chronic instability, no discrete onset).}
-Venezuela is a comparator: its athlete sample is moderate (20--37
-per year) but the country has been in continuous political and
-economic deterioration since 2015. Retention by year (under-classmen,
-$y < 2023$): 0.60 (2019), 0.84 (2020), 0.59 (2021), 0.41 (2022).
-There is no event-study identification here because there is no
-onset, but the trajectory illustrates what a continuously-distressed
-country looks like at the retention margin: slow erosion to roughly
-half the unconditional 75\% baseline.
-
-\paragraph{Summary across cases.} Three shock types, three distinct
-margins.
+\paragraph{Summary across cases.}\footnote{Venezuela serves as a
+chronic-instability comparator without a discrete onset. Annual
+under-classman retention $0.60$, $0.84$, $0.59$, $0.41$ for
+2019--2022 (raw athlete-year counts $20$, $25$, $37$, $32$).
+The DID framework used for the other cases requires a treatment
+date, which Venezuela does not provide; the trajectory is reported
+here to illustrate what continuous-deterioration looks like at the
+retention margin without claiming a methodologically-comparable
+estimate.} Three shock types, three distinct margins.
 
 \begin{center}
 \small
@@ -981,24 +1005,26 @@ margins.
 \toprule
 Country  & Onset & Shock type        & Retention DID & Arrivals DID & Note \\
 \midrule
-Russia   & 2022  & War/sanctions     & $\mathbf{+0.162^{***}}$ & $-0.11$        & N$_{\text{treated}} = 195$ \\
-Ukraine  & 2022  & War/displacement  & $\mathbf{+0.081^{***}}$ & $-0.07$        & N$_{\text{treated}} = 83$ \\
-Lebanon  & 2020  & Financial         & n/a (N=8)               & $\mathbf{-1.22^{***}}$ & extensive only \\
-Venezuela & ---  & Chronic           & 0.60$\to$0.41 over 4 yr & stable count   & comparator \\
+Russia   & 2022  & War + sport bans  & $\mathbf{+0.162^{***}}$ & $-0.11$        & N$_{\text{treated}} = 195$ \\
+Ukraine  & 2022  & War (no bans)     & $\mathbf{+0.081^{***}}$ & $-0.07$        & N$_{\text{treated}} = 83$ \\
+Lebanon  & 2020  & Financial         & n/a (N=8)               & $\mathbf{-1.19^{***}}$ & extensive only \\
 \bottomrule
 \end{tabular}
 \end{center}
 
-\noindent The pattern across these four named events suggests an
-\emph{asymmetry} between shock types. War and sanction shocks
-(Russia, Ukraine) raise retention---athletes already in the U.S.\
-stay rather than go home, consistent with a destination-substitution
-or vanished-exit-options channel. Financial-crisis shocks (Lebanon)
-reduce new arrivals---prospective athletes appear to lose the
-funding capacity to commence enrollment, while the small number
-already enrolled remain. Chronic instability (Venezuela) shows
-neither a sharp inflow change nor a retention boost, but a slow
-erosion that the panel cannot disentangle from secular trend.
+\noindent \textbf{Shock type predicts margin of response.} War and
+sanction shocks bind intensively: enrolled athletes from affected
+countries stay in the U.S.\ rather than go home, consistent with a
+destination-substitution or vanished-exit-options channel. The
+Russia--Ukraine gap ($+16$ vs.\ $+8$ pp) decomposes naturally into
+a war-displacement component (shared) and a sport-ban-specific
+component (Russia only). Financial-crisis shocks bind extensively:
+prospective athletes from affected countries do not arrive,
+operating through household funding capacity, while the small
+number already enrolled remain. The two margins are different
+constraints---intensive responds to exit-option closure, extensive
+to inflow-funding closure---and the same population responds
+differently depending on which constraint binds.
 
 We make no claim that these four cases identify a population-level
 shock-response parameter. Each is an interpretable natural
@@ -1090,9 +1116,10 @@ coefficient was country composition rather than shock response; a
 within-country specification with country fixed effects flipped the
 sign of the security-shock coefficient; the TFRRS within-athlete
 performance result that initially appeared significant ($-0.4$ to
-$-0.6$ SD) is identified off only $\sim 3$ countries with shock
-variation in the panel and a cluster bootstrap on country places its
-$95\%$ CI on both sides of zero. The case-study cluster in
+$-0.6$ SD) is identified off only three countries with non-trivial
+shock variation in the panel (Nigeria, Israel, and Uganda), so the
+country-clustered SE is over-precise and a cluster bootstrap on
+country places the $95\%$ CI on both sides of zero. The case-study cluster in
 Section~\ref{sec:case-studies} is what the data can credibly
 support; a population-level shock-response estimate is a follow-up
 project requiring either more events or a richer longitudinal data
@@ -1140,11 +1167,11 @@ Sections~\ref{sec:extensive}--\ref{sec:event-split} is dominated by
 track (96\% of the cross-section international sample); within
 those sections, the empirical setting is the international
 track-and-field market specifically. The position-sorting and
-shock-response analyses in
+shock case studies in
 Sections~\ref{sec:position}, \ref{sec:panel}, and~\ref{sec:case-studies}
-use the eight-sport panel where track is one of eight roughly
-comparable sports and soccer drives the largest retention
-coefficient.
+use the eight-sport panel where track is one of eight comparable
+sports; the Russia and Ukraine case studies in particular draw on
+swimming, tennis, basketball, and ice hockey rather than track.
 
 \item \textbf{Cohort denominator approximation.} We use the average
 of the 15--24-year-old cohort 2018--2022 as the denominator. The
