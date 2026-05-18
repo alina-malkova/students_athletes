@@ -59,16 +59,31 @@ ceiling-bound to detect the athlete-level variation we identify.
 \section{Data}
 %========================================================================
 
-We construct a country-level panel of international student-athletes
-currently enrolled in NCAA Division~I rosters in the 2024--25 /
-2025--26 academic season. Athlete-level records are scraped from
-official athletic-department websites for soccer (660 athletes from
-27 schools) and track and field / cross country (18{,}657 athletes
-from 328 of 355 D-I programs; school coverage 92.4\%). Only 68 of
-1{,}830 international athletes compete in soccer, so we report the
-combined sample in headline tables but characterise the empirical
-setting throughout as the \textit{international track-and-field
-recruitment market}.
+We work with two complementary roster datasets. The
+\textbf{cross-section} (used in Sections~3.1--3.5) is a country-level
+panel of international student-athletes currently enrolled in NCAA
+Division~I rosters in the 2024--25 / 2025--26 academic season.
+Athlete-level records are scraped from official athletic-department
+websites for soccer (660 athletes from 27 schools) and track and
+field / cross country (18{,}657 athletes from 328 of 355 D-I
+programs; school coverage 92.4\%). Only 68 of 1{,}830 international
+athletes compete in soccer, so we report the combined sample in
+headline tables but the empirical setting in
+Sections~3.1--3.5 is the international track-and-field market
+specifically.
+
+The \textbf{2019--2023 multi-sport panel} (introduced in
+Section~\ref{sec:panel}, used in Sections~3.6--3.8) extends the
+roster scrape to eight sports (track, soccer, basketball, swimming,
+tennis, golf, ice hockey, volleyball) across 2019--2023 D-I
+athletic-department snapshots, yielding $260{,}737$ athlete-years.
+A separate cross-sectional pull adds NCAA Academic Progress Rate
+(121K records, 2005--2025) and Graduation Success Rate (117K
+records, cohorts 1998--2018) and an IPEDS + EADA join to
+institutional Carnegie classification, nonresident-alien enrollment
+share, and athletic finances. Individual TFRRS season-best marks
+add an athlete-event-year performance subsample for 244
+international track athletes.
 
 Hometown text is parsed from each roster page and mapped to ISO-3
 country codes via a normalisation procedure that combines US state
@@ -210,9 +225,9 @@ across methods: doubling the source-country 15--24 cohort raises NCAA
 athlete supply by considerably less than a factor of two.
 
 \textbf{Political stability is not pinned down.}\quad
-The OLS coefficient ($+0.37$, SE $0.24$) is statistically zero, but
+The OLS coefficient ($+0.37$, SE $0.25$) is statistically zero, but
 the data have only $\sim 80\%$ power to reject effects larger than
-$\text{MDE} = 1.96 \cdot 0.24 + 0.84 \cdot 0.24 \approx 0.68$
+$\text{MDE} = 1.96 \cdot 0.25 + 0.84 \cdot 0.25 \approx 0.70$
 \citep{cohen1988statistical}. The NegBin estimate is $+0.79$
 ($p<0.01$); the Heckman estimate is $+0.60$ ($p<0.10$). Both are
 near the OLS MDE. The most defensible reading is that we cannot
@@ -350,10 +365,11 @@ classification) show that supply is moderately concentrated for most
 events ($\text{HHI} \approx 0.18$--$0.30$) but extremely concentrated
 for Multi-Events ($\text{HHI} = 0.56$, with Western Europe supplying
 73\% of all international multi-event athletes). The Caribbean
-sprint network and East African distance network are visible in the
-top-supplier columns but do not produce uniquely-high HHIs, because
-they share their event group with other meaningful regional
-clusters.
+sprint and East-African distance networks produce the second
+($\text{HHI}=0.25$) and third-highest concentrations after multi-
+events, though they share their event group with other meaningful
+regional clusters (Sub-Saharan Africa for sprints, Western Europe
+for distance).
 
 \subsubsection*{Regional shares by event}
 
@@ -590,7 +606,10 @@ contains 260{,}737 athlete-years; after country-mapping and merging
 to the time-varying World Bank, WGI, UCDP, and EM-DAT panels, the
 country × year × sport long panel has $6{,}040$ cells across $152$
 countries, $5$ years, and $8$ sports (USA excluded as the
-destination country).
+destination country).\footnote{The $152 \times 5 \times 8 = 6{,}080$
+product implies 40 cells dropped due to missing WGI / WDI covariates
+for a handful of small island and post-conflict states in specific
+years.}
 
 The panel makes three things identifiable that the cross-section
 cannot:
@@ -801,8 +820,8 @@ Political-stability drop     & $\mathbf{-0.034^{**}}\phantom{^{*}}$ (0.015) & 19
 \end{tabular}
 \end{center}
 
-Pure macroeconomic shocks (GDP, currency, unemployment) do not move
-international retention. \emph{Security} shocks
+Pure macroeconomic shocks (GDP, currency) and severe natural
+disasters do not move international retention. \emph{Security} shocks
 do: a conflict episode or a sharp political-stability decline at
 home reduces same-school retention by 3.3--3.4 percentage points,
 about a 4.5\% relative drop from the 75\% baseline. The two security
@@ -822,10 +841,14 @@ intakes and the broadest country mix:
 Soccer ($N{=}6{,}125$)     & $\mathbf{-0.116^{***}}$ & $\mathbf{-0.092^{***}}$ \\
 Track ($N{=}3{,}187$)      & $\mathbf{-0.056^{***}}$ & $\mathbf{-0.054^{***}}$ \\
 Volleyball ($N{=}932$)     & $\mathbf{-0.063^{**}}\phantom{^{*}}$ & $\mathbf{-0.073^{**}}\phantom{^{*}}$ \\
-Ice Hockey ($N{=}1{,}315$) & $\mathbf{-0.098^{**}}\phantom{^{*}}$ & --- \\
+Ice Hockey ($N{=}1{,}315$) & $\mathbf{-0.098^{**}}\phantom{^{*}}$ & $+0.224$\footnotemark[1] \\
 Basketball, Swim, Tennis   & n.s.\ in either column           & \\
 \bottomrule
 \end{tabular}
+\footnotetext[1]{The ice-hockey polstab-drop coefficient flips
+positive and is driven by a small handful of athletes from a single
+country-year cell (Russia 2022) with high observed retention. We do
+not interpret this as a real positive effect.}
 \end{center}
 
 Soccer is the largest in absolute magnitude: an athlete whose home
@@ -887,9 +910,11 @@ retention, by sport.} Forest plot of $\beta$ on Pr(return to same
 school next year) for armed-conflict and political-stability-drop
 indicators, run separately within each of eight sports
 (year FE; country-clustered SE; 95\% CIs). Soccer, track,
-volleyball, and ice hockey show consistent negative effects of both
-shocks; basketball, swimming, tennis, and golf are
-indistinguishable from zero.}
+and volleyball show consistent negative effects on both shocks;
+ice hockey is negative on conflict only (the polstab coefficient
+is positive but driven by one country-year cell, see footnote~1);
+basketball, swimming, tennis, and golf are indistinguishable from
+zero.}
 \end{figure}
 
 \paragraph{Heterogeneity by region of origin.} The effect is not
@@ -906,9 +931,15 @@ MENA                             & $-0.023$ (0.032)             & $\mathbf{-0.05
 Sub-Saharan Africa (SSA)         & $-0.033$ (0.034)             & $-0.012$ (0.035) \\
 East Asia \& Pacific (EAP)       & $-0.039$ (0.034)             & $+0.236^{**}$ (0.114) \\
 Eastern Europe (EEU)             & $+0.025^{*}$ (0.015)         & $+0.036$ (0.036) \\
-Western Europe (WEU)             & $\approx 0$ (no variation)   & $\approx 0$ \\
+Western Europe (WEU)             & $\approx 0$\footnotemark[2]  & $\approx 0$ \\
+North America (NA)               & $\approx 0$\footnotemark[2]  & $\approx 0$ \\
+South Asia (SA)                  & \multicolumn{2}{c}{omitted---too few intl athletes} \\
 \bottomrule
 \end{tabular}
+\footnotetext[2]{Western Europe and North America have effectively
+no within-period shock variation on either indicator (no UCDP
+conflict and no WGI political-stability drop) so the coefficient is
+not identified separately from the year fixed effects.}
 \end{center}
 
 \noindent The Latin America \& Caribbean coefficient dominates the
@@ -1065,7 +1096,7 @@ program level.
 Sixth, \textbf{security shocks at home reduce both retention and
 performance; macroeconomic shocks do not}. Armed conflict and
 sharp drops in political stability cut the affected athlete's
-same-school retention by $3$--$3.4$ pp and within-athlete
+same-school retention by $3.3$--$3.4$ pp and within-athlete
 performance (on TFRRS marks) by $0.4$--$0.6$ SD. GDP shocks,
 currency crises, and severe natural disasters do not move either
 outcome. The pattern is consistent across both margins: the
@@ -1112,20 +1143,29 @@ is required to see it.
 %========================================================================
 
 \begin{itemize}
-\item \textbf{Cross-section, not panel.} Roster snapshots are
-2024--25 / 2025--26; macro covariates are 2023 and 2010--23
-aggregates. A descriptive pseudo-panel based on athletes' class-year
-gives at most five entry cohorts with no clean pre-period for any
-shock event.
+\item \textbf{Cross-section vs.\ panel by section.} Sections~3.1--3.5
+use the 2024--25 / 2025--26 cross-section ($n=19{,}317$ rosters,
+$1{,}830$ international athletes); macro covariates are 2023 and
+2010--23 aggregates. Sections~3.6--3.8 use a separately scraped
+2019--2023 multi-sport panel ($260{,}737$ athlete-years, eight
+sports). The two data sources do not nest---the cross-section has
+event-level detail (jumps, throws, distance, sprints) that the
+panel does not, while the panel has the year dimension and the
+team-sport coverage that the cross-section does not.
 
 \item \textbf{Coverage.} Hometown is observed for 87.6\% of track
-athletes; the unobserved 12.4\% are missing not at random
-(JS-rendered roster pages that systematically affect a few major
-D-I programs).
+athletes in the cross-section; the unobserved 12.4\% are missing
+not at random (JS-rendered roster pages that systematically affect
+a few major D-I programs).
 
-\item \textbf{Track-and-field dominance.} 96\% of the international
-sample competes in track. The paper's findings should be read as
-describing the international track-and-field market specifically.
+\item \textbf{Mixed sport coverage by section.} The two-margin
+extensive/intensive analysis in Sections~3.1--3.5 is dominated by
+track (96\% of the cross-section international sample); within
+those sections, the empirical setting is the international
+track-and-field market specifically. The position-sorting and
+shock-response analyses in Sections~3.6--3.8 use the eight-sport
+panel where track is one of eight roughly comparable sports and
+soccer drives the largest retention coefficient.
 
 \item \textbf{Cohort denominator approximation.} We use the average
 of the 15--24-year-old cohort 2018--2022 as the denominator. The
@@ -1219,6 +1259,30 @@ All results in this paper are reproducible from local Python scripts:
 \item \texttt{run\_bartik.py}, \texttt{run\_event\_study.py},
       \texttt{run\_paper\_outputs.py}: auxiliary results referenced
       in Sections~3.6 and~5.
+\item \texttt{run\_position\_analysis.py}: per-sport position
+      classifiers and international-share / regional-HHI tables
+      for the seven team sports (Section~\ref{sec:position}).
+\item \texttt{run\_position\_institution\_link.py}: merges athletes
+      to IPEDS HD2023, EF2023a NRAL share, and EADA athletic
+      finances; domestic-vs-international sorting tables.
+\item \texttt{run\_scrape\_apr.py}, \texttt{run\_scrape\_gsr.py}:
+      pull NCAA APR and GSR datasets from the CSRF-protected JSON
+      endpoint at \texttt{web3.ncaa.org/aprsearch/}.
+\item \texttt{run\_apr\_shocks.py}, \texttt{run\_gsr\_shocks.py}:
+      regress APR / GSR / FGR on team-year shock exposure
+      (Section~5 caveats bullet).
+\item \texttt{run\_retention\_shocks.py}: athlete-year retention
+      panel, own-shock and peer-spillover regressions
+      (Section~\ref{sec:retention} baseline).
+\item \texttt{run\_retention\_heterogeneity.py}: region splits,
+      lagged shocks, transfer-vs-exit decomposition.
+\item \texttt{make\_retention\_forest.py}: produces
+      \texttt{output/fig\_retention\_by\_sport.png}.
+\item \texttt{run\_tfrrs\_performance.py}: scrape individual TFRRS
+      season-best marks for the matched international athletes.
+\item \texttt{run\_tfrrs\_perf\_shocks.py}: parse heterogeneous mark
+      strings, within-event $z$-score, within-athlete + year FE
+      regression on home-country shocks.
 \end{itemize}
 
 %========================================================================
