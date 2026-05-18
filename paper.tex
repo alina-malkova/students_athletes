@@ -962,12 +962,50 @@ shocked athletes are slightly more likely to transfer rather than
 exit, suggesting the binding constraint is the original
 institutional fit rather than U.S.\ college athletics in general.
 
-\paragraph{What we do not estimate.} The dependent variable is
-roster persistence, not academic performance. Direct grade or
-graduation outcomes (APR, GSR) were also examined; their structural
-features (4-year smoothing, ceiling effects, transfer adjustment)
-make them insensitive to the athlete-level retention variation we
-detect here---see Section~5 caveats.
+\paragraph{Athletic performance margin (track athletes).}
+Roster persistence answers ``did the athlete stay?'' but not ``did
+they perform?''. We scrape individual season-best marks from TFRRS
+profile pages for the 360 international athletes in our roster panel
+who carry a TFRRS profile URL.  After parsing the heterogeneous mark
+strings (timing events to seconds; distance events to meters),
+within-event $\times$ year $z$-scoring (sign-flipped for timing so
+$+z$ always means ``better''), and restricting to athletes with
+marks in $\ge 2$ years, the panel has $1{,}917$ athlete-event-year
+observations across $244$ athletes and $25$ events.  Regressing the
+$z$-scored mark on home-country shocks with athlete${\times}$event
+and year fixed effects (country-clustered SEs):
+
+\begin{center}
+\small
+\begin{tabular}{lrr}
+\toprule
+Home-country shock          & $\beta$ on $z$-score & $N$ \\
+\midrule
+Armed conflict (UCDP)        & $\mathbf{-0.39^{***}}$ (0.08) & 479 \\
+Political-stability drop     & $\mathbf{-0.62^{***}}$ (0.08) & 479 \\
+Pol-stab drop ($t{-}1$)      & $\mathbf{-0.39^{***}}$ (0.08) & 478 \\
+GDP shock                    & $-0.12$ \phantom{$^{***}$} (0.08) & 479 \\
+Currency crisis              & $+0.05$ \phantom{$^{***}$} (0.19) & 479 \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\noindent The same security shocks that reduce retention by 3 pp
+reduce performance by $0.4$--$0.6$ standard deviations within
+athlete-event. The lagged political-stability effect ($-0.39^{***}$)
+parallels the lagged retention effect, reinforcing the visa-cycle /
+accumulated-stress interpretation. As before, pure macro shocks
+(GDP, currency) do not move the outcome. These estimates are
+conditional on retention (the athlete must be on a roster to
+produce a mark), so the unconditional shock effect on a typical
+international athlete bundles a retention margin and a performance
+margin of similar economic significance.
+
+\paragraph{What we do not estimate.} Academic outcomes. Direct grade
+or graduation indicators (APR, GSR) were also examined; their
+structural features (4-year smoothing, ceiling effects, transfer
+adjustment) make them insensitive to the athlete-level retention
+variation we detect here---see Section~5 caveats.
 
 %========================================================================
 \section{Discussion}

@@ -1,0 +1,13 @@
+spec,var,beta,se,p,stars,N
+event + year FE,any_conflict,-0.0115,0.2703,0.966,,479
+athlete×event + year FE,any_conflict,-0.3929,0.0786,0.0,***,479
+event + year FE,polstab_drop,0.0437,0.2755,0.8739,,479
+athlete×event + year FE,polstab_drop,-0.6209,0.079,0.0,***,479
+event + year FE,gdp_shock,0.1111,0.1079,0.3034,,479
+athlete×event + year FE,gdp_shock,-0.1246,0.0792,0.1155,,479
+event + year FE,currency_crisis,0.0922,0.1699,0.5876,,479
+athlete×event + year FE,currency_crisis,0.0488,0.1878,0.7951,,479
+event + year FE,any_conflict_lag1,-0.0258,0.267,0.923,,478
+athlete×event + year FE,any_conflict_lag1,-0.2838,0.3299,0.3895,,478
+event + year FE,polstab_drop_lag1,0.035,0.2803,0.9006,,478
+athlete×event + year FE,polstab_drop_lag1,-0.3929,0.0786,0.0,***,478
