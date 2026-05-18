@@ -22,43 +22,37 @@ Entry, Sublinear Scaling, and Home-Country Shock Response}
 \maketitle
 
 \begin{abstract}
-We construct a country-level panel of international student-athletes
-in U.S.\ NCAA Division~I rosters for the 2024--25 / 2025--26 season
-(track and field, $n = 18{,}657$; soccer, $n = 660$). The empirical
-setting is the international track-and-field market (96\% of the
-international sample). We decompose athlete supply along two margins.
-\textbf{On the extensive margin} (whether a country sends any
-athletes), log GDP per capita and log population are strong
-independent predictors ($\hat\beta = 0.52$ and $0.18$ respectively,
-both $p<0.01$); political stability is not. \textbf{On the intensive
-margin} the headline fact is that athletes scale sublinearly with
-source-country population: estimated cohort elasticities are $0.33$
-in OLS on log-counts, $0.48$ in a Negative Binomial, and $0.61$ in a
-Heckman two-step that corrects for selection into the sender pool.
-Quantile regression sharpens the picture: the elasticity is $0.24$
-at the 25th percentile of supply and $0.51$ at the 75th, indicating
-diminishing returns at low supply and roughly-proportional scaling
-at high supply. Political stability is statistically zero in OLS
-($\hat\beta = 0.38$, $\text{SE} = 0.24$) but the data have only $\sim 80\%$
-power to reject effects larger than $0.68$; in count-data (NegBin)
-and selection-corrected (Heckman) specifications the same coefficient
-is $+0.79$ ($p<0.01$) and $+0.60$ ($p<0.10$). We therefore cannot
-make a strong statement on the intensive-margin role of governance;
-the data are consistent with a moderately positive effect.
-Within-event regressions reveal that the country-panel result
-averages over very different sport-specific structures: the Caribbean
-sprint pipeline and the East African distance-running pipeline
-respond to different economic primitives. An earlier draft of this
-work reported large institutional and disaster-event effects in a
-rate-model specification (athletes per cohort with $\log\text{pop}$
-omitted); we show in Section~3.3 that those coefficients are
-artefacts of the rate model's implicit unit-elasticity restriction,
-and we retract that framing. Macro covariates explain 21\% of
-intensive-margin variation; eight regional fixed effects add another
-11\%; country-specific recruitment pipelines (Kenya--Iten,
-Jamaica--MVP, the Caribbean sprint network) plausibly account for
-the rest. Finally, we extend the analysis with a country~$\times$~year~$\times$~sport panel for eight sports over 2019--2023 ($260{,}737$ athlete-years). Two-way fixed-effects on the panel show that the cross-sectional political-stability coefficient is \textbf{entirely between-country composition}: $+0.34$ ($p<0.01$) in pooled OLS collapses to $-0.005$ once country fixed effects are added. A clean COVID natural experiment from differential sport disruption (soccer and volleyball lost $14\%$ of their 2020 rosters relative to the six other sports; the effect is transitory and recovers by 2021) is identified at $-0.143$ ($p<0.01$). Disaster and conflict effects also wash out under country FE; only a binary GDP-shock indicator survives at $-2.5\%$ per recession year ($p<0.10$).
-At the athlete level, we link the same eight-sport roster panel to home-country shock indicators and show that armed conflict or a sharp drop in political stability at home reduces the affected athlete's probability of returning to the same U.S.~school the following year by 3.3--3.4 percentage points ($p<0.05$), with effects concentrated in soccer ($-11.6$ pp), track ($-5.6$ pp), volleyball ($-7.3$ pp) and ice hockey ($-9.8$ pp). The effect is larger at a one-year lag ($-9.4$ pp, $p<0.10$), consistent with visa-cycle or accumulated-stress mechanisms. Roughly one-third of the retention drop is intra-NCAA transfer; two-thirds is exit. The same shocks spill over to domestic teammates' retention at half the magnitude. Pure macroeconomic shocks (GDP, currency, disasters) do not move retention. NCAA Academic Progress Rate and Graduation Success Rate are too smoothed and ceiling-bound to detect this athlete-level effect.
+We construct an international NCAA Division~I athlete panel from a
+2024--25 cross-section of 19{,}317 track-and-field and soccer
+rosters, an eight-sport multi-year panel of 260{,}737 athlete-years
+(2019--2023), and a subsample of TFRRS individual season-best
+marks. \textbf{On the extensive margin}, log GDP per capita and log
+population predict whether a country sends any athletes
+($\hat\beta=0.52$, $0.18$; both $p<0.01$); political stability does
+not. \textbf{On the intensive margin}, athletes scale sublinearly
+with source-country population: cohort elasticities of $0.33$ (OLS),
+$0.48$ (NegBin), and $0.61$ (Heckman, selection-corrected). The
+political-stability coefficient is fragile across specifications
+and, in the eight-sport panel, the cross-sectional
+$+0.34$ ($p<0.01$) collapses to $-0.005$ once country fixed effects
+are added---\emph{the cross-country result is entirely
+between-country composition}. A COVID natural experiment from
+differential sport disruption yields a $-0.143$ ($p<0.01$) transitory
+effect for soccer and volleyball relative to other sports.
+\textbf{At the athlete level}, armed conflict or a sharp drop in
+political stability at home reduces the probability of returning to
+the same U.S.~school by $3.3$--$3.4$ pp ($p<0.05$); soccer and ice
+hockey drive the effect ($-11.6$ pp and $-9.8$ pp). The retention
+response is larger one year later ($-9.4$ pp, $p<0.10$), consistent
+with visa-cycle or accumulated-stress channels; roughly a third of
+the drop is intra-NCAA transfer and two-thirds is exit. The same
+shocks spill over to domestic teammates' retention at half the
+magnitude. \textbf{On the performance margin} (TFRRS marks
+$z$-scored within event), the same shocks reduce within-athlete
+performance by $0.4$--$0.6$ SD ($p<0.01$). Pure macroeconomic
+shocks (GDP, currency) move none of these outcomes; only security
+shocks do. NCAA APR/GSR aggregates are too smoothed and
+ceiling-bound to detect the athlete-level variation we identify.
 \end{abstract}
 
 %========================================================================
