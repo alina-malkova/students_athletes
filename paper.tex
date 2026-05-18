@@ -14,7 +14,7 @@
 \setlength{\parskip}{0.5em}
 
 \title{Two Margins of International Athlete\\Recruitment to NCAA Division~I:\\
-Entry, Sublinear Scaling, and Home-Country Shock Response}
+Entry, Sublinear Scaling, and Shock-Response Case Studies}
 \author{Alina Malkova\\Florida Institute of Technology}
 \date{\today}
 
@@ -39,21 +39,18 @@ are added---\emph{the cross-country result is entirely
 between-country composition}. A COVID natural experiment from
 differential sport disruption yields a $-0.143$ ($p<0.01$) transitory
 effect for soccer and volleyball relative to other sports.
-\textbf{At the athlete level}, armed conflict or a sharp drop in
-political stability at home reduces the probability of returning to
-the same U.S.~school by $3.3$--$3.4$ pp ($p<0.05$); soccer drives
-the effect with conflict and polstab-drop coefficients of $-11.6$ pp
-and $-9.2$ pp respectively. The retention
-response is larger one year later ($-9.4$ pp, $p<0.10$), consistent
-with visa-cycle or accumulated-stress channels; roughly a third of
-the drop is intra-NCAA transfer and two-thirds is exit. The same
-shocks spill over to domestic teammates' retention at half the
-magnitude. \textbf{On the performance margin} (TFRRS marks
-$z$-scored within event), the same shocks reduce within-athlete
-performance by $0.4$--$0.6$ SD ($p<0.01$). Pure macroeconomic
-shocks (GDP, currency) move none of these outcomes; only security
-shocks do. NCAA APR/GSR aggregates are too smoothed and
-ceiling-bound to detect the athlete-level variation we identify.
+\textbf{Four shock case studies} examine named events. Russian
+($N{=}195$, $p<0.001$) and Ukrainian ($N{=}83$, $p<0.01$)
+under-classman athletes are 16 and 8 percentage points
+\emph{more} likely to return to their U.S.\ school after the 2022
+invasions, relative to a same-region donor pool---consistent with
+a destination-substitution channel where home exit options
+vanish. The 2020 Lebanese financial collapse instead cuts new
+arrivals by $\sim 70\%$ ($\log\beta = -1.22$, $p<0.01$) without a
+detectable change in retention---an extensive-margin channel
+operating through household funding capacity. Chronic Venezuelan
+instability shows neither a sharp inflow change nor a retention
+boost but a slow retention erosion (0.60 to 0.41 over four years).
 \end{abstract}
 
 %========================================================================
@@ -78,7 +75,7 @@ specifically.
 
 The \textbf{2019--2023 multi-sport panel} (introduced in
 Section~\ref{sec:panel}, used in
-Sections~\ref{sec:position}, \ref{sec:panel}, and~\ref{sec:retention})
+Sections~\ref{sec:position}, \ref{sec:panel}, and~\ref{sec:case-studies})
 extends the roster scrape to eight sports (track, soccer, basketball, swimming,
 tennis, golf, ice hockey, volleyball) across 2019--2023 D-I
 athletic-department snapshots, yielding $260{,}737$ athlete-years.
@@ -791,256 +788,133 @@ remain unexplained even with both---consistent with the discussion
 in Section~\ref{sec:discussion} that country-specific (not
 region-specific) pipeline structure dominates.
 
-\subsection{Home-country shocks and athlete retention}
-\label{sec:retention}
+\subsection{Four shock case studies}
+\label{sec:case-studies}
 
-The country panel measures \emph{entry}: how many international athletes
-arrive in a given country-year. A complementary margin is
-\emph{persistence}---once an international athlete is on a U.S. NCAA
-roster, do shocks at home affect whether they remain enrolled? And do
-those shocks spill over to their domestic teammates? We use the 2019--2023
-athlete-year roster panel (8 sports, $N{=}260{,}737$ athlete-years) and
-define the outcome as whether the athlete appears on the same school's
-roster in year $t{+}1$.\footnote{Athlete identifier is the
-school${\times}$sport${\times}$gender${\times}$name string. Name
-collisions are possible but rare within a school${\times}$sport. The
-sample is restricted to under-classmen so that scheduled graduation
-does not dominate the variation.} Mean retention is 75.1\%; the gap
-between international (74.7\%) and domestic (75.2\%) is negligible
-unconditionally.
+A panel regression approach to shock response on the eight-sport
+roster panel did not survive proper identification checks: the
+cross-country variation that drove an initial $-3$ pp retention
+finding was country composition rather than within-country shock
+response, and a within-country specification with country fixed
+effects flipped the sign on the security-shock indicators. A
+within-athlete TFRRS performance specification yielded a similar
+point estimate but failed a cluster bootstrap on country (the
+effective number of clusters carrying shock variation is roughly
+three, so the country-clustered SE was $2.7$--$3.9 \times$
+over-precise).\footnote{Diagnostics are in
+\texttt{run\_retention\_country\_fe.py},
+\texttt{run\_peer\_school\_fe.py}, and
+\texttt{run\_tfrrs\_robustness.py}. The 95\% cluster-bootstrap CIs on
+the TFRRS within-athlete coefficients include zero for both
+conflict and political-stability indicators.}
 
-\paragraph{Own-shock effects.} We regress $\Pr(\text{return}_{i,t+1})$
-on a shock indicator for athlete $i$'s home country in year $t$,
-including year and sport fixed effects, with standard errors clustered
-at the country level.
+We turn instead to four named natural experiments where the shock,
+the affected country, and the outcome are interpretable on their
+own merits. For each treated country we build a donor pool of
+same-region countries with no shock onset in 2019--2023 and
+estimate a simple difference-in-differences on two outcomes:
+\textit{retention} (whether an athlete on the under-classman roster
+in year $t$ appears on the same school's roster in year $t+1$) and
+\textit{new arrivals} (number of first-observed athletes from the
+country in each year, in $\log(1+\text{count})$ form). Standard
+errors are country-clustered for the retention DID and HC1 for the
+country-year arrivals DID.
+
+\paragraph{Russia 2022 (invasion / sanctions / sport bans).}
+The treated sample is 195 Russian under-classman athlete-years
+between 2019 and 2022, drawn from swimming (31\%), tennis (28\%),
+basketball (16\%), and ice hockey (8\%). The donor pool is 22
+Eastern-European countries with no shock indicator in the panel
+period. The retention DID is $\mathbf{+0.162^{***}}$ (SE 0.027):
+Russian athletes are 16 pp \emph{more} likely to return to their
+U.S.\ school after the 2022 invasion than they were before, relative
+to the donor pool. Raw retention rates by year:
 
 \begin{center}
 \small
-\begin{tabular}{lrrr}
+\begin{tabular}{lrrrr}
 \toprule
-Home-country shock           & $\beta$ on Pr(return) & $N$ \\
+       & 2019  & 2020  & 2021  & 2022 \\
 \midrule
-GDP shock (z $<-1.5$)         & $-0.002\phantom{^{***}}$ (0.026) & 19{,}921 \\
-Currency crisis              & $-0.004\phantom{^{***}}$ (0.024) & 19{,}921 \\
-Severe disaster              & $-0.006\phantom{^{***}}$ (0.011) & 19{,}921 \\
-Armed conflict (UCDP)        & $\mathbf{-0.033^{**}}\phantom{^{*}}$ (0.014) & 19{,}921 \\
-Political-stability drop     & $\mathbf{-0.034^{**}}\phantom{^{*}}$ (0.015) & 19{,}921 \\
+Russia & 0.85  & 0.70  & 0.67  & \textbf{0.90} \\
+Donors & 0.75  & 0.80  & 0.77  & 0.78 \\
 \bottomrule
 \end{tabular}
 \end{center}
 
-Pure macroeconomic shocks (GDP, currency) and severe natural
-disasters do not move international retention. \emph{Security} shocks
-do: a conflict episode or a sharp political-stability decline at
-home reduces same-school retention by 3.3--3.4 percentage points,
-about a 4.5\% relative drop from the 75\% baseline. The two security
-indicators are partially correlated but not redundant; running them
-jointly yields very similar magnitudes.
+\noindent The 2020--2021 dip is consistent with COVID-era variation
+visible in the donor pool. The 2022 retention figure is the highest
+of the panel. The new-arrivals DID is $-0.11$ log points (n.s.):
+extensive-margin recruitment continues at a slightly lower rate but
+the change is not distinguishable from the COVID-era baseline. The
+clean fact is the retention jump.
 
-\paragraph{Sport heterogeneity.} The conflict and political-stability
-effects are concentrated in the sports with the largest international
-intakes and the broadest country mix:
+\paragraph{Ukraine 2022 (invasion / displacement).}
+The treated sample is 83 Ukrainian under-classman athlete-years,
+also 22-country EEU donor pool. Retention DID is
+$\mathbf{+0.081^{***}}$ (SE 0.025). Raw retention 2019--2022:
+0.78, 0.71, 0.89, 0.86. The 2021 figure already moves before the
+February-2022 invasion, consistent with on-the-ground tension
+preceding the formal invasion date. New-arrivals DID is $-0.07$ log
+(n.s.). The Ukrainian and Russian patterns are similar in
+direction, with Russia roughly twice the magnitude.
 
-\begin{center}
-\small
-\begin{tabular}{lrr}
-\toprule
-                           & Conflict $\beta$ & Polstab-drop $\beta$ \\
-\midrule
-Soccer ($N{=}6{,}125$)     & $\mathbf{-0.116^{***}}$ & $\mathbf{-0.092^{***}}$ \\
-Track ($N{=}3{,}187$)      & $\mathbf{-0.056^{***}}$ & $\mathbf{-0.054^{***}}$ \\
-Volleyball ($N{=}932$)     & $\mathbf{-0.063^{**}}\phantom{^{*}}$ & $\mathbf{-0.073^{**}}\phantom{^{*}}$ \\
-Ice Hockey ($N{=}1{,}315$) & $\mathbf{-0.098^{**}}\phantom{^{*}}$ & $+0.224$\footnotemark[1] \\
-Basketball, Swim, Tennis   & n.s.\ in either column           & \\
-\bottomrule
-\end{tabular}
-\footnotetext[1]{The ice-hockey polstab-drop coefficient flips
-positive and is driven by a small handful of athletes from a single
-country-year cell (Russia 2022) with high observed retention. We do
-not interpret this as a real positive effect.}
-\end{center}
+\paragraph{Lebanon 2020 (financial collapse).}
+The Lebanese financial crisis (October 2019) and the 2020 currency
+collapse are an \emph{economic} shock rather than a security shock.
+The retention sample is only 8 under-classman athlete-years (too
+small to interpret a DID), but new arrivals are observable. Raw
+counts of new Lebanese athletes by year: 5 (2019), 0, 0, 4, 1
+(2020--2023, $n = 8$ MENA donors). The new-arrivals DID is
+$\mathbf{-1.22^{***}}$ log points (SE 0.42), implying roughly a
+$70\%$ drop in inflow. The recovery in 2022 is partial. This is
+the \emph{extensive-margin} story: the affected channel is who
+arrives, not whether enrolled athletes stay.
 
-Soccer is the largest in absolute magnitude: an athlete whose home
-country experiences armed conflict in year $t$ is 11.6 pp less likely
-to remain on the same U.S. roster the next year---roughly one in nine
-soccer players exits at the margin.
+\paragraph{Venezuela (chronic instability, no discrete onset).}
+Venezuela is a comparator: its athlete sample is moderate (20--37
+per year) but the country has been in continuous political and
+economic deterioration since 2015. Retention by year (under-classmen,
+$y < 2023$): 0.60 (2019), 0.84 (2020), 0.59 (2021), 0.41 (2022).
+There is no event-study identification here because there is no
+onset, but the trajectory illustrates what a continuously-distressed
+country looks like at the retention margin: slow erosion to roughly
+half the unconditional 75\% baseline.
 
-\paragraph{Peer spillovers.} If a shock disrupts an international
-athlete enough to change their retention, does it also affect their
-domestic teammates? We construct, for each domestic athlete-year, the
-exposure
-\[
-\text{Expo}_{i,t} \;=\; s^{\text{intl}}_{(s, t)} \cdot
-\bar{D}_{(s,t)}^{\text{shock}}
-\]
-where $s^{\text{intl}}_{(s,t)}$ is the share of athlete $i$'s team
-that is international and $\bar{D}_{(s,t)}^{\text{shock}}$ is the
-average shock indicator across those international teammates' home
-countries. The coefficient is identified from cross-school variation
-in roster composition interacted with which countries were shocked
-when.
+\paragraph{Summary across cases.} Three shock types, three distinct
+margins.
 
 \begin{center}
 \small
-\begin{tabular}{lrr}
+\begin{tabular}{lrlrll}
 \toprule
-Exposure of domestic athlete to ...     & $\beta$ & $N$ \\
+Country  & Onset & Shock type        & Retention DID & Arrivals DID & Note \\
 \midrule
-Currency-crisis teammates             & $+0.052\phantom{^{***}}$ (0.120) & 122{,}513 \\
-GDP-shocked teammates                 & $+0.020\phantom{^{***}}$ (0.045) & 122{,}513 \\
-Conflict-affected teammates           & $\mathbf{-0.209^{**}}\phantom{^{*}}$ (0.100) & 122{,}513 \\
-Politically-unstable-home teammates   & $\mathbf{-0.267^{***}}$ (0.104) & 122{,}513 \\
+Russia   & 2022  & War/sanctions     & $\mathbf{+0.162^{***}}$ & $-0.11$        & N$_{\text{treated}} = 195$ \\
+Ukraine  & 2022  & War/displacement  & $\mathbf{+0.081^{***}}$ & $-0.07$        & N$_{\text{treated}} = 83$ \\
+Lebanon  & 2020  & Financial         & n/a (N=8)               & $\mathbf{-1.22^{***}}$ & extensive only \\
+Venezuela & ---  & Chronic           & 0.60$\to$0.41 over 4 yr & stable count   & comparator \\
 \bottomrule
 \end{tabular}
 \end{center}
 
-The same two shocks that move international athletes' own retention
-also move their domestic teammates'. The coefficients are scaled to
-``fully exposed'' teams ($s^{\text{intl}}{=}1$, all from shocked
-countries); a more realistic 20\% international roster with half
-from a politically-unstable country (Expo${=}0.10$) implies a
-$2.7$ pp drop in domestic retention---about half the direct
-effect on the shocked athletes themselves.
+\noindent The pattern across these four named events suggests an
+\emph{asymmetry} between shock types. War and sanction shocks
+(Russia, Ukraine) raise retention---athletes already in the U.S.\
+stay rather than go home, consistent with a destination-substitution
+or vanished-exit-options channel. Financial-crisis shocks (Lebanon)
+reduce new arrivals---prospective athletes appear to lose the
+funding capacity to commence enrollment, while the small number
+already enrolled remain. Chronic instability (Venezuela) shows
+neither a sharp inflow change nor a retention boost, but a slow
+erosion that the panel cannot disentangle from secular trend.
 
-\paragraph{Mechanism interpretation.} Three patterns are consistent
-with the data: (i) the responsive shocks are those that disrupt
-\emph{contact with home} (conflict, regime instability) rather than
-disrupting \emph{financial flows} (GDP, currency); (ii) the spillover
-to teammates is consistent with team-level disruption (training time
-lost, coaching attention redirected, roster instability mid-season);
-(iii) the effect concentrates in the team sports with the largest
-international rosters.
-
-\begin{figure}[h]
-\centering
-\includegraphics[width=0.82\linewidth]{output/fig_retention_by_sport.png}
-\caption{\textit{Home-country shock effects on international athlete
-retention, by sport.} Forest plot of $\beta$ on Pr(return to same
-school next year) for armed-conflict and political-stability-drop
-indicators, run separately within each of eight sports
-(year FE; country-clustered SE; 95\% CIs). Soccer, track,
-and volleyball show consistent negative effects on both shocks;
-ice hockey is negative on conflict only (the polstab coefficient
-is positive but driven by one country-year cell, see footnote~1);
-basketball, swimming, tennis, and golf are indistinguishable from
-zero.}
-\end{figure}
-
-\paragraph{Heterogeneity by region of origin.} The effect is not
-uniform across the eight world regions used elsewhere in the paper.
-
-\begin{center}
-\small
-\begin{tabular}{lrr}
-\toprule
-Region of origin                 & Conflict $\beta$ & Polstab-drop $\beta$ \\
-\midrule
-Latin America \& Caribbean (LAC) & $\mathbf{-0.032^{***}}$ (0.007) & $-0.088$ (0.060) \\
-MENA                             & $-0.023$ (0.032)             & $\mathbf{-0.050^{*}}$ (0.027) \\
-Sub-Saharan Africa (SSA)         & $-0.033$ (0.034)             & $-0.012$ (0.035) \\
-East Asia \& Pacific (EAP)       & $-0.039$ (0.034)             & $+0.236^{**}$ (0.114) \\
-Eastern Europe (EEU)             & $+0.025^{*}$ (0.015)         & $+0.036$ (0.036) \\
-Western Europe (WEU)             & $\approx 0$\footnotemark[2]  & $\approx 0$ \\
-North America (NA)               & $\approx 0$\footnotemark[2]  & $\approx 0$ \\
-South Asia (SA)                  & \multicolumn{2}{c}{omitted---too few intl athletes} \\
-\bottomrule
-\end{tabular}
-\footnotetext[2]{Western Europe and North America have effectively
-no within-period shock variation on either indicator (no UCDP
-conflict and no WGI political-stability drop) so the coefficient is
-not identified separately from the year fixed effects.}
-\end{center}
-
-\noindent The Latin America \& Caribbean coefficient dominates the
-conflict channel ($-3.2$ pp, $p<0.01$), consistent with the period's
-shocks affecting Venezuela, Haiti, and parts of Central America. The
-MENA region carries the political-stability-drop signal. The EAP
-positive coefficient is driven by a small sample; we do not interpret
-it.
-
-\paragraph{Lagged effects.} The retention response is larger at a
-one-year lag than contemporaneously. In a joint specification
-including both year-$t$ and year-$t-1$ conflict indicators, the
-contemporaneous coefficient is $+0.045$ (n.s.) and the lagged
-coefficient is $\mathbf{-0.094^{*}}$ ($p<0.10$). Mechanism candidates
-consistent with this timing pattern: F-1 / J-1 visa renewal cycles
-that bind in the spring of year $t+1$; remittance flows that take a
-season to deplete; accumulated stress reaching a threshold over the
-academic year. We cannot separate these channels with the data on
-hand but the lag structure is itself informative.
-
-\paragraph{Transfer versus exit.} The shock-induced retention drop
-is not entirely exit from U.S.\ college athletics. We construct a
-``return-anywhere'' indicator that equals 1 if the athlete reappears
-on \emph{any} NCAA roster the following year (matching by
-sport${\times}$gender${\times}$name). The unconditional intra-NCAA
-transfer rate is $3.2\%$. Decomposing the shock effect by destination:
-
-\begin{center}
-\small
-\begin{tabular}{lrrr}
-\toprule
-Outcome                     & Conflict $\beta$ & Polstab-drop $\beta$ \\
-\midrule
-Return same school          & $\mathbf{-0.033^{**}}$ (0.014) & $\mathbf{-0.034^{**}}$ (0.015) \\
-Return anywhere in NCAA     & $\mathbf{-0.027^{*}}\phantom{^{*}}$ (0.015) & $-0.021$ (0.017) \\
-Intra-NCAA transfer         & $+0.006^{*}$ (0.004)         & $\mathbf{+0.012^{***}}$ (0.004) \\
-\bottomrule
-\end{tabular}
-\end{center}
-
-\noindent Roughly one-third of the same-school retention drop is
-absorbed by intra-NCAA transfers (the athlete reappears at a different
-U.S.\ school the following year); two-thirds is genuine exit. Polstab-
-shocked athletes are slightly more likely to transfer rather than
-exit, suggesting the binding constraint is the original
-institutional fit rather than U.S.\ college athletics in general.
-
-\paragraph{Athletic performance margin (track athletes).}
-Roster persistence answers ``did the athlete stay?'' but not ``did
-they perform?''. We scrape individual season-best marks from TFRRS
-profile pages for the 360 international athletes in our roster panel
-who carry a TFRRS profile URL.  After parsing the heterogeneous mark
-strings (timing events to seconds; distance events to meters),
-within-event $\times$ year $z$-scoring (sign-flipped for timing so
-$+z$ always means ``better''), and restricting to athletes with
-marks in $\ge 2$ years, the panel has $1{,}917$ athlete-event-year
-observations across $244$ athletes and $25$ events.  Regressing the
-$z$-scored mark on home-country shocks with athlete${\times}$event
-and year fixed effects (country-clustered SEs):
-
-\begin{center}
-\small
-\begin{tabular}{lrr}
-\toprule
-Home-country shock          & $\beta$ on $z$-score & $N$ \\
-\midrule
-Armed conflict (UCDP)        & $\mathbf{-0.39^{***}}$ (0.08) & 479 \\
-Political-stability drop     & $\mathbf{-0.62^{***}}$ (0.08) & 479 \\
-Pol-stab drop ($t{-}1$)      & $\mathbf{-0.39^{***}}$ (0.08) & 478 \\
-GDP shock                    & $-0.12$ \phantom{$^{***}$} (0.08) & 479 \\
-Currency crisis              & $+0.05$ \phantom{$^{***}$} (0.19) & 479 \\
-\bottomrule
-\end{tabular}
-\end{center}
-
-\noindent The same security shocks that reduce retention by 3 pp
-reduce performance by $0.4$--$0.6$ standard deviations within
-athlete-event. The lagged political-stability effect ($-0.39^{***}$)
-parallels the lagged retention effect, reinforcing the visa-cycle /
-accumulated-stress interpretation. As before, pure macro shocks
-(GDP, currency) do not move the outcome. These estimates are
-conditional on retention (the athlete must be on a roster to
-produce a mark), so the unconditional shock effect on a typical
-international athlete bundles a retention margin and a performance
-margin of similar economic significance.
-
-\paragraph{What we do not estimate.} Academic outcomes. Direct grade
-or graduation indicators (APR, GSR) were also examined; their
-structural features (4-year smoothing, ceiling effects, transfer
-adjustment) make them insensitive to the athlete-level retention
-variation we detect here---see Section~5 caveats.
-
+We make no claim that these four cases identify a population-level
+shock-response parameter. Each is an interpretable natural
+experiment with a small but visible donor pool and a clean treatment
+date. A complete shock-response analysis would require either
+more events or a richer longitudinal data source; both are
+follow-up work.
 %========================================================================
 \section{Discussion}
 \label{sec:discussion}
@@ -1102,50 +976,50 @@ resource gradient. Whatever recruitment intensity drives
 international entry, it operates at the position level, not the
 program level.
 
-Sixth, \textbf{security shocks at home reduce both retention and
-performance; macroeconomic shocks do not}. Armed conflict and
-sharp drops in political stability cut the affected athlete's
-same-school retention by $3.3$--$3.4$ pp and within-athlete
-performance (on TFRRS marks) by $0.4$--$0.6$ SD. GDP shocks,
-currency crises, and severe natural disasters do not move either
-outcome. The pattern is consistent across both margins: the
-binding constraint on staying and on competing is
-\emph{disruption of contact with home}, not financial disruption
-of the household. The retention effect is larger one year after
-the shock than contemporaneously ($-9.4$ pp at $t{-}1$ vs.
-$+4.5$ pp at $t$), and the performance effect shows the same lag
-structure, consistent with mechanisms that bind on a renewal
-cycle (F-1/J-1 visa) or accumulate over an academic year
-(remittance depletion, family-emergency stress).
+Sixth, \textbf{war and sanction shocks raise retention; financial
+shocks lower new arrivals}. Four named events
+(Section~\ref{sec:case-studies}) produce three distinct margins of
+response. Russian and Ukrainian under-classman athletes are
+$+16$ and $+8$ percentage points more likely to return to their
+U.S.\ schools after the 2022 invasions than donor-pool peers; the
+clean direction is ``stay'' rather than ``go,'' consistent with
+home exit options being closed off by displacement and sport bans.
+The 2020 Lebanese financial collapse cuts new arrivals by roughly
+$70\%$ without changing the retention of the small enrolled sample
+($N{=}8$): financial shocks bite extensively, security shocks
+intensively. Chronic instability (Venezuela) erodes retention
+slowly ($0.60$ to $0.41$ over four years) without producing a
+discrete pulse on either margin.
 
-Seventh, \textbf{shocks travel through team rosters}. Domestic
-teammates of internationally shocked athletes also reduce their
-retention by roughly half the direct effect. Pure
-team-composition effects (intl share alone) do not produce this
-spillover under team-sport fixed effects; the spillover is
-\emph{specifically driven by which countries are shocked when},
-consistent with team-level disruption channels (training-time
-loss, coaching attention redirected, mid-season roster
-instability) rather than student-body-level confounders.
+\textbf{What we could not estimate.} An athlete-year panel regression
+of retention or performance on home-country shock indicators across
+all sender countries did not survive proper identification. The
+between-country variation that drove an initial $-3$ pp retention
+coefficient was country composition rather than shock response; a
+within-country specification with country fixed effects flipped the
+sign of the security-shock coefficient; the TFRRS within-athlete
+performance result that initially appeared significant ($-0.4$ to
+$-0.6$ SD) is identified off only $\sim 3$ countries with shock
+variation in the panel and a cluster bootstrap on country places its
+$95\%$ CI on both sides of zero. The case-study cluster in
+Section~\ref{sec:case-studies} is what the data can credibly
+support; a population-level shock-response estimate is a follow-up
+project requiring either more events or a richer longitudinal data
+source.
 
-\textbf{Synthesis.} The paper documents two distinct empirical
+\textbf{Synthesis.} The paper documents two related empirical
 patterns about the same population. \textit{Entry} into NCAA
 international recruitment is governed by source-country wealth and
-population scale; political stability does not select countries
-into the pipeline. \textit{Retention and performance} once in are
-governed by security at home; macroeconomic conditions do not move
-either margin. These are not in tension---wealth determines whether
-a country produces recruitable athletes at all, while
-contact-with-home determines whether enrolled athletes can keep
-performing---but they do imply that policy-relevant
-``vulnerability'' measures need to distinguish the entry question
-from the retention question. A country that is poor and stable
-produces few athletes but loses few; a country that is wealthier
-but newly unstable can have a large pipeline that suddenly
-under-performs and partially exits. NCAA APR and GSR aggregates
-are insensitive to this latter movement by construction; an
-athlete-year design like the one used in Section~\ref{sec:retention}
-is required to see it.
+population scale; cross-sectional political stability predicts
+entry but is composition, not within-country causal effect.
+\textit{Retention} once in is hard to identify on a panel, but
+named natural experiments (Russia, Ukraine in 2022; Lebanon 2020)
+show clear and direction-specific responses: war and sanctions
+keep athletes here; financial collapses prevent new ones from
+coming. A country that is poor and stable produces few athletes
+but loses few; a country that is wealthier but newly conflict-hit
+can have a large pipeline whose enrolled athletes stay while
+prospective arrivals stop coming.
 
 %========================================================================
 \section{Caveats and limitations}
@@ -1157,7 +1031,7 @@ Sections~\ref{sec:extensive}--\ref{sec:event-split} and~\ref{sec:regions}
 use the 2024--25 / 2025--26 cross-section ($n=19{,}317$ rosters,
 $1{,}830$ international athletes); macro covariates are 2023 and
 2010--23 aggregates.
-Sections~\ref{sec:position}, \ref{sec:panel}, and~\ref{sec:retention}
+Sections~\ref{sec:position}, \ref{sec:panel}, and~\ref{sec:case-studies}
 use a separately scraped 2019--2023 multi-sport panel
 ($260{,}737$ athlete-years, eight sports). The two data sources do not nest---the cross-section has
 event-level detail (jumps, throws, distance, sprints) that the
@@ -1176,7 +1050,7 @@ track (96\% of the cross-section international sample); within
 those sections, the empirical setting is the international
 track-and-field market specifically. The position-sorting and
 shock-response analyses in
-Sections~\ref{sec:position}, \ref{sec:panel}, and~\ref{sec:retention}
+Sections~\ref{sec:position}, \ref{sec:panel}, and~\ref{sec:case-studies}
 use the eight-sport panel where track is one of eight roughly
 comparable sports and soccer drives the largest retention
 coefficient.
@@ -1204,28 +1078,25 @@ country- and sport-specific recruitment pipelines that we cannot
 proxy.
 
 \item \textbf{What NCAA APR and GSR cannot see.} A natural team-level
-counterpart to the athlete-level retention finding in
-Section~\ref{sec:retention} would be the NCAA's Academic Progress
-Rate (APR) or Graduation Success Rate (GSR). We scraped the full
-APR/GSR record (121K and 116K observations) and merged it to our
-roster panel. Within-team-sport regressions of APR or GSR on team
-exposure to home-country shocks return null effects across all
+outcome for the shock-response question would be the NCAA's Academic
+Progress Rate (APR) or Graduation Success Rate (GSR). We scraped
+the full APR/GSR record (121K and 116K observations) and merged it
+to our roster panel. Within-team-sport regressions of APR or GSR on
+team exposure to home-country shocks return null effects across all
 shock indicators (all $|t|<1$). Three reasons: (i) APR is censored
 near $1.0$---16\% of team-years sit at the ceiling and the
-within-team-sport SD is only $0.013$, so a 3 pp athlete-level
-retention movement applied to a fraction of a roster falls below
-the detection threshold; (ii) APR is a four-year rolling average,
-mechanically smoothing year-to-year shocks; (iii) GSR is
-transfer-adjusted: an international athlete who leaves in good
-standing does not count against the team. The Federal Graduation
-Rate (FGR), which does not transfer-adjust, shows large negative
-coefficients on intl-share-shock exposure
-($-25$ to $-64$ percentage points), but those coefficients are
-mechanically conflated with the baseline intl-share gradient
-($-19.8$ pp) since international athletes transfer more often by
-construction. The athlete-year retention design in
-Section~\ref{sec:retention} therefore remains our cleanest
-available outcome for the shock-response question.
+within-team-sport SD is only $0.013$; (ii) APR is a four-year
+rolling average, mechanically smoothing year-to-year shocks; (iii)
+GSR is transfer-adjusted, so an international athlete who leaves in
+good standing does not count against the team. The Federal
+Graduation Rate (FGR), which does not transfer-adjust, shows large
+negative coefficients on intl-share$\times$shock exposure
+($-25$ to $-64$ percentage points), but those are mechanically
+conflated with the baseline intl-share gradient ($-19.8$ pp) since
+international athletes transfer more often by construction. We
+conclude that team-aggregated academic outcomes are not informative
+for the type of within-country shock variation we examine in
+Section~\ref{sec:case-studies}.
 \end{itemize}
 
 %========================================================================
@@ -1286,18 +1157,22 @@ All results in this paper are reproducible from local Python scripts:
 \item \texttt{run\_apr\_shocks.py}, \texttt{run\_gsr\_shocks.py}:
       regress APR / GSR / FGR on team-year shock exposure
       (Section~5 caveats bullet).
-\item \texttt{run\_retention\_shocks.py}: athlete-year retention
-      panel, own-shock and peer-spillover regressions
-      (Section~\ref{sec:retention} baseline).
-\item \texttt{run\_retention\_heterogeneity.py}: region splits,
-      lagged shocks, transfer-vs-exit decomposition.
-\item \texttt{make\_retention\_forest.py}: produces
-      \texttt{output/fig\_retention\_by\_sport.png}.
-\item \texttt{run\_tfrrs\_performance.py}: scrape individual TFRRS
-      season-best marks for the matched international athletes.
-\item \texttt{run\_tfrrs\_perf\_shocks.py}: parse heterogeneous mark
-      strings, within-event $z$-score, within-athlete + year FE
-      regression on home-country shocks.
+\item \texttt{run\_retention\_shocks.py},
+      \texttt{run\_retention\_heterogeneity.py},
+      \texttt{run\_retention\_country\_fe.py},
+      \texttt{run\_peer\_school\_fe.py},
+      \texttt{run\_tfrrs\_performance.py},
+      \texttt{run\_tfrrs\_perf\_shocks.py},
+      \texttt{run\_tfrrs\_robustness.py}: panel-level shock-response
+      regressions and the identification diagnostics that prompted
+      moving from a panel approach to the case-study cluster
+      (Section~\ref{sec:case-studies}). The panel specifications do
+      not survive country fixed effects or cluster-bootstrap
+      inference and are reported only as diagnostic background.
+\item \texttt{run\_case\_studies.py}: four-country DID
+      (Section~\ref{sec:case-studies})---Russia, Ukraine, Lebanon,
+      and Venezuela---on athlete-year retention and country-year
+      new arrivals, with same-region unshocked donor pools.
 \end{itemize}
 
 %========================================================================

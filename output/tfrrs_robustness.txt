@@ -1,0 +1,52 @@
+TFRRS panel: 1,851 obs, 242 athletes, 60 countries.
+
+Country composition (top 15):
+              n_obs  n_ath  n_shock_obs_conflict  n_shock_obs_polstab
+country_code                                                         
+CAN             191     20                     0                    0
+JAM             188     26                     0                    0
+GBR             175     25                     0                    0
+AUS             104     11                     0                    0
+CZE              96      9                     0                    0
+NGA              88     15                    20                   20
+SWE              81      4                     0                    0
+ISR              67      7                    17                   17
+ESP              62      8                     0                    0
+DEU              56      8                     0                    0
+IRL              45      4                     0                    0
+KEN              41     12                     6                    6
+BHS              35      5                     0                    0
+BRB              34      4                     0                    0
+EST              33      3                     0                    0
+
+Leave-one-country-out (top 10 by impact)
+
+any_conflict: full β = -0.4072 (SE 0.0777, N 465)
+drop    beta     se  delta_from_full   N
+ UGA -0.0000 0.0000           0.4072 462
+ CAN -0.4483 0.0739          -0.0411 415
+ ITA -0.4428 0.0695          -0.0356 460
+ SWE -0.3756 0.0818           0.0316 429
+ JAM -0.3820 0.0863           0.0252 410
+ IRL -0.4309 0.0753          -0.0238 456
+ AUS -0.3891 0.0812           0.0181 433
+ EST -0.3892 0.0786           0.0180 453
+ GBR -0.4210 0.0845          -0.0138 425
+ LCA -0.4197 0.0775          -0.0125 461
+
+polstab_drop: full β = -0.6068 (SE 0.0780, N 465)
+drop    beta     se  delta_from_full   N
+ TGO -0.0000 0.0000           0.6068 461
+ CAN -0.5666 0.0747           0.0402 415
+ ITA -0.5711 0.0696           0.0357 460
+ SWE -0.6398 0.0819          -0.0330 429
+ JAM -0.6336 0.0865          -0.0268 410
+ IRL -0.5831 0.0756           0.0237 456
+ AUS -0.6256 0.0816          -0.0188 433
+ EST -0.6251 0.0790          -0.0184 453
+ GBR -0.5938 0.0851           0.0129 425
+ LCA -0.5943 0.0778           0.0125 461
+
+Cluster bootstrap on country (1,000 reps)
+any_conflict: full β = -0.4072  cluster-SE (analytic) = 0.0777  bootstrap-SE = 0.2083  95% CI = [-0.5283, +0.0000]  (reps = 1000)
+polstab_drop: full β = -0.6068  cluster-SE (analytic) = 0.0780  bootstrap-SE = 0.3021  95% CI = [-0.7480, +0.0000]  (reps = 1000)

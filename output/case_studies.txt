@@ -1,0 +1,109 @@
+Five-country shock case studies
+================================================================
+
+
+=== Russia (RUS, onset 2022) ===
+  Donors (22): ALB, ARM, BGR, BIH, CZE, EST, GEO, HRV, HUN, KAZ, LTU, LVA, MDA, MKD, MNE, POL, ROU, SRB, SVK, SVN, UZB, XKX
+
+  Retention DID: β = +0.1624 (SE 0.0269) ***
+  Mean retention by year:
+treated     donor   treated
+year                       
+2019     0.748663  0.850000
+2020     0.797436  0.700000
+2021     0.767943  0.666667
+2022     0.783908  0.900000
+
+  New-arrivals DID: log β = -0.1146 (SE 0.2213) 
+  Raw new-arrival counts:
+treated  treated  donor_mean
+year                        
+2019          74   21.681818
+2020          18    9.318182
+2021          22    9.045455
+2022          26   10.772727
+2023          23   11.272727
+
+=== Ukraine (UKR, onset 2022) ===
+  Donors (22): ALB, ARM, BGR, BIH, CZE, EST, GEO, HRV, HUN, KAZ, LTU, LVA, MDA, MKD, MNE, POL, ROU, SRB, SVK, SVN, UZB, XKX
+
+  Retention DID: β = +0.0805 (SE 0.0249) ***
+  Mean retention by year:
+treated     donor   treated
+year                       
+2019     0.748663  0.782609
+2020     0.797436  0.714286
+2021     0.767943  0.888889
+2022     0.783908  0.857143
+
+  New-arrivals DID: log β = -0.0714 (SE 0.2031) 
+  Raw new-arrival counts:
+treated  treated  donor_mean
+year                        
+2019          33   21.681818
+2020           9    9.318182
+2021           9    9.045455
+2022          12   10.772727
+2023          11   11.272727
+
+=== Iran (IRN, onset 2022) ===
+  Donors (8): ARE, BHR, JOR, KWT, MAR, QAT, SAU, YEM
+
+  Retention DID: β = -0.0000 (SE 0.0000) ***
+  Mean retention by year:
+treated     donor  treated
+year                      
+2019     0.500000      0.0
+2020     0.736842      NaN
+2021     0.840000      0.0
+2022     0.629630      NaN
+
+  New-arrivals DID: log β = +0.0339 (SE 0.3207) 
+  Raw new-arrival counts:
+treated  treated  donor_mean
+year                        
+2019           1       1.750
+2020           0       1.750
+2021           0       2.125
+2022           1       2.000
+2023           0       2.375
+
+=== Lebanon (LBN, onset 2020) ===
+  Donors (8): ARE, BHR, JOR, KWT, MAR, QAT, SAU, YEM
+
+  Retention DID: β = +0.3351 (SE 0.2631) 
+  Mean retention by year:
+treated     donor  treated
+year                      
+2019     0.500000     0.50
+2020     0.736842      NaN
+2021     0.840000      NaN
+2022     0.629630     0.75
+
+  New-arrivals DID: log β = -1.2179 (SE 0.4194) ***
+  Raw new-arrival counts:
+treated  treated  donor_mean
+year                        
+2019           5       1.750
+2020           0       1.750
+2021           0       2.125
+2022           4       2.000
+2023           1       2.375
+
+=== Venezuela (VEN, onset None) ===
+Annual trajectory:
+      n_obs  n_ath  retention
+year                         
+2019     20     20   0.600000
+2020     25     25   0.840000
+2021     37     37   0.594595
+2022     32     32   0.406250
+
+
+Summary across cases
+----------------------------------------------------------------
+   case  cc  onset  retention_DID  retention_p retention_stars  n_treated_athyears  arrivals_log_DID  arrivals_p arrivals_stars
+ Russia RUS   2022         0.1624       0.0000             ***                 195           -0.1146      0.6044               
+Ukraine UKR   2022         0.0805       0.0012             ***                  83           -0.0714      0.7254               
+   Iran IRN   2022        -0.0000       0.0000             ***                   2            0.0339      0.9159               
+Lebanon LBN   2020         0.3351       0.2029                                   8           -1.2179      0.0037            ***

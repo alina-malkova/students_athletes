@@ -1,0 +1,12 @@
+Part 1: Peer-spillover with school FE
+                             spec                 expo    beta     se      p stars      N
+                  year + sport FE    expo_any_conflict -0.2027 0.0974 0.0374    ** 122513
+school + year + sport FE (within)    expo_any_conflict -0.0990 0.0992 0.3182       122513
+                  year + sport FE    expo_polstab_drop -0.2563 0.1015 0.0116    ** 122513
+school + year + sport FE (within)    expo_polstab_drop -0.1845 0.1087 0.0896     * 122513
+                  year + sport FE       expo_gdp_shock  0.0247 0.0448 0.5820       122513
+school + year + sport FE (within)       expo_gdp_shock  0.0398 0.0414 0.3369       122513
+                  year + sport FE expo_currency_crisis  0.0520 0.1176 0.6583       122513
+school + year + sport FE (within) expo_currency_crisis  0.0532 0.1139 0.6407       122513
+
+Part 2: TFRRS event study (within athlete×event + year FE)

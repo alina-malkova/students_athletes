@@ -1,0 +1,9 @@
+spec,shock,beta,se,p,stars,N
+no country FE,any_conflict,-0.033,0.0136,0.0152,**,19921
+country FE,any_conflict,0.1147,0.082,0.1621,,19921
+no country FE,polstab_drop,-0.0337,0.015,0.0245,**,19921
+country FE,polstab_drop,0.0272,0.0694,0.6957,,19921
+no country FE,gdp_shock,-0.0021,0.0257,0.9355,,19921
+country FE,gdp_shock,0.0028,0.0294,0.9227,,19921
+no country FE,currency_crisis,-0.0042,0.024,0.8619,,19921
+country FE,currency_crisis,0.0015,0.0296,0.9591,,19921
