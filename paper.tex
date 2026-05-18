@@ -41,8 +41,9 @@ differential sport disruption yields a $-0.143$ ($p<0.01$) transitory
 effect for soccer and volleyball relative to other sports.
 \textbf{At the athlete level}, armed conflict or a sharp drop in
 political stability at home reduces the probability of returning to
-the same U.S.~school by $3.3$--$3.4$ pp ($p<0.05$); soccer and ice
-hockey drive the effect ($-11.6$ pp and $-9.8$ pp). The retention
+the same U.S.~school by $3.3$--$3.4$ pp ($p<0.05$); soccer drives
+the effect with conflict and polstab-drop coefficients of $-11.6$ pp
+and $-9.2$ pp respectively. The retention
 response is larger one year later ($-9.4$ pp, $p<0.10$), consistent
 with visa-cycle or accumulated-stress channels; roughly a third of
 the drop is intra-NCAA transfer and two-thirds is exit. The same
@@ -60,7 +61,9 @@ ceiling-bound to detect the athlete-level variation we identify.
 %========================================================================
 
 We work with two complementary roster datasets. The
-\textbf{cross-section} (used in Sections~3.1--3.5) is a country-level
+\textbf{cross-section} (used in
+Sections~\ref{sec:extensive}--\ref{sec:event-split}
+and~\ref{sec:regions}) is a country-level
 panel of international student-athletes currently enrolled in NCAA
 Division~I rosters in the 2024--25 / 2025--26 academic season.
 Athlete-level records are scraped from official athletic-department
@@ -69,12 +72,14 @@ field / cross country (18{,}657 athletes from 328 of 355 D-I
 programs; school coverage 92.4\%). Only 68 of 1{,}830 international
 athletes compete in soccer, so we report the combined sample in
 headline tables but the empirical setting in
-Sections~3.1--3.5 is the international track-and-field market
+Sections~\ref{sec:extensive}--\ref{sec:event-split}
+is the international track-and-field market
 specifically.
 
 The \textbf{2019--2023 multi-sport panel} (introduced in
-Section~\ref{sec:panel}, used in Sections~3.6--3.8) extends the
-roster scrape to eight sports (track, soccer, basketball, swimming,
+Section~\ref{sec:panel}, used in
+Sections~\ref{sec:position}, \ref{sec:panel}, and~\ref{sec:retention})
+extends the roster scrape to eight sports (track, soccer, basketball, swimming,
 tennis, golf, ice hockey, volleyball) across 2019--2023 D-I
 athletic-department snapshots, yielding $260{,}737$ athlete-years.
 A separate cross-sectional pull adds NCAA Academic Progress Rate
@@ -154,7 +159,8 @@ $-1$ offset:
    + \mathbf{x}_c' \boldsymbol{\delta} + \varepsilon_c.
 \label{eq:intensive}
 \end{equation}
-Section~3.3 documents why a rate outcome (athletes/cohort) with
+Section~\ref{sec:rate-pitfall} documents why a rate outcome
+(athletes/cohort) with
 $\log\text{pop}$ omitted gives misleading results. We complement OLS
 with (i) a Heckman two-step selection correction using the probit
 from Equation~\ref{eq:extensive}, (ii) a Negative Binomial
@@ -653,7 +659,8 @@ $R^2$ / pseudo                            & 0.36    & 0.66    & 0.66    & 0.61  
 \textbf{The political-stability effect is largely between-country.}
 Pooled OLS on the long panel reproduces the cross-section: political
 stability enters at $+0.34$ ($p<0.01$) with similar magnitude to our
-Section~3.1 results. Once we add country fixed effects (the TWFE
+Section~\ref{sec:intensive} intensive-margin OLS estimate
+($+0.37$). Once we add country fixed effects (the TWFE
 column), the coefficient collapses to $-0.005$ ($p > 0.5$). The two
 results together imply that most of the cross-sectional positive
 slope is composition: stable countries (Norway, GBR, Switzerland,
@@ -675,7 +682,9 @@ significance is \texttt{gdp\_shock} (binary indicator for a recession
 year), with coefficient $-0.025$ ($p<0.10$): each binary recession
 year in a country reduces log athlete supply by about $2.5\%$ within
 that country, controlling for other shocks. This is consistent with
-the negative-binomial finding in Section~3.2 (column 5 of Table~3).
+a small but real within-country growth effect on athlete supply, on
+top of the larger between-country composition effect captured by
+\smash{$\log\text{GDPpc}$} in the cross-section.
 
 \textbf{COVID effect.} Spec 3b estimates a dynamic event study by
 interacting a soccer-or-volleyball treatment dummy with year
@@ -1143,12 +1152,14 @@ is required to see it.
 %========================================================================
 
 \begin{itemize}
-\item \textbf{Cross-section vs.\ panel by section.} Sections~3.1--3.5
+\item \textbf{Cross-section vs.\ panel by section.}
+Sections~\ref{sec:extensive}--\ref{sec:event-split} and~\ref{sec:regions}
 use the 2024--25 / 2025--26 cross-section ($n=19{,}317$ rosters,
 $1{,}830$ international athletes); macro covariates are 2023 and
-2010--23 aggregates. Sections~3.6--3.8 use a separately scraped
-2019--2023 multi-sport panel ($260{,}737$ athlete-years, eight
-sports). The two data sources do not nest---the cross-section has
+2010--23 aggregates.
+Sections~\ref{sec:position}, \ref{sec:panel}, and~\ref{sec:retention}
+use a separately scraped 2019--2023 multi-sport panel
+($260{,}737$ athlete-years, eight sports). The two data sources do not nest---the cross-section has
 event-level detail (jumps, throws, distance, sprints) that the
 panel does not, while the panel has the year dimension and the
 team-sport coverage that the cross-section does not.
@@ -1159,13 +1170,16 @@ not at random (JS-rendered roster pages that systematically affect
 a few major D-I programs).
 
 \item \textbf{Mixed sport coverage by section.} The two-margin
-extensive/intensive analysis in Sections~3.1--3.5 is dominated by
+extensive/intensive analysis in
+Sections~\ref{sec:extensive}--\ref{sec:event-split} is dominated by
 track (96\% of the cross-section international sample); within
 those sections, the empirical setting is the international
 track-and-field market specifically. The position-sorting and
-shock-response analyses in Sections~3.6--3.8 use the eight-sport
-panel where track is one of eight roughly comparable sports and
-soccer drives the largest retention coefficient.
+shock-response analyses in
+Sections~\ref{sec:position}, \ref{sec:panel}, and~\ref{sec:retention}
+use the eight-sport panel where track is one of eight roughly
+comparable sports and soccer drives the largest retention
+coefficient.
 
 \item \textbf{Cohort denominator approximation.} We use the average
 of the 15--24-year-old cohort 2018--2022 as the denominator. The
@@ -1257,8 +1271,9 @@ All results in this paper are reproducible from local Python scripts:
 \item \texttt{run\_stress\_tests.py}: drop-top-5 disaster countries,
       events-vs-deaths comparison, refugees raw count.
 \item \texttt{run\_bartik.py}, \texttt{run\_event\_study.py},
-      \texttt{run\_paper\_outputs.py}: auxiliary results referenced
-      in Sections~3.6 and~5.
+      \texttt{run\_paper\_outputs.py}: auxiliary cross-section
+      results (Bartik shift-share weak-IV check, country-pool
+      event study, supplementary figures).
 \item \texttt{run\_position\_analysis.py}: per-sport position
       classifiers and international-share / regional-HHI tables
       for the seven team sports (Section~\ref{sec:position}).
